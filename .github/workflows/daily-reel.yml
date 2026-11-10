@@ -9,6 +9,14 @@ on:
       theme:
         description: "Story idea (English). Leave empty to pick an unused one."
         required: false
+      story_file:
+        description: "Use a ready story instead of writing one, e.g. examples/umbrella_story.json"
+        required: false
+      style:
+        description: "Visual style for this run"
+        type: choice
+        options: [default, cartoon, 3d]
+        default: default
       publish:
         description: "Publish to Instagram"
         type: boolean
@@ -28,7 +36,7 @@ jobs:
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      REELBOT_STYLE: ${{ vars.REELBOT_STYLE || 'cartoon' }}
+      REELBOT_STYLE: ${{ (inputs.style && inputs.style != 'default' && inputs.style) || vars.REELBOT_STYLE || 'cartoon' }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST || 'graph.facebook.com' }}
@@ -59,9 +67,11 @@ jobs:
         id: make
         env:
           THEME: ${{ inputs.theme }}
+          STORY_FILE: ${{ inputs.story_file }}
         run: |
           args=()
-          if [ -n "$THEME" ]; then args=(--theme "$THEME"); fi
+          if [ -n "$STORY_FILE" ]; then args=(--story "$STORY_FILE");
+          elif [ -n "$THEME" ]; then args=(--theme "$THEME"); fi
           dir=$(reelbot make "${args[@]}" | tail -n1)
           echo "dir=$dir" >> "$GITHUB_OUTPUT"
           cat "$dir/caption.txt"
@@ -77,6 +87,17 @@ jobs:
             ${{ steps.make.outputs.dir }}/scenes/*.png
             ${{ steps.make.outputs.dir }}/characters/*.png
           retention-days: 14
+
+      - name: Phone-friendly preview (GitHub release with the MP4)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DIR: ${{ steps.make.outputs.dir }}
+        run: |
+          tag="reel-${{ github.run_id }}"
+          gh release create "$tag" "$DIR/reel.mp4" --prerelease \
+            --title "Reel preview: $(basename "$DIR") ($REELBOT_STYLE)" \
+            --notes-file "$DIR/caption.txt"
+          echo "Preview: ${{ github.server_url }}/${{ github.repository }}/releases/tag/$tag" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Publish to Instagram
         if: env.SHOULD_PUBLISH == 'true'
