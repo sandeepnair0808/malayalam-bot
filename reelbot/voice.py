@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import os
 import subprocess
 from pathlib import Path
 
@@ -36,7 +37,9 @@ def reading_time(text: str) -> float:
 async def _edge(text: str, voice: str, out: Path) -> None:
     import edge_tts
 
-    await edge_tts.Communicate(text, voice, rate="-5%").save(str(out))
+    # edge-tts uses aiohttp, which ignores proxy env vars unless told explicitly.
+    proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
+    await edge_tts.Communicate(text, voice, rate="-5%", proxy=proxy).save(str(out))
 
 
 def _gtts(text: str, out: Path) -> None:

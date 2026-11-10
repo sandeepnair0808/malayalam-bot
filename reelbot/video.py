@@ -104,6 +104,9 @@ def build_audio(settings: Settings, clips: list[SceneClip], out: Path) -> Path:
         final = "[mix]"
     else:
         final = "[voice]"
+    # Normalise to ~-14 LUFS, the loudness Instagram/YouTube target.
+    parts.append(f"{final}loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[out]")
+    final = "[out]"
     run([
         "ffmpeg", "-y", "-loglevel", "error", *inputs,
         "-filter_complex", ";".join(parts), "-map", final,
