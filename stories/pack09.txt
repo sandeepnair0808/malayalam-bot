@@ -110,13 +110,13 @@ theme: Ammachi ground coconut chutney on the old stone every morning, refusing t
 narrator: man
 caption: അമ്മിക്കല്ലിൽ അരച്ച ചമ്മന്തിയുടെ രുചി 🥥❤️\nആ രുചി ഓർക്കുന്നവർ ലൈക്ക് ചെയ്യൂ
 tags: malayalam malayalamstory ammachi chammanthi ammikkallu kitchen kerala mallureels malayalamreels nostalgia
-- kitchen | zoom_in | indoor | ammachi:cook,happy || എല്ലാ ദിവസവും രാവിലെ അടുക്കളയുടെ മൂലയിൽ ഒരു താളം. അമ്മൂമ്മ അമ്മിക്കല്ലിൽ ചമ്മന്തി അരയ്ക്കുന്നു. ||
-- kitchen | still | indoor | ammachi:cook,talk kid:happy || തേങ്ങ, കാന്താരി മുളക്, ഇഞ്ചി, ഒരു നുള്ള് ഉപ്പ്. ||
+- kitchen | zoom_in | indoor | ammachi:grind,happy | grinding_stone || എല്ലാ ദിവസവും രാവിലെ അടുക്കളയുടെ മൂലയിൽ ഒരു താളം. അമ്മൂമ്മ അമ്മിക്കല്ലിൽ ചമ്മന്തി അരയ്ക്കുന്നു. ||
+- kitchen | still | indoor | ammachi:grind,talk kid:happy | grinding_stone || തേങ്ങ, കാന്താരി മുളക്, ഇഞ്ചി, ഒരു നുള്ള് ഉപ്പ്. ||
 - kitchen | zoom_in | indoor | achan:hold=gift,happy ammachi:surprised || ഒരു ദിവസം അച്ഛൻ ഒരു പുതിയ മിക്സി വാങ്ങിക്കൊണ്ടു വന്നു. || achan: അമ്മേ, ഇനി കഷ്ടപ്പെടണ്ട. ഇത് രണ്ട് മിനിറ്റിൽ അരയ്ക്കും.
-- kitchen | still | indoor | ammachi:cook,talk kid:surprised || അമ്മൂമ്മ അത് ഒരു മൂലയിൽ വെച്ചു. പിന്നെയും അമ്മിക്കല്ലിൽ തന്നെ. || ammachi: ഇതിന് ഒരു ക്ഷമയുടെ രുചിയുണ്ട് മോനേ. മെഷീന് അത് അറിയില്ല.
+- kitchen | still | indoor | ammachi:grind,talk kid:surprised | grinding_stone || അമ്മൂമ്മ അത് ഒരു മൂലയിൽ വെച്ചു. പിന്നെയും അമ്മിക്കല്ലിൽ തന്നെ. || ammachi: ഇതിന് ഒരു ക്ഷമയുടെ രുചിയുണ്ട് മോനേ. മെഷീന് അത് അറിയില്ല.
 - kitchen | zoom_in | indoor | kid:eat,happy ammachi:happy | table:dosa || ചൂട് ദോശയും ആ ചമ്മന്തിയും. ലോകത്തിലെ ഏറ്റവും നല്ല പ്രഭാതഭക്ഷണം. ||
-- kitchen | pan_right | indoor | grownup:surprised achan:talk | stove || അമ്മൂമ്മ പോയ ശേഷം ആ അമ്മിക്കല്ല് ഉയർത്തിയപ്പോൾ അടിയിൽ എന്തോ കൊത്തി വെച്ചിരിക്കുന്നു. അച്ഛൻ പറഞ്ഞു. || achan: കല്യാണ ദിവസം അപ്പൂപ്പൻ സ്വന്തം കൈ കൊണ്ട് കൊത്തിയതാ. രണ്ട് പേരുടെയും പേര്.
-- kitchen+close | zoom_out | indoor | grownup:happy | photo:ammachi || അമ്മൂമ്മ അരച്ചത് ചമ്മന്തി മാത്രമായിരുന്നില്ല. അറുപത് വർഷത്തെ ഒരു പ്രണയമായിരുന്നു. ||
+- kitchen+night | pan_right | night | grownup:surprised achan:talk | grinding_stone kerosene_lamp || അമ്മൂമ്മ പോയ ശേഷം ആ അമ്മിക്കല്ല് ഉയർത്തിയപ്പോൾ അടിയിൽ എന്തോ കൊത്തി വെച്ചിരിക്കുന്നു. അച്ഛൻ പറഞ്ഞു. || achan: കല്യാണ ദിവസം അപ്പൂപ്പൻ സ്വന്തം കൈ കൊണ്ട് കൊത്തിയതാ. രണ്ട് പേരുടെയും പേര്.
+- kitchen+night+close | zoom_out | night | grownup:happy | grinding_stone kerosene_lamp || അമ്മൂമ്മ അരച്ചത് ചമ്മന്തി മാത്രമായിരുന്നില്ല. അറുപത് വർഷത്തെ ഒരു പ്രണയമായിരുന്നു. ||
 
 ### 89-wooden-bridge
 hook: താഴേക്ക് നോക്കണ്ട, എന്നെ നോക്ക്! ചേച്ചി പറഞ്ഞത്...

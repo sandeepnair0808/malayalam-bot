@@ -11,12 +11,12 @@ A scene's `art` is a small dict, e.g.
 - fx:    rain, night, sunset, festive
 - shot:  wide (default) or close (first cast member, chest-up)
 - cast:  "<character>:<tokens>", left to right. Tokens (comma separated):
-         poses  idle walk point wave hold eat cook jump hug pray read phone sleep umbrella sit
+         poses  idle walk point wave hold eat cook grind jump hug pray read phone sleep umbrella sit
          faces  happy sad surprised talk neutral
          hold=<prop>   dosa letter newspaper book phone bag flower plate laddu tiffin gift money toy lamp umbrella kite
          wet           one soaked shoulder (rain stories)
 - props: table[:food], stove, hanging_umbrella, bicycle[:red|blue|green], photo:<character>,
-         nilavilakku, kerosene_lamp, radio, tv, kite, pookkalam, gift, bus, mango_tree, chair,
+         nilavilakku, kerosene_lamp, grinding_stone, radio, tv, kite, pookkalam, gift, bus, mango_tree, chair,
          clock, sweets, books, tiffin, empty_bicycle (faded outline)
 
 Everything is drawn in the flat Kerala "kutti kaalam" style and tagged with data-anim so
@@ -505,6 +505,8 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
     if "cook" in p:
         rh, r_amp, period = (150 * k, hip - 40 * k), 14, 1.2
         held = held or "spatula"
+    if "grind" in p:  # both hands on the grinding stone's roller, rocking back and forth
+        lh, rh, l_amp, r_amp, period = (60 * k, hip - 30 * k), (150 * k, hip - 30 * k), 9, 9, 1.1
     if "eat" in p:
         rh, r_amp, period = mouth_pos, 5, 1.8
     if "hold" in p or ("hold" not in p and held and "eat" not in p and "cook" not in p and "phone" not in p and "read" not in p and "umbrella" not in p):
@@ -659,7 +661,7 @@ def table(food=None):
 
 def stove():
     flames = g("float", '<g fill="#f2932b" opacity="0.85"><path d="M240 1300 l12 -22 l12 22z"/><path d="M290 1300 l12 -26 l12 26z"/><path d="M340 1300 l12 -22 l12 22z"/></g>', amp=3, period=0.4)
-    steam = g("float", g("swing", "".join(f'<circle cx="{300 + dx}" cy="{1230 - dy}" r="{r}" fill="#ffffff" opacity="{op}"/>' for dx, dy, r, op in ((0, 30, 26, .45), (-20, 90, 32, .35), (15, 160, 38, .25))), pivot="300,1230", amp=6, period=2.2), amp=18, period=2.5)
+    steam = g("float", g("swing", "".join(f'<circle cx="{230 + dx}" cy="{1230 - dy}" r="{r}" fill="#ffffff" opacity="{op}"/>' for dx, dy, r, op in ((0, 30, 22, .35), (-20, 80, 26, .25), (-5, 140, 30, .15))), pivot="230,1230", amp=6, period=2.2), amp=18, period=2.5)
     return ('<rect x="0" y="1330" width="640" height="320" fill="#8a5a3a"/><rect x="0" y="1310" width="640" height="40" fill="#6b4529"/>'
             '<rect x="40" y="1380" width="250" height="220" rx="8" fill="#7a4d31"/><rect x="330" y="1380" width="250" height="220" rx="8" fill="#7a4d31"/>'
             '<rect x="90" y="1270" width="420" height="50" rx="10" fill="#2f3237"/><ellipse cx="300" cy="1262" rx="150" ry="34" fill="#1c1c1c"/>'
@@ -671,6 +673,21 @@ def nilavilakku(x=880, y=1500, s=1.0):
     return (f'<g transform="translate({x},{y}) scale({s})"><circle cx="0" cy="-300" r="120" fill="url(#glow)"/>'
             '<path d="M-90 0 L90 0 L60 -40 L-60 -40Z" fill="#c9952b"/><rect x="-12" y="-260" width="24" height="220" fill="#d9a83a"/>'
             f'<path d="M-70 -270 Q0 -230 70 -270 L50 -250 L-50 -250Z" fill="#c9952b"/>{flame}</g>')
+
+
+def grinding_stone(x=420, y=1440):
+    """Ammikkallu: a black stone slab on a kitchen platform, with the round roller and chutney."""
+    return (f'<g transform="translate({x},{y})">'
+            '<rect x="-420" y="0" width="840" height="340" fill="#8a5a3a"/><rect x="-420" y="-20" width="840" height="36" fill="#6b4529"/>'
+            '<rect x="-420" y="-20" width="840" height="360" fill="url(#shade)"/>'
+            '<path d="M-200 -20 L200 -20 L185 -70 L-185 -70Z" fill="#3c3f44"/>'
+            '<path d="M-185 -70 L185 -70 L200 -20 L-200 -20Z" fill="url(#shade)"/>'
+            '<ellipse cx="-20" cy="-68" rx="120" ry="14" fill="#e9efd6" opacity="0.9"/>'
+            '<ellipse cx="-60" cy="-70" rx="40" ry="8" fill="#9cbf6a" opacity="0.8"/>'
+            + g("swing", '<rect x="-150" y="-122" width="300" height="56" rx="28" fill="#2c2f33"/>'
+                '<rect x="-150" y="-122" width="300" height="56" rx="28" fill="url(#shade)"/>'
+                '<rect x="-130" y="-114" width="260" height="10" rx="5" fill="#ffffff" opacity="0.12"/>', pivot="0,-70", amp=2.5, period=1.1)
+            + '</g>')
 
 
 def stool(x, y, w=200):
@@ -778,6 +795,8 @@ def prop(spec: str) -> tuple[str, str]:
         return photo(who or "appooppan", garland=garl == "garland"), "back"
     if name == "nilavilakku":
         return nilavilakku(), "back"
+    if name == "grinding_stone":
+        return grinding_stone(), "front"
     if name == "kerosene_lamp":
         return kerosene_lamp(), "back"
     if name == "radio":
