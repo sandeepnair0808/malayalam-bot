@@ -13,3 +13,5 @@ ig_token.json.tmp
 ig_uploader.log
 ig_cron.log
 .ig.lock
+analytics_token.json
+stats/
