@@ -1,0 +1,157 @@
+"""Assemble scenes + narration + music + subtitles into a 1080x1920 H.264 reel with ffmpeg."""
+
+from __future__ import annotations
+
+import logging
+import random
+import subprocess
+from dataclasses import dataclass
+from pathlib import Path
+
+from .config import Settings
+from .subtitles import Cue, write_ass
+
+log = logging.getLogger(__name__)
+
+LEAD_IN = 0.35  # silence before each narration line
+TAIL = 0.55  # breathing room after it
+FADE = 0.25  # dip between scenes
+
+
+@dataclass
+class SceneClip:
+    image: Path
+    audio: Path | None
+    duration: float
+    camera: str
+    subtitle: str
+
+
+def scene_duration(spoken: float, reading: float) -> float:
+    return round(max(spoken + LEAD_IN + TAIL, reading), 2)
+
+
+def zoompan_expr(camera: str, frames: int, w: int, h: int, fps: int) -> str:
+    n = max(frames - 1, 1)
+    center_x = "iw/2-(iw/zoom/2)"
+    center_y = "ih/2-(ih/zoom/2)"
+    if camera == "zoom_out":
+        z, x, y = f"1.15-0.15*on/{n}", center_x, center_y
+    elif camera == "pan_left":
+        z, x, y = "1.12", f"(iw-iw/zoom)*(1-on/{n})", center_y
+    elif camera == "pan_right":
+        z, x, y = "1.12", f"(iw-iw/zoom)*on/{n}", center_y
+    elif camera == "still":
+        z, x, y = f"1.02+0.02*on/{n}", center_x, center_y
+    else:  # zoom_in
+        z, x, y = f"1+0.15*on/{n}", center_x, center_y
+    return f"zoompan=z='{z}':x='{x}':y='{y}':d={frames}:s={w}x{h}:fps={fps}"
+
+
+def run(cmd: list[str]) -> None:
+    log.debug("ffmpeg: %s", " ".join(cmd))
+    proc = subprocess.run(cmd, capture_output=True, text=True)
+    if proc.returncode != 0:
+        raise RuntimeError(f"ffmpeg failed ({proc.returncode}):\n{proc.stderr[-3000:]}")
+
+
+def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, last: bool) -> Path:
+    frames = max(int(round(clip.duration * settings.fps)), 1)
+    vf = [zoompan_expr(clip.camera, frames, settings.width, settings.height, settings.fps)]
+    if not first:
+        vf.append(f"fade=t=in:st=0:d={FADE}")
+    if not last:
+        vf.append(f"fade=t=out:st={clip.duration - FADE:.3f}:d={FADE}")
+    vf.append("format=yuv420p")
+    run([
+        "ffmpeg", "-y", "-loglevel", "error", "-i", str(clip.image),
+        "-vf", ",".join(vf), "-frames:v", str(frames), "-r", str(settings.fps),
+        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-an", str(out),
+    ])
+    return out
+
+
+def build_audio(settings: Settings, clips: list[SceneClip], out: Path) -> Path:
+    inputs: list[str] = []
+    parts: list[str] = []
+    labels: list[str] = []
+    idx = 0
+    delay_ms = int(LEAD_IN * 1000)
+    for i, clip in enumerate(clips):
+        if clip.audio:
+            inputs += ["-i", str(clip.audio)]
+            parts.append(
+                f"[{idx}:a]aresample=44100,aformat=channel_layouts=stereo,"
+                f"adelay={delay_ms}|{delay_ms},apad,atrim=0:{clip.duration:.3f}[s{i}]"
+            )
+            idx += 1
+        else:
+            parts.append(
+                f"anullsrc=r=44100:cl=stereo,atrim=0:{clip.duration:.3f}[s{i}]"
+            )
+        labels.append(f"[s{i}]")
+    parts.append(f"{''.join(labels)}concat=n={len(clips)}:v=0:a=1[voice]")
+
+    music = pick_music(settings.music_dir)
+    total = sum(c.duration for c in clips)
+    if music:
+        inputs += ["-stream_loop", "-1", "-i", str(music)]
+        parts.append(
+            f"[{idx}:a]aresample=44100,aformat=channel_layouts=stereo,volume={settings.music_volume},"
+            f"atrim=0:{total:.3f},afade=t=out:st={max(total - 1.5, 0):.3f}:d=1.5[bg]"
+        )
+        parts.append("[voice][bg]amix=inputs=2:duration=first:normalize=0[mix]")
+        final = "[mix]"
+    else:
+        final = "[voice]"
+    run([
+        "ffmpeg", "-y", "-loglevel", "error", *inputs,
+        "-filter_complex", ";".join(parts), "-map", final,
+        "-c:a", "aac", "-b:a", "160k", "-ar", "44100", str(out),
+    ])
+    return out
+
+
+def pick_music(music_dir: Path) -> Path | None:
+    if not music_dir.is_dir():
+        return None
+    tracks = [p for p in music_dir.iterdir() if p.suffix.lower() in {".mp3", ".m4a", ".wav", ".ogg"}]
+    return random.choice(tracks) if tracks else None
+
+
+def _filter_path(path: Path) -> str:
+    # Escape for use inside an ffmpeg filter argument.
+    return str(path.resolve()).replace("\\", "/").replace(":", r"\:").replace("'", r"\'")
+
+
+def assemble(settings: Settings, clips: list[SceneClip], workdir: Path, out: Path) -> Path:
+    workdir.mkdir(parents=True, exist_ok=True)
+    parts = []
+    for i, clip in enumerate(clips):
+        log.info("rendering clip %d/%d (%.1fs, %s)", i + 1, len(clips), clip.duration, clip.camera)
+        parts.append(render_scene(settings, clip, workdir / f"clip_{i + 1:02d}.mp4", i == 0, i == len(clips) - 1))
+
+    concat_list = workdir / "clips.txt"
+    concat_list.write_text("".join(f"file '{p.resolve()}'\n" for p in parts), encoding="utf-8")
+    silent = workdir / "video_nosubs.mp4"
+    run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(concat_list), "-c", "copy", str(silent)])
+
+    audio = build_audio(settings, clips, workdir / "audio.m4a")
+
+    cues, t = [], 0.0
+    for clip in clips:
+        cues.append(Cue(t + 0.1, t + clip.duration - 0.1, clip.subtitle))
+        t += clip.duration
+    ass = write_ass(cues, settings.font, workdir / "subs.ass", settings.width, settings.height)
+
+    sub_filter = f"ass='{_filter_path(ass)}'"
+    if settings.fonts_dir.is_dir():
+        sub_filter = f"ass='{_filter_path(ass)}':fontsdir='{_filter_path(settings.fonts_dir)}'"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    run([
+        "ffmpeg", "-y", "-loglevel", "error", "-i", str(silent), "-i", str(audio),
+        "-vf", sub_filter, "-map", "0:v", "-map", "1:a",
+        "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-profile:v", "high", "-pix_fmt", "yuv420p",
+        "-c:a", "copy", "-movflags", "+faststart", "-shortest", str(out),
+    ])
+    return out

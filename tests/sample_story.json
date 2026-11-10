@@ -1,0 +1,18 @@
+{
+  "title_ml": "അമ്മൂമ്മയുടെ ലഡ്ഡു",
+  "title_en": "Grandma's Laddu",
+  "theme": "A grandmother who says she dislikes sweets secretly saves them for her grandchild",
+  "setting": "Old Kerala tharavad veranda: sage green walls, brown wooden rafters, red-oxide floor, barred wooden windows",
+  "characters": [
+    {"id": "ammachi", "name_ml": "അമ്മൂമ്മ", "look": "elderly woman, warm brown skin, white hair in a bun, round glasses, red bindi, faded blue saree with white dots, gold bangle"},
+    {"id": "kid", "name_ml": "ഞാൻ", "look": "8 year old boy, brown skin, short black hair, yellow half-sleeve shirt, blue shorts"}
+  ],
+  "scenes": [
+    {"narration_ml": "എന്റെ അമ്മൂമ്മയ്ക്ക് ലഡ്ഡു ഇഷ്ടമല്ലായിരുന്നു.", "subtitle_ml": "അമ്മൂമ്മയ്ക്ക് ലഡ്ഡു ഇഷ്ടമല്ല", "visual": "Grandmother on the veranda, smiling with eyes closed", "characters": ["ammachi"], "camera": "zoom_in"},
+    {"narration_ml": "കല്യാണത്തിന് പോയാലും അമ്മൂമ്മ ഒന്നും കഴിക്കില്ല.", "subtitle_ml": "കല്യാണത്തിനും ഒന്നും കഴിക്കില്ല", "visual": "Grandmother at a wedding feast holding a small paper packet", "characters": ["ammachi"], "camera": "pan_left"},
+    {"narration_ml": "പക്ഷേ വീട്ടിലെത്തുമ്പോൾ, ആ പൊതി എന്റെ കയ്യിൽ.", "subtitle_ml": "പക്ഷേ ആ പൊതി\nഎന്റെ കയ്യിൽ", "visual": "Grandmother handing the packet to the boy, both smiling", "characters": ["ammachi", "kid"], "camera": "zoom_out"},
+    {"narration_ml": "ഇന്ന് എനിക്ക് മനസ്സിലായി, അമ്മൂമ്മയ്ക്ക് ഇഷ്ടം ഞാനായിരുന്നു.", "subtitle_ml": "അമ്മൂമ്മയ്ക്ക് ഇഷ്ടം\nഞാനായിരുന്നു", "visual": "Grown-up narrator looking at an old photo of grandmother", "characters": ["kid"], "camera": "still"}
+  ],
+  "caption_ml": "ലഡ്ഡു ഇഷ്ടമല്ല. കടികൾ ഇഷ്ടമല്ല. ഒന്നും ഇഷ്ടമല്ല... നമ്മൾക്ക് വേണ്ടി മാത്രം ❤️",
+  "hashtags": ["malayalam", "kerala", "nostalgia", "ammamma", "malayalamstory", "kuttikalam", "mallu", "reels"]
+}

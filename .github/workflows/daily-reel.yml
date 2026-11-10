@@ -1,0 +1,89 @@
+name: Daily Malayalam reel
+
+on:
+  schedule:
+    # 13:07 UTC = 18:37 IST, an evening slot for Kerala audiences
+    - cron: "7 13 * * *"
+  workflow_dispatch:
+    inputs:
+      theme:
+        description: "Story idea (English). Leave empty to pick an unused one."
+        required: false
+      publish:
+        description: "Publish to Instagram"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # to commit data/history.json
+
+concurrency:
+  group: daily-reel
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST || 'graph.facebook.com' }}
+      REELBOT_TTS: ${{ vars.REELBOT_TTS || 'edge' }}
+      REELBOT_VOICE: ${{ vars.REELBOT_VOICE || 'ml-IN-SobhanaNeural' }}
+      # Scheduled runs publish only when the repo variable AUTO_PUBLISH is "true".
+      SHOULD_PUBLISH: ${{ (github.event_name == 'schedule' && vars.AUTO_PUBLISH == 'true') || (github.event_name == 'workflow_dispatch' && inputs.publish) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System packages (ffmpeg, cairo, Malayalam font)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libcairo2 fonts-smc-manjari
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e '.[dev]'
+
+      - name: Tests
+        run: pytest -q
+
+      - name: Make reel
+        id: make
+        env:
+          THEME: ${{ inputs.theme }}
+        run: |
+          args=()
+          if [ -n "$THEME" ]; then args=(--theme "$THEME"); fi
+          dir=$(reelbot make "${args[@]}" | tail -n1)
+          echo "dir=$dir" >> "$GITHUB_OUTPUT"
+          cat "$dir/caption.txt"
+
+      - name: Upload reel as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_id }}
+          path: |
+            ${{ steps.make.outputs.dir }}/reel.mp4
+            ${{ steps.make.outputs.dir }}/story.json
+            ${{ steps.make.outputs.dir }}/caption.txt
+            ${{ steps.make.outputs.dir }}/scenes/*.png
+          retention-days: 14
+
+      - name: Publish to Instagram
+        if: env.SHOULD_PUBLISH == 'true'
+        run: reelbot publish "${{ steps.make.outputs.dir }}"
+
+      - name: Commit history
+        if: always() && steps.make.outcome == 'success'
+        run: |
+          git config user.name "reelbot"
+          git config user.email "reelbot@users.noreply.github.com"
+          git add data/history.json
+          git diff --cached --quiet || git commit -m "reel: ${{ steps.make.outputs.dir }}"
+          git push

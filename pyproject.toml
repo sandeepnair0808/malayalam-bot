@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reelbot"
+version = "0.1.0"
+description = "Generate animated Malayalam story reels with Claude and auto-publish them to Instagram"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=2.7.0",
+    "pydantic>=2.6",
+    "requests>=2.31",
+    "cairosvg>=2.7",
+    "edge-tts>=6.1",
+    "gTTS>=2.5",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+reelbot = "reelbot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["reelbot*"]
