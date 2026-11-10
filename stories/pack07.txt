@@ -1,5 +1,5 @@
 ### 61-coconut-leaf-watch
-hook: ഓല കൊണ്ട് ഒരു വാച്ച്! അപ്പൂപ്പന്റെ മാജിക്!
+hook: അപ്പൂപ്പന്റെ ഓലവാച്ചിൽ എപ്പോഴും നാല് മണി! എന്തുകൊണ്ട്?
 title: ഓലവാച്ച് | The Coconut Leaf Watch
 theme: Appooppan made watches, whistles and spinning tops out of coconut leaves, the best toys a child ever had
 narrator: man
@@ -9,12 +9,12 @@ tags: malayalam malayalamstory appooppan coconutleaf toys childhoodmemories kera
 - yard | still | wind | appooppan:hold=flower,talk kid:happy || കുറച്ചു മിനിറ്റ് കൊണ്ട് ഓല ഒരു വാച്ചായി മാറും! || appooppan: ഇതാ, ഇനി നിനക്ക് സമയം നോക്കാം.
 - yard | zoom_in | wind | kid:jump,happy friend:happy || ഞാൻ ആ ഓലവാച്ചും കെട്ടി ഗ്രാമം മുഴുവൻ നടന്നു. ലോകത്തിലെ ഏറ്റവും വിലയുള്ള വാച്ച്. ||
 - yard | pan_right | wind | appooppan:happy kid:happy friend:happy || പിന്നെ ഓല കൊണ്ട് പീപ്പി, പമ്പരം, പന്ത്. ഓരോ ദിവസവും ഓരോ പുതിയ കളിപ്പാട്ടം. ||
-- yard+sunset | still | wind | kid:sad,hold=flower || വൈകുന്നേരം ആകുമ്പോൾ ഓല വാടും. വാച്ച് പൊട്ടും. പക്ഷേ നാളെ പുതിയത് കിട്ടുമെന്ന് അറിയാമായിരുന്നു. ||
-- interior | zoom_in | indoor | grownup:hold=gift,sad || ഇന്ന് എന്റെ കയ്യിൽ വിലകൂടിയ ഒരു സ്മാർട്ട് വാച്ച് ഉണ്ട്. ||
-- yard | zoom_out | wind | grownup:hold=flower,happy | photo:appooppan || എന്നിട്ടും ഒരു ഓല കയ്യിൽ കിട്ടിയാൽ ഞാൻ അറിയാതെ ഒരു വാച്ച് ഉണ്ടാക്കാൻ നോക്കും. ||
+- yard+sunset | still | wind | kid:talk appooppan:happy || ഓരോ ഓലവാച്ചിലും അപ്പൂപ്പൻ സമയം വരച്ചു തരും. എപ്പോഴും നാല് മണി. || kid: അപ്പൂപ്പാ, ഇതിൽ എപ്പോഴും നാല് മണി മാത്രം എന്താ?
+- yard+close | zoom_in | wind | appooppan:talk,happy || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: നീ സ്കൂളിൽ നിന്ന് വരുന്ന സമയമല്ലേ. അതാണ് എന്റെ ഏറ്റവും ഇഷ്ടമുള്ള സമയം.
+- interior+close | zoom_out | indoor | grownup:phone,happy | photo:appooppan || ഇന്ന് എന്റെ ഫോണിൽ എല്ലാ ദിവസവും നാല് മണിക്ക് ഒരു അലാറം അടിക്കും. നാട്ടിലേക്ക് അപ്പൂപ്പനെ വിളിക്കാനുള്ള സമയം. ||
 
 ### 62-tea-shop-biscuit
-hook: ചായക്കടയിലെ ആ ചില്ലു ഭരണി ഓർമ്മയുണ്ടോ?
+hook: അച്ഛൻ എല്ലാ ഞായറാഴ്ചയും ചായ വാങ്ങിയത് ആർക്ക് വേണ്ടി?
 title: ചായക്കടയിലെ ബിസ്കറ്റ് ഭരണി | The Biscuit Jar at the Tea Shop
 theme: Sunday mornings at the village tea shop with Achan, the newspaper debates, and the one biscuit from the glass jar
 narrator: man
@@ -24,9 +24,9 @@ tags: malayalam malayalamstory achan chayakada teashop childhoodmemories kerala 
 - bus_stop | still | wind | achan:read,hold=newspaper,talk uncle:talk || അവിടെ എല്ലാവരും ഒരു പത്രം പങ്കിട്ട് വായിക്കും. പിന്നെ നാട്ടിലെ എല്ലാ കാര്യങ്ങളെക്കുറിച്ചും വലിയ ചർച്ച. ||
 - bus_stop+close | zoom_in | wind | kid:surprised || എന്റെ കണ്ണ് മുഴുവൻ കൗണ്ടറിലെ ചില്ലു ഭരണിയിലായിരുന്നു. അതിനകത്ത് നിറയെ ബിസ്കറ്റുകളും നാരങ്ങ മിഠായികളും. ||
 - bus_stop | still | wind | achan:talk,hold=laddu kid:happy || അച്ഛൻ ഒന്നും ചോദിക്കാതെ തന്നെ മനസ്സിലാക്കും. || achan: ചേട്ടാ, ഇവന് ഒരു ബിസ്കറ്റ്.
-- bus_stop | zoom_in | wind | kid:eat,happy achan:happy || ചൂട് ചായയിൽ മുക്കി ആ ബിസ്കറ്റ് കഴിക്കുന്നതിന്റെ രുചി ഇന്നും നാവിലുണ്ട്. ||
-- interior | pan_right | indoor | grownup:eat,sad || ഇന്ന് കഫേകളിൽ മുന്നൂറ് രൂപയുടെ കാപ്പി കുടിക്കുന്നു. ||
-- bus_stop | zoom_out | wind | grownup:happy | photo:achan || പക്ഷേ അച്ഛൻ വാങ്ങിത്തന്ന ആ രണ്ട് രൂപയുടെ ബിസ്കറ്റിന്റെ സ്വാദ് ഒന്നിനുമില്ല. ||
+- bus_stop | zoom_in | wind | kid:eat,happy achan:happy || അച്ഛന്റെ ചൂട് ചായയിൽ മുക്കി ആ ബിസ്കറ്റ് കഴിക്കുന്നതിന്റെ രുചി ഇന്നും നാവിലുണ്ട്. അച്ഛൻ ആ ചായ എനിക്ക് നീക്കി വെക്കും. ||
+- bus_stop | zoom_in | wind | grownup:surprised uncle:talk || അച്ഛൻ പോയ ശേഷം ചായക്കടയിലെ ചേട്ടൻ എന്നോട് പറഞ്ഞു. || uncle: നിന്റെ അച്ഛന് ചായ ഇഷ്ടമേ അല്ലായിരുന്നു. നിനക്ക് ബിസ്കറ്റ് മുക്കാൻ വേണ്ടി മാത്രമാണ് അത് വാങ്ങിയിരുന്നത്.
+- bus_stop+close | zoom_out | wind | grownup:happy | photo:achan || എല്ലാ ഞായറാഴ്ചയും അച്ഛൻ കുടിക്കാതെ വാങ്ങിയ ആ ചായ, എനിക്ക് വേണ്ടിയായിരുന്നു. ||
 
 ### 63-first-cinema
 hook: ആദ്യമായി തിയേറ്ററിൽ പോയ ദിവസം, അച്ഛൻ നോക്കിയത് എന്തിലേക്ക്?
@@ -44,7 +44,7 @@ tags: malayalam malayalamstory cinema theatre family childhoodmemories kerala ma
 - interior+night | zoom_out | night | grownup:happy kid:happy || അന്ന് മനസ്സിലായി, അച്ഛൻ അന്ന് സിനിമയല്ല, എന്റെ മുഖമായിരുന്നു നോക്കിയിരുന്നത്. ||
 
 ### 64-tharavadu-sadya
-hook: മുപ്പത് കസിൻസ്, ഒരു നീണ്ട നിര വാഴയില!
+hook: സദ്യയുടെ നിരയിലെ ആ ഒഴിഞ്ഞ ഇല ആർക്കായിരുന്നു?
 title: തറവാട്ടിലെ ഓണസദ്യ | Onam Sadya at the Tharavadu
 theme: Thirty cousins on a long row of banana leaves at the ancestral home on Thiruvonam, compared with ordering a sadya kit today
 narrator: man
@@ -53,13 +53,13 @@ tags: malayalam malayalamstory onam sadya tharavadu cousins kerala mallureels ma
 - yard+festive | zoom_in | wind | kid:happy friend:happy girl:happy chechi:happy | pookkalam || തിരുവോണത്തിന് എല്ലാ വർഷവും തറവാട്ടിൽ എല്ലാവരും എത്തും. മാമന്മാർ, ചിറ്റമാർ, മുപ്പതോളം കസിൻസ്. ||
 - kitchen+festive | still | indoor | ammachi:cook,happy amma:cook,happy | stove || അടുക്കളയിൽ രാവിലെ മുതൽ അമ്മൂമ്മയും അമ്മമാരും. അവിയലിന്റെയും സാമ്പാറിന്റെയും മണം വീട് മുഴുവൻ. ||
 - veranda+festive | zoom_in | wind | kid:eat,happy friend:eat,happy girl:eat,happy | table:sadya || ഉച്ചയ്ക്ക് വരാന്തയിൽ ഒരു നീണ്ട നിര വാഴയില. ഞങ്ങൾ കുട്ടികൾ ആദ്യത്തെ പന്തിയിൽ. ||
-- veranda+festive | still | wind | kid:talk,happy friend:happy | table:sadya || ആരാണ് കൂടുതൽ പായസം കുടിക്കുക എന്നായിരുന്നു മത്സരം. ഞാൻ നാല് ഗ്ലാസ്! ||
+- veranda+festive | still | wind | kid:talk ammachi:talk,happy | table:sadya || നിരയുടെ അറ്റത്ത് എല്ലാ വർഷവും ആരും ഇരിക്കാത്ത ഒരു ഇല ഉണ്ടാകും. || ammachi: അത് ഒരു അതിഥിക്കുള്ളതാ മോനേ.
 - yard+sunset | pan_right | wind | kid:jump,happy friend:jump,happy girl:jump,happy || പിന്നെ വൈകുന്നേരം വരെ ഊഞ്ഞാലാട്ടവും കളികളും. ആരും ഫോണിൽ ആയിരുന്നില്ല. ||
-- interior | zoom_in | indoor | grownup:phone,sad | table:sadya || ഇന്ന് ഫ്ലാറ്റിൽ ഓൺലൈനിൽ സദ്യ കിറ്റ് ഓർഡർ ചെയ്യുന്നു. കസിൻസിനെ വീഡിയോ കോളിൽ കാണുന്നു. ||
-- veranda | zoom_out | wind | grownup:happy | photo:ammachi || അടുത്ത ഓണത്തിന് എല്ലാവരും തറവാട്ടിൽ ഒത്തുകൂടാൻ ഞങ്ങൾ ഒരു തീരുമാനമെടുത്തു. ||
+- veranda+sunset | zoom_in | wind | kid:surprised ammachi:hold=plate,happy appooppan:eat,happy | table:sadya || എല്ലാവരും പോയ ശേഷം ഞാൻ ഒളിഞ്ഞു നോക്കി. ആ ഇലയിൽ ഇരുന്നത് ഗ്രാമത്തിൽ ഒറ്റയ്ക്ക് താമസിക്കുന്ന കുട്ടൻ ചേട്ടനായിരുന്നു. ||
+- interior+close | zoom_out | indoor | grownup:happy | table:sadya || ഇന്ന് എന്റെ ഫ്ലാറ്റിലും ഓണത്തിന് ഒരു ഇല കൂടുതലുണ്ട്. ഗേറ്റിലെ സെക്യൂരിറ്റി ചേട്ടന്. ||
 
 ### 65-christmas-star
-hook: ഒരു കടലാസ് നക്ഷത്രം ഒരു ഗ്രാമം മുഴുവൻ വെളിച്ചമാക്കി!
+hook: നക്ഷത്രം എപ്പോഴും ആ മാവിൽ തന്നെ തൂക്കിയത് എന്തിന്?
 title: ജോസഫ് ചേട്ടന്റെ നക്ഷത്രം | The Star at Joseph Chettan's House
 theme: Every December the neighbourhood children helped Joseph chettan make a big paper Christmas star, whatever house they came from
 narrator: man
@@ -70,8 +70,8 @@ tags: malayalam malayalamstory christmas star neighbours childhoodmemories keral
 - veranda+night | zoom_in | night | uncle:happy kid:jump,happy friend:jump,happy || രാത്രി അതിനകത്ത് ഒരു ബൾബ് കത്തിച്ച് മാവിൻകൊമ്പിൽ തൂക്കിയപ്പോൾ ഗ്രാമം മുഴുവൻ വെളിച്ചം. ||
 - lane+night+festive | pan_right | night | uncle:walk,happy kid:walk,happy friend:walk,happy || ക്രിസ്മസ് രാത്രി കരോൾ സംഘം എല്ലാ വീട്ടിലും പോകും. ഞങ്ങളുടെ വീട്ടിലും. ||
 - veranda+night | still | night | amma:hold=plate,happy uncle:happy kid:eat,happy | sweets || അമ്മ അവർക്ക് ചായയും ഉണ്ണിയപ്പവും കൊടുക്കും. ജോസഫ് ചേട്ടൻ ഞങ്ങൾക്ക് കേക്കും. ||
-- interior | zoom_in | indoor | grownup:phone,happy || ഇന്ന് ജോസഫ് ചേട്ടന്റെ മകൻ ദുബായിൽ നിന്ന് എല്ലാ ക്രിസ്മസിനും എന്നെ വിളിക്കും. ||
-- veranda+night | zoom_out | night | grownup:happy kid:happy || എന്റെ മകനും ഇപ്പോൾ അവന്റെ മക്കളോടൊപ്പം നക്ഷത്രം ഉണ്ടാക്കുന്നു. ആ വെളിച്ചം ഇന്നും അണഞ്ഞിട്ടില്ല. ||
+- veranda+night | zoom_in | night | grownup:talk uncle:talk,happy || വർഷങ്ങൾക്ക് ശേഷം ഞാൻ ജോസഫ് ചേട്ടനോട് ചോദിച്ചു, നക്ഷത്രം എന്തിനാണ് എപ്പോഴും ആ മാവിൽ തന്നെ തൂക്കിയത്? || uncle: അത് നമ്മുടെ രണ്ട് വീടുകളുടെയും നടുവിലല്ലേ മോനേ. വെളിച്ചം രണ്ട് വീട്ടിലും വീഴണം.
+- veranda+night+close | zoom_out | night | grownup:happy | mango_tree || ഇന്നും ഡിസംബറിൽ ആ മാവിൽ ഒരു നക്ഷത്രം തെളിയും. ഇപ്പോൾ അത് തൂക്കുന്നത് ഞാനാണ്. ||
 
 ### 66-eid-biriyani
 hook: മുപ്പത് വർഷമായി രണ്ട് വീടുകൾക്കിടയിൽ യാത്ര ചെയ്യുന്ന ഒരു പാത്രം!
@@ -85,8 +85,8 @@ tags: malayalam malayalamstory eid biriyani neighbours childhoodmemories kerala 
 - kitchen | zoom_in | indoor | kid:eat,happy girl:eat,happy | table:rice || ആ ബിരിയാണിയുടെ മണം വീട് മുഴുവൻ നിറയും. ഞങ്ങൾ കുട്ടികൾ പാത്രം കാലിയാക്കും. ||
 - kitchen | still | indoor | amma:cook,happy kid:happy | stove || പക്ഷേ അമ്മ ആ പാത്രം ഒരിക്കലും കാലിയായി തിരിച്ചു കൊടുക്കില്ല. അതിൽ നിറയെ അമ്മയുടെ സ്പെഷ്യൽ പായസം. ||
 - lane | pan_right | wind | kid:walk,hold=plate,happy || ആ പാത്രം തിരികെ കൊടുക്കാൻ പോകുന്നത് ഞാനായിരുന്നു. ഉമ്മ എനിക്ക് ഒരു പിടി ഈന്തപ്പഴം കൂടി തരും. ||
-- interior | zoom_in | indoor | grownup:hold=plate,happy || ഇന്നും പെരുന്നാളിന് ഉമ്മയുടെ മകൾ ബിരിയാണി കൊടുത്തയക്കും. അമ്മ പായസവും. ||
-- veranda | zoom_out | wind | grownup:hold=plate,happy || ആ പാത്രം ഞങ്ങളുടെ രണ്ട് വീടുകൾക്കിടയിൽ മുപ്പത് വർഷമായി യാത്ര ചെയ്യുന്നു. ||
+- interior | zoom_in | indoor | amma:sleep grownup:surprised ammachi:hold=plate,happy || കഴിഞ്ഞ വർഷം അമ്മ ആശുപത്രിയിലായപ്പോൾ, പെരുന്നാൾ അല്ലാഞ്ഞിട്ടും ആ പാത്രം വന്നു. ഒരു മാസം, എല്ലാ ദിവസവും. ||
+- veranda+close | zoom_out | wind | grownup:hold=plate,happy || ആ പാത്രത്തിൽ വന്നത് ബിരിയാണി മാത്രമായിരുന്നില്ല. ഒരു അയൽപക്കത്തിന്റെ സ്നേഹം മുഴുവനായിരുന്നു. ||
 
 ### 67-vishukkani
 hook: കണ്ണ് തുറക്കല്ലേ! അമ്മൂമ്മ കാണിച്ചു തന്ന വിഷുക്കണി!
@@ -100,11 +100,11 @@ tags: malayalam malayalamstory vishu vishukkani ammachi childhoodmemories kerala
 - interior+night+festive | zoom_in | night | kid:surprised ammachi:happy | nilavilakku || പിന്നെ കൈ മാറ്റുമ്പോൾ മുന്നിൽ വിളക്കിന്റെ വെളിച്ചത്തിൽ കണി. കൊന്നപ്പൂവും കണിവെള്ളരിയും ഉരുളിയിൽ. ||
 - interior+night+festive+close | still | night | kid:happy | nilavilakku || ആ മഞ്ഞ വെളിച്ചം. അതാണ് എന്റെ ഓർമ്മയിലെ ഏറ്റവും മനോഹരമായ കാഴ്ച. ||
 - interior+festive | zoom_in | indoor | ammachi:hold=money,happy kid:hold=money,happy || പിന്നെ അമ്മൂമ്മയുടെ കയ്യിൽ നിന്ന് വിഷുക്കൈനീട്ടം. ഒരു പുതിയ നാണയം. ||
-- interior+night | pan_right | night | grownup:walk kid:walk || ഇന്ന് ഞാൻ എന്റെ മകന്റെ കണ്ണ് പൊത്തി കണി കാണിക്കാൻ കൊണ്ടുപോകുന്നു. ||
-- interior+night+festive | zoom_out | night | grownup:happy kid:surprised | nilavilakku || അവന്റെ മുഖത്ത് അതേ മഞ്ഞ വെളിച്ചം കണ്ടപ്പോൾ എന്റെ കണ്ണുകൾ നിറഞ്ഞു. ||
+- interior+night | pan_right | night | grownup:talk ammachi:walk || ഈ വിഷുവിന് അമ്മൂമ്മയ്ക്ക് തൊണ്ണൂറ് വയസ്സ്. പുലർച്ചെ ഞാൻ പോയി പതുക്കെ വിളിച്ചു. || grownup: കണ്ണ് തുറക്കല്ലേ അമ്മൂമ്മേ. വാ.
+- interior+night+festive+close | zoom_out | night | ammachi:happy | nilavilakku || ആദ്യമായി അമ്മൂമ്മയുടെ കണ്ണുകൾ പൊത്തിയത് എന്റെ കൈകളായിരുന്നു. ആ മുഖത്ത് അതേ മഞ്ഞ വെളിച്ചം. ||
 
 ### 68-jackfruit-season
-hook: ചക്കക്കാലം വന്നാൽ വീട്ടിൽ എന്തൊക്കെ ആയിരുന്നു!
+hook: ആ പഴയ പ്ലാവിന് ഒരു രഹസ്യമുണ്ടായിരുന്നു!
 title: ചക്കക്കാലം | Jackfruit Season
 theme: The whole family sat together cutting a giant jackfruit, hands sticky with oil, in the summer of jackfruit everything
 narrator: man
@@ -115,11 +115,11 @@ tags: malayalam malayalamstory chakka jackfruit summer childhoodmemories kerala 
 - veranda | zoom_in | wind | kid:eat,happy girl:eat,happy || ഞാനും അനിയത്തിയും പറിക്കുന്നതിനേക്കാൾ കൂടുതൽ തിന്നും. അമ്മൂമ്മ ചിരിക്കും. ||
 - kitchen | still | indoor | amma:cook,happy kid:happy | stove || ആ ആഴ്ച മുഴുവൻ ചക്ക തന്നെ. ചക്കപ്പുഴുക്ക്, ചക്കവറുത്തത്, ചക്കയട, ചക്കക്കുരു കറി. ||
 - yard | pan_right | wind | kid:walk,hold=bag,happy amma:happy || ബാക്കി വന്ന ചക്ക സഞ്ചിയിലാക്കി അയൽവീടുകളിലേക്ക്. ആർക്കും ഇല്ലാതെ പോകരുത്. ||
-- kitchen | zoom_in | indoor | grownup:hold=money,sad || ഇന്ന് സൂപ്പർമാർക്കറ്റിൽ ഒരു ചെറിയ പാക്കറ്റ് ചക്കച്ചുളയ്ക്ക് നൂറ് രൂപ. ||
-- yard | zoom_out | wind | grownup:happy | mango_tree || നാട്ടിൽ പോകുമ്പോൾ ഞാൻ ആദ്യം നോക്കുന്നത് ആ പ്ലാവിലേക്കാണ്. ||
+- yard | zoom_in | wind | grownup:surprised ammachi:talk,happy | mango_tree || കഴിഞ്ഞ മാസം നാട്ടിൽ ചെന്നപ്പോൾ അമ്മൂമ്മ ആ പ്ലാവ് ചൂണ്ടി പറഞ്ഞു. || ammachi: നീ ജനിച്ച ദിവസം നിന്റെ അപ്പൂപ്പൻ നട്ടതാ ഈ പ്ലാവ്. നിന്റെ അതേ പ്രായമാ ഇതിന്.
+- yard+close | zoom_out | wind | grownup:happy | mango_tree || ഓരോ മെയ് മാസവും ആ പ്ലാവ് ഗ്രാമം മുഴുവൻ പങ്കിട്ടത്, എന്റെ പിറന്നാൾ സമ്മാനമായിരുന്നു. ||
 
 ### 69-rent-cycle
-hook: അഞ്ച് രൂപയ്ക്ക് ഒരു മണിക്കൂർ, വാടക സൈക്കിൾ ഓർമ്മയുണ്ടോ?
+hook: സൈക്കിൾ കടയിൽ കൊടുത്ത ആ അഞ്ച് രൂപ എവിടെ പോയി?
 title: മണിക്കൂറിന് വാടക സൈക്കിൾ | A Bicycle for One Hour
 theme: Saving coins for weeks to rent a bicycle for one hour from the village cycle shop, and racing with friends before time ran out
 narrator: man
@@ -130,11 +130,11 @@ tags: malayalam malayalamstory cycle rent 90skids childhoodmemories kerala mallu
 - lane | zoom_in | wind | uncle:talk,point kid:happy | bicycle:blue || കടക്കാരൻ മാമൻ സമയം എഴുതി വെക്കും. || uncle: കൃത്യം നാല് മണിക്ക് തിരിച്ചെത്തണം. ഇല്ലെങ്കിൽ അടുത്ത തവണ തരില്ല!
 - lane | pan_right | wind | kid:happy friend:happy | bicycle:blue || പിന്നെ ആ ഒരു മണിക്കൂർ ഞാനും കൂട്ടുകാരനും മാറി മാറി ഓടിച്ചു. ഗ്രാമം മുഴുവൻ ചുറ്റി. ||
 - lane+sunset | still | wind | kid:surprised friend:surprised | bicycle:blue || പള്ളിക്കൂടത്തിലെ മണി കേട്ടപ്പോൾ ഓർമ്മ വന്നു. സമയം കഴിയാറായി! അതിവേഗത്തിൽ കടയിലേക്ക്. ||
-- interior | zoom_in | indoor | grownup:hold=money,sad | bicycle:red || ഇന്ന് ഗാരേജിൽ ഒരു വിലകൂടിയ സൈക്കിൾ ഉണ്ട്. മാസങ്ങളായി അത് ആരും തൊട്ടിട്ടില്ല. ||
-- lane | zoom_out | wind | grownup:happy | bicycle:blue || വാടകയ്ക്ക് എടുത്ത ആ ഒരു മണിക്കൂറിനായിരുന്നു സ്വന്തമായുള്ള ഈ സൈക്കിളിനേക്കാൾ സന്തോഷം. ||
+- interior | zoom_in | indoor | grownup:surprised amma:hold=money,talk || കോളേജിൽ ചേരുന്ന ദിവസം അമ്മ ഒരു മൺകുടുക്ക എന്റെ കയ്യിൽ തന്നു. || amma: നീ സൈക്കിൾ കടയിൽ കൊടുത്ത അഞ്ച് രൂപകളാ ഇത്. മാമൻ എല്ലാ ആഴ്ചയും അത് എനിക്ക് തിരിച്ചു തന്നിരുന്നു.
+- lane+close | zoom_out | wind | grownup:happy | bicycle:blue || ആ പണം കൊണ്ട് ഞാൻ വാങ്ങിയത് എന്റെ ആദ്യത്തെ സ്വന്തം സൈക്കിളായിരുന്നു. ||
 
 ### 70-independence-mittayi
-hook: ഓഗസ്റ്റ് പതിനഞ്ചിന് എല്ലാവരും കാത്തിരുന്നത് എന്തിന്?
+hook: ഓഗസ്റ്റ് പതിനഞ്ചിലെ ആ മിഠായി ആരാണ് വാങ്ങിയത്?
 title: ഓഗസ്റ്റ് പതിനഞ്ചിലെ മിഠായി | The Independence Day Sweet
 theme: The school flag hoisting on August 15, the white uniform, the paper flag on the shirt, and the orange sweet everyone waited for
 narrator: man
@@ -145,5 +145,5 @@ tags: malayalam malayalamstory independenceday school mittayi childhoodmemories 
 - school+festive | zoom_in | wind | teacher:talk kid:happy friend:happy || ഹെഡ്മാസ്റ്റർ കൊടി ഉയർത്തി. ഞങ്ങൾ ഉറക്കെ ദേശീയഗാനം പാടി. ആ നിമിഷം ഉള്ളിൽ എന്തോ ഒരു അഭിമാനം. ||
 - school | still | wind | kid:talk,happy friend:happy || പക്ഷേ സത്യം പറഞ്ഞാൽ, എല്ലാവരും കാത്തിരുന്നത് പ്രസംഗം കഴിഞ്ഞുള്ള മിഠായിക്കായിരുന്നു! ||
 - school | zoom_in | wind | teacher:hold=laddu,happy kid:eat,happy friend:eat,happy | sweets || ഓരോ കുട്ടിക്കും രണ്ട് ഓറഞ്ച് മിഠായി. ഒന്ന് അവിടെ തന്നെ തിന്നും, ഒന്ന് അനിയത്തിക്ക് സൂക്ഷിച്ചു വെക്കും. ||
-- interior | pan_right | indoor | grownup:phone,happy || ഇന്ന് ഓഫീസ് ഗ്രൂപ്പിൽ ആശംസാ സന്ദേശങ്ങൾ മാത്രം. ||
-- school+festive | zoom_out | wind | grownup:happy kid:happy | sweets || ഈ വർഷം ഞാൻ എന്റെ പഴയ സ്കൂളിലെ കുട്ടികൾക്ക് മിഠായി വാങ്ങിക്കൊടുത്തു. അതേ ഓറഞ്ച് മിഠായി. ||
+- school | zoom_in | wind | grownup:surprised teacher:talk || വർഷങ്ങൾക്ക് ശേഷം പഴയ ക്ലാസ് ടീച്ചറെ കണ്ടപ്പോൾ ഞാൻ ആ മിഠായിയുടെ കാര്യം പറഞ്ഞു. || teacher: സ്കൂളിന് അതിന് പണമില്ലായിരുന്നു മോനേ. എല്ലാ വർഷവും എന്റെ ശമ്പളത്തിൽ നിന്നാണ് വാങ്ങിയത്.
+- school+festive | zoom_out | wind | grownup:happy kid:happy | sweets || ഈ വർഷം ഞാനും ആ സ്കൂളിലെ കുട്ടികൾക്ക് മിഠായി വാങ്ങി. അതേ ഓറഞ്ച് മിഠായി, ആരോടും പറയാതെ. ||
