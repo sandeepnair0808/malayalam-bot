@@ -6,3 +6,10 @@ uploader.log
 cron.log
 .uploader.lock
 videos
+ig_token.json
+ig_posted.json
+ig_posted.json.tmp
+ig_token.json.tmp
+ig_uploader.log
+ig_cron.log
+.ig.lock
