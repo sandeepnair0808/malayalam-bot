@@ -1,0 +1,139 @@
+### 81-achan-shoulders
+title: അച്ഛന്റെ തോളിലെ ഉത്സവം | The Festival from Achan's Shoulders
+theme: At the temple festival I saw the whole procession from Achan's shoulders, never realising how tired he was
+narrator: man
+caption: ഉത്സവപ്പറമ്പിൽ അച്ഛന്റെ തോളിലിരുന്ന് കണ്ട കാഴ്ചകൾ 🐘❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan utsavam festival childhoodmemories kerala mallureels malayalamreels fatherslove
+- temple+night+festive | zoom_in | night | achan:walk kid:walk,happy || ഉത്സവ രാത്രി. ചെണ്ടമേളത്തിന്റെ ശബ്ദം. ആയിരക്കണക്കിന് ആളുകൾ. ||
+- temple+night+festive | still | night | kid:sad,talk achan:happy || എനിക്ക് ഒന്നും കാണാൻ പറ്റുന്നില്ല. മുന്നിൽ മുഴുവൻ വലിയ ആളുകളുടെ പുറം. || kid: അച്ഛാ, എനിക്ക് ഒന്നും കാണുന്നില്ല!
+- temple+night+festive | zoom_in | night | achan:happy kid:jump,happy || അച്ഛൻ എന്നെ എടുത്ത് തോളിലിരുത്തി. പെട്ടെന്ന് ലോകം മുഴുവൻ എന്റെ കണ്ണിന് മുന്നിൽ. ||
+- temple+night+festive+close | still | night | kid:surprised,happy || നെറ്റിപ്പട്ടം കെട്ടിയ ആനകൾ, തീവെട്ടികൾ, വർണ്ണക്കുടകൾ. ഞാൻ ആർത്തുവിളിച്ചു. ||
+- temple+night+festive | pan_right | night | achan:walk,sad kid:happy || രണ്ട് മണിക്കൂർ ഞാൻ ആ തോളിൽ ഇരുന്നു. അച്ഛൻ ഒരിക്കൽ പോലും എന്നെ താഴെ ഇറക്കിയില്ല. ||
+- temple+night+festive | zoom_in | night | grownup:sad,walk kid:happy || ഇന്ന് എന്റെ മകനെ തോളിലിരുത്തി പത്ത് മിനിറ്റ് കഴിഞ്ഞപ്പോൾ എന്റെ കഴുത്ത് വേദനിച്ചു. ||
+- temple+night+festive | zoom_out | night | grownup:happy kid:happy | photo:achan || അന്ന് മനസ്സിലായി. അച്ഛന്റെ തോളിലിരുന്നാണ് ഞാൻ ആദ്യമായി ലോകം കണ്ടത്. ||
+
+### 82-pickle-swap
+title: ഉച്ചയ്ക്കത്തെ അച്ചാർ കൈമാറ്റം | The Lunchtime Pickle Swap
+theme: At school lunch everyone opened their tiffins in a circle and swapped pickles and side dishes, a tiny feast of every home's kitchen
+narrator: man
+caption: ഉച്ചയ്ക്ക് ടിഫിൻ തുറന്ന് എല്ലാവരും പങ്കിട്ട് കഴിച്ച ആ കാലം 🍱❤️\nകൂട്ടുകാരെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory school tiffin friends childhoodmemories kerala mallureels malayalamreels nostalgia
+- classroom | zoom_in | indoor | kid:hold=tiffin,happy friend:hold=tiffin,happy girl:hold=tiffin,happy || ഉച്ചയ്ക്കത്തെ ബെല്ല് അടിച്ചാൽ ഞങ്ങൾ ഒരു വട്ടത്തിൽ ഇരിക്കും. എല്ലാവരുടെയും ചോറ്റുപാത്രം നടുക്ക്. ||
+- classroom | still | indoor | friend:eat,happy kid:eat,happy || റഷീദിന്റെ ഉമ്മയുടെ കോഴിക്കറി, മേരിയുടെ അമ്മയുടെ മീൻ വറുത്തത്, എന്റെ അമ്മയുടെ മാങ്ങ അച്ചാർ. ||
+- classroom | zoom_in | indoor | girl:talk,happy kid:happy || മേരി എന്നും പറയും. || girl: നിന്റെ അമ്മയുടെ അച്ചാർ ഇല്ലാതെ എനിക്ക് ചോറ് ഇറങ്ങില്ല!
+- classroom | still | indoor | kid:sad friend:hold=tiffin,happy || ഒരു ദിവസം ഞാൻ ടിഫിൻ എടുക്കാൻ മറന്നു. പക്ഷേ ആ ദിവസം ഞാൻ ഏറ്റവും കൂടുതൽ കഴിച്ചു. എല്ലാവരും പങ്കിട്ടു. ||
+- classroom | zoom_in | indoor | kid:eat,happy friend:eat,happy girl:eat,happy || ആരുടെ വീട്ടിൽ നിന്നാണെന്ന് ആരും നോക്കിയില്ല. എല്ലാവർക്കും അറിയാമായിരുന്നത് എല്ലാവരുടെയും അമ്മമാരുടെ കൈപ്പുണ്യം. ||
+- interior | pan_right | indoor | grownup:eat,sad | table:rice || ഇന്ന് ഓഫീസിൽ ഓരോരുത്തരും ഡെസ്കിൽ ഒറ്റയ്ക്ക് ഇരുന്ന് ഫോൺ നോക്കി കഴിക്കുന്നു. ||
+- classroom | zoom_out | indoor | grownup:happy | photo:amma || ഇന്നലെ ഞാൻ ഓഫീസിൽ അമ്മയുടെ അച്ചാർ കൊണ്ടുപോയി എല്ലാവർക്കും കൊടുത്തു. അന്ന് മുതൽ ഞങ്ങൾ ഒരുമിച്ചാണ് കഴിക്കുന്നത്. ||
+
+### 83-wedding-pandal
+title: അയലത്തെ കല്യാണപ്പന്തൽ | The Neighbourhood Wedding
+theme: When the neighbour chechi got married the whole street worked all night building the pandal, cooking and laughing together
+narrator: man
+caption: നാട്ടിലെ കല്യാണം എല്ലാവരുടെയും കല്യാണമായിരുന്ന കാലം 💐❤️\nഓർമ്മയുണ്ടോ ആ രാത്രികൾ?
+tags: malayalam malayalamstory wedding neighbours village childhoodmemories kerala mallureels malayalamreels nostalgia
+- yard+festive | zoom_in | wind | achan:happy uncle:happy kid:happy || അയലത്തെ മീനു ചേച്ചിയുടെ കല്യാണം. ഒരാഴ്ച മുൻപേ നാട്ടിലെ ആണുങ്ങൾ എല്ലാവരും ചേർന്ന് പന്തൽ കെട്ടാൻ തുടങ്ങി. ||
+- kitchen+night | still | night | amma:cook,happy ammachi:cook,happy | stove || കല്യാണത്തലേന്ന് രാത്രി. സ്ത്രീകൾ എല്ലാവരും ചേർന്ന് പച്ചക്കറി അരിയും. പാട്ടും തമാശയും. ||
+- yard+night+festive | zoom_in | night | kid:jump,happy friend:jump,happy girl:jump,happy || ഞങ്ങൾ കുട്ടികൾക്ക് ആ രാത്രി ഉറങ്ങേണ്ട. പന്തലിലെ ലൈറ്റുകൾക്കിടയിൽ ഓടിക്കളി. ||
+- yard+festive | still | wind | chechi:happy amma:happy kid:surprised || പിറ്റേന്ന് മീനു ചേച്ചി പട്ടുസാരിയിൽ. ഞാൻ ആദ്യമായി ചേച്ചിയെ അത്ര ഭംഗിയിൽ കണ്ടു. ||
+- yard+sunset | zoom_in | wind | chechi:sad,wave amma:sad kid:sad || വൈകുന്നേരം ചേച്ചി പോകുമ്പോൾ ഗ്രാമം മുഴുവൻ കരഞ്ഞു. സ്വന്തം വീട്ടിലെ കുട്ടി പോകുന്നത് പോലെ. ||
+- interior | pan_right | indoor | grownup:phone,sad || ഇന്ന് കല്യാണങ്ങൾ ഓഡിറ്റോറിയത്തിൽ. ഇവന്റ് മാനേജ്മെന്റ്. ഒരു മണിക്കൂറിൽ എല്ലാം കഴിയും. ||
+- yard+festive | zoom_out | wind | grownup:happy | photo:ammachi || അന്ന് ഒരു കല്യാണത്തിന് ഒരു നാട് മുഴുവൻ ഒരു കുടുംബമായിരുന്നു. ||
+
+### 84-puncture-shop
+title: പഞ്ചർ കടയിലെ കുഞ്ഞാപ്പു | Kunjappu of the Puncture Shop
+theme: The cycle repair man at the junction fixed every child's puncture for free and taught me how to fix it myself
+narrator: man
+caption: കവലയിലെ ആ സൈക്കിൾ റിപ്പയർ കട 🔧🚲\nനിങ്ങളുടെ നാട്ടിലും ഉണ്ടായിരുന്നോ ഇങ്ങനെ ഒരാൾ?
+tags: malayalam malayalamstory cycle repair village childhoodmemories kerala mallureels malayalamreels nostalgia
+- lane | zoom_in | wind | kid:walk,sad | bicycle:red || സ്കൂളിൽ നിന്ന് വരുമ്പോൾ സൈക്കിൾ പഞ്ചർ. ഞാൻ അത് തള്ളിക്കൊണ്ട് കവലയിലേക്ക് നടന്നു. ||
+- bus_stop | still | wind | uncle:talk,happy kid:sad | bicycle:red || കവലയിലെ ചെറിയ കടയിൽ കുഞ്ഞാപ്പു ചേട്ടൻ. കൈ മുഴുവൻ ഗ്രീസ്. മുഖത്ത് എപ്പോഴും ചിരി. || uncle: എന്താടാ, പിന്നെയും ആണി കേറിയോ?
+- bus_stop | zoom_in | wind | uncle:point,talk kid:surprised | bicycle:red || ട്യൂബ് വെള്ളത്തിൽ മുക്കി കുമിള വരുന്ന ഇടം കണ്ടുപിടിച്ചു. || uncle: നോക്ക്. ഇവിടെയാണ് ഓട്ട. ഇനി നീ തന്നെ ഒട്ടിച്ചോ.
+- bus_stop | still | wind | kid:happy uncle:happy | bicycle:red || അന്ന് ഞാൻ ആദ്യമായി പഞ്ചർ ഒട്ടിക്കാൻ പഠിച്ചു. ഞാൻ ഒരു മെക്കാനിക് ആയ പോലെ തോന്നി. ||
+- bus_stop | zoom_in | wind | kid:hold=money,talk uncle:happy | bicycle:red || പൈസ കൊടുക്കാൻ നോക്കിയപ്പോൾ കുഞ്ഞാപ്പു ചേട്ടൻ കൈ തട്ടി മാറ്റി. || uncle: കുട്ടികളുടെ കയ്യിൽ നിന്ന് ഞാൻ പൈസ വാങ്ങാറില്ല.
+- interior | pan_right | indoor | grownup:phone,sad || ഇന്ന് ഒരു ചെറിയ കാര്യത്തിന് സർവീസ് സെന്ററിൽ പോയാൽ ആയിരം രൂപ ബിൽ. ||
+- bus_stop | zoom_out | wind | grownup:happy kid:happy | bicycle:red || കഴിഞ്ഞ ആഴ്ച എന്റെ മകന്റെ സൈക്കിൾ പഞ്ചർ ആയി. ഞാൻ അവനെ ഒട്ടിക്കാൻ പഠിപ്പിച്ചു. ||
+
+### 85-gulf-suitcase
+title: ഗൾഫ് പെട്ടിയുടെ മണം | The Smell of the Gulf Suitcase
+theme: When Uncle came from the Gulf, opening his suitcase filled the house with the smell of perfume and Tang, and he shared it with the whole street
+narrator: man
+caption: ഗൾഫ് പെട്ടി തുറക്കുമ്പോഴുള്ള ആ മണം 🧳❤️\nഗൾഫ് കുടുംബങ്ങൾക്ക് ഇത് മനസ്സിലാകും
+tags: malayalam malayalamstory gulf pravasi suitcase uncle childhoodmemories kerala mallureels malayalamreels nostalgia
+- bus_stop | zoom_in | wind | uncle:walk,hold=bag,happy kid:jump,happy | bus || രണ്ട് വർഷത്തിന് ശേഷം മാമൻ ഗൾഫിൽ നിന്ന് വരുന്ന ദിവസം. ഒരു വലിയ പെട്ടിയുമായി. ||
+- interior | still | indoor | uncle:sit,happy kid:surprised girl:surprised amma:happy || പെട്ടി തുറക്കുന്ന നിമിഷം. എല്ലാവരും ചുറ്റും. ആ മണം. പെർഫ്യൂമിന്റെയും ചോക്ലേറ്റിന്റെയും ഒരു പ്രത്യേക മണം. ||
+- interior | zoom_in | indoor | uncle:hold=gift,happy kid:hold=gift,happy || എനിക്ക് ഒരു റിമോട്ട് കാർ, അനിയത്തിക്ക് ഒരു പാവ, അമ്മയ്ക്ക് ഒരു സാരി. ||
+- lane | pan_right | wind | kid:walk,hold=bag,happy girl:walk,happy || പിന്നെ ഞങ്ങൾ ചോക്ലേറ്റും ടാങ്ങ് പാക്കറ്റുകളുമായി എല്ലാ അയൽവീടുകളിലേക്കും. ആർക്കും കിട്ടാതെ പോകരുത്. ||
+- interior+night | still | night | uncle:sit,sad || രാത്രി എല്ലാവരും ഉറങ്ങിയപ്പോൾ മാമൻ ഒറ്റയ്ക്ക് വരാന്തയിൽ ഇരിക്കുന്നത് ഞാൻ കണ്ടു. ||
+- interior+night | zoom_in | night | uncle:talk kid:surprised || ഞാൻ ചോദിച്ചപ്പോൾ മാമൻ പറഞ്ഞു. || uncle: എല്ലാവർക്കും സമ്മാനം കൊണ്ടുവന്നു. പക്ഷേ ഈ രണ്ട് വർഷം ഒരിക്കലും തിരിച്ചു കൊണ്ടുവരാൻ പറ്റില്ലല്ലോ.
+- interior | zoom_out | indoor | grownup:happy uncle:happy || ഇന്ന് ഞാനും ഒരു പ്രവാസിയാണ്. ഓരോ തവണ പെട്ടി ഒരുക്കുമ്പോഴും മാമന്റെ ആ വാക്കുകൾ ഓർക്കും. ||
+
+### 86-ammachi-album
+title: അമ്മൂമ്മയുടെ ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ആൽബം | Ammachi's Black and White Album
+theme: One rainy afternoon Ammachi opened her old album and I discovered she was once a young girl who dreamed of being a teacher
+narrator: man
+caption: അമ്മൂമ്മയ്ക്കും ഉണ്ടായിരുന്നു ഒരു കൗമാരം, ഒരു സ്വപ്നം 📷❤️\nഅമ്മൂമ്മയോട് ഇന്ന് തന്നെ ചോദിക്കൂ
+tags: malayalam malayalamstory ammachi album oldphotos dreams kerala mallureels malayalamreels nostalgia
+- interior+rain | zoom_in | rain | ammachi:hold=book,happy kid:surprised || ഒരു മഴയുള്ള ഉച്ചയ്ക്ക് അമ്മൂമ്മ അലമാരയിൽ നിന്ന് ഒരു പഴയ ആൽബം എടുത്തു. ||
+- interior+rain | still | rain | ammachi:read,happy kid:read,surprised || കറുപ്പും വെളുപ്പും ഫോട്ടോകൾ. നീണ്ട മുടിയുള്ള ഒരു പെൺകുട്ടി പുസ്തകവുമായി ചിരിച്ചു നിൽക്കുന്നു. || kid: ഇത് ആരാ അമ്മൂമ്മേ?
+- interior+rain | zoom_in | rain | ammachi:talk,happy kid:surprised || അമ്മൂമ്മ നാണിച്ചു ചിരിച്ചു. || ammachi: അത് ഞാനാ. പതിനാറാം വയസ്സിൽ.
+- interior+rain | still | rain | ammachi:talk,sad kid:sad || അമ്മൂമ്മയുടെ കണ്ണുകളിൽ ഒരു നനവ്. || ammachi: എനിക്ക് ടീച്ചർ ആകണമെന്നായിരുന്നു മോഹം. പക്ഷേ പത്താം ക്ലാസ് കഴിഞ്ഞപ്പോൾ കല്യാണം കഴിഞ്ഞു.
+- interior+rain | zoom_in | rain | kid:talk ammachi:happy || ഞാൻ പറഞ്ഞു. || kid: അമ്മൂമ്മ എന്നെ അക്ഷരം പഠിപ്പിച്ചില്ലേ? അപ്പോ അമ്മൂമ്മ ടീച്ചർ തന്നെയാ!
+- classroom | pan_right | indoor | grownup:talk,happy kid:happy friend:happy | books || ഇന്ന് ഞാൻ ഒരു സ്കൂളിലെ അധ്യാപകനാണ്. ||
+- interior | zoom_out | indoor | grownup:hold=book,happy | photo:ammachi || എന്റെ മേശപ്പുറത്ത് ആ പെൺകുട്ടിയുടെ ഫോട്ടോ ഉണ്ട്. എന്റെ ആദ്യത്തെ ടീച്ചർ. ||
+
+### 87-first-job-bag
+title: ആദ്യ ജോലിക്ക് പോകുമ്പോൾ | Leaving for My First Job
+theme: The morning I left home for my first job in the city, Amma packed pickles, banana chips and her worries into my bag
+narrator: man
+caption: ആദ്യ ജോലിക്ക് പോകുമ്പോൾ അമ്മ ബാഗിൽ വെച്ച ആ അച്ചാർ കുപ്പി 🧳❤️\nവീട് വിട്ടവർക്ക് ഈ റീൽ
+tags: malayalam malayalamstory amma firstjob leavinghome kerala mallureels malayalamreels motherslove nostalgia
+- interior+night | zoom_in | night | amma:hold=bag,sad grownup:sad || ആദ്യ ജോലിക്ക് ബാംഗ്ലൂരിലേക്ക് പോകുന്നതിന്റെ തലേ രാത്രി. അമ്മ എന്റെ ബാഗ് ഒരുക്കുകയായിരുന്നു. ||
+- interior+night | still | night | amma:talk grownup:surprised || ബാഗിൽ ഉടുപ്പുകളേക്കാൾ കൂടുതൽ അച്ചാർ കുപ്പികൾ. || amma: അവിടത്തെ ഭക്ഷണം നിനക്ക് പിടിക്കില്ല. ഇത് വെച്ചോ.
+- interior+night | zoom_in | night | grownup:talk,sad amma:sad || ഞാൻ ചിരിച്ചു. || grownup: അമ്മേ, അവിടെ എല്ലാം കിട്ടും. ഇതൊന്നും വേണ്ട.
+- bus_stop | still | wind | amma:sad achan:sad grownup:hold=bag,sad | bus || രാവിലെ ബസ് സ്റ്റോപ്പിൽ അച്ഛനും അമ്മയും. അമ്മ ഒന്നും മിണ്ടിയില്ല. അച്ഛൻ എന്റെ തോളിൽ തട്ടി. ||
+- bus_stop | zoom_in | wind | amma:wave,sad achan:wave | bus || ബസ് നീങ്ങിയപ്പോൾ തിരിഞ്ഞു നോക്കി. അമ്മ സാരിത്തുമ്പ് കൊണ്ട് കണ്ണ് തുടയ്ക്കുന്നു. ||
+- night_room+night | pan_right | night | grownup:eat,sad || ബാംഗ്ലൂരിലെ ആദ്യ രാത്രി. ഹോസ്റ്റലിലെ ഭക്ഷണം. ഒന്നും ഇറങ്ങുന്നില്ല. ഞാൻ ബാഗ് തുറന്നു. ||
+- night_room+night | zoom_out | night | grownup:eat,happy | photo:amma || ആ അച്ചാറിന്റെ ആദ്യത്തെ രുചിയിൽ എനിക്ക് വീട്ടിൽ എത്തിയ പോലെ തോന്നി. അമ്മയ്ക്ക് എല്ലാം അറിയാമായിരുന്നു. ||
+
+### 88-grinding-stone
+title: അമ്മിക്കല്ലിലെ ചമ്മന്തി | Chutney on the Grinding Stone
+theme: Ammachi ground coconut chutney on the old stone every morning, refusing the new mixie, because the stone made it taste of patience
+narrator: man
+caption: അമ്മിക്കല്ലിൽ അരച്ച ചമ്മന്തിയുടെ രുചി 🥥❤️\nആ രുചി ഓർക്കുന്നവർ ലൈക്ക് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi chammanthi ammikkallu kitchen kerala mallureels malayalamreels nostalgia
+- kitchen | zoom_in | indoor | ammachi:cook,happy || എല്ലാ ദിവസവും രാവിലെ അടുക്കളയുടെ മൂലയിൽ ഒരു താളം. അമ്മൂമ്മ അമ്മിക്കല്ലിൽ ചമ്മന്തി അരയ്ക്കുന്നു. ||
+- kitchen | still | indoor | ammachi:cook,talk kid:happy || തേങ്ങ, കാന്താരി മുളക്, ഇഞ്ചി, ഒരു നുള്ള് ഉപ്പ്. ||
+- kitchen | zoom_in | indoor | achan:hold=gift,happy ammachi:surprised || ഒരു ദിവസം അച്ഛൻ ഒരു പുതിയ മിക്സി വാങ്ങിക്കൊണ്ടു വന്നു. || achan: അമ്മേ, ഇനി കഷ്ടപ്പെടണ്ട. ഇത് രണ്ട് മിനിറ്റിൽ അരയ്ക്കും.
+- kitchen | still | indoor | ammachi:cook,talk kid:surprised || അമ്മൂമ്മ അത് ഒരു മൂലയിൽ വെച്ചു. പിന്നെയും അമ്മിക്കല്ലിൽ തന്നെ. || ammachi: ഇതിന് ഒരു ക്ഷമയുടെ രുചിയുണ്ട് മോനേ. മെഷീന് അത് അറിയില്ല.
+- kitchen | zoom_in | indoor | kid:eat,happy ammachi:happy | table:dosa || ചൂട് ദോശയും ആ ചമ്മന്തിയും. ലോകത്തിലെ ഏറ്റവും നല്ല പ്രഭാതഭക്ഷണം. ||
+- kitchen | pan_right | indoor | grownup:cook,sad | stove || ഇന്ന് എന്റെ അടുക്കളയിൽ വിലകൂടിയ ഒരു മിക്സർ. ചമ്മന്തി രണ്ട് മിനിറ്റിൽ റെഡി. പക്ഷേ ആ രുചി ഇല്ല. ||
+- kitchen | zoom_out | indoor | grownup:happy | photo:ammachi || തറവാട്ടിലെ ആ അമ്മിക്കല്ല് ഇന്ന് എന്റെ വീട്ടിലുണ്ട്. ഞായറാഴ്ചകളിൽ ഞാൻ അതിൽ അരയ്ക്കും. ||
+
+### 89-wooden-bridge
+title: ചേച്ചിയുടെ കൈ പിടിച്ച് തടിപ്പാലത്തിലൂടെ | Across the Wooden Bridge with Chechi
+theme: Every day Chechi held my hand tightly while we crossed the narrow wooden bridge over the canal on the way to school
+narrator: man
+caption: ചേച്ചിയുടെ കൈ പിടിച്ച് കടന്ന ആ തടിപ്പാലം 🌉❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory chechi bridge school sister kerala mallureels malayalamreels nostalgia
+- paddy | zoom_in | wind | chechi:walk,hold=bag kid:walk,hold=bag || സ്കൂളിലേക്കുള്ള വഴിയിൽ ഒരു തോടുണ്ട്. അതിന് കുറുകെ രണ്ട് തെങ്ങിൻതടി കൊണ്ടുള്ള ഒരു പാലം. ||
+- paddy | still | wind | kid:sad chechi:talk || താഴെ ഒഴുകുന്ന വെള്ളം കണ്ട് എനിക്ക് എന്നും പേടിയായിരുന്നു. || chechi: എന്റെ കൈ പിടിച്ചോ. താഴേക്ക് നോക്കണ്ട. എന്നെ നോക്ക്.
+- paddy | zoom_in | wind | chechi:walk,happy kid:walk || ചേച്ചി മുന്നിൽ, ഞാൻ പിന്നിൽ. ചേച്ചിയുടെ കൈ മുറുകെ പിടിച്ച്. എല്ലാ ദിവസവും. ||
+- paddy+rain | still | rain | chechi:umbrella,walk kid:walk,wet || മഴക്കാലത്ത് പാലം വഴുക്കും. അപ്പോൾ ചേച്ചി എന്റെ ബാഗും കൂടി എടുക്കും. ||
+- school | zoom_in | wind | chechi:wave,happy kid:hold=bag,sad || ചേച്ചി ഹൈസ്കൂളിലേക്ക് പോയ വർഷം, ഞാൻ ആദ്യമായി ഒറ്റയ്ക്ക് ആ പാലം കടന്നു. ||
+- paddy | pan_right | wind | grownup:walk,happy || ഇന്ന് അവിടെ ഒരു കോൺക്രീറ്റ് പാലമാണ്. ആർക്കും ആരുടെയും കൈ പിടിക്കേണ്ട. ||
+- paddy+sunset | zoom_out | wind | grownup:phone,happy chechi:happy || ജീവിതത്തിൽ ഓരോ പേടിയുള്ള പാലം കടക്കുമ്പോഴും ഞാൻ ചേച്ചിയെ വിളിക്കും. "താഴേക്ക് നോക്കണ്ട, എന്നെ നോക്ക്." ||
+
+### 90-broken-window
+title: പൊട്ടിയ ജനൽച്ചില്ല് | The Broken Window
+theme: Our cricket ball broke the window of the grumpy old neighbour, and instead of scolding us he came out with the ball and a smile
+narrator: man
+caption: ക്രിക്കറ്റ് കളിച്ച് അയലത്തെ ജനൽ പൊട്ടിച്ചിട്ടുണ്ടോ? 🏏😂\nകൂട്ടുകാരെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory cricket friends neighbour childhoodmemories kerala mallureels malayalamreels nostalgia
+- yard | zoom_in | wind | kid:jump,happy friend:jump,happy || അവധിക്കാലം. മടലുകൊണ്ടുള്ള ബാറ്റ്, ഒരു പഴയ ടെന്നീസ് ബോൾ. മുറ്റത്ത് ഞങ്ങളുടെ ലോകകപ്പ്. ||
+- yard | still | wind | kid:point,surprised friend:surprised || ഞാൻ അടിച്ച ഒരു സിക്സ്! പന്ത് നേരെ പോയി ജനൽച്ചില്ലിൽ. ടപ്പ്! ||
+- yard | zoom_in | wind | kid:sad friend:sad || അത് ദേഷ്യക്കാരനായ മാധവൻ അപ്പൂപ്പന്റെ വീടായിരുന്നു. എല്ലാവരും ഓടി ഒളിച്ചു. ഞാൻ മാത്രം അനങ്ങാൻ പറ്റാതെ നിന്നു. ||
+- veranda | still | wind | appooppan:walk,hold=toy kid:sad || വാതിൽ തുറന്നു. അപ്പൂപ്പൻ കയ്യിൽ പന്തുമായി പുറത്തേക്ക് വന്നു. എന്റെ ഹൃദയം നിന്നു പോയി. ||
+- veranda | zoom_in | wind | appooppan:talk,happy kid:surprised || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: നല്ല ഷോട്ട്! ഞാനും നിന്റെ പ്രായത്തിൽ മൂന്ന് ജനൽ പൊട്ടിച്ചിട്ടുണ്ട്.
+- yard+sunset | pan_right | wind | appooppan:happy kid:jump,happy friend:jump,happy || അന്ന് മുതൽ അപ്പൂപ്പൻ ആയിരുന്നു ഞങ്ങളുടെ അമ്പയർ. ചില്ലിന്റെ പൈസ അച്ഛൻ കൊടുത്തപ്പോൾ അപ്പൂപ്പൻ വാങ്ങിയില്ല. ||
+- yard | zoom_out | wind | grownup:happy kid:jump,happy || ഇന്ന് എന്റെ വീടിന്റെ ജനലിലേക്ക് കുട്ടികളുടെ പന്ത് വന്നാൽ ഞാൻ ഒരിക്കലും ദേഷ്യപ്പെടില്ല. ||

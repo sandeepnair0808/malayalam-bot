@@ -16,9 +16,9 @@ from .storypack import parse
 
 # Substrings, matched case-insensitively against everything a viewer can see or hear.
 BLOCK_ML = [
-    "കൊല്ല", "കൊന്ന", "മരിച്ച", "മരണ", "ചോര", "രക്ത", "തല്ലി", "തല്ലു", "കുത്തി",
+    "കൊല്ലു", "കൊല്ലും", "കൊന്നു", "കൊന്നത്", "മരിച്ച", "മരണ", "ചോര", "രക്ത", "തല്ലി", "തല്ലു", "കുത്തിക്കൊ", "കുത്തിപ്പരിക്",
     "മദ്യ", "കള്ള്", "സിഗരറ്റ", "ബീഡി", "ലോട്ടറി", "ചൂതാട്ട", "പ്രേത", "ഭൂത", "യക്ഷി", "പിശാച",
-    "മണ്ടൻ", "പൊട്ടൻ", "കഴുത", "തെണ്ടി", "ശവ", "ആത്മഹത്യ", "തോക്ക്", "ബോംബ", "യുദ്ധ",
+    "മണ്ടൻ", "പൊട്ടൻ", "കഴുതേ", "കഴുതക്കുട്ടി", "തെണ്ടി", "ശവ", "ആത്മഹത്യ", "തോക്ക്", "ബോംബ", "യുദ്ധ",
     "ജാതി", "പാകിസ്ഥാൻ", "പാർട്ടി", "ഹർത്താൽ", "പോലീസ് പിടി", "ജയിൽ", "കറുമ്പ", "തടിയ",
 ]
 BLOCK_EN = [
@@ -37,24 +37,31 @@ def _visible_text(story) -> str:
     return "\n".join(parts)
 
 
-def check_story(slug: str, story, moral: str) -> list[str]:
+LOSS_OK = {"മരിച്ച", "മരണ", "dead", "death", "die", "dies", "died"}  # allowed in grown-up nostalgia
+
+
+def check_story(slug: str, story, moral: str, kids: bool = True) -> list[str]:
     problems = []
     text = _visible_text(story) + "\n" + moral
     low = text.lower()
     for w in BLOCK_ML:
+        if not kids and w in LOSS_OK:
+            continue
         if w in text:
             problems.append(f"blocked word {w!r}")
     for w in BLOCK_EN:
+        if not kids and w in LOSS_OK:
+            continue
         if re.search(rf"\b{re.escape(w)}s?\b", low):
             problems.append(f"blocked word {w!r}")
     for tag in story.hashtags:
         if tag.lower() in HASHTAG_BLOCK:
             problems.append(f"hashtag #{tag} not suitable for kids")
-    if not moral:
+    if kids and not moral:
         problems.append("missing 'moral:' line")
     if not 5 <= len(story.scenes) <= 9:
         problems.append(f"{len(story.scenes)} scenes (want 5-9)")
-    if story.scenes and not story.scenes[-1].narration_ml.startswith("ഗുണപാഠം"):
+    if kids and story.scenes and not story.scenes[-1].narration_ml.startswith("ഗുണപാഠം"):
         problems.append("last scene must state the moral (start with ഗുണപാഠം)")
     for i, sc in enumerate(story.scenes, 1):
         if len(sc.narration_ml) > MAX_NARRATION:
@@ -83,7 +90,7 @@ def morals(text: str) -> dict[str, str]:
     return out
 
 
-def lint(paths: list[Path], all_packs: list[Path] | None = None) -> dict[str, list[str]]:
+def lint(paths: list[Path], all_packs: list[Path] | None = None, kids: bool = True) -> dict[str, list[str]]:
     """Check kids packs. `all_packs` (default: every pack beside them) is used for uniqueness."""
     report: dict[str, list[str]] = {}
     seen_slug, seen_title, seen_moral = {}, {}, {}
@@ -93,7 +100,7 @@ def lint(paths: list[Path], all_packs: list[Path] | None = None) -> dict[str, li
         ms = morals(text)
         for slug, story in parse(text):
             key = f"{pack.name}:{slug}"
-            probs = check_story(slug, story, ms.get(slug, "")) if pack in paths else []
+            probs = check_story(slug, story, ms.get(slug, ""), kids) if pack in paths else []
             for table, value in ((seen_slug, slug), (seen_title, story.title_ml.strip()), (seen_moral, ms.get(slug))):
                 if value and value in table and table[value] != key:
                     probs.append(f"duplicate of {table[value]}: {value!r}")

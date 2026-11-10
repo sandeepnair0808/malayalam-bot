@@ -1,0 +1,139 @@
+### 91-ink-pen
+title: അഞ്ചാം ക്ലാസിലെ മഷിപ്പേന | The Fifth Standard Ink Pen
+theme: Achan gave me my first fountain pen when I reached fifth standard, and ink stains on my fingers became a badge of growing up
+narrator: man
+caption: മഷിപ്പേനയും വിരലിലെ ആ നീല മഷിക്കറയും 🖋️💙\nനിങ്ങളുടെ ആദ്യ പേന ഓർമ്മയുണ്ടോ?
+tags: malayalam malayalamstory inkpen school achan childhoodmemories kerala mallureels malayalamreels nostalgia
+- interior | zoom_in | indoor | achan:hold=gift,happy kid:surprised || അഞ്ചാം ക്ലാസിലേക്ക് ജയിച്ച ദിവസം അച്ഛൻ ഒരു ചെറിയ പെട്ടി തന്നു. ||
+- interior | still | indoor | kid:hold=book,happy achan:talk || അതിനകത്ത് ഒരു മഷിപ്പേന. || achan: ഇനി പെൻസിൽ വേണ്ട. നീ വലിയ കുട്ടിയായി.
+- interior | zoom_in | indoor | kid:read,surprised | books || ആദ്യമായി മഷി നിറച്ചപ്പോൾ കൈ മുഴുവൻ നീല. ഷർട്ടിലും ഒരു തുള്ളി. ||
+- classroom | still | indoor | kid:read,happy friend:surprised | books || ക്ലാസിൽ ഞാൻ ആ പേന കൊണ്ട് എന്റെ പേര് എഴുതി. ഓരോ അക്ഷരത്തിനും ഒരു പുതിയ ഭംഗി. ||
+- classroom | zoom_in | indoor | kid:talk,happy friend:happy || പേന ലീക്ക് ആയാൽ ഡെസ്കിൽ കുടഞ്ഞ് ശരിയാക്കും. വിരലിലെ മഷിക്കറ ഞാൻ അഭിമാനത്തോടെ കാണിക്കും. ||
+- interior | pan_right | indoor | grownup:phone,sad || ഇന്ന് ഒരു ദിവസം ഞാൻ ഒരു വാക്ക് പോലും കൈ കൊണ്ട് എഴുതുന്നില്ല. എല്ലാം കീബോർഡിൽ. ||
+- interior | zoom_out | indoor | grownup:read,happy | photo:achan || അച്ഛന്റെ ആ പഴയ പേന ഇന്നും എന്റെ മേശയിലുണ്ട്. പ്രധാനപ്പെട്ട എല്ലാ ഒപ്പുകളും അതുകൊണ്ടാണ്. ||
+
+### 92-army-trunk
+title: അച്ഛന്റെ പട്ടാളപ്പെട്ടി | Achan's Army Trunk
+theme: Achan served in the army far away, and every leave the black trunk arrived first, full of sweets and stories from the north
+narrator: man
+caption: അവധിക്ക് വരുന്ന പട്ടാളക്കാരനായ അച്ഛനെ കാത്തിരുന്ന ദിവസങ്ങൾ 🎖️❤️\nസൈനിക കുടുംബങ്ങൾക്ക് ഈ റീൽ
+tags: malayalam malayalamstory army achan soldier family kerala mallureels malayalamreels fatherslove nostalgia
+- interior | zoom_in | indoor | kid:read,happy amma:happy || അച്ഛൻ പട്ടാളത്തിലായിരുന്നു. വർഷത്തിൽ രണ്ട് മാസം മാത്രം വീട്ടിൽ. ആ രണ്ട് മാസമായിരുന്നു ഞങ്ങളുടെ ഓണം. ||
+- bus_stop | still | wind | achan:walk,hold=bag,happy kid:jump,happy amma:happy | bus || കറുത്ത ഒരു വലിയ ഇരുമ്പ് പെട്ടിയുമായി അച്ഛൻ ബസ്സിറങ്ങും. അതിൽ വെള്ള അക്ഷരത്തിൽ അച്ഛന്റെ പേര്. ||
+- interior | zoom_in | indoor | achan:sit,happy kid:surprised girl:surprised || പെട്ടി തുറന്നാൽ നിറയെ വടക്കേ ഇന്ത്യയിലെ മധുരപലഹാരങ്ങൾ. പിന്നെ ഒരു കമ്പിളി പുതപ്പ്. ||
+- interior+night | still | night | achan:talk,happy kid:sit,happy girl:sit,happy | kerosene_lamp || രാത്രി അച്ഛൻ മഞ്ഞുമലകളുടെയും ദൂരെയുള്ള നാടുകളുടെയും കഥ പറയും. ||
+- bus_stop | zoom_in | wind | achan:wave,sad kid:sad amma:sad | bus || രണ്ട് മാസം കഴിഞ്ഞ് അതേ പെട്ടിയുമായി അച്ഛൻ തിരിച്ചു പോകും. ആ പെട്ടി ഇത്തവണ ഭാരം കൂടും. അമ്മയുടെ അച്ചാറുകൾ. ||
+- interior | pan_right | indoor | grownup:hold=gift,happy achan:happy || ഇന്ന് അച്ഛൻ റിട്ടയർ ചെയ്ത് വീട്ടിലുണ്ട്. ആ പെട്ടി ഇപ്പോൾ വരാന്തയിൽ ഇരിപ്പിടമാണ്. ||
+- veranda | zoom_out | wind | achan:sit,happy grownup:sit,happy kid:sit,happy || എന്റെ മകൻ അതിൽ ഇരുന്ന് അപ്പൂപ്പന്റെ മഞ്ഞുമലക്കഥകൾ കേൾക്കുന്നു. ||
+
+### 93-ammachi-train
+title: അമ്മൂമ്മയുടെ ആദ്യ ട്രെയിൻ യാത്ര | Ammachi's First Train Ride
+theme: At seventy, Ammachi had never been on a train, so I took her on a short trip and she watched out the window like a child
+narrator: man
+caption: എഴുപതാം വയസ്സിൽ അമ്മൂമ്മയുടെ ആദ്യത്തെ ട്രെയിൻ യാത്ര 🚆❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi train firsttime grandmother kerala mallureels malayalamreels nostalgia
+- veranda | zoom_in | wind | ammachi:talk,sad grownup:surprised || ഒരു ദിവസം വർത്തമാനത്തിനിടയിൽ അമ്മൂമ്മ പറഞ്ഞു. || ammachi: എഴുപത് വയസ്സായി. ഇതുവരെ ട്രെയിനിൽ കയറിയിട്ടില്ല.
+- veranda | still | wind | grownup:talk,happy ammachi:surprised || അടുത്ത ഞായറാഴ്ച ഞാൻ രണ്ട് ടിക്കറ്റ് എടുത്തു. തൊട്ടടുത്ത സ്റ്റേഷൻ വരെ. ഒരു മണിക്കൂർ യാത്ര. ||
+- bus_stop | zoom_in | wind | ammachi:walk,happy grownup:walk,happy || അമ്മൂമ്മ ഏറ്റവും നല്ല സാരി ഉടുത്തു. പ്ലാറ്റ്ഫോമിൽ ട്രെയിൻ വരുന്നത് കണ്ടപ്പോൾ എന്റെ കൈ മുറുകെ പിടിച്ചു. ||
+- interior | still | indoor | ammachi:sit,surprised,point grownup:sit,happy || ജനലിനരികിലെ സീറ്റ്. അമ്മൂമ്മ പുറത്തേക്ക് തന്നെ നോക്കിയിരുന്നു. പാടങ്ങൾ, പുഴകൾ, പാലങ്ങൾ. ||
+- interior | zoom_in | indoor | ammachi:talk,happy grownup:happy || പെട്ടെന്ന് അമ്മൂമ്മ കൈ ചൂണ്ടി. || ammachi: നോക്ക് മോനേ, മരങ്ങൾ പിന്നിലേക്ക് ഓടുന്നു!
+- interior+close | still | indoor | ammachi:happy || ആ കണ്ണുകളിൽ ഞാൻ ഒരു കുട്ടിയെ കണ്ടു. ഞാൻ ആദ്യമായി ട്രെയിൻ കണ്ടപ്പോഴുള്ള അതേ കൗതുകം. ||
+- veranda | zoom_out | wind | ammachi:hug,happy grownup:hug,happy || അന്ന് രാത്രി അമ്മൂമ്മ എല്ലാവരോടും ആ കഥ പറഞ്ഞു. പത്ത് തവണ. ഓരോ തവണയും കൂടുതൽ സന്തോഷത്തോടെ. ||
+
+### 94-streetlight-study
+title: തെരുവുവിളക്കിന് താഴെ | Under the Street Light
+theme: My friend Suresh had no electricity at home, so he studied every night under the street light, and today he is a doctor
+narrator: man
+caption: തെരുവുവിളക്കിന്റെ വെളിച്ചത്തിൽ പഠിച്ച ആ കൂട്ടുകാരൻ 💡📚\nഈ കഥ ഷെയർ ചെയ്യൂ
+tags: malayalam malayalamstory friendship hardwork study inspiration kerala mallureels malayalamreels nostalgia
+- lane+night | zoom_in | night | friend:read,sit | books || രാത്രി ഒൻപത് മണി. കവലയിലെ തെരുവുവിളക്കിന് താഴെ ഒരു കുട്ടി പുസ്തകവുമായി ഇരിക്കുന്നു. എന്റെ കൂട്ടുകാരൻ സുരേഷ്. ||
+- lane+night | still | night | kid:walk,surprised friend:read | books || അവന്റെ വീട്ടിൽ കറന്റ് ഇല്ലായിരുന്നു. മണ്ണെണ്ണ വാങ്ങാൻ പോലും പൈസ ഇല്ലാത്ത ദിവസങ്ങൾ. ||
+- lane+night | zoom_in | night | kid:talk friend:talk,happy || ഞാൻ ചോദിച്ചു. || friend: കൊതുക് കടിക്കും. പക്ഷേ ഈ വെളിച്ചം സൗജന്യമാണല്ലോ!
+- lane+night | still | night | kid:read,happy friend:read,happy | books || പിന്നെ എല്ലാ രാത്രിയും ഞാനും പുസ്തകവുമായി അവിടെ പോയിരിക്കും. രണ്ടുപേർ ഒരു വിളക്ക്. ||
+- school | zoom_in | wind | teacher:talk,happy friend:happy kid:happy || പത്താം ക്ലാസിൽ സുരേഷിന് സ്കൂളിലെ ഏറ്റവും കൂടുതൽ മാർക്ക്. ഗ്രാമം മുഴുവൻ ആഘോഷിച്ചു. ||
+- interior | pan_right | indoor | grownup:phone,happy || ഇന്ന് സുരേഷ് ടൗണിലെ ആശുപത്രിയിലെ ഡോക്ടർ ആണ്. പാവപ്പെട്ടവരിൽ നിന്ന് ഫീസ് വാങ്ങാറില്ല. ||
+- lane+night | zoom_out | night | grownup:happy friend:happy || കഴിഞ്ഞ വർഷം സുരേഷ് ആ കവലയിൽ ഒരു ചെറിയ ലൈബ്രറി പണിതു. നല്ല വെളിച്ചമുള്ള ഒന്ന്. ||
+
+### 95-library-card
+title: വായനശാലയിലെ കാർഡ് | My Library Card
+theme: Achan took me to the village library and got me my own membership card, the first thing in my life with my name printed on it
+narrator: man
+caption: ഗ്രാമത്തിലെ വായനശാലയും ആ ചെറിയ മെമ്പർഷിപ്പ് കാർഡും 📚❤️\nവായനശാല ഓർക്കുന്നവർ ഇവിടെ
+tags: malayalam malayalamstory library reading achan childhoodmemories kerala mallureels malayalamreels nostalgia
+- lane | zoom_in | wind | achan:walk kid:walk,happy || ഏഴ് വയസ്സായപ്പോൾ അച്ഛൻ എന്നെ ഗ്രാമത്തിലെ വായനശാലയിലേക്ക് കൊണ്ടുപോയി. ||
+- interior | still | indoor | uncle:talk,hold=book achan:happy kid:surprised | books || ലൈബ്രേറിയൻ ചേട്ടൻ ഒരു മഞ്ഞ കാർഡിൽ എന്റെ പേര് എഴുതി. || uncle: ഇനി ഇവൻ നമ്മുടെ മെമ്പർ ആണ്.
+- interior | zoom_in | indoor | kid:hold=book,happy | books || എന്റെ പേരുള്ള ആദ്യത്തെ കാർഡ്! ഞാൻ അതിനെ ഒരു നിധി പോലെ സൂക്ഷിച്ചു. ||
+- interior | still | indoor | kid:read,happy | books || എല്ലാ ശനിയാഴ്ചയും രണ്ട് പുസ്തകങ്ങൾ. ബാലരമ, പൂമ്പാറ്റ, പിന്നെ വലിയ കഥാപുസ്തകങ്ങൾ. ||
+- night_room+night | zoom_in | night | kid:read,happy amma:talk | kerosene_lamp || രാത്രി ഉറങ്ങാതെ വായിക്കും. അമ്മ വിളക്ക് കെടുത്താൻ വരുമ്പോൾ പുതപ്പിനടിയിൽ ഒളിപ്പിക്കും. ||
+- interior | pan_right | indoor | grownup:read,happy | books || ഇന്ന് ഞാൻ ഒരു എഴുത്തുകാരനാണ്. എന്റെ ആദ്യത്തെ പുസ്തകം ആ വായനശാലയിലെ ഷെൽഫിലുണ്ട്. ||
+- interior | zoom_out | indoor | grownup:hold=book,happy | photo:achan || ആ മഞ്ഞ കാർഡ് ഇന്നും എന്റെ പേഴ്സിലുണ്ട്. എന്റെ ജീവിതം തുടങ്ങിയത് അവിടെ നിന്നാണ്. ||
+
+### 96-ice-stick-man
+title: കോലൈസ് വണ്ടി | The Ice Stick Cart
+theme: The afternoon bell of the ice stick seller's bicycle, the fifty paisa orange ice, and sharing one between three friends
+narrator: man
+caption: ആ മണി കേട്ടാൽ ഓടുമായിരുന്നു... കോലൈസ് 🍦🔔\n90s കിഡ്സ് ഇവിടെ കമന്റ് ചെയ്യൂ
+tags: malayalam malayalamstory icecream summer friends 90skids kerala mallureels malayalamreels nostalgia
+- yard | zoom_in | wind | kid:surprised friend:surprised || വേനലവധിയിലെ ഉച്ച. പെട്ടെന്ന് ഒരു മണിയടി ശബ്ദം. ടിങ് ടിങ്! ||
+- lane | still | wind | uncle:walk,happy kid:jump,happy friend:jump,happy | bicycle || കോലൈസ് മാമൻ! സൈക്കിളിന് പിന്നിൽ ഒരു നീല പെട്ടി. ഞങ്ങൾ എല്ലാവരും ഓടി. ||
+- lane | zoom_in | wind | kid:hold=money,sad friend:sad || പക്ഷേ ഞങ്ങൾ മൂന്നുപേരുടെയും കയ്യിൽ ആകെ അൻപത് പൈസ. ഒരു കോലൈസിന് മാത്രം. ||
+- lane | still | wind | uncle:hold=laddu,happy kid:happy | bicycle || ഒരു ഓറഞ്ച് കോലൈസ് വാങ്ങി. മൂന്നുപേരും മാറി മാറി ഓരോ കടി. ഒരു തുള്ളി പോലും താഴെ പോയില്ല. ||
+- lane | zoom_in | wind | uncle:talk,happy kid:surprised friend:surprised | bicycle || മാമൻ ചിരിച്ചു കൊണ്ട് രണ്ടെണ്ണം കൂടി തന്നു. || uncle: ഇത് ഫ്രീ. പക്ഷേ ആരോടും പറയല്ലേ!
+- interior | pan_right | indoor | grownup:eat,sad || ഇന്ന് മാളിലെ ഐസ്ക്രീം പാർലറിൽ ഇരുനൂറ് രൂപയുടെ ഐസ്ക്രീം. പകുതി കഴിച്ചു കളയും. ||
+- yard | zoom_out | wind | grownup:happy friend:happy || ആ മൂന്നുപേർ പങ്കിട്ട അൻപത് പൈസയുടെ കോലൈസിനായിരുന്നു ലോകത്തിലെ ഏറ്റവും മധുരം. ||
+
+### 97-amma-signs-name
+title: അമ്മ സ്വന്തം പേര് എഴുതിയ ദിവസം | The Day Amma Wrote Her Name
+theme: Amma never went to school, so one summer I taught her to write her name, and she signed the bank form herself for the first time
+narrator: man
+caption: അമ്മയെ സ്വന്തം പേര് എഴുതാൻ പഠിപ്പിച്ച ആ വേനലവധി ✍️❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma learning signature motherslove kerala mallureels malayalamreels nostalgia
+- bus_stop | zoom_in | wind | amma:sad kid:surprised || ബാങ്കിൽ ഒരു ഫോം. ഒപ്പിടാൻ പറഞ്ഞപ്പോൾ അമ്മ പതുക്കെ വിരലടയാളം പതിച്ചു. ||
+- bus_stop | still | wind | amma:sad kid:sad || അമ്മ സ്കൂളിൽ പോയിട്ടില്ല. ആ നിമിഷം അമ്മയുടെ മുഖത്ത് ഞാൻ ഒരു ചെറിയ വിഷമം കണ്ടു. ||
+- interior+night | zoom_in | night | kid:talk,hold=book amma:surprised | kerosene_lamp || അന്ന് രാത്രി ഞാൻ എന്റെ സ്ലേറ്റ് എടുത്തു. || kid: അമ്മേ, വാ. ഞാൻ പഠിപ്പിക്കാം.
+- interior+night | still | night | amma:read,happy kid:read,happy | kerosene_lamp || ആ വേനലവധി മുഴുവൻ എല്ലാ രാത്രിയും. "അ", "മ്മ"... പിന്നെ അമ്മയുടെ പേര്. "ശാരദ". ||
+- interior+night+close | zoom_in | night | amma:happy | kerosene_lamp || ഒടുവിൽ ഒരു ദിവസം അമ്മ ഒറ്റയ്ക്ക് സ്വന്തം പേര് എഴുതി. അമ്മ ആ സ്ലേറ്റ് നോക്കി ചിരിച്ചു. ||
+- bus_stop | pan_right | wind | amma:hold=book,happy kid:happy || അടുത്ത തവണ ബാങ്കിൽ പോയപ്പോൾ അമ്മ പേന വാങ്ങി, പതുക്കെ, ശ്രദ്ധയോടെ ഒപ്പിട്ടു. ||
+- interior | zoom_out | indoor | grownup:hold=book,happy amma:happy || അമ്മ എന്നെ എല്ലാം പഠിപ്പിച്ചു. ഞാൻ അമ്മയെ ഒരു പേര് മാത്രം. പക്ഷേ അന്നത്തെ ആ ചിരിയാണ് എന്റെ ഏറ്റവും വലിയ നേട്ടം. ||
+
+### 98-cousin-books
+title: ചേട്ടന്റെ പഴയ പുസ്തകങ്ങൾ | My Cousin's Old Books
+theme: Every June I got my older cousin's used textbooks, full of his notes and doodles, and they taught me more than the lessons
+narrator: man
+caption: ചേട്ടന്റെ പഴയ പുസ്തകത്തിലെ ആ കുറിപ്പുകൾ 📖✏️\nനിങ്ങൾക്കും കിട്ടിയിട്ടുണ്ടോ ഇങ്ങനെ?
+tags: malayalam malayalamstory books cousin school childhoodmemories kerala mallureels malayalamreels nostalgia
+- interior | zoom_in | indoor | friend:hold=book,happy kid:surprised | books || എല്ലാ ജൂണിലും അയലത്തെ കസിൻ ചേട്ടൻ ഒരു കെട്ട് പഴയ പുസ്തകങ്ങൾ കൊണ്ടുവരും. ചേട്ടന്റെ കഴിഞ്ഞ വർഷത്തെ പുസ്തകങ്ങൾ. ||
+- interior | still | indoor | kid:read,sad | books || ആദ്യം എനിക്ക് വിഷമമായിരുന്നു. എല്ലാവർക്കും പുതിയ പുസ്തകം. എനിക്ക് പഴയത്. ||
+- interior | zoom_in | indoor | kid:read,surprised | books || പക്ഷേ പേജുകൾ മറിച്ചപ്പോൾ അത്ഭുതം. അരികിൽ ചേട്ടന്റെ കുറിപ്പുകൾ. "ഇത് പരീക്ഷയ്ക്ക് വരും!" "ഈ കണക്ക് എളുപ്പമാണ്." ||
+- interior+close | still | indoor | kid:read,happy | books || ചില പേജുകളിൽ ചേട്ടൻ വരച്ച ചെറിയ കാർട്ടൂണുകൾ. പഠിക്കുമ്പോൾ ഞാൻ ഒറ്റയ്ക്ക് ചിരിക്കും. ||
+- classroom | zoom_in | indoor | kid:read,happy teacher:happy | books || ചേട്ടൻ "ഇത് വരും" എന്ന് എഴുതിയ ചോദ്യങ്ങൾ എല്ലാം പരീക്ഷയ്ക്ക് വന്നു! ||
+- interior | pan_right | indoor | grownup:read,happy kid:read,happy | books || ഇന്ന് എന്റെ മകന് പുതിയ പുസ്തകങ്ങൾ. പക്ഷേ ഞാൻ അതിന്റെ അരികിൽ കുറിപ്പുകൾ എഴുതി കൊടുക്കും. ||
+- interior | zoom_out | indoor | grownup:happy kid:happy | books || ഒരു പഴയ പുസ്തകം ഒരു ചേട്ടന്റെ സ്നേഹവും കൂടി കൊണ്ടുവരുന്നുണ്ട് എന്ന് അന്ന് ഞാൻ അറിഞ്ഞില്ല. ||
+
+### 99-radio-cricket
+title: റേഡിയോയിലെ അവസാന ഓവർ | The Last Over on the Radio
+theme: The whole family crowded around Achan's transistor radio for the last over of a cricket match, holding their breath
+narrator: man
+caption: റേഡിയോയിൽ ക്രിക്കറ്റ് കമന്ററി കേട്ട ആ കാലം 📻🏏\nഓർമ്മയുണ്ടോ ആ ആവേശം?
+tags: malayalam malayalamstory cricket radio commentary achan childhoodmemories kerala mallureels malayalamreels nostalgia
+- veranda | zoom_in | wind | achan:sit,happy kid:sit,happy | radio || ക്രിക്കറ്റ് മത്സരമുള്ള ദിവസം അച്ഛന്റെ ചെറിയ ട്രാൻസിസ്റ്റർ റേഡിയോ ആയിരുന്നു വീട്ടിലെ താരം. ||
+- veranda | still | wind | achan:sit kid:sit friend:sit uncle:sit | radio || അയലത്തെ ചേട്ടന്മാരും വരും. എല്ലാവരും ആ റേഡിയോയ്ക്ക് ചുറ്റും. കമന്റേറ്ററുടെ ശബ്ദം മാത്രം. ||
+- veranda | zoom_in | wind | achan:surprised kid:surprised uncle:surprised | radio || അവസാനത്തെ ഓവർ. ജയിക്കാൻ ആറ് റൺസ്. പെട്ടെന്ന് റേഡിയോയിൽ ഒരു കരകരപ്പ്. സിഗ്നൽ പോയി! ||
+- veranda | still | wind | achan:hold=gift,talk kid:surprised | radio || അച്ഛൻ റേഡിയോ ഉയർത്തിപ്പിടിച്ച് മുറ്റം മുഴുവൻ നടന്നു. ആന്റിന തിരിച്ചു. || achan: ഇവിടെ... ഇല്ല, ഇവിടെ!
+- veranda | zoom_in | wind | achan:jump,happy kid:jump,happy uncle:jump,happy friend:jump,happy | radio || ഒടുവിൽ ശബ്ദം തിരിച്ചു വന്നു. "സിക്സർ! ഇന്ത്യ ജയിച്ചു!" എല്ലാവരും ഒരുമിച്ച് ആർത്തുവിളിച്ചു. ||
+- interior | pan_right | indoor | grownup:phone,sad || ഇന്ന് ഫോണിൽ ലൈവ് സ്കോർ. എല്ലാ ബോളും എച്ച്ഡിയിൽ. ഒറ്റയ്ക്ക് കാണുന്നു. ||
+- veranda | zoom_out | wind | achan:happy grownup:happy | radio || കഴിഞ്ഞ ലോകകപ്പ് ഫൈനൽ ഞാൻ അച്ഛനോടൊപ്പം ആ പഴയ റേഡിയോയിൽ കേട്ടു. അതേ ആവേശം. ||
+
+### 100-last-day-tharavadu
+title: തറവാട്ടിലെ അവസാന ദിവസം | The Last Day at the Tharavadu
+theme: Before the old family house was sold, all the cousins came back for one last day, one last meal, and one last photo on the steps
+narrator: man
+caption: തറവാട് വിട്ടു പോകുന്ന ആ ദിവസം 🏡💔\nനിങ്ങളുടെ തറവാടിന്റെ ഓർമ്മ കമന്റ് ചെയ്യൂ
+tags: malayalam malayalamstory tharavadu family cousins memories kerala mallureels malayalamreels nostalgia
+- yard | zoom_in | wind | grownup:walk,sad | mango_tree || അവസാനം തറവാട് വിൽക്കാൻ തീരുമാനിച്ചു. ആരും ഇവിടെ താമസിക്കാനില്ലാത്തത് കൊണ്ട്. ||
+- yard | still | wind | grownup:happy chechi:happy uncle:happy || അതിന് മുൻപ് ഒരു ദിവസം എല്ലാവരും വന്നു. ദുബായിൽ നിന്ന്, ബാംഗ്ലൂരിൽ നിന്ന്, ഡൽഹിയിൽ നിന്ന്. ||
+- kitchen | zoom_in | indoor | chechi:cook,happy grownup:happy | stove || അവസാനമായി ആ പഴയ അടുക്കളയിൽ ഒരു സദ്യ. അമ്മൂമ്മയുടെ രുചിക്കൂട്ട് ഓർത്തെടുത്ത് എല്ലാവരും ചേർന്ന് ഉണ്ടാക്കി. ||
+- veranda | still | wind | grownup:eat,happy chechi:eat,happy uncle:eat,happy | table:sadya || വരാന്തയിൽ ഇരുന്ന് ഓർമ്മകൾ. മാവിൽ നിന്ന് വീണതും, കിണറ്റിൽ ഒച്ചയിട്ടതും, ഓണത്തിലെ ഊഞ്ഞാലും. എല്ലാവരും ചിരിച്ചു, കരഞ്ഞു. ||
+- veranda+sunset | zoom_in | wind | grownup:happy chechi:happy uncle:happy | photo:ammachi || വൈകുന്നേരം പടിയിൽ എല്ലാവരും ചേർന്ന് ഒരു ഫോട്ടോ. പഴയ ഫോട്ടോയിലെ അതേ സ്ഥാനത്ത്, അതേ ക്രമത്തിൽ. ||
+- lane+sunset | pan_left | wind | grownup:walk,sad || ഗേറ്റ് അടച്ച് പുറത്തിറങ്ങുമ്പോൾ ഞാൻ ഒരിക്കൽ കൂടി തിരിഞ്ഞു നോക്കി. ||
+- yard+sunset | zoom_out | wind | grownup:sad | mango_tree || വീട് വിറ്റു പോകും. പക്ഷേ തറവാട് ഒരു വീടല്ല. ഞങ്ങളുടെ ഉള്ളിൽ അത് എന്നും ഉണ്ടാകും. ||

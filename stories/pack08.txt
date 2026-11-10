@@ -1,0 +1,139 @@
+### 71-photo-studio
+title: സ്റ്റുഡിയോയിലെ ഫാമിലി ഫോട്ടോ | The Studio Family Photo
+theme: The once-a-year trip to the town studio for a family photo, everyone stiff and serious, and the one photo where Achan is smiling
+narrator: man
+caption: സ്റ്റുഡിയോയിൽ പോയി എടുത്ത ആ ഫാമിലി ഫോട്ടോ 📸❤️\nനിങ്ങളുടെ വീട്ടിലും ഉണ്ടോ ഇങ്ങനെ ഒന്ന്?
+tags: malayalam malayalamstory photo studio family childhoodmemories kerala mallureels malayalamreels nostalgia
+- interior | zoom_in | indoor | amma:happy kid:happy chechi:happy || വർഷത്തിൽ ഒരിക്കൽ, ഓണത്തിന് മുൻപ്, ടൗണിലെ സ്റ്റുഡിയോയിൽ പോയി ഫാമിലി ഫോട്ടോ എടുക്കും. എല്ലാവരും പുതിയ ഉടുപ്പിൽ. ||
+- interior | still | indoor | achan:sit amma:sit kid:surprised chechi:surprised | chair || ഫോട്ടോഗ്രാഫർ ചേട്ടൻ എല്ലാവരെയും ഇരുത്തും. ഒരു വലിയ കറുത്ത തുണിക്കടിയിൽ ക്യാമറ. ||
+- interior | zoom_in | indoor | uncle:talk,point kid:surprised || ഫോട്ടോഗ്രാഫർ കൈ ഉയർത്തി. || uncle: അനങ്ങല്ലേ... ഇങ്ങോട്ട് നോക്ക്... ചിരിക്ക്!
+- interior+close | still | indoor | achan:surprised || ഫ്ലാഷ് മിന്നിയപ്പോൾ എല്ലാവരും കണ്ണ് ചിമ്മി. അച്ഛൻ മാത്രം ഗൗരവത്തിൽ. ||
+- interior | zoom_in | indoor | achan:hold=gift,happy kid:hold=gift,happy | photo:achan || രണ്ടാഴ്ച കഴിഞ്ഞ് ഫോട്ടോ കിട്ടിയപ്പോൾ എല്ലാവരും ചിരിച്ചു. ഫ്രെയിം ചെയ്ത് ചുമരിൽ തൂക്കി. ||
+- interior | pan_right | indoor | grownup:phone,happy || ഇന്ന് എന്റെ ഫോണിൽ പതിനായിരം ഫോട്ടോകൾ. ഒന്നു പോലും ഞാൻ പ്രിന്റ് ചെയ്തിട്ടില്ല. ||
+- interior | zoom_out | indoor | grownup:happy | photo:achan || പക്ഷേ ചുമരിലെ ആ ഒരു ഫോട്ടോ ആണ് എന്റെ ഏറ്റവും വിലപ്പെട്ട ആൽബം. ||
+
+### 72-achan-scooter
+title: അച്ഛന്റെ സ്കൂട്ടർ | Achan's Scooter
+theme: Standing in front of Achan on his old scooter, the tilt to start it, and the feeling of wind in my face
+narrator: man
+caption: അച്ഛന്റെ സ്കൂട്ടറിന്റെ മുന്നിൽ നിന്നുള്ള ആ യാത്ര 🛵❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan scooter ride childhoodmemories kerala mallureels malayalamreels fatherslove
+- yard | zoom_in | wind | achan:happy kid:jump,happy || വീട്ടിലെ ഏറ്റവും വലിയ സ്വത്ത് അച്ഛന്റെ പഴയ സ്കൂട്ടർ ആയിരുന്നു. ||
+- yard | still | wind | achan:talk kid:surprised || സ്റ്റാർട്ട് ആകാൻ അച്ഛൻ അതിനെ ഒരു വശത്തേക്ക് ചരിക്കും. പിന്നെ മൂന്ന് തവണ ചവിട്ടും. || achan: ഇന്ന് മൂഡ് ഇല്ലെന്ന് തോന്നുന്നു!
+- lane | zoom_in | wind | achan:happy kid:happy || സ്റ്റാർട്ട് ആയാൽ ഞാൻ മുന്നിൽ നിൽക്കും. അച്ഛന്റെ രണ്ട് കൈകൾക്കുമിടയിൽ. ||
+- lane | pan_right | wind | achan:happy kid:happy,wave || മുഖത്ത് തണുത്ത കാറ്റ്. വഴിയിലെ എല്ലാവരെയും ഞാൻ കൈ വീശി കാണിക്കും. ലോകത്തിന്റെ രാജാവ് ഞാനായിരുന്നു. ||
+- lane+rain | still | rain | achan:umbrella,wet kid:happy || മഴ പെയ്താൽ അച്ഛൻ നനയും. പക്ഷേ എന്നെ റെയിൻകോട്ടിനകത്ത് ഒളിപ്പിച്ചു പിടിക്കും. ||
+- yard | zoom_in | indoor | grownup:sad | photo:achan || ഇന്ന് എന്റെ കാറിൽ എസി ഉണ്ട്, പാട്ടുണ്ട്. പക്ഷേ ആ കാറ്റില്ല. ||
+- lane | zoom_out | wind | grownup:happy kid:happy,wave || ഇന്നലെ എന്റെ മകനെ സ്കൂട്ടറിൽ മുന്നിൽ നിർത്തി ഒരു റൗണ്ട് പോയി. അവനും കൈ വീശി. ||
+
+### 73-oil-bath
+title: ഞായറാഴ്ചത്തെ എണ്ണതേച്ചു കുളി | The Sunday Oil Bath
+theme: Every Sunday Ammachi rubbed warm coconut oil into my hair and bathed me with hot water and herbal powder, no matter how I protested
+narrator: man
+caption: അമ്മൂമ്മയുടെ എണ്ണതേച്ചു കുളിയും താളിയും 🥥💆\nഓർമ്മയുണ്ടോ ആ ഞായറാഴ്ചകൾ?
+tags: malayalam malayalamstory ammachi oilbath sunday childhoodmemories kerala mallureels malayalamreels nostalgia
+- yard | zoom_in | wind | kid:walk,sad ammachi:talk || ഞായറാഴ്ച രാവിലെ ഒളിച്ചോടാൻ നോക്കിയാലും അമ്മൂമ്മ പിടിച്ചിരിക്കും. || ammachi: വാ, ഇന്ന് എണ്ണതേച്ചു കുളി.
+- veranda | still | wind | ammachi:sit,happy kid:sit,sad || വരാന്തയിലെ സ്റ്റൂളിൽ ഇരുത്തി, ചൂടാക്കിയ വെളിച്ചെണ്ണ തലയിൽ തേച്ചു പിടിപ്പിക്കും. ||
+- veranda+close | zoom_in | wind | kid:happy || ആദ്യം ദേഷ്യം വരും. പിന്നെ ആ വിരലുകളുടെ തലോടലിൽ കണ്ണടഞ്ഞു പോകും. ||
+- yard | still | wind | ammachi:talk kid:surprised || പിന്നെ ചെമ്പരത്തി താളിയും ചൂടുവെള്ളവും. കണ്ണിൽ പോയാൽ ഞാൻ ഉറക്കെ കരയും. || ammachi: കണ്ണടച്ചോ, കഴിഞ്ഞു കഴിഞ്ഞു!
+- kitchen | zoom_in | indoor | kid:eat,happy ammachi:happy | table:rice || കുളി കഴിഞ്ഞാൽ നല്ല വിശപ്പ്. അമ്മൂമ്മ ഉണ്ടാക്കിയ ചൂട് കഞ്ഞിയും ചമ്മന്തിയും. പിന്നെ ഒരു ഉഗ്രൻ ഉച്ചയുറക്കം. ||
+- interior | pan_right | indoor | grownup:sad || ഇന്ന് സലൂണിൽ പോയി ആയിരം രൂപയുടെ ഹെഡ് മസാജ് ചെയ്യുന്നു. ഒന്നും തോന്നാറില്ല. ||
+- veranda | zoom_out | wind | grownup:happy | photo:ammachi || ലോകത്തിലെ ഏറ്റവും നല്ല സ്പാ അമ്മൂമ്മയുടെ വരാന്തയായിരുന്നു. ||
+
+### 74-goli-champion
+title: ഗോലി ചാമ്പ്യൻ | The Marble Champion
+theme: I was the marble champion of the village with a tin full of won marbles, but gave my lucky blue marble to a crying younger boy
+narrator: man
+caption: ഗോലി കളിച്ചു നടന്ന ആ കാലം 🔵⚪\nനിങ്ങളായിരുന്നോ നിങ്ങളുടെ നാട്ടിലെ ചാമ്പ്യൻ?
+tags: malayalam malayalamstory goli marbles games childhoodmemories kerala mallureels malayalamreels nostalgia
+- yard | zoom_in | wind | kid:point,happy friend:sad || ഗ്രാമത്തിലെ ഗോലി ചാമ്പ്യൻ ഞാനായിരുന്നു. ഒരു ഉന്നം പോലും തെറ്റില്ല. ||
+- interior | still | indoor | kid:hold=gift,happy || ജയിച്ച ഗോലികൾ എല്ലാം ഒരു പഴയ പൗഡർ ടിന്നിൽ സൂക്ഷിച്ചു. കുലുക്കുമ്പോൾ എന്തൊരു ശബ്ദം! ||
+- interior+close | zoom_in | indoor | kid:happy || അതിൽ ഏറ്റവും പ്രിയപ്പെട്ടത് ഒരു നീല ഗോലി. അതാണ് എന്റെ ഭാഗ്യ ഗോലി. ||
+- yard | still | wind | friend:sad,cry kid:surprised || ഒരു ദിവസം ഒരു കുഞ്ഞു പയ്യൻ എല്ലാ ഗോലികളും തോറ്റ് കരഞ്ഞു കൊണ്ട് നിന്നു. ||
+- yard | zoom_in | wind | kid:talk,hold=gift friend:surprised || ഞാൻ ആ നീല ഗോലി അവന്റെ കയ്യിൽ വെച്ചു കൊടുത്തു. || kid: ഇത് ഭാഗ്യ ഗോലിയാ. ഇതുമായി കളിച്ചാൽ നീ ജയിക്കും.
+- interior | pan_right | indoor | grownup:phone,surprised || വർഷങ്ങൾക്ക് ശേഷം ഫേസ്ബുക്കിൽ ഒരു മെസേജ്. ആ പയ്യൻ. ഒരു ഫോട്ടോയും. ||
+- interior | zoom_out | indoor | grownup:phone,happy || ഫോട്ടോയിൽ അവന്റെ മകന്റെ കയ്യിൽ ആ നീല ഗോലി. "ഇത് ഭാഗ്യ ഗോലിയാ" എന്ന് അവനും പറഞ്ഞു കൊടുത്തിട്ടുണ്ടത്രേ. ||
+
+### 75-first-mobile
+title: വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ | The First Mobile Phone at Home
+theme: When the first mobile phone came home, the whole family took turns with it, saved every number, and played the snake game
+narrator: man
+caption: വീട്ടിലെ ആദ്യത്തെ ആ ചെറിയ മൊബൈൽ ഫോൺ 📱😂\nസ്നേക്ക് ഗെയിമിലെ നിങ്ങളുടെ ഹൈ സ്കോർ എത്ര?
+tags: malayalam malayalamstory mobile phone 2000s childhoodmemories kerala mallureels malayalamreels nostalgia
+- interior | zoom_in | indoor | achan:phone,happy amma:surprised kid:surprised chechi:surprised || ഒരു ദിവസം അച്ഛൻ ഒരു ചെറിയ പെട്ടിയുമായി വന്നു. വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ ഫോൺ! ||
+- interior | still | indoor | achan:phone,talk amma:happy || ആദ്യത്തെ കോൾ അമ്മൂമ്മയ്ക്ക്. എല്ലാവരും ചുറ്റും നിന്നു. || achan: അമ്മേ, കേൾക്കാമോ? മൊബൈലിൽ നിന്നാ വിളിക്കുന്നത്!
+- interior | zoom_in | indoor | chechi:phone,happy kid:surprised || ചേച്ചി എല്ലാ നമ്പറുകളും സേവ് ചെയ്തു. ഓരോന്നിനും ഓരോ റിംഗ്ടോൺ. ||
+- interior | still | indoor | kid:phone,happy chechi:talk || എന്റെ ലക്ഷ്യം വേറെയായിരുന്നു. സ്നേക്ക് ഗെയിം! || chechi: ബാറ്ററി തീർക്കല്ലേടാ!
+- interior+night | zoom_in | night | achan:phone,happy kid:happy | kerosene_lamp || രാത്രി ഫോൺ ചാർജിൽ ഇടുമ്പോൾ അതിനെ ഒരു കുഞ്ഞിനെ പോലെ എല്ലാവരും നോക്കിയിരുന്നു. ||
+- interior | pan_right | indoor | grownup:phone kid:phone girl:phone chechi:phone || ഇന്ന് വീട്ടിൽ എല്ലാവരുടെ കയ്യിലും ഫോൺ. ഒരേ മുറിയിൽ ഇരുന്ന് വാട്ട്സ്ആപ്പിൽ സംസാരിക്കുന്നു. ||
+- interior | zoom_out | indoor | grownup:happy kid:happy girl:happy || അന്ന് ഒരു ഫോണിന് ചുറ്റും ഒരു കുടുംബം. ഇന്ന് ഓരോരുത്തർക്കും ചുറ്റും ഓരോ ഫോൺ. ||
+
+### 76-tuition-master
+title: ട്യൂഷൻ മാഷ് | The Tuition Master
+theme: The strict tuition master on his bicycle, who scolded everyone but quietly paid the fees of a poor student
+narrator: man
+caption: കണക്ക് പഠിപ്പിച്ച ആ ട്യൂഷൻ മാഷ് 📐❤️\nനിങ്ങളുടെ ട്യൂഷൻ മാഷിനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory tuition teacher maths childhoodmemories kerala mallureels malayalamreels nostalgia
+- lane | zoom_in | wind | uncle:walk kid:surprised | bicycle || വൈകുന്നേരം അഞ്ച് മണിക്ക് ഒരു സൈക്കിൾ ബെല്ലിന്റെ ശബ്ദം. ഗോപാലൻ മാഷ് എത്തി! ||
+- veranda | still | wind | uncle:talk,point kid:sad friend:sad | books || മാഷ് ഭയങ്കര കർശനക്കാരനായിരുന്നു. കണക്ക് തെറ്റിയാൽ ഉറക്കെ ശകാരിക്കും. ||
+- veranda | zoom_in | wind | friend:sad || കൂട്ടത്തിൽ രാജു മാത്രം ഫീസ് കൊടുത്തിരുന്നില്ല. അവന്റെ അച്ഛന് ജോലിയില്ലായിരുന്നു. ||
+- veranda | still | wind | uncle:talk friend:surprised || ഒരു ദിവസം മാഷ് അവനെ മാറ്റി നിർത്തി. ഞാൻ ഒളിഞ്ഞു കേട്ടു. || uncle: ഫീസിന്റെ കാര്യം നീ ആലോചിക്കണ്ട. നീ നന്നായി പഠിച്ചാൽ മതി.
+- veranda+sunset | zoom_in | wind | uncle:hold=money friend:happy || അത് മാത്രമല്ല, എല്ലാ മാസവും മാഷ് അവന് പുസ്തകം വാങ്ങാൻ പൈസയും കൊടുത്തിരുന്നു. ആരോടും പറഞ്ഞില്ല. ||
+- interior | pan_right | indoor | grownup:phone,happy || ഇന്ന് രാജു ഒരു എഞ്ചിനീയർ ആണ്. എല്ലാ വർഷവും പത്ത് പാവപ്പെട്ട കുട്ടികളുടെ ഫീസ് അവൻ അടയ്ക്കുന്നു. ||
+- veranda | zoom_out | wind | grownup:happy | photo:appooppan || മാഷ് പഠിപ്പിച്ചത് കണക്ക് മാത്രമല്ല. ജീവിതവും കൂടിയായിരുന്നു. ||
+
+### 77-bus-conductor
+title: ബസ്സിലെ ബാബു ചേട്ടൻ | Babu Chettan, the Bus Conductor
+theme: The private bus conductor who knew every passenger by name, kept a seat for Ammachi and never let a child miss school
+narrator: man
+caption: എല്ലാവരെയും പേര് ചൊല്ലി വിളിക്കുന്ന ആ കണ്ടക്ടർ ചേട്ടൻ 🚌❤️\nഓർമ്മയുണ്ടോ?
+tags: malayalam malayalamstory bus conductor village childhoodmemories kerala mallureels malayalamreels nostalgia
+- bus_stop | zoom_in | wind | kid:hold=bag,happy ammachi:happy | bus || രാവിലെ എട്ടേ പത്തിന് "ശ്രീകൃഷ്ണ" ബസ്. അതിലെ കണ്ടക്ടർ ബാബു ചേട്ടൻ. ||
+- bus_stop | still | wind | uncle:talk,happy kid:happy ammachi:happy | bus || ബാബു ചേട്ടന് ഗ്രാമത്തിലെ എല്ലാവരെയും അറിയാം. || uncle: അമ്മേ, ഇരിക്ക്. സീറ്റ് മാറ്റി വെച്ചിട്ടുണ്ട്.
+- bus_stop | zoom_in | wind | uncle:talk,point kid:surprised || ഞങ്ങൾ കുട്ടികൾക്ക് പകുതി ടിക്കറ്റ്. പൈസ ഇല്ലെങ്കിലും ബാബു ചേട്ടൻ ഇറക്കി വിടില്ല. || uncle: നാളെ തന്നാൽ മതി. സ്കൂളിൽ വൈകരുത്.
+- bus_stop+rain | still | rain | uncle:wave,talk kid:wet,sad | bus || ഒരു മഴയുള്ള ദിവസം ഞാൻ ഓടി വരുന്നത് കണ്ട്, ബാബു ചേട്ടൻ ബസ് നിർത്തിച്ചു. || uncle: ഓടണ്ട, ഞങ്ങൾ കാത്ത് നിൽക്കാം!
+- bus_stop | zoom_in | wind | kid:happy,wet uncle:happy | bus || ആ ബസ് അന്ന് അഞ്ച് മിനിറ്റ് വൈകി. പക്ഷേ ഞാൻ ആദ്യ പിരീഡിന് മുൻപേ സ്കൂളിൽ എത്തി. ||
+- bus_stop | pan_right | wind | grownup:walk,sad | bus || ഇന്ന് സിറ്റിയിലെ മെട്രോയിൽ ആയിരക്കണക്കിന് ആളുകൾ. ആരും ആരെയും നോക്കുന്നില്ല. ||
+- bus_stop | zoom_out | wind | grownup:happy uncle:happy || കഴിഞ്ഞ മാസം നാട്ടിൽ പോയപ്പോൾ ബാബു ചേട്ടനെ കണ്ടു. എന്നെ കണ്ടതും ചോദിച്ചു: "സ്കൂളിൽ വൈകിയില്ലല്ലോ?" ||
+
+### 78-smoky-uniform
+title: പുകമണമുള്ള യൂണിഫോം | The Fireside Uniform
+theme: In the endless monsoon Amma dried our school uniforms over the kitchen fire at night, so they always smelled of the hearth
+narrator: man
+caption: മഴക്കാലത്ത് അടുപ്പിനരികിൽ ഉണക്കിയ യൂണിഫോം 🔥👕\nആ പുകമണം ഓർമ്മയുണ്ടോ?
+tags: malayalam malayalamstory monsoon uniform amma childhoodmemories kerala mallureels malayalamreels motherslove
+- lane+rain | zoom_in | rain | kid:walk,wet,sad friend:walk,wet || ജൂലൈ മാസം. ആഴ്ചകളായി നിർത്താത്ത മഴ. സ്കൂളിൽ നിന്ന് വരുമ്പോൾ യൂണിഫോം മുഴുവൻ നനഞ്ഞിരിക്കും. ||
+- interior+rain | still | rain | kid:sad amma:talk || എനിക്ക് ആകെ ഉണ്ടായിരുന്നത് രണ്ട് യൂണിഫോം. രണ്ടും നനഞ്ഞു. || amma: സാരമില്ല. നാളെ രാവിലെ ഉണങ്ങിയിരിക്കും.
+- kitchen+night | zoom_in | night | amma:cook,sad | stove || രാത്രി എല്ലാവരും ഉറങ്ങിയ ശേഷം അമ്മ അടുപ്പിനരികിൽ ഇരുന്ന് യൂണിഫോം ഉണക്കും. ||
+- kitchen+night | still | night | amma:sit,sad | stove || ഇടയ്ക്കിടെ തിരിച്ചും മറിച്ചും. പുക കൊണ്ട് അമ്മയുടെ കണ്ണ് നിറയും. പക്ഷേ ഉറങ്ങില്ല. ||
+- classroom | zoom_in | indoor | kid:happy friend:talk || രാവിലെ ക്ലാസിൽ എത്തുമ്പോൾ എന്റെ ഷർട്ടിന് പുകമണം. || friend: നിന്റെ ഷർട്ടിന് മീൻ ചുട്ട മണം!
+- interior | pan_right | indoor | grownup:sad || അന്ന് ഞാൻ നാണിച്ചു പോയി. ഇന്ന് ഡ്രയർ മെഷീനിൽ ഉണക്കിയ ഷർട്ടുകൾ. ഒരു മണവുമില്ല. ||
+- kitchen | zoom_out | indoor | grownup:happy amma:happy | stove || ആ പുകമണം അമ്മയുടെ ഉറക്കമില്ലാത്ത രാത്രികളുടെ മണമായിരുന്നു എന്ന് ഇന്നാണ് മനസ്സിലാകുന്നത്. ||
+
+### 79-circus-came
+title: സർക്കസ് വന്ന വർഷം | The Year the Circus Came
+theme: When the circus came to town, the jeep announcement, the tent, and Achan saving for weeks to take the whole family
+narrator: man
+caption: "ഗ്രേറ്റ് സർക്കസ്... ഇന്ന് മുതൽ..." 🎪🤡\nആ മൈക്ക് അനൗൺസ്മെന്റ് ഓർമ്മയുണ്ടോ?
+tags: malayalam malayalamstory circus town family childhoodmemories kerala mallureels malayalamreels nostalgia
+- lane | zoom_in | wind | kid:surprised friend:surprised || ഒരു ദിവസം ഒരു ജീപ്പ് ഗ്രാമം ചുറ്റി ഉറക്കെ അനൗൺസ് ചെയ്തു. "ടൗണിൽ ഗ്രേറ്റ് സർക്കസ്!" ||
+- lane | still | wind | kid:jump,happy friend:jump,happy || ജീപ്പിന് പിന്നാലെ ഞങ്ങൾ ഓടി. അവർ എറിഞ്ഞു തന്ന നോട്ടീസുകൾ പെറുക്കിയെടുത്തു. ||
+- interior | zoom_in | indoor | kid:talk,hold=book achan:sad || ആ നോട്ടീസ് ഞാൻ അച്ഛനെ കാണിച്ചു. ടിക്കറ്റിന് നല്ല വിലയായിരുന്നു. അച്ഛൻ ഒന്നും പറഞ്ഞില്ല. ||
+- interior+night | still | night | achan:hold=money,sad amma:sad | kerosene_lamp || രാത്രി അച്ഛനും അമ്മയും പതുക്കെ എന്തോ കണക്ക് കൂട്ടുന്നത് ഞാൻ കേട്ടു. ||
+- temple+night+festive | zoom_in | night | achan:happy amma:happy kid:jump,happy girl:jump,happy || രണ്ടാഴ്ച കഴിഞ്ഞ് ഒരു വൈകുന്നേരം അച്ഛൻ നാല് ടിക്കറ്റുമായി വന്നു. സർക്കസിന്റെ അവസാനത്തെ ദിവസം! ||
+- temple+night+festive | pan_right | night | kid:surprised girl:surprised achan:happy || കൂടാരത്തിനകത്ത് കോമാളികളും ഊഞ്ഞാലിൽ പറക്കുന്ന ആളുകളും. ഞാൻ കണ്ണ് ചിമ്മാതെ ഇരുന്നു. ||
+- interior | zoom_out | indoor | grownup:happy | photo:achan || ആ രണ്ടാഴ്ച അച്ഛൻ ഉച്ചഭക്ഷണം ഒഴിവാക്കിയാണ് ആ പൈസ ഉണ്ടാക്കിയതെന്ന് അമ്മ പിന്നീട് പറഞ്ഞു. ||
+
+### 80-paddy-fishing
+title: പാടത്തെ മീൻപിടുത്തം | Fishing in the Paddy Field
+theme: Sneaking out after the first heavy rain to catch small fish in the flooded paddy field, and Amma knowing everything from the mud
+narrator: man
+caption: മഴ കഴിഞ്ഞ് പാടത്ത് മീൻ പിടിക്കാൻ പോയിട്ടുണ്ടോ? 🐟🌾\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory paddy fishing monsoon childhoodmemories kerala mallureels malayalamreels nostalgia
+- paddy+rain | zoom_in | rain | kid:happy friend:happy || ആദ്യത്തെ വലിയ മഴ കഴിഞ്ഞാൽ പാടം മുഴുവൻ വെള്ളം. അതിൽ നിറയെ കുഞ്ഞു മീനുകൾ. ||
+- yard | still | wind | kid:talk friend:talk || അമ്മ അറിയാതെ ഒരു തോർത്തുമായി ഞാനും കണ്ണനും പാടത്തേക്ക് ഒളിച്ചു കടന്നു. || friend: അമ്മയോട് പറയല്ലേ!
+- paddy | zoom_in | wind | kid:jump,happy friend:jump,happy || തോർത്ത് വല പോലെ പിടിച്ച് ഞങ്ങൾ ഓടി. ചെളിയിൽ വീണു, എഴുന്നേറ്റു, വീണ്ടും ഓടി. ||
+- paddy | still | wind | kid:hold=plate,happy friend:happy || ഒടുവിൽ ഒരു ചിരട്ട നിറയെ പരൽ മീൻ! ലോകം കീഴടക്കിയ സന്തോഷം. ||
+- veranda+sunset | zoom_in | wind | amma:talk,point kid:surprised,hold=plate || വീട്ടിലെത്തിയപ്പോൾ ദേഹം മുഴുവൻ ചെളി. അമ്മ ഒന്നും ചോദിച്ചില്ല. നോക്കി ചിരിച്ചു. || amma: പോയി കുളിക്ക്. മീൻ ഞാൻ വറുത്തു തരാം.
+- kitchen | pan_right | indoor | amma:cook,happy kid:eat,happy | stove || അന്ന് രാത്രി ആ കുഞ്ഞു മീൻ വറുത്തതിന് ഒരു പ്രത്യേക രുചിയായിരുന്നു. ||
+- paddy+sunset | zoom_out | wind | grownup:happy kid:happy || ഇന്ന് ആ പാടം പകുതിയും വീടുകളായി. ബാക്കിയുള്ളതിൽ ഞാൻ എന്റെ മകനെ മീൻ പിടിക്കാൻ കൊണ്ടുപോയി. ||
