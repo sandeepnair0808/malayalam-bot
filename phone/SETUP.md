@@ -1,6 +1,6 @@
 # Auto-upload to YouTube from your Android phone
 
-Your phone uploads one video at a time, 4 times a day (8 am, 12 pm, 4 pm, 8 pm), on its own.
+Your phone tries to upload one video every 15 minutes, on its own.
 It is free, needs no card and no laptop. One-time setup takes about 30 minutes.
 
 > Two things to know first
@@ -64,22 +64,26 @@ python phone_uploader.py --status
 ```
 You should see `OK 07-radio-seven.mp4 -> https://youtube.com/shorts/...`.
 
-## Step 7: Make it automatic (4 uploads a day)
+## Step 7: Make it automatic (every 15 minutes)
 ```
 sv-enable crond
-(crontab -l 2>/dev/null; echo '0 8,12,16,20 * * * cd ~/malayalam-bot/phone && python phone_uploader.py >> cron.log 2>&1') | crontab -
+(crontab -l 2>/dev/null; echo '*/15 * * * * cd ~/malayalam-bot/phone && python phone_uploader.py >> cron.log 2>&1') | crontab -
 mkdir -p ~/.termux/boot && printf '#!/data/data/com.termux/files/usr/bin/sh\ntermux-wake-lock\nsv-enable crond\n' > ~/.termux/boot/start && chmod +x ~/.termux/boot/start
 termux-wake-lock
 ```
 Then in Android **Settings → Apps → Termux → Battery → Unrestricted** (and the same for Termux:Boot).
 Open Termux:Boot once so it starts Termux after a phone restart.
 
-Want 6 a day? Use `0 7,10,13,16,19,22 * * *` instead (YouTube's free limit is about 6 uploads/day).
+> **YouTube's free API limit is about 6 uploads per day** (10,000 quota units, 1,600 per upload).
+> After the 6th upload the script sees `quotaExceeded`, waits, and continues automatically the next day,
+> so nothing breaks. To really get 96 a day, ask for more quota in the same audit form (step 8):
+> request **160,000 units/day** for "about 96 uploads/day to my own channel".
 
 ## Step 8: Ask Google to allow public uploads (free, one time)
 Fill in the **YouTube API Services audit form**: https://support.google.com/youtube/contact/yt_api_form
 - Purpose: "Uploading my own Malayalam story videos to my own channel from a personal script."
-- After approval, change `"privacy": "public"` stays as is, and new uploads go public automatically.
+- In the same form, request a **quota increase to 160,000 units/day** (for one upload every 15 minutes).
+- After approval, uploads go public automatically and the 15-minute schedule runs at full speed.
 
 ---
 
