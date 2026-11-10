@@ -1,4 +1,5 @@
 ### k001-extra-change
+hook: കടക്കാരൻ പത്ത് രൂപ കൂടുതൽ തന്നാൽ നിങ്ങൾ എന്ത് ചെയ്യും?
 title: ബാക്കി വന്ന പത്ത് രൂപ | The Extra Ten Rupees
 theme: Appu gets ten rupees too much change at the shop and walks back to return it
 moral: Always return what is not ours.
@@ -14,6 +15,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory honesty kerala
 - interior | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: നമ്മുടേതല്ലാത്തത് എപ്പോഴും തിരികെ കൊടുക്കണം. ||
 
 ### k002-shared-tiffin
+hook: കൂട്ടുകാരൻ ചോറ് കൊണ്ടുവരാൻ മറന്നാൽ?
 title: പങ്കിട്ട ചോറ്റുപാത്രം | The Shared Lunch Box
 theme: Kannan forgets his lunch and Appu shares his tiffin with him
 moral: Sharing makes everyone happy.
@@ -29,6 +31,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory sharing friendship keral
 - school | zoom_out | wind | kid:wave,happy friend:wave,happy || ഗുണപാഠം: ഉള്ളത് പങ്കിടുമ്പോൾ എല്ലാവർക്കും സന്തോഷം കിട്ടും. ||
 
 ### k003-broken-pot
+hook: പൂച്ചട്ടി പൊട്ടി, ആരും കണ്ടില്ല. ഇനി എന്ത് ചെയ്യും?
 title: പൊട്ടിയ പൂച്ചട്ടി | The Broken Flower Pot
 theme: Ammu breaks Ammachi's flower pot and tells the truth instead of hiding it
 moral: Telling the truth takes courage, and it is always right.
@@ -44,6 +47,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory truth honesty kerala
 - yard | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: തെറ്റ് പറ്റിയാൽ സത്യം പറയണം. അതാണ് ശരിയായ വഴി. ||
 
 ### k004-water-tap
+hook: ആരും അടയ്ക്കാത്ത പൈപ്പ് കണ്ടാൽ നിങ്ങൾ എന്ത് ചെയ്യും?
 title: തുറന്നു കിടന്ന പൈപ്പ് | The Running Tap
 theme: Appu sees a school tap left running and closes it, learning why water matters
 moral: Every drop of water is precious; never waste it.
@@ -59,6 +63,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory savewater kerala
 - school | zoom_out | wind | kid:wave,happy teacher:happy || ഗുണപാഠം: ഓരോ തുള്ളി വെള്ളവും വിലപ്പെട്ടതാണ്. ഒരിക്കലും പാഴാക്കരുത്. ||
 
 ### k005-mango-seed
+hook: ഒരിക്കലും തിന്നാൻ പറ്റാത്ത മാവ് എന്തിന് നടണം?
 title: അപ്പൂപ്പന്റെ മാവ് | Appooppan's Mango Tree
 theme: Appooppan plants a mango seed with Appu and explains we plant trees for the future
 moral: Plant trees; they give to everyone for many years.
@@ -74,6 +79,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory planttrees nature kerala
 - yard+sunset | zoom_out | wind | appooppan:hug,happy kid:hug,happy | mango_tree || ഗുണപാഠം: മരങ്ങൾ നടണം. അവ എല്ലാവർക്കും വർഷങ്ങളോളം തണലും ഫലവും നൽകും. ||
 
 ### k006-new-student
+hook: ക്ലാസിൽ പുതിയ കുട്ടി ഒറ്റയ്ക്ക് നിന്നാൽ?
 title: പുതിയ കൂട്ടുകാരൻ | The New Boy in Class
 theme: A shy new boy joins class, and Appu invites him to sit and play with him
 moral: Be kind and welcoming to someone new.
@@ -90,6 +96,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory kindness friendship kera
 - school | zoom_out | wind | kid:wave,happy friend:wave,happy teacher:happy || ഗുണപാഠം: പുതുതായി വരുന്നവരോട് സ്നേഹത്തോടെ പെരുമാറണം. ||
 
 ### k007-thank-you-bus
+hook: ഡ്രൈവറോട് നന്ദി പറയേണ്ടത് എന്തിന്?
 title: ബസ്സിലെ നന്ദി | Thank You, Driver
 theme: Appu learns from Achan to thank the bus driver and conductor every day
 moral: Say thank you to everyone who helps us.
@@ -105,6 +112,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory gratitude kerala
 - lane | zoom_out | wind | achan:walk,happy kid:walk,happy || ഗുണപാഠം: നമ്മളെ സഹായിക്കുന്ന എല്ലാവരോടും നന്ദി പറയണം. ||
 
 ### k008-race-fall
+hook: ഒന്നാം സ്ഥാനമോ, വീണ കൂട്ടുകാരനോ?
 title: ഓട്ടമത്സരം | The Running Race
 theme: In a school race Appu stops to help Kannan who fell, and they finish together
 moral: Helping a friend is greater than winning.
@@ -120,6 +128,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory friendship sportsday ker
 - school | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: ജയിക്കുന്നതിനേക്കാൾ വലുതാണ് കൂട്ടുകാരനെ സഹായിക്കുന്നത്. ||
 
 ### k009-rice-waste
+hook: ഒരു മണി ചോറിന് പിന്നിൽ എത്ര അധ്വാനമുണ്ട്?
 title: ഒരു മണി ചോറ് | Every Grain of Rice
 theme: Ammu wants to throw away leftover rice; Appooppan shows her the paddy field work behind it
 moral: Never waste food; many people work hard to grow it.
@@ -135,6 +144,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory savefood farmers kerala
 - paddy+sunset | zoom_out | wind | appooppan:happy girl:wave,happy || ഗുണപാഠം: ഭക്ഷണം പാഴാക്കരുത്. അതിന് പിന്നിൽ ഒരുപാട് പേരുടെ അധ്വാനമുണ്ട്. ||
 
 ### k010-kite-sister
+hook: അനിയത്തിക്ക് പട്ടം കൊടുക്കില്ലെന്ന് പറഞ്ഞു, പിന്നെ?
 title: അനിയത്തിയുടെ പട്ടം | Little Sister's Kite
 theme: Appu does not want to share his new kite with Ammu but learns that playing together is more fun
 moral: Things are more fun when we share them with family.

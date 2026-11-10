@@ -1,4 +1,5 @@
 ### 51-ration-queue
+hook: അച്ഛൻ എന്തിനാണ് എപ്പോഴും മറ്റുള്ളവരെ മുന്നിൽ വിട്ടത്?
 title: റേഷൻ കടയിലെ വരി | The Ration Shop Queue
 theme: Every month a boy stood in the ration shop queue with Achan, and only later understood why Achan always let others go first
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory achan rationshop childhoodmemories kerala mallure
 - interior+close | zoom_out | indoor | grownup:happy | photo:achan || വരിയിൽ നിൽക്കാൻ അല്ല, മനുഷ്യരെ കാണാനാണ് അച്ഛൻ പഠിപ്പിച്ചത്. ||
 
 ### 52-june-school-opening
+hook: പുതിയ പുസ്തകത്തിന്റെ ആ മണം ഓർമ്മയുണ്ടോ?
 title: ജൂണിലെ സ്കൂൾ തുറക്കൽ | The First Day of June
 theme: The smell of new books wrapped in newspaper, a new umbrella and the first rain on school reopening day
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory school june monsoon childhoodmemories kerala mall
 - veranda+rain | zoom_out | rain | grownup:umbrella,happy || ഒരു പുതിയ പുസ്തകത്തിന്റെ മണം കിട്ടാൻ ഇന്നും മനസ്സ് കൊതിക്കുന്നു. ||
 
 ### 53-std-booth-call
+hook: മൂന്ന് മിനിറ്റിൽ എല്ലാം പറയണം, മീറ്റർ ഓടുകയാണ്!
 title: എസ്.ടി.ഡി ബൂത്തിലെ മൂന്ന് മിനിറ്റ് | Three Minutes at the STD Booth
 theme: The family walks to the STD booth to call Achan in the Gulf, watching the meter while trying to say everything in three minutes
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory gulf pravasi stdbooth achan kerala mallureels mal
 - night_room | zoom_out | night | grownup:phone,sad || അന്ന് ആ മൂന്ന് മിനിറ്റിന് ഇന്നത്തെ മൂന്ന് മണിക്കൂറിനേക്കാൾ വിലയുണ്ടായിരുന്നു. ||
 
 ### 54-sunday-film
+hook: സിനിമയുടെ ക്ലൈമാക്സിൽ കറന്റ് പോയാൽ?
 title: ഞായറാഴ്ചത്തെ ദൂരദർശൻ സിനിമ | The Sunday Doordarshan Film
 theme: Every Sunday evening the whole neighbourhood gathered in the one house with a TV to watch the Malayalam film
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory doordarshan tv sunday childhoodmemories kerala ma
 - night_room | zoom_out | night | grownup:sad | tv || സിനിമയല്ല, ആ ആൾക്കൂട്ടമായിരുന്നു ഞങ്ങളുടെ സന്തോഷം. ||
 
 ### 55-milk-society
+hook: പുലർച്ചെ അപ്പൂപ്പനോടൊപ്പം പാൽ കൊടുക്കാൻ പോയിട്ടുണ്ടോ?
 title: പാൽ സൊസൈറ്റിയിലെ പ്രഭാതം | Mornings at the Milk Society
 theme: Walking with Appooppan to the milk society at dawn with a steel can, learning the names of every tree on the way
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory appooppan milk morning childhoodmemories kerala m
 - lane | zoom_out | wind | grownup:point,happy || എന്റെ മകനോട് ഞാൻ ഇപ്പോൾ പറയും: ഇതാണ് ആഞ്ഞിലി. ആ കാണുന്നത് പ്ലാവ്. ||
 
 ### 56-rain-holiday
+hook: കനത്ത മഴ, നാളെ സ്കൂളിന് അവധി! ഓർമ്മയുണ്ടോ ആ സന്തോഷം?
 title: മഴ കാരണം അവധി! | A Rain Holiday!
 theme: The thrill of hearing on the radio that the collector declared a school holiday because of heavy rain
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory rain holiday school childhoodmemories kerala mall
 - veranda+rain | zoom_out | rain | grownup:happy || പക്ഷേ മഴ കാരണം സ്കൂളിന് അവധി എന്ന് കേൾക്കുമ്പോൾ ഇന്നും ഉള്ളിൽ ഒരു കുട്ടി തുള്ളിച്ചാടും. ||
 
 ### 57-sslc-result
+hook: പത്രത്തിൽ എന്റെ നമ്പർ ഉണ്ടാകുമോ?
 title: പത്രത്തിലെ റിസൾട്ട് | The Result in the Newspaper
 theme: The night the SSLC results came in the newspaper, the whole family searched for one register number together
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory sslc result exam childhoodmemories kerala mallure
 - interior | zoom_out | indoor | grownup:read,happy | photo:achan || എന്റെ ആദ്യ വിജയം ആഘോഷിച്ചത് എന്നേക്കാൾ കൂടുതൽ അച്ഛനായിരുന്നു. ||
 
 ### 58-cassette-songs
+hook: കാസറ്റിൽ അറിയാതെ റെക്കോർഡ് ആയ ആ ശബ്ദം ആരുടേത്?
 title: ടേപ്പ് റെക്കോർഡറിലെ പാട്ടുകൾ | Songs on the Tape Recorder
 theme: Recording songs from the radio onto a cassette, rewinding with a pencil, and the voice of Amma singing caught on one tape
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory cassette songs 90skids childhoodmemories kerala m
 - night_room | zoom_out | night | grownup:phone,happy || എന്റെ പ്ലേലിസ്റ്റിലെ ഏറ്റവും നല്ല പാട്ട് അമ്മ അടുക്കളയിൽ മൂളിയ ആ രണ്ട് വരികളാണ്. ||
 
 ### 59-sewing-machine
+hook: അമ്മയുടെ തയ്യൽ മെഷീൻ രാത്രി മുഴുവൻ ഓടിയത് എന്തിന്?
 title: അമ്മയുടെ തയ്യൽ മെഷീൻ | Amma's Sewing Machine
 theme: Amma stitched clothes for the whole neighbourhood on her old sewing machine late into the night to pay for the children's fees
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory amma sewing hardwork childhoodmemories kerala mal
 - interior | zoom_out | indoor | amma:hug,happy grownup:hug,happy || പക്ഷേ അമ്മ ഇന്നും പഴയ മെഷീനിലാണ് തയ്ക്കുന്നത്. അതിൽ ഞങ്ങളുടെ കുട്ടിക്കാലം മുഴുവനുണ്ടത്രേ. ||
 
 ### 60-well-bucket
+hook: തറവാട്ടിലെ കിണറ്റിലെ ആ തണുത്ത വെള്ളം ഓർമ്മയുണ്ടോ?
 title: കിണറ്റിലെ തണുത്ത വെള്ളം | Cold Water from the Well
 theme: Drawing water from the well with Ammachi each morning, the sound of the pulley, and the coldest, sweetest water in the world
 narrator: man

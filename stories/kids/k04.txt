@@ -1,4 +1,5 @@
 ### k031-water-for-birds
+hook: വേനലിൽ കിളികൾക്ക് വെള്ളം എവിടെ കിട്ടും?
 title: കിളികൾക്ക് ഒരു പാത്രം വെള്ളം | Water for the Birds
 theme: In the hot summer Ammu keeps a bowl of water in the yard for thirsty birds every day
 moral: Be kind to birds and animals.
@@ -14,6 +15,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory kindness nature kerala
 - yard+sunset | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: കിളികളോടും മൃഗങ്ങളോടും ദയ കാണിക്കണം. ||
 
 ### k032-phone-and-stories
+hook: ഫോണോ അപ്പൂപ്പന്റെ കഥയോ? ഏതാണ് നല്ലത്?
 title: ഫോണോ അപ്പൂപ്പനോ? | Phone or Appooppan?
 theme: Appu is always on the phone until he puts it down and discovers Appooppan's wonderful stories
 moral: Spend time with family; it is better than any screen.
@@ -29,6 +31,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory family screentime kerala
 - veranda+sunset | zoom_out | wind | appooppan:hug,happy kid:hug,happy || ഗുണപാഠം: ഫോണിനേക്കാൾ വിലപ്പെട്ടതാണ് വീട്ടുകാരോടൊപ്പമുള്ള സമയം. ||
 
 ### k033-share-laddu
+hook: ലഡ്ഡു എല്ലാം നമുക്ക് മാത്രമാണോ?
 title: അയൽവീട്ടിലേക്ക് ലഡ്ഡു | Laddus for the Neighbours
 theme: Ammu wants to keep all the festival laddus but shares them with the neighbours and feels happier
 moral: Joy grows when we share it with others.
@@ -44,6 +47,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory sharing festival kerala
 - veranda | zoom_out | wind | girl:wave,happy friend:wave,happy kid:wave,happy || ഗുണപാഠം: സന്തോഷം പങ്കിടുമ്പോൾ അത് ഇരട്ടിയാകും. ||
 
 ### k034-exam-ready
+hook: പരീക്ഷയെ പേടിക്കാതിരിക്കാൻ ഒരു വഴി!
 title: പരീക്ഷയെ പേടിക്കണ്ട | No Fear of Exams
 theme: Appu is nervous about his exam, so Achan helps him study a little every day and he feels calm
 moral: Prepare a little every day and there is nothing to fear.
@@ -59,6 +63,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory exams study kerala
 - interior | zoom_out | indoor | achan:hug,happy kid:hug,happy || ഗുണപാഠം: ദിവസവും കുറച്ചു കുറച്ചു പഠിച്ചാൽ ഒന്നിനെയും പേടിക്കേണ്ട. ||
 
 ### k035-postman-thanks
+hook: പോസ്റ്റുമാൻ മാമനോട് ആരും പറയാത്ത ഒരു വാക്ക്!
 title: പോസ്റ്റുമാൻ മാമൻ | Our Postman
 theme: Appu notices the postman walking in the hot sun and gives him a glass of water and a thank-you
 moral: Respect every job and every worker.
@@ -74,6 +79,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory respect gratitude kerala
 - veranda | zoom_out | wind | uncle:wave,happy kid:wave,happy || ഗുണപാഠം: എല്ലാ ജോലിയെയും ജോലിക്കാരെയും ബഹുമാനിക്കണം. ||
 
 ### k036-road-safety
+hook: റോഡ് കടക്കും മുൻപ് എന്ത് ചെയ്യണം?
 title: റോഡ് മുറിച്ചുകടക്കുമ്പോൾ | Crossing the Road
 theme: Achan teaches Appu to stop, look both ways and cross carefully at the side of the road
 moral: Stop, look both ways, then cross the road carefully.
@@ -89,6 +95,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory roadsafety kerala
 - lane | zoom_out | wind | achan:happy kid:wave,happy || ഗുണപാഠം: റോഡ് കടക്കും മുൻപ് നിൽക്കണം, രണ്ടു വശത്തേക്കും നോക്കണം. ||
 
 ### k037-on-time
+hook: സ്കൂൾ ബസ് പോയി! ഇനി എന്ത് ചെയ്യും?
 title: വിട്ടുപോയ സ്കൂൾ ബസ് | The Missed School Bus
 theme: Appu misses the school bus after waking late, and starts getting his bag ready every night
 moral: Be on time; get ready the night before.
@@ -104,6 +111,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory punctuality goodhabits k
 - bus_stop | zoom_out | wind | kid:wave,happy friend:wave,happy | bus || ഗുണപാഠം: സമയം പാലിക്കണം. നാളേക്കുള്ളത് ഇന്ന് തന്നെ ഒരുക്കി വെക്കണം. ||
 
 ### k038-chechi-fever
+hook: ചേച്ചിക്ക് പനി വന്നപ്പോൾ അനിയത്തി ചെയ്തത്...
 title: ചേച്ചിക്ക് പനി | When Chechi Was Unwell
 theme: Chechi has a fever, so Ammu brings her water, reads to her and keeps her company
 moral: Take care of family members when they are unwell.
@@ -119,6 +127,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory care siblings kerala
 - yard | zoom_out | wind | chechi:hug,happy girl:hug,happy || ഗുണപാഠം: വീട്ടിൽ ആർക്കെങ്കിലും സുഖമില്ലാത്തപ്പോൾ സ്നേഹത്തോടെ പരിചരിക്കണം. ||
 
 ### k039-happy-for-friend
+hook: കൂട്ടുകാരന് സമ്മാനം കിട്ടിയപ്പോൾ എനിക്ക് വിഷമം തോന്നി...
 title: കണ്ണന്റെ ചിത്രം | Kannan's Drawing
 theme: Kannan's drawing wins first prize; Appu feels jealous at first, then congratulates him sincerely
 moral: Be happy when others succeed.
@@ -134,6 +143,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory friendship goodvalues ke
 - classroom | zoom_out | indoor | kid:hug,happy friend:hug,happy || ഗുണപാഠം: മറ്റുള്ളവർ വിജയിക്കുമ്പോൾ നമ്മളും സന്തോഷിക്കണം. ||
 
 ### k040-magic-words
+hook: എല്ലാ വാതിലും തുറക്കുന്ന മൂന്ന് മാന്ത്രിക വാക്കുകൾ!
 title: മാന്ത്രിക വാക്കുകൾ | The Magic Words
 theme: Ammachi teaches Ammu three magic words, please, thank you and sorry, and Ammu sees them work
 moral: Speak politely; kind words open every door.

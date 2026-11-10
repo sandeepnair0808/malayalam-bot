@@ -1,4 +1,5 @@
 ### 71-photo-studio
+hook: സ്റ്റുഡിയോ ഫോട്ടോയിൽ അച്ഛൻ മാത്രം ചിരിക്കാത്തത് എന്തുകൊണ്ട്?
 title: സ്റ്റുഡിയോയിലെ ഫാമിലി ഫോട്ടോ | The Studio Family Photo
 theme: The once-a-year trip to the town studio for a family photo, everyone stiff and serious, and the one photo where Achan is smiling
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory photo studio family childhoodmemories kerala mall
 - interior | zoom_out | indoor | grownup:happy | photo:achan || പക്ഷേ ചുമരിലെ ആ ഒരു ഫോട്ടോ ആണ് എന്റെ ഏറ്റവും വിലപ്പെട്ട ആൽബം. ||
 
 ### 72-achan-scooter
+hook: അച്ഛന്റെ സ്കൂട്ടറിന്റെ മുന്നിൽ നിന്നിട്ടുണ്ടോ?
 title: അച്ഛന്റെ സ്കൂട്ടർ | Achan's Scooter
 theme: Standing in front of Achan on his old scooter, the tilt to start it, and the feeling of wind in my face
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory achan scooter ride childhoodmemories kerala mallu
 - lane | zoom_out | wind | grownup:happy kid:happy,wave || ഇന്നലെ എന്റെ മകനെ സ്കൂട്ടറിൽ മുന്നിൽ നിർത്തി ഒരു റൗണ്ട് പോയി. അവനും കൈ വീശി. ||
 
 ### 73-oil-bath
+hook: ഞായറാഴ്ചത്തെ എണ്ണതേച്ചു കുളി! ഓടി ഒളിച്ചിട്ടുണ്ടോ?
 title: ഞായറാഴ്ചത്തെ എണ്ണതേച്ചു കുളി | The Sunday Oil Bath
 theme: Every Sunday Ammachi rubbed warm coconut oil into my hair and bathed me with hot water and herbal powder, no matter how I protested
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory ammachi oilbath sunday childhoodmemories kerala m
 - veranda | zoom_out | wind | grownup:happy | photo:ammachi || ലോകത്തിലെ ഏറ്റവും നല്ല സ്പാ അമ്മൂമ്മയുടെ വരാന്തയായിരുന്നു. ||
 
 ### 74-goli-champion
+hook: എന്റെ ഭാഗ്യ ഗോലി വർഷങ്ങൾക്ക് ശേഷം എവിടെ കണ്ടു?
 title: ഗോലി ചാമ്പ്യൻ | The Marble Champion
 theme: I was the marble champion of the village with a tin full of won marbles, but gave my lucky blue marble to a crying younger boy
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory goli marbles games childhoodmemories kerala mallu
 - interior | zoom_out | indoor | grownup:phone,happy || ഫോട്ടോയിൽ അവന്റെ മകന്റെ കയ്യിൽ ആ നീല ഗോലി. "ഇത് ഭാഗ്യ ഗോലിയാ" എന്ന് അവനും പറഞ്ഞു കൊടുത്തിട്ടുണ്ടത്രേ. ||
 
 ### 75-first-mobile
+hook: വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ! സ്നേക്ക് ഗെയിം ഓർമ്മയുണ്ടോ?
 title: വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ | The First Mobile Phone at Home
 theme: When the first mobile phone came home, the whole family took turns with it, saved every number, and played the snake game
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory mobile phone 2000s childhoodmemories kerala mallu
 - interior | zoom_out | indoor | grownup:happy kid:happy girl:happy || അന്ന് ഒരു ഫോണിന് ചുറ്റും ഒരു കുടുംബം. ഇന്ന് ഓരോരുത്തർക്കും ചുറ്റും ഓരോ ഫോൺ. ||
 
 ### 76-tuition-master
+hook: കർശനക്കാരനായ മാഷ് ആരോടും പറയാതെ ചെയ്തത്...
 title: ട്യൂഷൻ മാഷ് | The Tuition Master
 theme: The strict tuition master on his bicycle, who scolded everyone but quietly paid the fees of a poor student
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory tuition teacher maths childhoodmemories kerala ma
 - veranda | zoom_out | wind | grownup:happy | photo:appooppan || മാഷ് പഠിപ്പിച്ചത് കണക്ക് മാത്രമല്ല. ജീവിതവും കൂടിയായിരുന്നു. ||
 
 ### 77-bus-conductor
+hook: എല്ലാവരെയും പേര് ചൊല്ലി വിളിക്കുന്ന ആ കണ്ടക്ടർ!
 title: ബസ്സിലെ ബാബു ചേട്ടൻ | Babu Chettan, the Bus Conductor
 theme: The private bus conductor who knew every passenger by name, kept a seat for Ammachi and never let a child miss school
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory bus conductor village childhoodmemories kerala ma
 - bus_stop | zoom_out | wind | grownup:happy uncle:happy || കഴിഞ്ഞ മാസം നാട്ടിൽ പോയപ്പോൾ ബാബു ചേട്ടനെ കണ്ടു. എന്നെ കണ്ടതും ചോദിച്ചു: "സ്കൂളിൽ വൈകിയില്ലല്ലോ?" ||
 
 ### 78-smoky-uniform
+hook: എന്റെ യൂണിഫോമിന് എന്തിനാണ് പുകമണം?
 title: പുകമണമുള്ള യൂണിഫോം | The Fireside Uniform
 theme: In the endless monsoon Amma dried our school uniforms over the kitchen fire at night, so they always smelled of the hearth
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory monsoon uniform amma childhoodmemories kerala mal
 - kitchen | zoom_out | indoor | grownup:happy amma:happy | stove || ആ പുകമണം അമ്മയുടെ ഉറക്കമില്ലാത്ത രാത്രികളുടെ മണമായിരുന്നു എന്ന് ഇന്നാണ് മനസ്സിലാകുന്നത്. ||
 
 ### 79-circus-came
+hook: സർക്കസ് ടിക്കറ്റിന് പൈസ അച്ഛൻ എങ്ങനെ ഉണ്ടാക്കി?
 title: സർക്കസ് വന്ന വർഷം | The Year the Circus Came
 theme: When the circus came to town, the jeep announcement, the tent, and Achan saving for weeks to take the whole family
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory circus town family childhoodmemories kerala mallu
 - interior | zoom_out | indoor | grownup:happy | photo:achan || ആ രണ്ടാഴ്ച അച്ഛൻ ഉച്ചഭക്ഷണം ഒഴിവാക്കിയാണ് ആ പൈസ ഉണ്ടാക്കിയതെന്ന് അമ്മ പിന്നീട് പറഞ്ഞു. ||
 
 ### 80-paddy-fishing
+hook: അമ്മ അറിയാതെ പാടത്ത് മീൻ പിടിക്കാൻ പോയിട്ടുണ്ടോ?
 title: പാടത്തെ മീൻപിടുത്തം | Fishing in the Paddy Field
 theme: Sneaking out after the first heavy rain to catch small fish in the flooded paddy field, and Amma knowing everything from the mud
 narrator: man

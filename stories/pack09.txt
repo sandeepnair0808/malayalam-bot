@@ -1,4 +1,5 @@
 ### 81-achan-shoulders
+hook: അച്ഛന്റെ തോളിലിരുന്ന് കണ്ട ഉത്സവം!
 title: അച്ഛന്റെ തോളിലെ ഉത്സവം | The Festival from Achan's Shoulders
 theme: At the temple festival I saw the whole procession from Achan's shoulders, never realising how tired he was
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory achan utsavam festival childhoodmemories kerala m
 - temple+night+festive | zoom_out | night | grownup:happy kid:happy | photo:achan || അന്ന് മനസ്സിലായി. അച്ഛന്റെ തോളിലിരുന്നാണ് ഞാൻ ആദ്യമായി ലോകം കണ്ടത്. ||
 
 ### 82-pickle-swap
+hook: ഉച്ചയ്ക്ക് ടിഫിൻ പങ്കിട്ട് കഴിച്ച ആ കാലം!
 title: ഉച്ചയ്ക്കത്തെ അച്ചാർ കൈമാറ്റം | The Lunchtime Pickle Swap
 theme: At school lunch everyone opened their tiffins in a circle and swapped pickles and side dishes, a tiny feast of every home's kitchen
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory school tiffin friends childhoodmemories kerala ma
 - classroom | zoom_out | indoor | grownup:happy | photo:amma || ഇന്നലെ ഞാൻ ഓഫീസിൽ അമ്മയുടെ അച്ചാർ കൊണ്ടുപോയി എല്ലാവർക്കും കൊടുത്തു. അന്ന് മുതൽ ഞങ്ങൾ ഒരുമിച്ചാണ് കഴിക്കുന്നത്. ||
 
 ### 83-wedding-pandal
+hook: ഒരു കല്യാണത്തിന് ഒരു നാട് മുഴുവൻ ഒന്നിച്ച കാലം!
 title: അയലത്തെ കല്യാണപ്പന്തൽ | The Neighbourhood Wedding
 theme: When the neighbour chechi got married the whole street worked all night building the pandal, cooking and laughing together
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory wedding neighbours village childhoodmemories kera
 - yard+festive | zoom_out | wind | grownup:happy | photo:ammachi || അന്ന് ഒരു കല്യാണത്തിന് ഒരു നാട് മുഴുവൻ ഒരു കുടുംബമായിരുന്നു. ||
 
 ### 84-puncture-shop
+hook: കുട്ടികളുടെ കയ്യിൽ നിന്ന് പൈസ വാങ്ങാത്ത ആ മെക്കാനിക്!
 title: പഞ്ചർ കടയിലെ കുഞ്ഞാപ്പു | Kunjappu of the Puncture Shop
 theme: The cycle repair man at the junction fixed every child's puncture for free and taught me how to fix it myself
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory cycle repair village childhoodmemories kerala mal
 - bus_stop | zoom_out | wind | grownup:happy kid:happy | bicycle:red || കഴിഞ്ഞ ആഴ്ച എന്റെ മകന്റെ സൈക്കിൾ പഞ്ചർ ആയി. ഞാൻ അവനെ ഒട്ടിക്കാൻ പഠിപ്പിച്ചു. ||
 
 ### 85-gulf-suitcase
+hook: ഗൾഫ് പെട്ടി തുറക്കുമ്പോഴുള്ള ആ മണം ഓർമ്മയുണ്ടോ?
 title: ഗൾഫ് പെട്ടിയുടെ മണം | The Smell of the Gulf Suitcase
 theme: When Uncle came from the Gulf, opening his suitcase filled the house with the smell of perfume and Tang, and he shared it with the whole street
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory gulf pravasi suitcase uncle childhoodmemories ker
 - interior | zoom_out | indoor | grownup:happy uncle:happy || ഇന്ന് ഞാനും ഒരു പ്രവാസിയാണ്. ഓരോ തവണ പെട്ടി ഒരുക്കുമ്പോഴും മാമന്റെ ആ വാക്കുകൾ ഓർക്കും. ||
 
 ### 86-ammachi-album
+hook: അമ്മൂമ്മയുടെ പഴയ ആൽബത്തിലെ ആ പെൺകുട്ടി ആര്?
 title: അമ്മൂമ്മയുടെ ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ആൽബം | Ammachi's Black and White Album
 theme: One rainy afternoon Ammachi opened her old album and I discovered she was once a young girl who dreamed of being a teacher
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory ammachi album oldphotos dreams kerala mallureels 
 - interior | zoom_out | indoor | grownup:hold=book,happy | photo:ammachi || എന്റെ മേശപ്പുറത്ത് ആ പെൺകുട്ടിയുടെ ഫോട്ടോ ഉണ്ട്. എന്റെ ആദ്യത്തെ ടീച്ചർ. ||
 
 ### 87-first-job-bag
+hook: ആദ്യ ജോലിക്ക് പോകുമ്പോൾ അമ്മ ബാഗിൽ വെച്ചത്...
 title: ആദ്യ ജോലിക്ക് പോകുമ്പോൾ | Leaving for My First Job
 theme: The morning I left home for my first job in the city, Amma packed pickles, banana chips and her worries into my bag
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory amma firstjob leavinghome kerala mallureels malay
 - night_room+night | zoom_out | night | grownup:eat,happy | photo:amma || ആ അച്ചാറിന്റെ ആദ്യത്തെ രുചിയിൽ എനിക്ക് വീട്ടിൽ എത്തിയ പോലെ തോന്നി. അമ്മയ്ക്ക് എല്ലാം അറിയാമായിരുന്നു. ||
 
 ### 88-grinding-stone
+hook: അമ്മൂമ്മ എന്തിനാണ് മിക്സി വേണ്ടെന്ന് പറഞ്ഞത്?
 title: അമ്മിക്കല്ലിലെ ചമ്മന്തി | Chutney on the Grinding Stone
 theme: Ammachi ground coconut chutney on the old stone every morning, refusing the new mixie, because the stone made it taste of patience
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory ammachi chammanthi ammikkallu kitchen kerala mall
 - kitchen | zoom_out | indoor | grownup:happy | photo:ammachi || തറവാട്ടിലെ ആ അമ്മിക്കല്ല് ഇന്ന് എന്റെ വീട്ടിലുണ്ട്. ഞായറാഴ്ചകളിൽ ഞാൻ അതിൽ അരയ്ക്കും. ||
 
 ### 89-wooden-bridge
+hook: താഴേക്ക് നോക്കണ്ട, എന്നെ നോക്ക്! ചേച്ചി പറഞ്ഞത്...
 title: ചേച്ചിയുടെ കൈ പിടിച്ച് തടിപ്പാലത്തിലൂടെ | Across the Wooden Bridge with Chechi
 theme: Every day Chechi held my hand tightly while we crossed the narrow wooden bridge over the canal on the way to school
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory chechi bridge school sister kerala mallureels mal
 - paddy+sunset | zoom_out | wind | grownup:phone,happy chechi:happy || ജീവിതത്തിൽ ഓരോ പേടിയുള്ള പാലം കടക്കുമ്പോഴും ഞാൻ ചേച്ചിയെ വിളിക്കും. "താഴേക്ക് നോക്കണ്ട, എന്നെ നോക്ക്." ||
 
 ### 90-broken-window
+hook: ദേഷ്യക്കാരനായ അപ്പൂപ്പന്റെ ജനൽ പൊട്ടിച്ച ദിവസം!
 title: പൊട്ടിയ ജനൽച്ചില്ല് | The Broken Window
 theme: Our cricket ball broke the window of the grumpy old neighbour, and instead of scolding us he came out with the ball and a smile
 narrator: man

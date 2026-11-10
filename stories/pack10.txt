@@ -1,4 +1,5 @@
 ### 91-ink-pen
+hook: അഞ്ചാം ക്ലാസിലെ ആദ്യത്തെ മഷിപ്പേന ഓർമ്മയുണ്ടോ?
 title: അഞ്ചാം ക്ലാസിലെ മഷിപ്പേന | The Fifth Standard Ink Pen
 theme: Achan gave me my first fountain pen when I reached fifth standard, and ink stains on my fingers became a badge of growing up
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory inkpen school achan childhoodmemories kerala mall
 - interior | zoom_out | indoor | grownup:read,happy | photo:achan || അച്ഛന്റെ ആ പഴയ പേന ഇന്നും എന്റെ മേശയിലുണ്ട്. പ്രധാനപ്പെട്ട എല്ലാ ഒപ്പുകളും അതുകൊണ്ടാണ്. ||
 
 ### 92-army-trunk
+hook: പട്ടാളക്കാരനായ അച്ഛന്റെ കറുത്ത പെട്ടിയിൽ എന്തായിരുന്നു?
 title: അച്ഛന്റെ പട്ടാളപ്പെട്ടി | Achan's Army Trunk
 theme: Achan served in the army far away, and every leave the black trunk arrived first, full of sweets and stories from the north
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory army achan soldier family kerala mallureels malay
 - veranda | zoom_out | wind | achan:sit,happy grownup:sit,happy kid:sit,happy || എന്റെ മകൻ അതിൽ ഇരുന്ന് അപ്പൂപ്പന്റെ മഞ്ഞുമലക്കഥകൾ കേൾക്കുന്നു. ||
 
 ### 93-ammachi-train
+hook: എഴുപതാം വയസ്സിൽ അമ്മൂമ്മയുടെ ആദ്യ ട്രെയിൻ യാത്ര!
 title: അമ്മൂമ്മയുടെ ആദ്യ ട്രെയിൻ യാത്ര | Ammachi's First Train Ride
 theme: At seventy, Ammachi had never been on a train, so I took her on a short trip and she watched out the window like a child
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory ammachi train firsttime grandmother kerala mallur
 - veranda | zoom_out | wind | ammachi:hug,happy grownup:hug,happy || അന്ന് രാത്രി അമ്മൂമ്മ എല്ലാവരോടും ആ കഥ പറഞ്ഞു. പത്ത് തവണ. ഓരോ തവണയും കൂടുതൽ സന്തോഷത്തോടെ. ||
 
 ### 94-streetlight-study
+hook: തെരുവുവിളക്കിന് താഴെ പഠിച്ച ആ കുട്ടി ഇന്ന് ആരാണ്?
 title: തെരുവുവിളക്കിന് താഴെ | Under the Street Light
 theme: My friend Suresh had no electricity at home, so he studied every night under the street light, and today he is a doctor
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory friendship hardwork study inspiration kerala mall
 - lane+night | zoom_out | night | grownup:happy friend:happy || കഴിഞ്ഞ വർഷം സുരേഷ് ആ കവലയിൽ ഒരു ചെറിയ ലൈബ്രറി പണിതു. നല്ല വെളിച്ചമുള്ള ഒന്ന്. ||
 
 ### 95-library-card
+hook: എന്റെ പേരുള്ള ആദ്യത്തെ കാർഡ്, അത് ജീവിതം മാറ്റി!
 title: വായനശാലയിലെ കാർഡ് | My Library Card
 theme: Achan took me to the village library and got me my own membership card, the first thing in my life with my name printed on it
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory library reading achan childhoodmemories kerala ma
 - interior | zoom_out | indoor | grownup:hold=book,happy | photo:achan || ആ മഞ്ഞ കാർഡ് ഇന്നും എന്റെ പേഴ്സിലുണ്ട്. എന്റെ ജീവിതം തുടങ്ങിയത് അവിടെ നിന്നാണ്. ||
 
 ### 96-ice-stick-man
+hook: മൂന്ന് കൂട്ടുകാർക്ക് ഒരു കോലൈസ്! ആ മണി ഓർമ്മയുണ്ടോ?
 title: കോലൈസ് വണ്ടി | The Ice Stick Cart
 theme: The afternoon bell of the ice stick seller's bicycle, the fifty paisa orange ice, and sharing one between three friends
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory icecream summer friends 90skids kerala mallureels
 - yard | zoom_out | wind | grownup:happy friend:happy || ആ മൂന്നുപേർ പങ്കിട്ട അൻപത് പൈസയുടെ കോലൈസിനായിരുന്നു ലോകത്തിലെ ഏറ്റവും മധുരം. ||
 
 ### 97-amma-signs-name
+hook: അമ്മ ആദ്യമായി സ്വന്തം പേര് എഴുതിയ ദിവസം!
 title: അമ്മ സ്വന്തം പേര് എഴുതിയ ദിവസം | The Day Amma Wrote Her Name
 theme: Amma never went to school, so one summer I taught her to write her name, and she signed the bank form herself for the first time
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory amma learning signature motherslove kerala mallur
 - interior | zoom_out | indoor | grownup:hold=book,happy amma:happy || അമ്മ എന്നെ എല്ലാം പഠിപ്പിച്ചു. ഞാൻ അമ്മയെ ഒരു പേര് മാത്രം. പക്ഷേ അന്നത്തെ ആ ചിരിയാണ് എന്റെ ഏറ്റവും വലിയ നേട്ടം. ||
 
 ### 98-cousin-books
+hook: ചേട്ടന്റെ പഴയ പുസ്തകത്തിൽ ഒളിച്ചിരുന്ന രഹസ്യം!
 title: ചേട്ടന്റെ പഴയ പുസ്തകങ്ങൾ | My Cousin's Old Books
 theme: Every June I got my older cousin's used textbooks, full of his notes and doodles, and they taught me more than the lessons
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory books cousin school childhoodmemories kerala mall
 - interior | zoom_out | indoor | grownup:happy kid:happy | books || ഒരു പഴയ പുസ്തകം ഒരു ചേട്ടന്റെ സ്നേഹവും കൂടി കൊണ്ടുവരുന്നുണ്ട് എന്ന് അന്ന് ഞാൻ അറിഞ്ഞില്ല. ||
 
 ### 99-radio-cricket
+hook: അവസാന ഓവറിൽ റേഡിയോ നിന്നുപോയാൽ?
 title: റേഡിയോയിലെ അവസാന ഓവർ | The Last Over on the Radio
 theme: The whole family crowded around Achan's transistor radio for the last over of a cricket match, holding their breath
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory cricket radio commentary achan childhoodmemories 
 - veranda | zoom_out | wind | achan:happy grownup:happy | radio || കഴിഞ്ഞ ലോകകപ്പ് ഫൈനൽ ഞാൻ അച്ഛനോടൊപ്പം ആ പഴയ റേഡിയോയിൽ കേട്ടു. അതേ ആവേശം. ||
 
 ### 100-last-day-tharavadu
+hook: തറവാട് വിൽക്കും മുൻപുള്ള അവസാന ദിവസം...
 title: തറവാട്ടിലെ അവസാന ദിവസം | The Last Day at the Tharavadu
 theme: Before the old family house was sold, all the cousins came back for one last day, one last meal, and one last photo on the steps
 narrator: man

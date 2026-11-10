@@ -1,4 +1,5 @@
 ### 01-ammachi-kizhi
+hook: അമ്മൂമ്മയുടെ സാരിത്തുമ്പിലെ ആ കെട്ടിൽ എന്തായിരുന്നു?
 title: അമ്മൂമ്മയുടെ സാരിത്തുമ്പിലെ കിഴി | Ammachi's Knotted Coins
 theme: A grandmother secretly saves coins in her saree knot for her grandson's school trip
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory ammachi grandmother kerala nostalgia mallureels m
 - veranda+close | zoom_out | wind | ammachi:happy || ഇന്ന് എന്റെ പോക്കറ്റ് നിറയെ പൈസയുണ്ട്. പക്ഷേ ആ കിഴിയുടെ അത്രയും വിലയുള്ള ഒന്നും ഇല്ല. ||
 
 ### 02-gulf-letter
+hook: അമ്മൂമ്മ എന്തിനാണ് ഒരേ കത്ത് വീണ്ടും വീണ്ടും വായിപ്പിച്ചത്?
 title: ഗൾഫിൽ നിന്നുള്ള കത്ത് | The Letter from the Gulf
 theme: A boy reads his father's Gulf letters aloud to his grandmother again and again; years later he understands why
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory gulf pravasi letter kerala nostalgia mallureels m
 - night_room+close | zoom_out | night | grownup:phone,sad || ഞാൻ അത് ഇരുപത് തവണ കേട്ടു. അന്ന് എനിക്ക് മനസ്സിലായി, അമ്മൂമ്മ കേട്ടത് കത്തല്ല... മകന്റെ ശബ്ദമായിരുന്നു. ||
 
 ### 03-extra-chapati
+hook: അമ്മ എന്തിനാണ് എന്നും ഒരു ചപ്പാത്തി കൂടുതൽ വെച്ചത്?
 title: ടിഫിനിലെ ഒരു ചപ്പാത്തി കൂടുതൽ | One Extra Chapati
 theme: A mother packs one extra chapati every day; years later the son learns who it was for
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory amma tiffin school kerala nostalgia mallureels ma
 - yard+close | zoom_out | wind | amma:happy || അവൻ പറഞ്ഞു, ആ ചപ്പാത്തി ഇല്ലായിരുന്നെങ്കിൽ ഞാൻ സ്കൂൾ നിർത്തിയേനെ. അമ്മയ്ക്ക് അത് ആദ്യമേ അറിയാമായിരുന്നു. ||
 
 ### 04-power-cut
+hook: കറന്റ് പോകാൻ ഞാൻ എന്തിനാണ് കാത്തിരുന്നത്?
 title: കറന്റ് പോയ രാത്രികൾ | The Power Cut Nights
 theme: A father tells stories by lamplight during power cuts; years later his son tells the same stories to his daughter
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory powercut achan stories kerala nostalgia mallureel
 - night_room+close | zoom_out | night | grownup:happy | kerosene_lamp || കറന്റ് വന്നപ്പോൾ എന്റെ മോൾ പറഞ്ഞു, ലൈറ്റ് ഓഫ് ചെയ്യൂ അച്ഛാ, കഥ തീർന്നില്ല. ||
 
 ### 05-paper-kite
+hook: പത്രക്കടലാസിലെ പട്ടത്തെ ഓർത്ത് ഞാൻ നാണിച്ചു, പിന്നെ?
 title: പത്രക്കടലാസിലെ പട്ടം | The Newspaper Kite
 theme: A boy is ashamed of the kite his father made from newspaper, until it flies the highest
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory achan kite kerala nostalgia mallureels malayalamr
 - paddy+close | zoom_out | wind | kid:happy | kite || ഞാൻ അഭിമാനത്തോടെ പറഞ്ഞു, ഇത് വാങ്ങിയതല്ല. എന്റെ അച്ഛൻ ഉണ്ടാക്കിയതാ. ||
 
 ### 06-pookkalam
+hook: ചേച്ചി എല്ലാ വർഷവും തോറ്റത് എന്തുകൊണ്ട്?
 title: ചേച്ചി തോൽക്കുന്ന പൂക്കളം | The Pookkalam Chechi Lost
 theme: Every Onam an elder sister loses the pookkalam contest on purpose so her little brother can win
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory onam pookkalam chechi sister kerala nostalgia mal
 - yard+close | zoom_out | wind | chechi:happy | pookkalam || ഞാൻ ജയിച്ച എല്ലാ ഓണങ്ങളും, ചേച്ചി എനിക്ക് തന്ന സമ്മാനങ്ങളായിരുന്നു. ||
 
 ### 07-radio-seven
+hook: അപ്പൂപ്പൻ പോയിട്ടും ഏഴുമണിക്ക് ആ റേഡിയോ പാടുന്നത് എന്തിന്?
 title: ഏഴുമണിയുടെ റേഡിയോ | The Seven O'Clock Radio
 theme: A grandmother keeps switching on her late husband's radio every evening at seven
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory radio appooppan ammachi kerala nostalgia malluree
 - interior+close | zoom_out | indoor | ammachi:talk,happy | radio || ഞാൻ എന്താ എന്ന് ചോദിച്ചപ്പോൾ അമ്മൂമ്മ പറഞ്ഞു. || ammachi: പരാതി പറയാൻ ഒരു ഒച്ച വേണ്ടേ മോനേ.
 
 ### 08-mango-tree
+hook: ഒരിക്കലും തിന്നാൻ പറ്റാത്ത മാവ് അപ്പൂപ്പൻ എന്തിന് നട്ടു?
 title: അപ്പൂപ്പൻ നട്ട മാവ് | The Mango Tree Appooppan Planted
 theme: An old man plants a mango tree knowing he will never eat its fruit
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory appooppan mango tree kerala nostalgia mallureels 
 - yard | zoom_out | wind | grownup:hold=flower girl:surprised | mango_tree || ഇന്ന് ഞാനും ഒരു മാവിൻ തൈ നട്ടു. എനിക്ക് വേണ്ടിയല്ല. ||
 
 ### 09-earring-payasam
+hook: അമ്മയുടെ കാതിലെ കമ്മൽ എവിടെ പോയി?
 title: അമ്മയുടെ കമ്മൽ | Amma's Earrings
 theme: A mother quietly pawns her earrings to make birthday payasam for her son
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory amma payasam birthday kerala nostalgia mallureels
 - interior+close | zoom_out | indoor | amma:happy || അമ്മ അത് ഇട്ടു. അപ്പോൾ അമ്മ പറഞ്ഞു, ഇതിന് ഒട്ടും ഭാരമില്ലല്ലോ മോനേ. ||
 
 ### 10-night-bus
+hook: ഒരു ഞായറാഴ്ചയ്ക്ക് വേണ്ടി അച്ഛൻ എത്ര ദൂരം യാത്ര ചെയ്തു?
 title: ശനിയാഴ്ചത്തെ രാത്രി വണ്ടി | The Saturday Night Bus
 theme: A father takes a long night bus every weekend just to be home for one Sunday
 narrator: man

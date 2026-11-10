@@ -118,8 +118,10 @@ def synthesize(settings: Settings, text: str, out: Path, preset: VoicePreset | N
     provider = settings.tts.lower()
     if provider == "none" or not text.strip():
         return None
-    # "..." makes the neural voice stop for a long beat; a comma pause keeps the pace up
-    text = re.sub(r"\s*(\.\.\.|…)\s*", ", ", text).strip(" ,")
+    # numbers, abbreviations, emoji, "..." etc. -> natural speech (subtitles keep the original text)
+    from .pronounce import for_speech
+
+    text = for_speech(text)
     out.parent.mkdir(parents=True, exist_ok=True)
     raw = out.with_suffix(".raw.mp3")
     preset = preset or preset_for(None, settings)
@@ -163,6 +165,9 @@ def narrate_story(settings: Settings, story, workdir: Path) -> list[SceneVoice]:
     """Voice every scene with the narrator's and characters' presets."""
     cast = {c.id: c.voice for c in story.characters}
     narrator = preset_for(story.narrator_voice, settings)
+    # small per-story variation (pitch -4..+4 Hz, pace -3..+3 %) so the channel does not sound mass-produced
+    seed = sum(map(ord, story.title_en or story.title_ml))
+    narrator = VoicePreset(narrator.voice, narrator.pitch + seed % 9 - 4, narrator.rate + (seed // 9) % 7 - 3)
     result: list[SceneVoice] = []
     last = len(story.scenes) - 1
     for i, scene in enumerate(story.scenes):

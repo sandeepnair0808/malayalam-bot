@@ -49,6 +49,7 @@ class Settings:
     font: str = field(default_factory=lambda: _env("REELBOT_FONT", "Manjari"))
     fonts_dir: Path = field(default_factory=lambda: Path(_env("REELBOT_FONTS_DIR", "assets/fonts")))
     music_dir: Path = field(default_factory=lambda: Path(_env("REELBOT_MUSIC_DIR", "assets/music")))
+    end_card: str = field(default_factory=lambda: _env("REELBOT_END_CARD", "ഇഷ്ടമായെങ്കിൽ സബ്സ്ക്രൈബ് ചെയ്യൂ"))
     music_volume: float = field(default_factory=lambda: float(_env("REELBOT_MUSIC_VOLUME", "0.12")))
 
     # Paths

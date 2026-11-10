@@ -1,4 +1,5 @@
 ### 61-coconut-leaf-watch
+hook: ഓല കൊണ്ട് ഒരു വാച്ച്! അപ്പൂപ്പന്റെ മാജിക്!
 title: ഓലവാച്ച് | The Coconut Leaf Watch
 theme: Appooppan made watches, whistles and spinning tops out of coconut leaves, the best toys a child ever had
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory appooppan coconutleaf toys childhoodmemories kera
 - yard | zoom_out | wind | grownup:hold=flower,happy | photo:appooppan || എന്നിട്ടും ഒരു ഓല കയ്യിൽ കിട്ടിയാൽ ഞാൻ അറിയാതെ ഒരു വാച്ച് ഉണ്ടാക്കാൻ നോക്കും. ||
 
 ### 62-tea-shop-biscuit
+hook: ചായക്കടയിലെ ആ ചില്ലു ഭരണി ഓർമ്മയുണ്ടോ?
 title: ചായക്കടയിലെ ബിസ്കറ്റ് ഭരണി | The Biscuit Jar at the Tea Shop
 theme: Sunday mornings at the village tea shop with Achan, the newspaper debates, and the one biscuit from the glass jar
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory achan chayakada teashop childhoodmemories kerala 
 - bus_stop | zoom_out | wind | grownup:happy | photo:achan || പക്ഷേ അച്ഛൻ വാങ്ങിത്തന്ന ആ രണ്ട് രൂപയുടെ ബിസ്കറ്റിന്റെ സ്വാദ് ഒന്നിനുമില്ല. ||
 
 ### 63-first-cinema
+hook: ആദ്യമായി തിയേറ്ററിൽ പോയ ദിവസം, അച്ഛൻ നോക്കിയത് എന്തിലേക്ക്?
 title: ആദ്യത്തെ സിനിമാ തിയേറ്റർ | My First Cinema
 theme: The first time the family went to the town cinema, with paper tickets, Achan carrying me on his shoulders in the crowd
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory cinema theatre family childhoodmemories kerala ma
 - interior+night | zoom_out | night | grownup:happy kid:happy || അന്ന് മനസ്സിലായി, അച്ഛൻ അന്ന് സിനിമയല്ല, എന്റെ മുഖമായിരുന്നു നോക്കിയിരുന്നത്. ||
 
 ### 64-tharavadu-sadya
+hook: മുപ്പത് കസിൻസ്, ഒരു നീണ്ട നിര വാഴയില!
 title: തറവാട്ടിലെ ഓണസദ്യ | Onam Sadya at the Tharavadu
 theme: Thirty cousins on a long row of banana leaves at the ancestral home on Thiruvonam, compared with ordering a sadya kit today
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory onam sadya tharavadu cousins kerala mallureels ma
 - veranda | zoom_out | wind | grownup:happy | photo:ammachi || അടുത്ത ഓണത്തിന് എല്ലാവരും തറവാട്ടിൽ ഒത്തുകൂടാൻ ഞങ്ങൾ ഒരു തീരുമാനമെടുത്തു. ||
 
 ### 65-christmas-star
+hook: ഒരു കടലാസ് നക്ഷത്രം ഒരു ഗ്രാമം മുഴുവൻ വെളിച്ചമാക്കി!
 title: ജോസഫ് ചേട്ടന്റെ നക്ഷത്രം | The Star at Joseph Chettan's House
 theme: Every December the neighbourhood children helped Joseph chettan make a big paper Christmas star, whatever house they came from
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory christmas star neighbours childhoodmemories keral
 - veranda+night | zoom_out | night | grownup:happy kid:happy || എന്റെ മകനും ഇപ്പോൾ അവന്റെ മക്കളോടൊപ്പം നക്ഷത്രം ഉണ്ടാക്കുന്നു. ആ വെളിച്ചം ഇന്നും അണഞ്ഞിട്ടില്ല. ||
 
 ### 66-eid-biriyani
+hook: മുപ്പത് വർഷമായി രണ്ട് വീടുകൾക്കിടയിൽ യാത്ര ചെയ്യുന്ന ഒരു പാത്രം!
 title: ഉമ്മയുടെ ബിരിയാണി | Umma's Biriyani
 theme: Every Eid the neighbour Umma sent a plate of biriyani, and Amma always sent the plate back with payasam
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory eid biriyani neighbours childhoodmemories kerala 
 - veranda | zoom_out | wind | grownup:hold=plate,happy || ആ പാത്രം ഞങ്ങളുടെ രണ്ട് വീടുകൾക്കിടയിൽ മുപ്പത് വർഷമായി യാത്ര ചെയ്യുന്നു. ||
 
 ### 67-vishukkani
+hook: കണ്ണ് തുറക്കല്ലേ! അമ്മൂമ്മ കാണിച്ചു തന്ന വിഷുക്കണി!
 title: കണ്ണ് പൊത്തിയ വിഷുക്കണി | Eyes Closed for Vishukkani
 theme: Before dawn on Vishu, Ammachi covered my eyes and led me to see the kani, the first sight of the new year
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory vishu vishukkani ammachi childhoodmemories kerala
 - interior+night+festive | zoom_out | night | grownup:happy kid:surprised | nilavilakku || അവന്റെ മുഖത്ത് അതേ മഞ്ഞ വെളിച്ചം കണ്ടപ്പോൾ എന്റെ കണ്ണുകൾ നിറഞ്ഞു. ||
 
 ### 68-jackfruit-season
+hook: ചക്കക്കാലം വന്നാൽ വീട്ടിൽ എന്തൊക്കെ ആയിരുന്നു!
 title: ചക്കക്കാലം | Jackfruit Season
 theme: The whole family sat together cutting a giant jackfruit, hands sticky with oil, in the summer of jackfruit everything
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory chakka jackfruit summer childhoodmemories kerala 
 - yard | zoom_out | wind | grownup:happy | mango_tree || നാട്ടിൽ പോകുമ്പോൾ ഞാൻ ആദ്യം നോക്കുന്നത് ആ പ്ലാവിലേക്കാണ്. ||
 
 ### 69-rent-cycle
+hook: അഞ്ച് രൂപയ്ക്ക് ഒരു മണിക്കൂർ, വാടക സൈക്കിൾ ഓർമ്മയുണ്ടോ?
 title: മണിക്കൂറിന് വാടക സൈക്കിൾ | A Bicycle for One Hour
 theme: Saving coins for weeks to rent a bicycle for one hour from the village cycle shop, and racing with friends before time ran out
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory cycle rent 90skids childhoodmemories kerala mallu
 - lane | zoom_out | wind | grownup:happy | bicycle:blue || വാടകയ്ക്ക് എടുത്ത ആ ഒരു മണിക്കൂറിനായിരുന്നു സ്വന്തമായുള്ള ഈ സൈക്കിളിനേക്കാൾ സന്തോഷം. ||
 
 ### 70-independence-mittayi
+hook: ഓഗസ്റ്റ് പതിനഞ്ചിന് എല്ലാവരും കാത്തിരുന്നത് എന്തിന്?
 title: ഓഗസ്റ്റ് പതിനഞ്ചിലെ മിഠായി | The Independence Day Sweet
 theme: The school flag hoisting on August 15, the white uniform, the paper flag on the shirt, and the orange sweet everyone waited for
 narrator: man

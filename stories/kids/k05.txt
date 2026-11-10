@@ -1,4 +1,5 @@
 ### k041-stage-song
+hook: വേദിയിൽ പേടി തോന്നിയാൽ എന്ത് ചെയ്യും?
 title: വേദിയിലെ പാട്ട് | The Song on the Stage
 theme: Ammu is scared to sing at the school function, Chechi encourages her, and she sings bravely
 moral: Be brave and try; courage grows when we try.
@@ -14,6 +15,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory courage confidence keral
 - school+festive | zoom_out | wind | chechi:hug,happy girl:hug,happy || ഗുണപാഠം: പേടി തോന്നിയാലും ധൈര്യത്തോടെ ശ്രമിക്കണം. ||
 
 ### k042-neighbour-bag
+hook: ഭാരമുള്ള സഞ്ചിയുമായി ഒരു അപ്പൂപ്പൻ...
 title: അയലത്തെ അപ്പൂപ്പൻ | The Neighbour Appooppan
 theme: Appu sees the old neighbour struggling with a heavy bag and carries it home for him
 moral: Help the elderly whenever you can.
@@ -29,6 +31,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory helping elders kerala
 - veranda | zoom_out | wind | appooppan:wave,happy kid:wave,happy || ഗുണപാഠം: പ്രായമായവരെ കഴിയുമ്പോഴെല്ലാം സഹായിക്കണം. ||
 
 ### k043-forgive-friend
+hook: കൂട്ടുകാരൻ എന്റെ കളിപ്പാട്ടം പൊട്ടിച്ചു, ഇനി?
 title: പൊട്ടിയ കളിപ്പാട്ടം | The Broken Toy
 theme: Kannan accidentally breaks Appu's toy car; Appu is upset but forgives him and they fix it together
 moral: Forgive friends when they make mistakes.
@@ -44,6 +47,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory forgiveness friendship k
 - yard | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: കൂട്ടുകാർക്ക് തെറ്റ് പറ്റുമ്പോൾ ക്ഷമിക്കണം. ||
 
 ### k044-vegetable-garden
+hook: വിത്ത് നട്ടു, പിറ്റേന്ന് ഒന്നും മുളച്ചില്ല!
 title: അപ്പുവിന്റെ പച്ചക്കറിത്തോട്ടം | Appu's Vegetable Garden
 theme: Appu plants beans with Achan, waits impatiently, keeps watering, and finally harvests them
 moral: Hard work and patience bring good results.
@@ -59,6 +63,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory patience hardwork kerala
 - yard+sunset | zoom_out | wind | achan:hug,happy kid:hug,happy || ഗുണപാഠം: അധ്വാനവും ക്ഷമയും ഉണ്ടെങ്കിൽ നല്ല ഫലം കിട്ടും. ||
 
 ### k045-mango-share
+hook: മാവിലെ എല്ലാ മാങ്ങയും എനിക്ക് മാത്രമോ?
 title: എല്ലാ മാങ്ങയും എനിക്കോ? | All the Mangoes for Me?
 theme: Appu wants to pick every mango from the tree for himself; Appooppan teaches him to leave some for others
 moral: Do not be greedy; take only what you need.
@@ -74,6 +79,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory sharing goodvalues keral
 - yard+sunset | zoom_out | wind | appooppan:hug,happy kid:hug,happy | mango_tree || ഗുണപാഠം: അത്യാഗ്രഹം പാടില്ല. ആവശ്യത്തിന് മാത്രം എടുത്ത് ബാക്കി പങ്കിടണം. ||
 
 ### k046-take-umbrella
+hook: അമ്മ പറഞ്ഞിട്ടും കുട എടുത്തില്ല, പിന്നെ?
 title: അമ്മ പറഞ്ഞ കുട | The Umbrella Amma Gave
 theme: Appu ignores Amma's advice to take an umbrella, gets soaked and catches a cold, and learns to listen
 moral: Listen to the good advice of elders.
@@ -89,6 +95,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory listen goodhabits kerala
 - veranda | zoom_out | wind | amma:hug,happy kid:hug,happy || ഗുണപാഠം: മുതിർന്നവരുടെ നല്ല ഉപദേശങ്ങൾ കേൾക്കണം. ||
 
 ### k047-ammu-football
+hook: പെൺകുട്ടികൾക്ക് ഫുട്ബോൾ കളിക്കാൻ പറ്റില്ലേ?
 title: അമ്മുവിന്റെ ഗോൾ | Ammu's Goal
 theme: The boys say Ammu cannot play football; Appu lets her join, she scores, and everyone plays together
 moral: Everyone can play and learn; never leave anyone out.
@@ -104,6 +111,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory equality friendship kera
 - school | zoom_out | wind | girl:wave,happy kid:wave,happy friend:wave,happy || ഗുണപാഠം: എല്ലാവർക്കും കളിക്കാനും പഠിക്കാനും കഴിയും. ആരെയും മാറ്റി നിർത്തരുത്. ||
 
 ### k048-clean-classroom
+hook: ആഘോഷം കഴിഞ്ഞു, ക്ലാസ് ആര് വൃത്തിയാക്കും?
 title: ഞങ്ങളുടെ ക്ലാസ് മുറി | Our Classroom
 theme: The class is messy after a party; instead of waiting for someone else, the children clean it together
 moral: Take responsibility for keeping our places clean.
@@ -119,6 +127,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory responsibility cleanline
 - classroom | zoom_out | indoor | teacher:happy kid:wave,happy friend:wave,happy girl:wave,happy || ഗുണപാഠം: നമ്മുടെ ചുറ്റുപാട് വൃത്തിയായി സൂക്ഷിക്കേണ്ടത് നമ്മുടെ ഉത്തരവാദിത്തമാണ്. ||
 
 ### k049-handmade-card
+hook: പൈസ ഇല്ലാതെ അമ്മൂമ്മയ്ക്ക് ഒരു സമ്മാനം!
 title: അമ്മൂമ്മയ്ക്ക് ഒരു കാർഡ് | A Card for Ammachi
 theme: Ammu has no money for a birthday gift for Ammachi, so she makes a card by hand, and Ammachi treasures it
 moral: A gift made with love is the most precious gift.
@@ -134,6 +143,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory gifts grandparents keral
 - veranda | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: സ്നേഹത്തോടെ സ്വയം ഉണ്ടാക്കുന്ന സമ്മാനമാണ് ഏറ്റവും വിലപ്പെട്ടത്. ||
 
 ### k050-reading-friend
+hook: ഒരു പുസ്തകം എന്റെ അവധിക്കാലം മാറ്റിയത് എങ്ങനെ?
 title: പുസ്തകം എന്ന കൂട്ടുകാരൻ | My Friend the Book
 theme: Bored in the holidays, Appu reluctantly opens a storybook from Achan and discovers the joy of reading
 moral: Books are our best friends; read every day.

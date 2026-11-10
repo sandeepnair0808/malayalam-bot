@@ -1,4 +1,5 @@
 ### 31-needle-thread
+hook: സൂചിയിൽ നൂൽ കോർക്കാൻ ഇന്ന് ആരാണ് എന്നെ സഹായിക്കുന്നത്?
 title: സൂചിയിൽ നൂൽ | Threading the Needle
 theme: A boy threads his grandmother's needle every evening; decades later his daughter threads his
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory ammachi needle grandmother kerala nostalgia mallu
 - interior+close | zoom_out | indoor | grownup:happy || ഒരു സെക്കൻഡ് കൊണ്ട് അവൾ കോർത്തു. ഇത്രേ ഉള്ളൂ അച്ഛാ, എന്ന് പറഞ്ഞു. അന്ന് ഞാൻ അമ്മൂമ്മയെ ഓർത്ത് ചിരിച്ചു. ||
 
 ### 32-evening-lamp
+hook: വിളക്ക് കത്തിക്കുമ്പോൾ അമ്മൂമ്മ ആരുടെയെല്ലാം പേര് പറഞ്ഞു?
 title: സന്ധ്യയ്ക്ക് കത്തിക്കുന്ന വിളക്ക് | The Evening Lamp
 theme: A grandmother lights the lamp each evening and prays for every family member by name; her granddaughter continues it
 narrator: woman
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory ammachi nilavilakku sandhya grandmother kerala ma
 - veranda+sunset+close | zoom_out | wind | amma:pray,happy | nilavilakku || എല്ലാവരുടെയും പേര് പറഞ്ഞ ശേഷം, ഞാൻ ഒരു പേര് കൂടി പറയും. അമ്മൂമ്മയുടെ. ||
 
 ### 33-amma-sleep
+hook: അമ്മ ഉറങ്ങാറുണ്ടോ? പുലർച്ചെ മൂന്ന് മണിക്ക് ഞാൻ കണ്ടത്...
 title: അമ്മ ഉറങ്ങാറുണ്ടോ? | Does Amma Ever Sleep?
 theme: A boy wonders whether his mother ever sleeps, until he wakes at 3am
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory amma sleep mother kerala mallureels malayalamreel
 - night_room+close | zoom_out | night | amma:happy | kerosene_lamp || അമ്മമാർക്ക് ഉറക്കം കുറവല്ല. നമ്മളെക്കുറിച്ചുള്ള ആധി കൂടുതലാണ്. ||
 
 ### 34-achan-torch
+hook: വരണ്ടെന്ന് പറഞ്ഞിട്ടും അച്ഛൻ ടോർച്ചുമായി കാത്തുനിന്നു...
 title: അച്ഛന്റെ ടോർച്ച് | Achan's Torch
 theme: A father waits with a torch every night after tuition; when the boy tells him to stop, he keeps waiting in secret
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory achan torch tuition father kerala mallureels mala
 - lane+night+close | zoom_out | night | achan:hold=lamp,happy || അച്ഛൻ വന്നിരുന്നു. ഞാൻ കാണാതെ. എന്റെ വഴിക്ക് വെളിച്ചം കാണിക്കാൻ മാത്രം. ||
 
 ### 35-pen-friend
+hook: ഇരുപത്തിയഞ്ച് വർഷം സൂക്ഷിച്ച മൂന്ന് കത്തുകൾ!
 title: മൂന്ന് കത്തുകൾ | Three Letters
 theme: Two best friends separated as children promise to write; one keeps the letters for 25 years
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory friendship letter bestfriend kerala nostalgia mal
 - bus_stop+close | zoom_out | wind | friend:happy || ഇതൊന്നും ഞാൻ കളഞ്ഞിട്ടില്ല ഡാ. അടുത്ത ആഴ്ച ഞാൻ നാട്ടിൽ വരുന്നുണ്ട്. ||
 
 ### 36-achan-cooks
+hook: അച്ഛൻ ആദ്യമായി ദോശ ഉണ്ടാക്കിയ ദിവസം!
 title: അച്ഛൻ ദോശ ചുട്ട ദിവസം | The Day Achan Made Dosa
 theme: When mother falls sick, father attempts breakfast for the first time, with funny results
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory achan dosa funny family kerala mallureels malayal
 - kitchen+close | zoom_out | indoor | grownup:cook,happy | stove || ഇന്ന് എന്റെ ഭാര്യയ്ക്ക് പനിയാണ്. ഞാൻ ദോശ ചുടുന്നു. ആദ്യത്തേത് കരിഞ്ഞു. ചില കാര്യങ്ങൾ പാരമ്പര്യമാണ്. ||
 
 ### 37-slow-walk
+hook: അപ്പൂപ്പൻ എന്തിനാണ് പതുക്കെ നടന്നത്?
 title: അപ്പൂപ്പന്റെ പതുക്കെ നടത്തം | Walking Slowly with Appooppan
 theme: A grandfather once walked slowly for his little grandson; now the grandson walks slowly for him
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory appooppan walk grandfather kerala mallureels mala
 - lane+close | zoom_out | wind | grownup:happy || ഞാൻ ചിരിച്ചു. ഇത്തവണ എന്റെ ഊഴം ആണ് അപ്പൂപ്പാ. ||
 
 ### 38-tiffin-notes
+hook: ടിഫിൻ ബോക്സിലെ ആ കുറിപ്പുകൾ അമ്മ എന്ത് ചെയ്തു?
 title: ടിഫിനിലെ കുറിപ്പുകൾ | Notes in the Tiffin Box
 theme: A mother hides little notes in her son's tiffin; years later he finds she kept every reply he wrote
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory amma tiffin notes mother kerala mallureels malaya
 - interior+close | zoom_out | indoor | amma:happy || ഞാൻ എഴുതിയ എല്ലാ മറുപടികളും അമ്മ സൂക്ഷിച്ചു വെച്ചിരുന്നു. പതിനഞ്ച് വർഷം. ||
 
 ### 39-ammachi-stories
+hook: ഫോൺ മാറ്റിവെച്ചപ്പോൾ അമ്മൂമ്മ പറഞ്ഞ കഥ!
 title: ഫോൺ താഴെ വെച്ച രാത്രി | The Night I Put My Phone Down
 theme: A granddaughter glued to her phone finally listens to her grandmother's stories, and records them
 narrator: woman
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory ammachi stories phone grandmother kerala malluree
 - veranda+night+close | zoom_out | night | ammachi:happy || ഇന്ന് എന്റെ ഫോണിൽ ഏറ്റവും വിലയുള്ളത് ആ റെക്കോർഡിംഗുകളാണ്. ||
 
 ### 40-prasadam-laddu
+hook: അപ്പൂപ്പന് ശരിക്കും മധുരം ഇഷ്ടമല്ലായിരുന്നോ?
 title: അമ്പലത്തിലെ ലഡ്ഡു | The Temple Laddu
 theme: A grandfather always gives his temple laddu to his grandson, claiming sugar is bad for him
 narrator: man

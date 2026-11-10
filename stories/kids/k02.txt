@@ -1,4 +1,5 @@
 ### k011-say-sorry
+hook: ഒരു വാക്ക് കൊണ്ട് സൗഹൃദം തിരിച്ചു കിട്ടുമോ?
 title: ഒരു "സോറി" | Just Say Sorry
 theme: Appu shouts at Kannan during a game, feels bad, and says sorry the next day
 moral: When we hurt someone, we should say sorry.
@@ -14,6 +15,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory sorry friendship kerala
 - yard | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: നമ്മൾ ആരെയെങ്കിലും വിഷമിപ്പിച്ചാൽ ക്ഷമ ചോദിക്കണം. ||
 
 ### k012-ammachi-reading
+hook: അമ്മൂമ്മയ്ക്ക് പത്രം വായിക്കാൻ പറ്റാതായപ്പോൾ...
 title: അമ്മൂമ്മയുടെ കണ്ണട | Reading for Ammachi
 theme: Ammachi cannot read the small letters any more, so Ammu reads the newspaper aloud to her every morning
 moral: Help and care for our grandparents.
@@ -29,6 +31,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory grandparents care kerala
 - veranda | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: അപ്പൂപ്പനെയും അമ്മൂമ്മയെയും സഹായിക്കണം. അവരോടൊപ്പം നമ്മളും പഠിക്കും. ||
 
 ### k013-fan-off
+hook: ആരുമില്ലാത്ത മുറിയിൽ ഫാൻ ആർക്ക് വേണ്ടി കറങ്ങുന്നു?
 title: ആരുമില്ലാത്ത മുറിയിലെ ഫാൻ | The Fan in the Empty Room
 theme: Appu learns from Achan to switch off fans and lights when leaving a room
 moral: Save electricity; switch off what we do not use.
@@ -44,6 +47,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory saveelectricity kerala
 - interior | zoom_out | indoor | achan:hug,happy kid:hug,happy || ഗുണപാഠം: ആവശ്യമില്ലാത്തപ്പോൾ ഫാനും ലൈറ്റും ഓഫ് ചെയ്യണം. ||
 
 ### k014-clean-beach
+hook: കടപ്പുറം നിറയെ പ്ലാസ്റ്റിക്! കുട്ടികൾ ചെയ്തത്...
 title: കടപ്പുറത്തെ പ്ലാസ്റ്റിക് | The Plastic on the Beach
 theme: On a beach trip Appu and Ammu pick up plastic wrappers and put them in a bin
 moral: Keep our places clean; never throw waste around.
@@ -59,6 +63,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory cleanliness nature keral
 - beach+sunset | zoom_out | wind | achan:happy kid:wave,happy girl:wave,happy || ഗുണപാഠം: മാലിന്യം വലിച്ചെറിയരുത്. നമ്മുടെ നാട് വൃത്തിയായി സൂക്ഷിക്കണം. ||
 
 ### k015-water-line
+hook: വരിയിൽ നിൽക്കാതെ മുന്നിൽ കയറിയാലോ?
 title: വരിയിൽ നിൽക്കാം | Wait in Line
 theme: At the school water tap Appu wants to push ahead but waits his turn and helps the smallest child
 moral: Wait for your turn patiently.
@@ -74,6 +79,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory patience manners kerala
 - school | zoom_out | wind | kid:wave,happy friend:wave,happy || ഗുണപാഠം: നമ്മുടെ ഊഴത്തിനായി ക്ഷമയോടെ കാത്തുനിൽക്കണം. ||
 
 ### k016-forgot-homework
+hook: ഹോംവർക്ക് മറന്നു. കള്ളം പറയണോ, സത്യം പറയണോ?
 title: മറന്നുപോയ ഹോംവർക്ക് | The Forgotten Homework
 theme: Ammu forgets her homework and tells the teacher the truth instead of making up an excuse
 moral: Do not make excuses; tell the truth and do better.
@@ -89,6 +95,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory truth school kerala
 - classroom | zoom_out | indoor | teacher:happy girl:happy,hold=book || ഗുണപാഠം: ഒഴിവുകഴിവ് പറയരുത്. സത്യം പറഞ്ഞ് തെറ്റ് തിരുത്തണം. ||
 
 ### k017-umbrella-share
+hook: മഴയത്ത് കൂട്ടുകാരന്റെ കയ്യിൽ കുടയില്ലെങ്കിൽ?
 title: ഒരു കുടയിൽ രണ്ടുപേർ | Two Under One Umbrella
 theme: It suddenly rains after school and Appu shares his umbrella with a classmate who has none
 moral: Help others when they need it.
@@ -104,6 +111,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory helping rain kerala
 - veranda+rain | zoom_out | rain | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ആവശ്യമുള്ളപ്പോൾ മറ്റുള്ളവരെ സഹായിക്കണം. ||
 
 ### k018-piggy-bank
+hook: മിഠായി പൈസ കൊണ്ട് അമ്മയ്ക്ക് ഒരു സമ്മാനം!
 title: അപ്പുവിന്റെ കുടുക്ക | Appu's Coin Box
 theme: Appu saves coins in a clay box for months to buy a gift for Amma
 moral: Small savings every day become something big.
@@ -119,6 +127,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory saving amma kerala
 - kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ദിവസവും കുറച്ച് സമ്പാദിച്ചാൽ ഒരു ദിവസം അത് വലിയൊരു കാര്യമാകും. ||
 
 ### k019-pookkalam-team
+hook: പൂക്കളത്തിന് വേണ്ടി തർക്കം! ഒടുവിൽ?
 title: ഒരുമയുടെ പൂക്കളം | The Teamwork Pookkalam
 theme: For Onam the children argue over the pookkalam design, then work together and make the best one
 moral: Working together makes everything better.
@@ -134,6 +143,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory teamwork onam kerala
 - yard+festive | zoom_out | wind | kid:wave,happy girl:wave,happy friend:wave,happy | pookkalam || ഗുണപാഠം: ഒരുമിച്ച് പ്രവർത്തിച്ചാൽ എല്ലാം കൂടുതൽ നന്നാകും. ||
 
 ### k020-sleep-early
+hook: രാത്രി വൈകി ടിവി കണ്ടാൽ രാവിലെ എന്ത് സംഭവിക്കും?
 title: രാത്രിയിലെ ടിവി | Late Night TV
 theme: Appu watches TV late, falls asleep in class the next morning, and learns to sleep on time
 moral: Sleep early and wake up early to stay healthy.

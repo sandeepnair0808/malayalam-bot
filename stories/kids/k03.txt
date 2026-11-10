@@ -1,4 +1,5 @@
 ### k021-teachers-day
+hook: ടീച്ചർക്ക് കൊടുക്കാവുന്ന ഏറ്റവും നല്ല സമ്മാനം എന്ത്?
 title: ടീച്ചർക്ക് ഒരു പൂവ് | A Flower for Teacher
 theme: On Teachers' Day Appu thanks his teacher with a flower and a card he made himself
 moral: Respect and thank our teachers.
@@ -14,6 +15,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory teachersday gratitude ke
 - classroom | zoom_out | indoor | teacher:happy kid:wave,happy friend:wave,happy || ഗുണപാഠം: അറിവ് പകർന്നു തരുന്ന അധ്യാപകരെ ബഹുമാനിക്കണം. ||
 
 ### k022-brush-teeth
+hook: രാത്രി പല്ല് തേക്കാതെ ഉറങ്ങിയാൽ?
 title: അമ്മുവിന്റെ പല്ല് | Ammu's Shiny Teeth
 theme: Ammu wants to skip brushing at night, and Ammachi gently explains why teeth need care
 moral: Brush your teeth every morning and night.
@@ -29,6 +31,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory goodhabits health kerala
 - interior | zoom_out | indoor | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: എല്ലാ ദിവസവും രാവിലെയും രാത്രിയും പല്ല് തേക്കണം. ||
 
 ### k023-vegetable-thoran
+hook: പച്ചക്കറി ഇഷ്ടമില്ലാത്ത കുട്ടി തോരൻ ഉണ്ടാക്കിയാൽ?
 title: അപ്പു ഉണ്ടാക്കിയ തോരൻ | The Thoran Appu Made
 theme: Appu refuses vegetables until Amma lets him help make cabbage thoran, and he loves it
 moral: Vegetables make us strong; try new healthy food.
@@ -44,6 +47,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory healthyfood kerala
 - kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: പച്ചക്കറികൾ നമുക്ക് ആരോഗ്യം തരും. പുതിയ നല്ല ഭക്ഷണങ്ങൾ രുചിച്ചു നോക്കണം. ||
 
 ### k024-library-book
+hook: ലൈബ്രറി പുസ്തകം കീറാൻ പോയാൽ?
 title: ലൈബ്രറി പുസ്തകം | The Library Book
 theme: Ammu borrows a library book and makes sure to return it on time and in good condition
 moral: Keep your promises and take care of borrowed things.
@@ -59,6 +63,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory promise reading kerala
 - classroom | zoom_out | indoor | teacher:happy girl:happy,hold=book || ഗുണപാഠം: വാക്ക് പാലിക്കണം. കടം വാങ്ങിയ സാധനങ്ങൾ സൂക്ഷിച്ച് തിരികെ കൊടുക്കണം. ||
 
 ### k025-help-amma
+hook: അമ്മയ്ക്ക് ക്ഷീണമുള്ള ദിവസം കുട്ടികൾ ചെയ്തത്...
 title: അമ്മയ്ക്ക് ഒരു കൈ | A Helping Hand for Amma
 theme: Amma is tired after a long day, so Appu and Ammu set the table and clean up on their own
 moral: Help at home; small hands can do big things.
@@ -74,6 +79,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory helping amma kerala
 - kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy girl:hug,happy || ഗുണപാഠം: വീട്ടുജോലികളിൽ നമ്മളും സഹായിക്കണം. ചെറിയ കൈകൾക്കും വലിയ കാര്യങ്ങൾ ചെയ്യാം. ||
 
 ### k026-cycle-try-again
+hook: സൈക്കിളിൽ നിന്ന് വീണാൽ നിർത്തണോ?
 title: വീണ്ടും ശ്രമിക്കാം | Try Again
 theme: Appu keeps losing balance while learning to ride a bicycle; Chechi encourages him until he rides
 moral: Never give up; keep trying and you will succeed.
@@ -89,6 +95,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory nevergiveup cycle kerala
 - lane+sunset | zoom_out | wind | kid:hug,happy chechi:hug,happy | bicycle:red || ഗുണപാഠം: ഒരിക്കലും തോറ്റു പിന്മാറരുത്. ശ്രമിച്ചു കൊണ്ടേയിരുന്നാൽ വിജയിക്കും. ||
 
 ### k027-fair-play
+hook: ആരും കണ്ടില്ലെങ്കിലും സത്യം പറയണോ?
 title: ആരും കാണാത്ത വര | The Line Nobody Saw
 theme: In a hopscotch game nobody sees Ammu step on the line, but she owns up and gives her turn away
 moral: Play fair even when nobody is watching.
@@ -104,6 +111,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory fairplay honesty kerala
 - yard+sunset | zoom_out | wind | girl:wave,happy friend:wave,happy kid:wave,happy || ഗുണപാഠം: ആരും കാണുന്നില്ലെങ്കിലും ന്യായമായി കളിക്കണം. ||
 
 ### k028-lost-purse
+hook: ബസ് സ്റ്റോപ്പിൽ ഒരു പേഴ്സ്! എന്ത് ചെയ്യും?
 title: ബസ് സ്റ്റോപ്പിലെ പേഴ്സ് | The Purse at the Bus Stop
 theme: Appu finds a purse at the bus stop and, with Achan, returns it to the old woman who lost it
 moral: If we find something lost, return it to its owner.
@@ -119,6 +127,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory honesty kindness kerala
 - bus_stop | zoom_out | wind | ammachi:wave,happy kid:wave,happy achan:happy | bus || ഗുണപാഠം: കളഞ്ഞുകിട്ടുന്ന സാധനങ്ങൾ ഉടമയ്ക്ക് തിരികെ നൽകണം. ||
 
 ### k029-tidy-toys
+hook: മുറി മുഴുവൻ സാധനങ്ങൾ, നീല കാർ എവിടെ?
 title: കാണാതായ കളിപ്പാട്ടം | Where Is My Toy Car?
 theme: Appu cannot find his favourite toy car in his messy room and learns to keep things in their place
 moral: Keep everything in its place.
@@ -134,6 +143,7 @@ tags: malayalam kidsstory moralstory malayalamkidsstory goodhabits tidy kerala
 - interior | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ഓരോ സാധനവും അതിന്റെ സ്ഥാനത്ത് സൂക്ഷിക്കണം. ||
 
 ### k030-ask-first
+hook: ചോദിക്കാതെ ചേച്ചിയുടെ പെൻസിൽ എടുത്താൽ?
 title: ചോദിച്ചിട്ട് എടുക്കാം | Ask Before You Take
 theme: Ammu takes Chechi's colour pencils without asking, sees Chechi worried, and learns to ask first
 moral: Always ask before taking someone else's things.

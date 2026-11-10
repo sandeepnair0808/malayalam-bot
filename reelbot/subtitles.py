@@ -11,6 +11,7 @@ class Cue:
     start: float
     end: float
     text: str
+    style: str = "Story"
 
 
 def wrap_chunks(text: str, line_chars: int = 28, lines: int = 2) -> list[str]:
@@ -58,11 +59,24 @@ def escape(text: str) -> str:
     return "\\N".join(line.strip() for line in text.strip().splitlines() if line.strip())
 
 
+def _wrap(text: str, line_chars: int = 22) -> str:
+    return "\n".join(wrap_chunks(text, line_chars, lines=99))
+
+
 def build_ass(cues: list[Cue], font: str, width: int = 1080, height: int = 1920) -> str:
     # Bottom-centre, sitting above the area Instagram covers with the caption/buttons.
     style = (
         f"Style: Story,{font},82,&H00FFFFFF,&H00FFFFFF,&H00202020,&H64000000,"
         "-1,0,0,0,100,100,0,0,1,6,2,2,80,80,460,1"
+    )
+    # Hook: big yellow question at the top for the first seconds. End: small subscribe line at the top.
+    hook = (
+        f"Style: Hook,{font},92,&H0000E6FF,&H0000E6FF,&H00101010,&H96000000,"
+        "-1,0,0,0,100,100,0,0,1,7,3,8,70,70,230,1"
+    )
+    end = (
+        f"Style: End,{font},64,&H00FFFFFF,&H00FFFFFF,&H00202020,&H96000000,"
+        "-1,0,0,0,100,100,0,0,3,5,0,8,90,90,250,1"
     )
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -74,12 +88,14 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 {style}
+{hook}
+{end}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = [
-        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},Story,,0,0,0,,{{\\fad(150,150)}}{escape(c.text)}"
+        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},{c.style},,0,0,0,,{{\\fad(150,150)}}{escape(_wrap(c.text) if c.style == 'Hook' else c.text)}"
         for c in cues
     ]
     return header + "\n".join(events) + "\n"

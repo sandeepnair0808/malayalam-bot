@@ -1,4 +1,5 @@
 ### 41-lost-toy
+hook: കളഞ്ഞുപോയ കാർ അച്ഛൻ എങ്ങനെ കണ്ടുപിടിച്ചു?
 title: കളഞ്ഞുപോയ കളിപ്പാട്ടം | The Lost Toy Car
 theme: A father searches the whole festival ground for his son's lost toy car and brings it back
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory achan toy festival father kerala mallureels malay
 - interior+close | zoom_out | indoor | grownup:hold=toy,happy || ആ നീല കാർ ഇന്നും എന്റെ മേശപ്പുറത്തുണ്ട്. നഷ്ടപ്പെട്ടതിനേക്കാൾ വിലയുള്ള ഒന്ന്. ||
 
 ### 42-paper-boat
+hook: അപ്പൂപ്പൻ പഠിപ്പിച്ച കടലാസ് തോണി ഇന്നും ഒഴുകുന്നു!
 title: കടലാസ് തോണി | The Paper Boat
 theme: A grandfather teaches a boy to float paper boats in the monsoon; the man teaches his daughter in the city rain
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory rain paperboat monsoon appooppan kerala nostalgia
 - lane+rain+close | zoom_out | rain | grownup:happy || അവളുടെ തോണി മുങ്ങിയില്ല. ക്ഷമയോടെ മടക്കിയതുകൊണ്ട്. ||
 
 ### 43-chechi-room
+hook: കല്യാണത്തിന് ശേഷം ചേച്ചിയുടെ തലയിണയ്ക്കടിയിൽ കണ്ടത്...
 title: ചേച്ചിയുടെ മുറി | Chechi's Room
 theme: After his sister's wedding, a boy finds a note she left under her pillow
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory chechi sister wedding kerala mallureels malayalam
 - night_room+close | zoom_out | night | kid:sad,cry | kerosene_lamp || അന്ന് രാത്രി ആദ്യമായി ഞാൻ ചേച്ചിയെ മിസ്സ് ചെയ്തു. ആ മുറിയേക്കാൾ വലിയ ഒന്ന് ചേച്ചി എനിക്ക് തന്നിട്ട് പോയിരുന്നു. ||
 
 ### 44-fast-watch
+hook: അച്ഛന്റെ വാച്ച് എന്തിനാണ് അഞ്ച് മിനിറ്റ് മുന്നിൽ ഓടിയത്?
 title: അഞ്ച് മിനിറ്റ് മുന്നിലുള്ള വാച്ച് | The Watch Five Minutes Fast
 theme: A father's old watch always runs five minutes fast, and he explains why when he gives it to his son
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory achan watch father kerala mallureels malayalamree
 - interior+close | zoom_out | indoor | grownup:happy | clock || ഇന്നും ആ വാച്ച് അഞ്ച് മിനിറ്റ് മുന്നിലാണ്. ഞാൻ ഒരിക്കലും അത് ശരിയാക്കില്ല. ||
 
 ### 45-postman-tea
+hook: അമ്മൂമ്മ എല്ലാ ദിവസവും ആർക്കാണ് ചായ ഉണ്ടാക്കിയത്?
 title: പോസ്റ്റ്മാന്റെ ചായ | Tea for the Postman
 theme: A grandmother makes tea for the postman every day while waiting for her son's letters; the habit outlives the letters
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory ammachi postman tea grandmother kerala nostalgia 
 - veranda+close | zoom_out | wind | uncle:happy || ഗേറ്റ് തുറന്ന് രാഘവേട്ടൻ വന്നു. കത്തുകളില്ലാതെ. ഇരുപത് വർഷമായി, ഒരു ദിവസം പോലും മുടങ്ങാതെ. ||
 
 ### 46-lottery
+hook: ഒരിക്കലും അടിക്കാത്ത ടിക്കറ്റ്, പക്ഷേ അച്ഛൻ പറഞ്ഞു ജയിച്ചെന്ന്!
 title: അച്ഛന്റെ ലോട്ടറി | Achan's Lottery Ticket
 theme: A father buys a lottery ticket every week and never wins, but says he already won the biggest prize
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory achan lottery father family kerala mallureels mal
 - interior+close | zoom_out | indoor | achan:talk,happy || അച്ഛൻ ഞങ്ങളെ എല്ലാവരെയും നോക്കി പറഞ്ഞു. || achan: ബമ്പർ എന്നോ അടിച്ചു മോനേ. ദാ, എന്റെ മുന്നിൽ ഇരിക്കുന്നു.
 
 ### 47-amma-birthday
+hook: അമ്മയുടെ പിറന്നാൾ എന്നാണെന്ന് നിങ്ങൾക്ക് അറിയാമോ?
 title: അമ്മയുടെ പിറന്നാൾ | Amma's Birthday
 theme: A mother remembers everyone's birthday, but no one knows hers, until her son finds it
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory amma birthday mother kerala mallureels malayalamr
 - interior+festive+close | zoom_out | indoor | amma:happy,cry || അമ്പത് വർഷത്തിൽ ആദ്യമായി, അമ്മ സ്വന്തം പിറന്നാളിന് കരഞ്ഞു. സന്തോഷം കൊണ്ട്. ||
 
 ### 48-jasmine
+hook: അമ്പത് വർഷം, എല്ലാ വൈകുന്നേരവും ഒരു പിടി മുല്ലപ്പൂ!
 title: എല്ലാ വൈകുന്നേരവും മുല്ലപ്പൂ | Jasmine Every Evening
 theme: A grandfather brings jasmine for his wife every evening for fifty years; his grandson keeps the promise
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory appooppan ammachi love jasmine mullappoo kerala m
 - veranda+sunset+close | zoom_out | wind | ammachi:happy,cry || അമ്മൂമ്മ അത് മുടിയിൽ ചൂടി. അമ്പത്തൊന്നാം വർഷവും ആ സ്നേഹം മുടങ്ങിയില്ല. ||
 
 ### 49-rain-umbrella-friend
+hook: ഒരു കുടയിൽ രണ്ടുപേർ, പകുതി നനഞ്ഞ ഒരു സൗഹൃദം!
 title: ഒരു കുടയിൽ രണ്ടുപേർ | Two Under One Umbrella
 theme: A boy with a new umbrella shares it with a friend who has none; both arrive half wet and best friends
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory friendship rain umbrella school kerala nostalgia 
 - lane+rain+close | zoom_out | rain | friend:happy || ഇന്ന് അവന്റെ കയ്യിൽ വലിയ ഒരു കുടയുണ്ട്. പക്ഷേ അവൻ ഇന്നും പറയും, ആ പഴയ കുടയായിരുന്നു ഏറ്റവും വലുത്. ||
 
 ### 50-old-bench
+hook: പഴയ ബെഞ്ചിൽ കൊത്തിയ പേര്, ടീച്ചർ ഇന്നും ഓർക്കുന്നു!
 title: പഴയ ബെഞ്ചിലെ പേര് | The Name on the Old Bench
 theme: A grown man visits his old school and finds the name he carved on a bench; his old teacher still remembers him
 narrator: man

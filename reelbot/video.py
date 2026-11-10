@@ -31,6 +31,7 @@ class SceneClip:
     talk_offset: float = 0.0  # seconds into the scene's speech where talk_audio starts
     ambience: str = "none"
     video: Path | None = None  # AI-generated clip for this scene (3d style)
+    emphasis: bool = False  # opening hook: big text at the top instead of the bottom subtitle
 
 
 def scene_duration(spoken: float, reading: float) -> float:
@@ -237,7 +238,14 @@ def assemble(settings: Settings, clips: list[SceneClip], workdir: Path, out: Pat
     audio = build_audio(settings, clips, workdir / "audio.m4a")
 
     cues, t = [], 0.0
-    for clip in clips:
+    for n, clip in enumerate(clips):
+        if clip.emphasis:  # the hook question, big at the top, the whole scene
+            text = " ".join(c[0] for c in clip.subtitle) if isinstance(clip.subtitle, list) else clip.subtitle
+            cues.append(Cue(t + 0.05, t + clip.duration - 0.05, text.replace("\n", " "), "Hook"))
+            t += clip.duration
+            continue
+        if n == len(clips) - 1 and settings.end_card and clip.duration > 3:
+            cues.append(Cue(t + clip.duration - 2.6, t + clip.duration - 0.05, settings.end_card, "End"))
         if isinstance(clip.subtitle, list):  # [(text, start, end)] relative to the scene
             for text, a, b in clip.subtitle:
                 cues.append(Cue(t + max(a, 0.05), t + min(b + 0.15, clip.duration - 0.05), text))

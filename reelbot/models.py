@@ -53,6 +53,7 @@ class Scene(BaseModel):
     camera: CameraMove
     ambience: Ambience = Field(default="none", description="background sound: rain, night (crickets), wind, indoor, none")
     # Hidden from the schema Claude fills in (free-form dicts aren't allowed in structured outputs).
+    emphasis: SkipJsonSchema[bool] = Field(default=False, description="opening hook: shown as big text at the top")
     art: SkipJsonSchema[Optional[dict]] = Field(default=None, description="scene-kit description (reelbot.scenekit); drawn locally instead of by the illustrator")
 
 

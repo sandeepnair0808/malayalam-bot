@@ -113,6 +113,7 @@ def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path],
             talk_offset=v.talk_offset,
             ambience=scene.ambience,
             video=_scene_video(img),
+            emphasis=scene.emphasis,
         )
         for scene, img, v, dur in zip(story.scenes, images, voices, scene_durations(story, voices))
     ]

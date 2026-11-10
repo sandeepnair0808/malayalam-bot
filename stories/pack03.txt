@@ -1,4 +1,5 @@
 ### 21-kazhicho
+hook: എന്നും ഒരേ ചോദ്യം ചോദിക്കുന്ന ആ ഫോൺ കോൾ!
 title: കഴിച്ചോ? | Did You Eat?
 theme: A mother calls her son in the city every night with the same question, until one night she doesn't
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory amma phone kazhicho kerala mallureels malayalamre
 - night_room+close | zoom_out | night | grownup:phone,happy || അന്ന് ആദ്യമായി, ആ ചോദ്യം കേട്ടപ്പോൾ എന്റെ കണ്ണ് നിറഞ്ഞു. ഇന്ന് ഞാനാണ് ആദ്യം വിളിക്കുന്നത്. ||
 
 ### 22-gulf-slippers
+hook: എല്ലാവർക്കും സമ്മാനം, മാമന്റെ കാലിൽ മാത്രം പൊട്ടിയ ചെരുപ്പ്!
 title: മാമന്റെ ചെരുപ്പ് | Uncle's Old Slippers
 theme: An uncle returns from the Gulf with gifts for everyone, wearing the same torn slippers
 narrator: man
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory gulf pravasi uncle kerala mallureels malayalamree
 - bus_stop+close | zoom_out | wind | uncle:happy || ഒരു ജോഡി പുതിയ ചെരുപ്പ്. മാമൻ ഒന്നും പറഞ്ഞില്ല. പക്ഷേ ആ കണ്ണുകൾ എല്ലാം പറഞ്ഞു. ||
 
 ### 23-sadya-last
+hook: സദ്യ കഴിഞ്ഞ് അമ്മ എന്ത് കഴിച്ചു?
 title: അവസാനം ഉണ്ണുന്ന അമ്മ | The One Who Eats Last
 theme: Every Onam a mother serves the whole family and eats last from what is left; one year her son changes that
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory onam sadya amma kerala mallureels malayalamreels 
 - interior+festive+close | zoom_out | indoor | amma:happy,eat || ഞാൻ വിളമ്പി, അമ്മ കഴിച്ചു. അമ്മയുടെ ജീവിതത്തിലെ ആദ്യത്തെ ചൂടുള്ള ഓണസദ്യ. ||
 
 ### 24-failed-exam
+hook: പരീക്ഷയിൽ തോറ്റ ദിവസം അച്ഛൻ പറഞ്ഞത്...
 title: തോറ്റ ദിവസം | The Day I Failed
 theme: A boy fears telling his father he failed an exam; the father's answer stays with him for life
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory exam results achan father kerala mallureels malay
 - veranda+close | zoom_out | wind | grownup:happy || പിന്നെയാണ് ഞാൻ അറിഞ്ഞത്, അച്ഛൻ ഏഴിൽ തോറ്റിട്ടില്ല. അച്ഛൻ ക്ലാസിൽ ഒന്നാമനായിരുന്നു. ||
 
 ### 25-lullaby
+hook: ആ താരാട്ട് വർഷങ്ങൾക്ക് ശേഷം ഞാൻ അമ്മൂമ്മയ്ക്ക് പാടി!
 title: അമ്മൂമ്മയുടെ താരാട്ട് | Ammachi's Lullaby
 theme: A grandmother's lullaby comforts a frightened boy; decades later he sings it back to her
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory ammachi lullaby tharattu grandmother kerala mallu
 - night_room+close | zoom_out | night | ammachi:sleep,happy | kerosene_lamp || അമ്മൂമ്മ ചിരിച്ചു കൊണ്ട് ഉറങ്ങി. ആ പാട്ട് അമ്മൂമ്മ മറന്നിരുന്നില്ല. ||
 
 ### 26-chechi-books
+hook: ചേച്ചി എന്തിനാണ് പഠിപ്പ് നിർത്തിയത്?
 title: ചേച്ചി അടച്ചുവെച്ച പുസ്തകം | The Book Chechi Closed
 theme: An elder sister quits college to work so her brother can study; he gives her back her dream
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory chechi sister education kerala mallureels malayal
 - classroom+close | zoom_out | indoor | teacher:happy || ഇന്ന് എന്റെ ചേച്ചി ഒരു ടീച്ചറാണ്. നാല്പതാം വയസ്സിൽ നേടിയ സ്വപ്നം. ||
 
 ### 27-school-day
+hook: പഴയ ഉടുപ്പിൽ വരരുതെന്ന് ഞാൻ അച്ഛനോട് പറഞ്ഞു...
 title: സ്കൂൾ വാർഷികത്തിലെ അച്ഛൻ | Achan at the School Day
 theme: A boy asks his father not to come to the school function in his old clothes; the father comes anyway
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory achan school anniversary father kerala mallureels
 - school+festive+close | zoom_out | wind | achan:happy || അടുത്ത വർഷം ഞാൻ അച്ഛനെ ഏറ്റവും മുന്നിലെ കസേരയിൽ ഇരുത്തി. ആ പഴയ ഷർട്ടിൽ തന്നെ. ||
 
 ### 28-pickle-jar
+hook: അമ്മൂമ്മയുടെ അച്ചാർ കുപ്പിയുടെ രുചി പിന്നീടാണ് മനസ്സിലായത്
 title: അമ്മൂമ്മയുടെ കടുമാങ്ങ | Ammachi's Mango Pickle
 theme: A grandmother packs mango pickle every time her grandson leaves for the city; he only understands its taste later
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory ammachi pickle kadumanga kerala mallureels malaya
 - kitchen+close | zoom_out | indoor | grownup:sad || എല്ലാം ശരിയായിരുന്നു. ഉപ്പ്, മുളക്, മാങ്ങ. പക്ഷേ ഒരു ചേരുവ ഇല്ലായിരുന്നു. അമ്മൂമ്മയുടെ കൈ. ||
 
 ### 29-achan-hands
+hook: അച്ഛന്റെ പരുക്കൻ കൈകളെ ഓർത്ത് ഞാൻ നാണിച്ചിരുന്നു...
 title: അച്ഛന്റെ പരുക്കൻ കൈകൾ | Achan's Rough Hands
 theme: A boy is embarrassed that his father is a construction worker; he grows up to build bridges
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory achan worker father kerala mallureels malayalamre
 - yard+close | zoom_out | wind | grownup:happy || ആരെങ്കിലും ചോദിച്ചാൽ ഞാൻ അഭിമാനത്തോടെ പറയും. എന്റെ അച്ഛൻ ഒരു കൽപ്പണിക്കാരനാണ്. ഞാൻ പണിയുന്ന ഓരോ പാലവും അച്ഛൻ പഠിപ്പിച്ചതാണ്. ||
 
 ### 30-cycle-lessons
+hook: ചേച്ചി എപ്പോഴാണ് സൈക്കിളിൽ നിന്ന് കൈ വിട്ടത്?
 title: ചേച്ചി വിട്ട സൈക്കിൾ | When Chechi Let Go
 theme: An elder sister teaches her brother to cycle, secretly letting go of the seat
 narrator: man

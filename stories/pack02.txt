@@ -1,4 +1,5 @@
 ### 11-first-salary-saree
+hook: ആദ്യ ശമ്പളത്തിലെ സാരി അമ്മ എന്തുകൊണ്ട് ഉടുത്തില്ല?
 title: ആദ്യ ശമ്പളത്തിലെ സാരി | The First-Salary Saree
 theme: A son buys his mother a saree with his first salary; she never wears it until one special day
 narrator: man
@@ -13,6 +14,7 @@ tags: malayalam malayalamstory amma saree firstsalary kerala mallureels malayala
 - temple+festive+close | zoom_out | wind | amma:happy | nilavilakku || അന്ന് അമ്മ ആ പട്ടുസാരി ഉടുത്തു വന്നു. അമ്മയുടെ പ്രത്യേക ദിവസം, എന്റെ ദിവസമായിരുന്നു. ||
 
 ### 12-chechi-braid
+hook: ചേച്ചി പോയ ദിവസം ആര് മുടി കെട്ടിത്തരും?
 title: ചേച്ചി കെട്ടിത്തന്ന മുടി | The Braids Chechi Tied
 theme: An elder sister braids her little sister's hair every morning, until she leaves home after marriage
 narrator: woman
@@ -27,6 +29,7 @@ tags: malayalam malayalamstory chechi sister braid kerala nostalgia mallureels m
 - interior+close | zoom_out | indoor | amma:happy girl:happy || ഇന്ന് ഞാൻ എന്റെ മോളുടെ മുടി കെട്ടുന്നു. അവൾ കരയുമ്പോൾ ഞാൻ ചിരിക്കും. ചേച്ചിയെപ്പോലെ. ||
 
 ### 13-teacher-chalk
+hook: ടീച്ചർ എന്നും എനിക്ക് മാത്രം ചോക്ക് തന്നത് എന്തിന്?
 title: ടീച്ചർ തന്ന ചോക്ക് | The Chalk Teacher Gave Me
 theme: A teacher hands a shy boy the chalk every day; he grows up to be a teacher himself
 narrator: man
@@ -41,6 +44,7 @@ tags: malayalam malayalamstory teacher school chalk kerala nostalgia mallureels 
 - classroom+close | zoom_out | indoor | grownup:happy || ശാരദ ടീച്ചർ തന്ന ചോക്ക്, ഇന്നും തീർന്നിട്ടില്ല. ||
 
 ### 14-slate-pencil
+hook: പകുതി സ്ലേറ്റ് പെൻസിൽ വർഷങ്ങൾക്ക് ശേഷം തിരിച്ചു വന്നു!
 title: പകുതി കല്ലുപെൻസിൽ | Half a Slate Pencil
 theme: A friend breaks his only slate pencil in half to share; years later the favour returns
 narrator: man
@@ -55,6 +59,7 @@ tags: malayalam malayalamstory friendship school slate kerala nostalgia malluree
 - bus_stop | zoom_out | wind | grownup:hug friend:hug,happy || അവൻ കരഞ്ഞു കൊണ്ട് ചിരിച്ചു. ആ പകുതി കല്ലുപെൻസിൽ ഞങ്ങൾ രണ്ടുപേരും മറന്നിരുന്നില്ല. ||
 
 ### 15-festival-balloon
+hook: ബലൂൺ വാങ്ങിയ രാത്രി ഞങ്ങൾ എന്തിന് നടന്നു?
 title: ഉത്സവത്തിലെ ബലൂൺ | The Festival Balloon
 theme: A father spends his bus fare on a balloon for his son and they walk home in the dark
 narrator: man
@@ -69,6 +74,7 @@ tags: malayalam malayalamstory ulsavam festival achan balloon kerala nostalgia m
 - lane+night+close | zoom_out | night | achan:happy || ബസ്സിന്റെ പൈസ കൊണ്ടാണ് ആ ബലൂൺ വാങ്ങിയതെന്ന് ഞാൻ അറിഞ്ഞത്, എനിക്ക് ഒരു മോൻ ഉണ്ടായ ശേഷമാണ്. ||
 
 ### 16-first-tv
+hook: ഒരു ടിവിക്ക് മുന്നിൽ ഒരു ഗ്രാമം മുഴുവൻ!
 title: നാട്ടിലെ ആദ്യത്തെ ടിവി | The First TV in the Village
 theme: The whole village crowds into one home to watch the Sunday movie; years later the narrator misses the crowd
 narrator: man
@@ -83,6 +89,7 @@ tags: malayalam malayalamstory tv sundaymovie village kerala nostalgia mallureel
 - interior+night+close | zoom_out | night | grownup:sad || അന്ന് എനിക്ക് ഇരിക്കാൻ സ്ഥലം ഇല്ലായിരുന്നു. ഇന്ന് എല്ലാ സ്ഥലവും ഒഴിഞ്ഞു കിടക്കുന്നു. ||
 
 ### 17-ammachi-alphabet
+hook: അമ്മൂമ്മ ആദ്യമായി എഴുതിയ വാക്ക് എന്തായിരുന്നു?
 title: അമ്മൂമ്മ എഴുതിയ ആദ്യത്തെ വാക്ക് | Ammachi's First Word
 theme: A grandson teaches his grandmother to write; the first word she writes is his name
 narrator: man
@@ -97,6 +104,7 @@ tags: malayalam malayalamstory ammachi grandmother alphabet kerala nostalgia mal
 - night_room+close | zoom_out | night | ammachi:happy | kerosene_lamp || അത് എന്റെ പേരായിരുന്നു. ||
 
 ### 18-vishu-tin
+hook: വിഷുക്കൈനീട്ടം സൂക്ഷിച്ച ആ ടിൻ എവിടെ പോയി?
 title: വിഷുക്കൈനീട്ടത്തിന്റെ ടിൻ | The Vishu Coin Tin
 theme: A boy gives his Vishu coins to his grandfather for safekeeping every year and forgets; the tin comes back when it matters
 narrator: man
@@ -111,6 +119,7 @@ tags: malayalam malayalamstory vishu kaineettam appooppan kerala nostalgia mallu
 - bus_stop+close | zoom_out | wind | appooppan:happy | bus || അപ്പൂപ്പൻ ഓരോ വർഷവും ആ നാണയത്തോടൊപ്പം സ്വന്തം പൈസയും ഇട്ടിരുന്നു. എന്റെ ആദ്യ ഫീസ് അടച്ചത് ആ ടിന്നാണ്. ||
 
 ### 19-fever-night
+hook: പനിയുള്ള ആ രാത്രി ആരാണ് ഉറങ്ങാതിരുന്നത്?
 title: പനിയുള്ള രാത്രി | The Fever Night
 theme: A father stays awake all night beside his feverish son; years later the son does the same
 narrator: man
@@ -125,6 +134,7 @@ tags: malayalam malayalamstory achan fever father kerala nostalgia mallureels ma
 - night_room+close | zoom_out | night | grownup:sleep || രാവിലെ അവൾ ഉണർന്നപ്പോൾ ഞാൻ കസേരയിൽ ഉറങ്ങുകയായിരുന്നു. അച്ഛാ, ഇപ്പോ എനിക്ക് മനസ്സിലായി. ||
 
 ### 20-first-bus-alone
+hook: ഞാൻ ഒറ്റയ്ക്ക് ബസ്സിൽ പോയെന്ന് വിചാരിച്ചു, പക്ഷേ...
 title: ആദ്യമായി തനിയെ ബസ്സിൽ | My First Bus Ride Alone
 theme: A boy proudly rides the school bus alone for the first time, not knowing his father follows every day
 narrator: man
