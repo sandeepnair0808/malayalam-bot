@@ -5,3 +5,7 @@ __pycache__/
 output/
 *.egg-info/
 .pytest_cache/
+examples/*/scenes/*.png
+examples/*/work/
+examples/*/reel.mp4
+examples/*/caption.txt

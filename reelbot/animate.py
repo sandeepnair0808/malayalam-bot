@@ -13,6 +13,8 @@ coordinate system of the element's parent (canvas pixels for top-level elements)
   data-anim="breathe"  whole body. Slow vertical stretch.        data-pivot (feet) data-amp (%; 1.2)
   data-anim="swing"    arm / leg / head / umbrella. Rotates back and forth.
                        data-pivot (joint) data-amp (degrees; 8) data-period (s; 1.0) data-phase (0-1)
+  data-anim="spin"     wheels, fans: continuous rotation. data-pivot (hub) data-period (s per turn; 1.0)
+                       negative period spins anticlockwise
   data-anim="bob"      walking bounce. data-amp (px; 10) data-period (s; 0.5)
   data-anim="float"    gentle up/down. data-amp (px; 8) data-period (s; 3)
   data-anim="move"     slides across the scene over its duration. data-dx, data-dy (px)
@@ -45,7 +47,7 @@ SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 
-ANIMS = {"blink", "talk", "breathe", "swing", "bob", "float", "move", "rain", "drift"}
+ANIMS = {"blink", "talk", "breathe", "swing", "spin", "bob", "float", "move", "rain", "drift"}
 
 
 @dataclass
@@ -102,7 +104,7 @@ class SceneAnimator:
         for i, node in enumerate(tagged):
             anim = node.get("data-anim")
             pivot = _pivot(node)
-            if anim in {"blink", "talk", "breathe", "swing"} and pivot is None:
+            if anim in {"blink", "talk", "breathe", "swing", "spin"} and pivot is None:
                 log.debug("skipping %s without data-pivot", anim)
                 continue
             if anim in {"rain", "drift"}:
@@ -170,6 +172,9 @@ class SceneAnimator:
         if p.anim == "swing":
             amp, period = p.amp if p.amp is not None else 8, p.period or 1.0
             return about(f"rotate({amp * math.sin(2 * math.pi * (t / period + p.phase)):.3f})")
+        if p.anim == "spin":
+            period = p.period or 1.0
+            return about(f"rotate({(360 * t / period) % 360:.2f})")
         if p.anim == "bob":
             amp, period = p.amp if p.amp is not None else 10, p.period or 0.5
             return f"translate(0,{-amp * abs(math.sin(math.pi * (t / period + p.phase))):.2f})"

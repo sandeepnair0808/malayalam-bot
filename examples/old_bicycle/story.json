@@ -1,0 +1,141 @@
+{
+  "title_ml": "അച്ഛന്റെ പഴയ സൈക്കിൾ",
+  "title_en": "Father's Old Bicycle",
+  "theme": "A boy is embarrassed by his father's old bicycle; on his birthday he gets a new one, and only later understands what it cost",
+  "setting": "Kerala village: tiled-roof house, sandy yard, coconut trees, a lane through green fields, the village school gate",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "father",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his late thirties, brown skin, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ",
+      "look": "10 year old boy, short black hair, yellow shirt, blue shorts, red school bag",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "അച്ഛന്റെ സൈക്കിളിന്... എന്റെ അത്രയും പ്രായമുണ്ടായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "അച്ഛന്റെ സൈക്കിളിന്\nഎന്റെ അത്രയും പ്രായം",
+      "visual": "An old, slightly rusty black bicycle standing in the yard",
+      "characters": [],
+      "action": "birds drift past, bicycle still",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "എന്നും രാവിലെ, അച്ഛനും ഞാനും ആ സൈക്കിളും... ഒരുമിച്ചായിരുന്നു സ്കൂളിലേക്ക്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "അച്ഛനും ഞാനും\nആ സൈക്കിളും",
+      "visual": "Father pushing the bicycle down the lane, the boy walking beside",
+      "characters": [
+        "father",
+        "kid"
+      ],
+      "action": "walking together, wheels turning",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "പക്ഷേ സ്കൂളിൽ, കൂട്ടുകാർക്കെല്ലാം പുതിയ തിളങ്ങുന്ന സൈക്കിളുകൾ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "കൂട്ടുകാർക്കെല്ലാം\nപുതിയ സൈക്കിളുകൾ",
+      "visual": "Shiny blue and green bicycles at the school gate; the boy looks down",
+      "characters": [
+        "kid"
+      ],
+      "action": "boy stands, embarrassed",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ പറഞ്ഞു.",
+      "dialogue_ml": "അച്ഛാ, ഈ പഴഞ്ചൻ സൈക്കിൾ ഒന്ന് മാറ്റിക്കൂടേ? എനിക്ക് നാണക്കേടാ.",
+      "subtitle_ml": "\"ഈ പഴഞ്ചൻ സൈക്കിൾ\nഒന്ന് മാറ്റിക്കൂടേ?\"",
+      "visual": "The boy pointing at the old bicycle, complaining to father",
+      "characters": [
+        "father",
+        "kid"
+      ],
+      "action": "boy points and complains",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "അച്ഛൻ ചിരിച്ചു.",
+      "dialogue_ml": "അടുത്ത പിറന്നാളിന് നോക്കാം, മോനേ.",
+      "subtitle_ml": "\"അടുത്ത പിറന്നാളിന്\nനോക്കാം, മോനേ\"",
+      "visual": "Close-up: father smiling as he answers",
+      "characters": [
+        "father"
+      ],
+      "action": "father smiles and speaks",
+      "speaker": "father",
+      "camera": "zoom_in",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "പിറന്നാൾ രാവിലെ മുറ്റത്ത്... ഒരു പുതിയ ചുവന്ന സൈക്കിൾ!",
+      "dialogue_ml": "",
+      "subtitle_ml": "മുറ്റത്ത് ഒരു പുതിയ\nചുവന്ന സൈക്കിൾ!",
+      "visual": "A new red bicycle with a yellow bow; the boy jumps for joy, father watches",
+      "characters": [
+        "kid",
+        "father"
+      ],
+      "action": "boy jumps with joy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "അന്നുമുതൽ അച്ഛൻ ജോലിക്ക് നടന്നാണ് പോയത്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "അന്നുമുതൽ അച്ഛൻ\nനടന്നാണ് ജോലിക്ക് പോയത്",
+      "visual": "Father walking alone down the lane to work, no bicycle",
+      "characters": [
+        "father"
+      ],
+      "action": "father walks away down the lane",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind"
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾക്ക് ശേഷമാണ് ഞാൻ അറിഞ്ഞത്... എന്റെ പുതിയ സൈക്കിളിന്റെ വില, അച്ഛന്റെ പഴയ സൈക്കിളായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "എന്റെ സൈക്കിളിന്റെ വില\nഅച്ഛന്റെ സൈക്കിളായിരുന്നു",
+      "visual": "The empty spot in the yard where the old bicycle stood, faint outline; the small red bicycle in front",
+      "characters": [],
+      "action": "birds drift past",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind"
+    }
+  ],
+  "caption_ml": "അച്ഛന്മാർ ഒന്നും പറയില്ല... സ്വന്തം സൈക്കിൾ വിറ്റിട്ടാണെങ്കിലും നമ്മുടെ സ്വപ്നം വാങ്ങിത്തരും 🚲❤️\nനിങ്ങളുടെ അച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "father",
+    "fatherslove",
+    "bicycle",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "childhoodmemories",
+    "keralavillage"
+  ]
+}

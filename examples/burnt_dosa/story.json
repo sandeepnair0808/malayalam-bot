@@ -1,0 +1,158 @@
+{
+  "title_ml": "അമ്മയുടെ കരിഞ്ഞ ദോശ",
+  "title_en": "Amma's Burnt Dosa",
+  "theme": "A mother always eats the burnt dosa from the bottom of the pile, saying she likes it; years later her son does the same",
+  "setting": "A small Kerala kitchen: cream walls, white-green tiles, gas stove, steel vessels on a wooden shelf, ceiling fan, red-oxide floor",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother in her thirties, brown skin, black hair in a bun, red bindi, gold earrings, maroon nightie with small white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "father",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the boy grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "daughter",
+      "name_ml": "മോൾ",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്റെ കുട്ടിക്കാലത്ത്... എന്നും രാവിലെ വീട്ടിൽ ദോശയായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "എന്നും രാവിലെ\nഅമ്മയുടെ ദോശ",
+      "visual": "Mother at the stove flipping a dosa, steam rising, fan turning",
+      "characters": [
+        "amma"
+      ],
+      "action": "mother flips the dosa with a spatula, steam rises",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "അമ്മ ചുടുന്ന നല്ല മൊരിഞ്ഞ ദോശകൾ എല്ലാം... എനിക്കായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "മൊരിഞ്ഞ ദോശകൾ\nഎല്ലാം എനിക്ക്",
+      "visual": "Mother serving one more golden dosa onto the boy's tall stack",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "mother serves a dosa, boy eats happily",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "ഒടുവിൽ... അടിയിൽ കിടക്കുന്ന കരിഞ്ഞ ദോശ, അമ്മ എടുക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "അടിയിലെ കരിഞ്ഞ ദോശ\nഅമ്മയ്ക്ക്",
+      "visual": "Mother alone at the table eating a dark, burnt dosa",
+      "characters": [
+        "amma"
+      ],
+      "action": "mother slowly eats the burnt dosa",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അമ്മേ, എന്തിനാ ആ കരിഞ്ഞത് തിന്നുന്നേ?",
+      "subtitle_ml": "\"അമ്മേ, എന്തിനാ\nകരിഞ്ഞത് തിന്നുന്നേ?\"",
+      "visual": "The boy pointing at his mother's burnt dosa, asking",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "boy points and asks",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "",
+      "dialogue_ml": "അമ്മയ്ക്ക് കരിഞ്ഞ ദോശയാ ഇഷ്ടം, മോനേ.",
+      "subtitle_ml": "\"അമ്മയ്ക്ക് കരിഞ്ഞ\nദോശയാ ഇഷ്ടം, മോനേ\"",
+      "visual": "Close-up: mother smiling gently as she answers",
+      "characters": [
+        "amma"
+      ],
+      "action": "mother smiles and speaks",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് ഞാൻ എന്റെ മോൾക്ക് ദോശ ചുടുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "ഇന്ന് ഞാൻ എന്റെ മോൾക്ക്\nദോശ ചുടുന്നു",
+      "visual": "The grown-up son at the same stove, his daughter waiting",
+      "characters": [
+        "father",
+        "daughter"
+      ],
+      "action": "father flips a dosa, daughter waits",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "",
+      "dialogue_ml": "അച്ഛാ, അച്ഛനും കരിഞ്ഞ ദോശയാണോ ഇഷ്ടം?",
+      "subtitle_ml": "\"അച്ഛനും കരിഞ്ഞ\nദോശയാണോ ഇഷ്ടം?\"",
+      "visual": "Father holding a burnt dosa, daughter pointing and asking",
+      "characters": [
+        "father",
+        "daughter"
+      ],
+      "action": "daughter points and asks",
+      "speaker": "daughter",
+      "camera": "still",
+      "ambience": "indoor"
+    },
+    {
+      "narration_ml": "ഞാൻ ചിരിച്ചു. ഇന്ന് എനിക്കറിയാം... അമ്മയ്ക്ക് കരിഞ്ഞ ദോശ ഒരിക്കലും ഇഷ്ടമല്ലായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "അമ്മയ്ക്ക് കരിഞ്ഞ ദോശ\nഒരിക്കലും ഇഷ്ടമല്ലായിരുന്നു",
+      "visual": "Father smiling with closed eyes, mother's photo on the kitchen wall",
+      "characters": [
+        "father"
+      ],
+      "action": "father smiles quietly",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor"
+    }
+  ],
+  "caption_ml": "നല്ല ദോശ മക്കൾക്ക്, കരിഞ്ഞത് അമ്മയ്ക്ക്... എല്ലാ വീട്ടിലും ഉണ്ട് ഇങ്ങനെ ഒരു അമ്മ ❤️\nനിങ്ങളുടെ അമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "ammayude",
+    "dosa",
+    "kerala",
+    "keralafood",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "motherslove",
+    "childhoodmemories"
+  ]
+}

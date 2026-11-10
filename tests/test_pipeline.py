@@ -160,6 +160,15 @@ def test_animator_moves_tagged_parts():
     assert mid.count("<line") == 2
 
 
+def test_spin_rotates_continuously():
+    from reelbot.animate import SceneAnimator
+
+    svg = ('<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">'
+           '<g data-anim="spin" data-pivot="50,50" data-period="2"><line x1="0" y1="50" x2="100" y2="50"/></g></svg>')
+    a = SceneAnimator(svg, 4.0, "still", width=100, height=100)
+    assert "rotate(90.00)" in a.svg_at(0.5).decode()
+
+
 def test_voice_envelope_without_audio():
     from reelbot.animate import voice_envelope
 
@@ -250,7 +259,7 @@ def test_3d_studio_end_to_end(tmp_path, monkeypatch):
     from reelbot.pipeline import render
 
     settings, fake, studio = _studio(tmp_path, monkeypatch)
-    story = Story.model_validate_json((HERE.parent / "examples" / "umbrella_story.json").read_text(encoding="utf-8"))
+    story = Story.model_validate_json((HERE.parent / "examples" / "umbrella" / "story.json").read_text(encoding="utf-8"))
     durations = [5.0] * len(story.scenes)
     pairs = studio.produce(story, tmp_path, durations)
 

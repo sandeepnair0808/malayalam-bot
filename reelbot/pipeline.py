@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import history
 from .config import Settings
-from .illustrate import illustrate
+from .illustrate import illustrate, render_png
 from .instagram import InstagramClient, PublishResult
 from .models import Story
 from .story import pick_theme, write_story
@@ -116,6 +116,12 @@ def rebuild(settings: Settings, reel_dir: Path, retry_ai: bool = False) -> Path:
     scenes whose Veo clip failed earlier.
     """
     story = load_story(reel_dir)
+    for svg in sorted((reel_dir / "scenes").glob("scene_*.svg")):  # e.g. examples/ ship only the SVGs
+        png = svg.with_suffix(".png")
+        if not png.exists():
+            render_png(svg.read_text(encoding="utf-8"), png, settings.width, settings.height)
+    if not (reel_dir / "caption.txt").exists():
+        save_story(story, reel_dir)
     images = sorted((reel_dir / "scenes").glob("scene_*.png"))
     if settings.style == "3d" and (retry_ai or len(images) != len(story.scenes)):
         # finish (or retry) the missing 3D keyframes / clips; finished ones are reused from disk

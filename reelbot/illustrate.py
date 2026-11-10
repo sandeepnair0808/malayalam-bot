@@ -60,6 +60,7 @@ pixels unless the parent group has a transform). Draw every part in its rest pos
   <g data-anim="talk" data-pivot="MOUTH_X,MOUTH_TOP_Y">, drawn fully open; it is scaled with the voice.
   Everyone else gets a normal closed smile/line.
 - Rain: all rain streaks in one <g data-anim="rain" data-speed="1400"> spread over the full canvas.
+- Wheels, ceiling fans: <g data-anim="spin" data-pivot="HUB_X,HUB_Y" data-period="0.8"> (draw spokes so the turn is visible).
 - Clouds, smoke, birds: <g data-anim="drift" data-speed="25">. Trees, curtains, hanging things:
   data-anim="swing" with data-amp="2" data-period="3" and a pivot at their base/top.
 - Nesting is fine (move > bob > character > arm). Never put a transform on a tagged group AND
