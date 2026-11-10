@@ -95,12 +95,12 @@ theme: A grandson teaches his grandmother to write; the first word she writes is
 narrator: man
 caption: അക്ഷരം പഠിക്കാൻ പ്രായം ഒരു പ്രശ്നമല്ല, സ്നേഹം ഉണ്ടെങ്കിൽ ✍️❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
 tags: malayalam malayalamstory ammachi grandmother alphabet kerala nostalgia mallureels malayalamreels
-- veranda | zoom_in | wind | ammachi:read || എന്നും രാവിലെ അമ്മൂമ്മ പത്രം കയ്യിൽ പിടിച്ചിരിക്കും. ||
-- veranda | still | wind | ammachi:read kid:surprised,talk || ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, പത്രം തല തിരിഞ്ഞാണ് പിടിച്ചിരിക്കുന്നത്. || kid: അമ്മൂമ്മേ, പത്രം തല കീഴായിട്ടാ!
+- veranda | zoom_in | wind | ammachi:read,hold=newspaper || എന്നും രാവിലെ അമ്മൂമ്മ പത്രം കയ്യിൽ പിടിച്ചിരിക്കും. ||
+- veranda | still | wind | ammachi:read,hold=newspaper kid:surprised,talk || ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, പത്രം തല തിരിഞ്ഞാണ് പിടിച്ചിരിക്കുന്നത്. || kid: അമ്മൂമ്മേ, പത്രം തല കീഴായിട്ടാ!
 - veranda | zoom_in | wind | ammachi:sad,talk kid:idle || അമ്മൂമ്മ ഒന്ന് ചിരിച്ചു, പിന്നെ പതുക്കെ പറഞ്ഞു. || ammachi: എനിക്ക് വായിക്കാൻ അറിയില്ല മോനേ. ചെറുപ്പത്തിൽ സ്കൂളിൽ പോയിട്ടില്ല.
 - night_room | pan_right | night | ammachi:hold=book kid:point,talk | kerosene_lamp || അന്ന് രാത്രി മുതൽ ഞാൻ അമ്മൂമ്മയുടെ ടീച്ചറായി. || kid: ഇതാണ് അ. ഇതാണ് ആ.
 - night_room | still | night | ammachi:read,happy kid:happy | kerosene_lamp || അമ്മൂമ്മ പതുക്കെ പതുക്കെ അക്ഷരങ്ങൾ പഠിച്ചു. ||
-- night_room | zoom_in | night | ammachi:hold=letter,happy kid:surprised | kerosene_lamp || ഒരു മാസം കഴിഞ്ഞ്, അമ്മൂമ്മ ആദ്യമായി ഒരു വാക്ക് സ്വന്തമായി എഴുതി. ||
+- night_room | zoom_in | night | ammachi:hold=book,happy kid:surprised | kerosene_lamp || ഒരു മാസം കഴിഞ്ഞ്, അമ്മൂമ്മ ആദ്യമായി ഒരു വാക്ക് സ്വന്തമായി എഴുതി. ||
 - night_room+close | zoom_out | night | ammachi:happy | kerosene_lamp || അത് എന്റെ പേരായിരുന്നു. ||
 
 ### 18-vishu-tin

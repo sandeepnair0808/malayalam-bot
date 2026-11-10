@@ -52,7 +52,7 @@ caption: മാർക്ക് കുറഞ്ഞ ദിവസം നമ്മ�
 tags: malayalam malayalamstory exam results achan father kerala mallureels malayalamreels fatherslove
 - school | zoom_in | wind | kid:hold=letter,sad,cry friend:jump || ഏഴാം ക്ലാസിലെ പരീക്ഷാഫലം. കണക്കിന് ഞാൻ തോറ്റു. ||
 - lane | pan_right | wind | kid:walk,sad || വീട്ടിലേക്ക് നടക്കുമ്പോൾ കാല് വിറച്ചു. അച്ഛൻ എന്ത് പറയും? ||
-- veranda | still | wind | achan:read kid:hold=letter,sad || അച്ഛൻ പത്രം വായിച്ച് ഇരിക്കുന്നു. ഞാൻ പേപ്പർ നീട്ടി. ||
+- veranda | still | wind | achan:read,hold=newspaper kid:hold=letter,sad || അച്ഛൻ പത്രം വായിച്ച് ഇരിക്കുന്നു. ഞാൻ പേപ്പർ നീട്ടി. ||
 - veranda | zoom_in | wind | achan:surprised kid:sad,cry || അച്ഛൻ കുറേ നേരം അത് നോക്കി. ഞാൻ തല്ല് പ്രതീക്ഷിച്ചു. ||
 - veranda | still | wind | achan:hug,talk kid:hug,sad || പക്ഷേ അച്ഛൻ എന്നെ കെട്ടിപ്പിടിച്ചു. || achan: ഞാനും ഏഴിൽ തോറ്റതാ മോനേ. അടുത്ത തവണ നമുക്ക് ഒരുമിച്ച് പഠിക്കാം.
 - night_room | zoom_in | night | achan:read,happy kid:read | kerosene_lamp || അന്നുമുതൽ എല്ലാ രാത്രിയും അച്ഛൻ എന്റെ കൂടെ ഇരുന്നു. അടുത്ത പരീക്ഷയിൽ എനിക്ക് തൊണ്ണൂറ് മാർക്ക്. ||

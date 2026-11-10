@@ -22,10 +22,10 @@ moral: Help and care for our grandparents.
 narrator: woman
 caption: അപ്പൂപ്പനും അമ്മൂമ്മയും നമുക്ക് തന്ന സ്നേഹം തിരിച്ചു കൊടുക്കാം 👵❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
 tags: malayalam kidsstory moralstory malayalamkidsstory grandparents care kerala
-- veranda | zoom_in | wind | ammachi:read,sad || രാവിലെ അമ്മൂമ്മ പത്രം വായിക്കാൻ ശ്രമിക്കുകയായിരുന്നു. ||
+- veranda | zoom_in | wind | ammachi:read,hold=newspaper,sad || രാവിലെ അമ്മൂമ്മ പത്രം വായിക്കാൻ ശ്രമിക്കുകയായിരുന്നു. ||
 - veranda+close | still | wind | ammachi:read,sad,talk || പക്ഷേ ചെറിയ അക്ഷരങ്ങൾ കാണാൻ പറ്റുന്നില്ല. || ammachi: ഈ കണ്ണടയും പഴയതായി.
 - veranda | zoom_in | wind | girl:talk,happy ammachi:surprised || അമ്മു ഓടി വന്നു. || girl: അമ്മൂമ്മേ, ഞാൻ വായിച്ചു തരാം!
-- veranda | still | wind | girl:read,happy ammachi:happy || അമ്മു പത്രം ഉറക്കെ വായിച്ചു. ചില വാക്കുകൾ തെറ്റി, അമ്മൂമ്മ തിരുത്തി കൊടുത്തു. ||
+- veranda | still | wind | girl:read,hold=newspaper,happy ammachi:happy || അമ്മു പത്രം ഉറക്കെ വായിച്ചു. ചില വാക്കുകൾ തെറ്റി, അമ്മൂമ്മ തിരുത്തി കൊടുത്തു. ||
 - veranda | pan_right | wind | girl:read,happy ammachi:happy || എല്ലാ ദിവസവും രാവിലെ ഇത് അവരുടെ ശീലമായി. ||
 - school | zoom_in | wind | teacher:talk,happy girl:happy || ഒരു മാസം കഴിഞ്ഞപ്പോൾ ടീച്ചർ പറഞ്ഞു. || teacher: അമ്മു, നിന്റെ വായന ഒരുപാട് നന്നായിട്ടുണ്ട്!
 - veranda | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: അപ്പൂപ്പനെയും അമ്മൂമ്മയെയും സഹായിക്കണം. അവരോടൊപ്പം നമ്മളും പഠിക്കും. ||

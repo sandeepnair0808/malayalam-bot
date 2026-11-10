@@ -191,6 +191,17 @@ class SceneVoice:
     duration: float  # seconds of speech
     talk_audio: Path | None  # the part the on-screen speaker says (drives lip-sync)
     talk_offset: float  # where talk_audio starts inside `audio`
+    pause: float = 0.0  # silence before the first word (the twist gets a dramatic beat)
+
+
+REVEAL_PAUSE = 0.8
+
+
+def _pad(audio: Path, seconds: float) -> Path:
+    out = audio.with_name(audio.stem + "_pad.wav")
+    ms = int(seconds * 1000)
+    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(audio), "-af", f"adelay={ms}|{ms}", str(out)], check=True)
+    return out
 
 
 def _concat(parts: list[Path], out: Path) -> Path:
@@ -237,5 +248,10 @@ def narrate_story(settings: Settings, story, workdir: Path) -> list[SceneVoice]:
                 talk_offset = (probe_duration(n_path) + GAP) if n_path else 0.0
             elif n_path:  # older stories: whole line is the speaker's
                 talk_audio = n_path
-        result.append(SceneVoice(audio, probe_duration(audio), talk_audio, talk_offset))
+        pause = 0.0
+        if i == last and len(story.scenes) > 2:  # hold a beat before the twist
+            pause = REVEAL_PAUSE
+            audio = _pad(audio, pause)
+            talk_offset += pause
+        result.append(SceneVoice(audio, probe_duration(audio), talk_audio, talk_offset, pause))
     return result

@@ -96,11 +96,11 @@ narrator: man
 caption: പത്രത്തിൽ സ്വന്തം നമ്പർ തിരഞ്ഞ ആ രാവിലെ 📰😰\nനിങ്ങളുടെ SSLC ഓർമ്മ കമന്റ് ചെയ്യൂ
 tags: malayalam malayalamstory sslc result exam childhoodmemories kerala mallureels malayalamreels nostalgia
 - night_room+night | zoom_in | night | kid:sad || എസ്.എസ്.എൽ.സി റിസൾട്ടിന്റെ തലേ രാത്രി. ഒരു പോള കണ്ണടച്ചില്ല. ||
-- veranda | still | wind | achan:read,surprised kid:sad amma:sad || അതിരാവിലെ പത്രം എത്തിയപ്പോൾ അച്ഛൻ തന്നെ ഓടിച്ചെന്ന് എടുത്തു. പേജുകൾ നിറയെ നമ്പറുകൾ. ||
+- veranda | still | wind | achan:read,hold=newspaper,surprised kid:sad amma:sad || അതിരാവിലെ പത്രം എത്തിയപ്പോൾ അച്ഛൻ തന്നെ ഓടിച്ചെന്ന് എടുത്തു. പേജുകൾ നിറയെ നമ്പറുകൾ. ||
 - veranda | zoom_in | wind | achan:read,talk amma:surprised kid:surprised || എല്ലാവരും ചേർന്ന് എന്റെ നമ്പർ തിരഞ്ഞു. അച്ഛന്റെ വിരൽ പതുക്കെ ആ നിരയിലൂടെ നീങ്ങി. || achan: നാല്... ഏഴ്... രണ്ട്...
 - veranda+close | still | wind | achan:happy,talk || പെട്ടെന്ന് അച്ഛന്റെ മുഖം തെളിഞ്ഞു. || achan: ഉണ്ടെടാ! നിന്റെ നമ്പർ ഉണ്ട്! ഫസ്റ്റ് ക്ലാസ്!
 - veranda | pan_right | wind | amma:hug,happy kid:hug,happy achan:happy || അമ്മ എന്നെ കെട്ടിപ്പിടിച്ചു. അച്ഛൻ ആ പത്രം മടക്കി അലമാരയിൽ സൂക്ഷിച്ചു വെച്ചു. ||
-- interior | zoom_in | indoor | grownup:read,surprised | photo:achan || വർഷങ്ങൾക്ക് ശേഷം അലമാര വൃത്തിയാക്കുമ്പോൾ ആ മഞ്ഞച്ച പത്രം കിട്ടി. എന്റെ നമ്പറിന് ചുറ്റും അച്ഛൻ വരച്ച ഒരു വട്ടം. ||
+- interior | zoom_in | indoor | grownup:read,hold=newspaper,surprised | photo:achan || വർഷങ്ങൾക്ക് ശേഷം അലമാര വൃത്തിയാക്കുമ്പോൾ ആ മഞ്ഞച്ച പത്രം കിട്ടി. എന്റെ നമ്പറിന് ചുറ്റും അച്ഛൻ വരച്ച ഒരു വട്ടം. ||
 - interior | zoom_out | indoor | grownup:read,happy | photo:achan || എന്റെ ആദ്യ വിജയം ആഘോഷിച്ചത് എന്നേക്കാൾ കൂടുതൽ അച്ഛനായിരുന്നു. ||
 
 ### 58-cassette-songs

@@ -116,8 +116,10 @@ def parse(text: str) -> list[tuple[str, Story]]:
         if hook and scenes:
             # 2-3 second opening question over the first picture: viewers decide in 1-2 s (see docs/LEARNINGS.md)
             first = scenes[0]
+            # a close-up of the main character makes the question feel personal
+            art = {**first.art, "shot": "close"} if first.art else first.art
             scenes.insert(0, first.model_copy(update={"narration_ml": hook, "dialogue_ml": "", "speaker": None,
-                                                      "camera": "zoom_in", "emphasis": True}))
+                                                      "camera": "zoom_in", "emphasis": True, "art": art}))
         ids = []
         for sc in scenes:
             for c in sc.characters:

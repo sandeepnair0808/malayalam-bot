@@ -21,7 +21,7 @@ narrator: man
 caption: ചായക്കടയിലെ ആ ചില്ലു ഭരണി ഓർമ്മയുണ്ടോ? ☕🍪\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
 tags: malayalam malayalamstory achan chayakada teashop childhoodmemories kerala mallureels malayalamreels nostalgia
 - lane | zoom_in | wind | achan:walk kid:walk,happy || ഞായറാഴ്ച രാവിലെ അച്ഛന്റെ കൈ പിടിച്ച് കവലയിലെ ചായക്കടയിലേക്ക്. ||
-- bus_stop | still | wind | achan:read,talk uncle:talk || അവിടെ എല്ലാവരും ഒരു പത്രം പങ്കിട്ട് വായിക്കും. പിന്നെ നാട്ടിലെ എല്ലാ കാര്യങ്ങളെക്കുറിച്ചും വലിയ ചർച്ച. ||
+- bus_stop | still | wind | achan:read,hold=newspaper,talk uncle:talk || അവിടെ എല്ലാവരും ഒരു പത്രം പങ്കിട്ട് വായിക്കും. പിന്നെ നാട്ടിലെ എല്ലാ കാര്യങ്ങളെക്കുറിച്ചും വലിയ ചർച്ച. ||
 - bus_stop+close | zoom_in | wind | kid:surprised || എന്റെ കണ്ണ് മുഴുവൻ കൗണ്ടറിലെ ചില്ലു ഭരണിയിലായിരുന്നു. അതിനകത്ത് നിറയെ ബിസ്കറ്റുകളും നാരങ്ങ മിഠായികളും. ||
 - bus_stop | still | wind | achan:talk,hold=laddu kid:happy || അച്ഛൻ ഒന്നും ചോദിക്കാതെ തന്നെ മനസ്സിലാക്കും. || achan: ചേട്ടാ, ഇവന് ഒരു ബിസ്കറ്റ്.
 - bus_stop | zoom_in | wind | kid:eat,happy achan:happy || ചൂട് ചായയിൽ മുക്കി ആ ബിസ്കറ്റ് കഴിക്കുന്നതിന്റെ രുചി ഇന്നും നാവിലുണ്ട്. ||

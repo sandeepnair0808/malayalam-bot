@@ -56,14 +56,15 @@ def spoken_subtitles(scene, v: SceneVoice, duration: float) -> list:
         text = " ".join(x for x in (narr, f'"{dlg}"' if dlg else "") if x)
         return timed_chunks(text, 0.1, duration - 0.1)
     out = []
+    lead = LEAD_IN + v.pause
     if narr and dlg:
         narr_end = LEAD_IN + max(v.talk_offset - GAP, 0.5)
-        out += timed_chunks(narr, LEAD_IN, narr_end)
+        out += timed_chunks(narr, lead, narr_end)
         out += timed_chunks(dlg, LEAD_IN + v.talk_offset, LEAD_IN + v.duration, quote=True)
     elif dlg:
-        out += timed_chunks(dlg, LEAD_IN, LEAD_IN + v.duration, quote=True)
+        out += timed_chunks(dlg, lead, LEAD_IN + v.duration, quote=True)
     elif narr:
-        out += timed_chunks(narr, LEAD_IN, LEAD_IN + v.duration)
+        out += timed_chunks(narr, lead, LEAD_IN + v.duration)
     return out
 
 

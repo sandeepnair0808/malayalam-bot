@@ -78,6 +78,11 @@ def build_ass(cues: list[Cue], font: str, width: int = 1080, height: int = 1920)
         f"Style: End,{font},64,&H00FFFFFF,&H00FFFFFF,&H00202020,&H96000000,"
         "-1,0,0,0,100,100,0,0,3,5,0,8,90,90,250,1"
     )
+    # Reveal: the twist line, large warm gold in the middle of the frame.
+    reveal = (
+        f"Style: Reveal,{font},100,&H008AE0FF,&H008AE0FF,&H00101010,&H96000000,"
+        "-1,0,0,0,100,100,0,0,1,7,4,2,70,70,380,1"
+    )
     header = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {width}
@@ -90,12 +95,13 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 {style}
 {hook}
 {end}
+{reveal}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = [
-        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},{c.style},,0,0,0,,{{\\fad(150,150)}}{escape(_wrap(c.text) if c.style == 'Hook' else c.text)}"
+        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},{c.style},,0,0,0,,{{\\fad(150,150)}}{escape(_wrap(c.text) if c.style in ('Hook', 'Reveal') else c.text)}"
         for c in cues
     ]
     return header + "\n".join(events) + "\n"

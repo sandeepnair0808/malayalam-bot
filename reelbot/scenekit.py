@@ -13,7 +13,7 @@ A scene's `art` is a small dict, e.g.
 - cast:  "<character>:<tokens>", left to right. Tokens (comma separated):
          poses  idle walk point wave hold eat cook jump hug pray read phone sleep umbrella sit
          faces  happy sad surprised talk neutral
-         hold=<prop>   dosa letter book phone bag flower plate laddu tiffin gift money toy lamp umbrella kite
+         hold=<prop>   dosa letter newspaper book phone bag flower plate laddu tiffin gift money toy lamp umbrella kite
          wet           one soaked shoulder (rain stories)
 - props: table[:food], stove, hanging_umbrella, bicycle[:red|blue|green], photo:<character>,
          nilavilakku, kerosene_lamp, radio, tv, kite, pookkalam, gift, bus, mango_tree, chair,
@@ -274,8 +274,27 @@ def hand_prop(name: str) -> str:
         return '<ellipse cx="0" cy="0" rx="46" ry="16" fill="#e2a849" transform="rotate(-20)"/>'
     if name == "burnt_dosa":
         return '<ellipse cx="0" cy="0" rx="46" ry="16" fill="#4a2c17" transform="rotate(-20)"/>'
-    if name == "letter":
-        return '<g transform="rotate(-8)"><rect x="-45" y="-60" width="90" height="70" fill="#f4f1e6" stroke="#c9c2a8" stroke-width="3"/><path d="M-45 -60 L0 -20 L45 -60" stroke="#c9c2a8" stroke-width="3" fill="none"/></g>'
+    if name == "letter":  # airmail envelope from the Gulf: striped border, stamp, address lines
+        stripes = "".join(f'<rect x="{x}" y="-88" width="14" height="8" fill="{"#c0392b" if k % 2 else "#2e5aa8"}" transform="skewX(-30)"/>'
+                          for k, x in enumerate(range(-70, 80, 16)))
+        return ('<g transform="rotate(-8)">'
+                '<rect x="-80" y="-90" width="160" height="104" rx="5" fill="#f3ead2"/>'
+                f'<clipPath id="env"><rect x="-80" y="-90" width="160" height="104" rx="5"/></clipPath><g clip-path="url(#env)">{stripes}'
+                + stripes.replace('y="-88"', 'y="2"') + '</g>'
+                '<path d="M-80 -90 L0 -38 L80 -90" fill="#e4d7b6" stroke="#cbbd98" stroke-width="2"/>'
+                '<rect x="-80" y="-90" width="160" height="104" rx="5" fill="url(#shade)"/>'
+                '<rect x="42" y="-70" width="26" height="30" fill="#d9534f"/><rect x="46" y="-66" width="18" height="22" fill="#f2c4a0"/>'
+                '<g stroke="#5b6b8a" stroke-width="3" stroke-linecap="round"><path d="M-30 -22 H40"/><path d="M-30 -10 H30"/><path d="M-30 2 H20"/></g></g>')
+    if name == "newspaper":  # broadsheet held open: masthead, headline, photo, columns
+        cols = "".join(f'<path d="M{x} {y} h{w}" />' for x in (-108, 8) for y, w in zip(range(-38, 40, 11), (92, 84, 92, 70, 92, 88, 60, 92)))
+        return ('<g transform="rotate(-4)">'
+                '<path d="M-120 -100 L0 -92 L120 -100 L118 50 L0 58 L-118 50Z" fill="#ece6d6"/>'
+                '<path d="M0 -92 L0 58" stroke="#c9c1ad" stroke-width="3"/>'
+                '<rect x="-110" y="-90" width="220" height="20" fill="#2b2b2b" opacity="0.85"/>'
+                '<rect x="-108" y="-64" width="96" height="12" fill="#555" opacity="0.8"/>'
+                '<rect x="10" y="-64" width="98" height="22" fill="#9aa4ad"/>'
+                f'<g stroke="#8a857a" stroke-width="3" stroke-linecap="round">{cols}</g>'
+                '<path d="M-120 -100 L0 -92 L120 -100 L118 50 L0 58 L-118 50Z" fill="url(#shade)"/></g>')
     if name == "book":
         return '<g><rect x="-60" y="-70" width="120" height="85" rx="4" fill="#c0392b"/><rect x="-55" y="-66" width="52" height="77" fill="#f4f1e6"/><rect x="3" y="-66" width="52" height="77" fill="#f4f1e6"/></g>'
     if name == "phone":

@@ -246,9 +246,10 @@ def assemble(settings: Settings, clips: list[SceneClip], workdir: Path, out: Pat
             continue
         if n == len(clips) - 1 and settings.end_card and clip.duration > 3:
             cues.append(Cue(t + clip.duration - 2.6, t + clip.duration - 0.05, settings.end_card, "End"))
+        style = "Reveal" if n == len(clips) - 1 and len(clips) > 2 else "Story"  # the twist, big in the middle
         if isinstance(clip.subtitle, list):  # [(text, start, end)] relative to the scene
             for text, a, b in clip.subtitle:
-                cues.append(Cue(t + max(a, 0.05), t + min(b + 0.15, clip.duration - 0.05), text))
+                cues.append(Cue(t + max(a, 0.05), t + min(b + 0.15, clip.duration - 0.05), text, style))
         elif clip.subtitle:
             cues.append(Cue(t + 0.1, t + clip.duration - 0.1, clip.subtitle))
         t += clip.duration
