@@ -40,7 +40,7 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
    school, first job / leaving home, Achan's hidden love. Emotional twist at the end.
 4. **Weak themes so far:** radio, kite, mango tree, pookkalam on YouTube (2-7 views); revisit only
    with a strong hook.
-5. **Kids content is ranked last in the queue (owner's decision, Nov 10).** "Made for Kids" Shorts reach very few people (9-16 views): no comments, no
+5. **Moral stories are published as "Not made for kids" family stories** (owner's decision, Nov 10): titles say "Malayalam Family Story", no kid-targeted tags, captions address parents. Keep them genuinely family-oriented so the label stays accurate. They are ranked last in the queue. "Made for Kids" Shorts reach very few people (9-16 views): no comments, no
    notifications. Keep them a minority in the queue (3 nostalgia : 1 kids) or move them to a
    separate channel.
 6. **Do not flood.** Owner's current choice: 1 upload per hour (cron `0 * * * *`). Shorts posted minutes apart cannibalised each other. Current pace: every 30 min;

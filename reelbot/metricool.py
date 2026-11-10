@@ -15,14 +15,14 @@ from .models import Story
 from .safety import morals
 
 TZ = "Asia/Calcutta"
-BASE_TAGS = ["shorts", "malayalam", "kidsstory", "moralstory", "malayalamkidsstory"]
-TAIL_TAGS = ["kerala", "kidsvideos", "storytime"]
-YT_TAGS = ["malayalam kids story", "malayalam moral story", "kids moral stories", "malayalam cartoon",
-           "malayalam animation", "bedtime story malayalam", "kerala kids", "shorts"]
+BASE_TAGS = ["shorts", "malayalam", "moralstory", "familystory"]
+TAIL_TAGS = ["kerala", "storytime"]
+YT_TAGS = ["malayalam moral story", "malayalam family story", "malayalam cartoon", "malayalam animation",
+           "malayalam story", "kerala", "shorts"]
 
 
 def _title(story: Story) -> str:
-    title = f"{story.title_ml} | {story.title_en} | Malayalam Moral Story for Kids #shorts"
+    title = f"{story.title_ml} | {story.title_en} | Malayalam Family Story #shorts"
     if len(title) > 100:
         title = f"{story.title_ml} | {story.title_en} #shorts"
     return title[:100]
@@ -47,7 +47,7 @@ def kids_post(story: Story, moral_en: str, video_url: str, when: datetime,
         "publicationDate": {"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": TZ},
         "shortener": False, "smartLinkData": {"ids": []}, "text": text,
         "youtubeData": {
-            "title": _title(story), "type": "short", "privacy": "public", "madeForKids": True,
+            "title": _title(story), "type": "short", "privacy": "public", "madeForKids": False,  # owner decision: family audience, not made for kids
             "category": "EDUCATION", "isAiGeneratedContent": False,
             "tags": list(dict.fromkeys(topical + YT_TAGS))[:15],
         },
