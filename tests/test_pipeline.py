@@ -1,5 +1,6 @@
 import json
 import shutil
+import subprocess
 from pathlib import Path
 
 import pytest
@@ -171,3 +172,117 @@ def test_animated_clip_renders(tmp_path):
 
     out = render_animated(RIGGED, 0.5, "pan_left", tmp_path / "c.mp4", fps=10, width=270, height=480, workers=2)
     assert out.stat().st_size > 1000
+
+
+# ---------------------------------------------------------------- 3d style (fake Google client)
+def _png_bytes(w=270, h=480, color=(120, 160, 120)):
+    import io
+
+    from PIL import Image
+
+    buf = io.BytesIO()
+    Image.new("RGB", (w, h), color).save(buf, "PNG")
+    return buf.getvalue()
+
+
+class _NS:
+    def __init__(self, **kw):
+        self.__dict__.update(kw)
+
+
+class FakeGenai:
+    """Mimics the parts of google-genai the Studio uses."""
+
+    def __init__(self, tmp_path, fail_video=False):
+        self.tmp, self.fail_video = tmp_path, fail_video
+        self.image_calls, self.video_calls = [], []
+        self.vertexai = False
+        outer = self
+        src = tmp_path / "src.mp4"
+        subprocess.run(["ffmpeg", "-v", "error", "-f", "lavfi", "-i", "testsrc=size=360x640:rate=24",
+                        "-t", "4", "-pix_fmt", "yuv420p", str(src)], check=True)
+
+        class Models:
+            def generate_content(self, model, contents, config):
+                outer.image_calls.append(contents)
+                part = _NS(inline_data=_NS(data=_png_bytes()))
+                return _NS(candidates=[_NS(content=_NS(parts=[part]), finish_reason="STOP")])
+
+            def generate_videos(self, model, source, config):
+                outer.video_calls.append((source, config))
+                if outer.fail_video:
+                    raise RuntimeError("person generation blocked")
+                return _NS(done=False, error=None, result=None, n=0)
+
+        class Operations:
+            def get(self, op):
+                src = outer.tmp / "src.mp4"
+
+                class Video:
+                    def save(self, path):
+                        shutil.copy(src, path)
+
+                return _NS(done=True, error=None, result=_NS(generated_videos=[_NS(video=Video())]))
+
+        class Files:
+            def download(self, file):
+                return b""
+
+        self.models, self.operations, self.files = Models(), Operations(), Files()
+
+
+def _studio(tmp_path, monkeypatch, **kw):
+    pytest.importorskip("google.genai")
+    monkeypatch.setattr("time.sleep", lambda s: None)
+    from reelbot.realistic import Studio
+
+    settings = Settings()
+    settings.style, settings.tts, settings.animate = "3d", "none", False
+    settings.music_dir = tmp_path / "nomusic"
+    fake = FakeGenai(tmp_path, **kw)
+    return settings, fake, Studio(settings, client=fake)
+
+
+
+
+@pytest.mark.skipif(shutil.which("ffmpeg") is None, reason="ffmpeg not installed")
+def test_3d_studio_end_to_end(tmp_path, monkeypatch):
+    from reelbot.pipeline import render
+
+    settings, fake, studio = _studio(tmp_path, monkeypatch)
+    story = Story.model_validate_json((HERE.parent / "examples" / "umbrella_story.json").read_text(encoding="utf-8"))
+    durations = [5.0] * len(story.scenes)
+    pairs = studio.produce(story, tmp_path, durations)
+
+    assert len(fake.image_calls) == len(story.characters) + len(story.scenes)
+    # the keyframe for scene 2 carries the two characters' sheets as references
+    refs = [c for c in fake.image_calls[len(story.characters) + 1] if not isinstance(c, str)]
+    assert len(refs) == 2
+    source, config = fake.video_calls[0]
+    assert config.aspect_ratio == "9:16" and config.duration_seconds == 6
+    assert all(clip is not None and clip.exists() for _, clip in pairs)
+
+    # second run is fully cached: no new API calls
+    studio.produce(story, tmp_path, durations)
+    assert len(fake.video_calls) == len(story.scenes)
+
+    out = render(settings, story, tmp_path, [img for img, _ in pairs])
+    assert out.exists()
+
+
+@pytest.mark.skipif(shutil.which("ffmpeg") is None, reason="ffmpeg not installed")
+def test_3d_falls_back_to_stills_when_video_fails(tmp_path, monkeypatch):
+    settings, fake, studio = _studio(tmp_path, monkeypatch, fail_video=True)
+    story = sample_story()
+    pairs = studio.produce(story, tmp_path, [4.0] * len(story.scenes))
+    assert all(img.exists() and clip is None for img, clip in pairs)
+
+
+def test_veo_duration_and_fit():
+    from reelbot.realistic import veo_duration
+    from reelbot.video import fit_clip_filter
+
+    assert [veo_duration(x) for x in (3.2, 4.0, 5.1, 7.9, 12)] == [4, 4, 6, 8, 8]
+    assert "setpts" not in fit_clip_filter(6.0, 5.0, 1080, 1920)
+    f = fit_clip_filter(8.0, 12.0, 1080, 1920)
+    assert "setpts=1.3500*PTS" in f and "tpad=stop_mode=clone:stop_duration=1.200" in f

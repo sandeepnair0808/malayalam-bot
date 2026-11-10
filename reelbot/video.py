@@ -30,6 +30,7 @@ class SceneClip:
     talk_audio: Path | None = None  # speech that drives the on-screen speaker's mouth
     talk_offset: float = 0.0  # seconds into the scene's speech where talk_audio starts
     ambience: str = "none"
+    video: Path | None = None  # AI-generated clip for this scene (3d style)
 
 
 def scene_duration(spoken: float, reading: float) -> float:
@@ -69,7 +70,33 @@ def _fades(clip: SceneClip, first: bool, last: bool) -> list[str]:
     return vf
 
 
+def fit_clip_filter(src_seconds: float, target: float, w: int, h: int) -> str:
+    """Scale/crop an AI clip to the reel frame and fit it to the scene length.
+
+    Slightly long scenes are slowed down (up to 1.35x); anything longer holds the last frame.
+    """
+    vf = [f"scale={w}:{h}:force_original_aspect_ratio=increase", f"crop={w}:{h}", "setsar=1"]
+    if target > src_seconds + 0.01:
+        stretch = min(target / src_seconds, 1.35)
+        if stretch > 1.001:
+            vf.append(f"setpts={stretch:.4f}*PTS")
+        hold = target - src_seconds * stretch
+        if hold > 0.01:
+            vf.append(f"tpad=stop_mode=clone:stop_duration={hold:.3f}")
+    return ",".join(vf)
+
+
 def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, last: bool) -> Path:
+    if clip.video:
+        from .voice import probe_duration
+
+        vf = [fit_clip_filter(probe_duration(clip.video), clip.duration, settings.width, settings.height),
+              f"fps={settings.fps}", *_fades(clip, first, last), "format=yuv420p"]
+        run([
+            "ffmpeg", "-y", "-loglevel", "error", "-i", str(clip.video), "-vf", ",".join(vf),
+            "-t", f"{clip.duration:.3f}", "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-an", str(out),
+        ])
+        return out
     if clip.svg and settings.animate:
         env = voice_envelope(clip.talk_audio, clip.duration, settings.fps, LEAD_IN + clip.talk_offset)
         return render_animated(clip.svg, clip.duration, clip.camera, out, fps=settings.fps, width=settings.width,

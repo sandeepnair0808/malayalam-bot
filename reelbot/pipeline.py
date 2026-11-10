@@ -15,7 +15,7 @@ from .instagram import InstagramClient, PublishResult
 from .models import Story
 from .story import pick_theme, write_story
 from .video import SceneClip, assemble, scene_duration
-from .voice import narrate_story, reading_time
+from .voice import SceneVoice, narrate_story, reading_time
 
 log = logging.getLogger(__name__)
 
@@ -45,23 +45,34 @@ def _scene_svg(image: Path) -> str | None:
     return svg.read_text(encoding="utf-8") if svg.exists() else None
 
 
-def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path]) -> Path:
-    """Voice-over + video assembly from already-drawn scene images."""
+def scene_durations(story: Story, voices: list[SceneVoice]) -> list[float]:
+    return [scene_duration(v.duration, reading_time(s.subtitle_ml)) for s, v in zip(story.scenes, voices)]
+
+
+def _scene_video(image: Path) -> Path | None:
+    clip = image.with_suffix(".mp4")
+    return clip if clip.exists() else None
+
+
+def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path],
+           voices: list[SceneVoice] | None = None) -> Path:
+    """Voice-over + video assembly from already-made scene images (and AI clips next to them, if any)."""
     work = reel_dir / "work"
-    voices = narrate_story(settings, story, work)
+    voices = voices or narrate_story(settings, story, work)
     clips = [
         SceneClip(
             image=img,
             audio=v.audio,
-            duration=scene_duration(v.duration, reading_time(scene.subtitle_ml)),
+            duration=dur,
             camera=scene.camera,
             subtitle=scene.subtitle_ml,
             svg=_scene_svg(img),
             talk_audio=v.talk_audio,
             talk_offset=v.talk_offset,
             ambience=scene.ambience,
+            video=_scene_video(img),
         )
-        for scene, img, v in zip(story.scenes, images, voices)
+        for scene, img, v, dur in zip(story.scenes, images, voices, scene_durations(story, voices))
     ]
     out = assemble(settings, clips, work, reel_dir / "reel.mp4")
     log.info("reel ready: %s (%.1fs)", out, sum(c.duration for c in clips))
@@ -79,8 +90,15 @@ def make(settings: Settings, theme: str | None = None, story: Story | None = Non
     save_story(story, reel_dir)
     log.info("story '%s' (%d scenes) -> %s", story.title_ml, len(story.scenes), reel_dir)
 
-    images = illustrate(settings, story, reel_dir / "scenes")
-    render(settings, story, reel_dir, images)
+    if settings.style == "3d":
+        from .realistic import Studio
+
+        voices = narrate_story(settings, story, reel_dir / "work")
+        pairs = Studio(settings).produce(story, reel_dir, scene_durations(story, voices))
+        render(settings, story, reel_dir, [img for img, _ in pairs], voices)
+    else:
+        images = illustrate(settings, story, reel_dir / "scenes")
+        render(settings, story, reel_dir, images)
     history.append(settings.history_file, {
         "dir": reel_dir.name,
         "title_ml": story.title_ml,
@@ -91,10 +109,21 @@ def make(settings: Settings, theme: str | None = None, story: Story | None = Non
     return reel_dir
 
 
-def rebuild(settings: Settings, reel_dir: Path) -> Path:
-    """Re-render voice/video from an existing reel dir without calling Claude again."""
+def rebuild(settings: Settings, reel_dir: Path, retry_ai: bool = False) -> Path:
+    """Re-render voice/video from an existing reel dir without calling Claude again.
+
+    With the 3d style, missing keyframes are always generated; `retry_ai` also retries
+    scenes whose Veo clip failed earlier.
+    """
     story = load_story(reel_dir)
     images = sorted((reel_dir / "scenes").glob("scene_*.png"))
+    if settings.style == "3d" and (retry_ai or len(images) != len(story.scenes)):
+        # finish (or retry) the missing 3D keyframes / clips; finished ones are reused from disk
+        from .realistic import Studio
+
+        voices = narrate_story(settings, story, reel_dir / "work")
+        pairs = Studio(settings).produce(story, reel_dir, scene_durations(story, voices))
+        return render(settings, story, reel_dir, [img for img, _ in pairs], voices)
     if len(images) != len(story.scenes):
         raise SystemExit(f"expected {len(story.scenes)} scene images in {reel_dir / 'scenes'}, found {len(images)}")
     return render(settings, story, reel_dir, images)

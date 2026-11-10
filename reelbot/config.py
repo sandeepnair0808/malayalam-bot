@@ -29,6 +29,17 @@ class Settings:
     tts: str = field(default_factory=lambda: _env("REELBOT_TTS", "edge"))
     voice: str = field(default_factory=lambda: _env("REELBOT_VOICE", "ml-IN-SobhanaNeural"))
 
+    # Visual style: "cartoon" (Claude-drawn rigged SVG, animated locally) or
+    # "3d" (Gemini image model keyframes + Veo video clips; needs GEMINI_API_KEY)
+    style: str = field(default_factory=lambda: _env("REELBOT_STYLE", "cartoon").lower())
+    image_model: str = field(default_factory=lambda: _env("REELBOT_IMAGE_MODEL", "gemini-3.1-flash-image"))
+    image_size: str = field(default_factory=lambda: _env("REELBOT_IMAGE_SIZE", "2K"))
+    ai_video: bool = field(default_factory=lambda: _env("REELBOT_AI_VIDEO", "1") not in ("0", "false", "no"))
+    video_model: str = field(default_factory=lambda: _env("REELBOT_VIDEO_MODEL", "veo-3.1-generate-preview"))
+    video_resolution: str = field(default_factory=lambda: _env("REELBOT_VIDEO_RESOLUTION", "720p"))
+    video_workers: int = field(default_factory=lambda: int(_env("REELBOT_VIDEO_WORKERS", "2")))
+    video_timeout: float = field(default_factory=lambda: float(_env("REELBOT_VIDEO_TIMEOUT", "900")))
+
     # Video
     width: int = 1080
     height: int = 1920

@@ -27,6 +27,8 @@ jobs:
     timeout-minutes: 45
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      REELBOT_STYLE: ${{ vars.REELBOT_STYLE || 'cartoon' }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
       IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST || 'graph.facebook.com' }}
@@ -48,7 +50,7 @@ jobs:
           cache: pip
 
       - name: Install
-        run: pip install -e '.[dev]'
+        run: pip install -e '.[dev,realistic]'
 
       - name: Tests
         run: pytest -q
@@ -73,6 +75,7 @@ jobs:
             ${{ steps.make.outputs.dir }}/story.json
             ${{ steps.make.outputs.dir }}/caption.txt
             ${{ steps.make.outputs.dir }}/scenes/*.png
+            ${{ steps.make.outputs.dir }}/characters/*.png
           retention-days: 14
 
       - name: Publish to Instagram

@@ -49,6 +49,38 @@ reelbot run                                   # make + publish
 Each reel directory holds `story.json`, `caption.txt`, `scenes/scene_NN.{svg,png}`, and
 `reel.mp4`. You can edit `story.json` or the SVGs, then `rebuild` before publishing.
 
+## 3D animated-film style (`REELBOT_STYLE=3d`)
+
+For a realistic, Pixar-like 3D look with real motion instead of flat cartoons:
+
+1. **Character sheets.** The Gemini image model (`gemini-3.1-flash-image`) draws one full-body
+   reference per character, saved in `characters/`.
+2. **Keyframes.** One 9:16 image per scene, generated with the sheets of the characters in that shot as
+   reference images, so faces, age and clothes stay the same across scenes.
+3. **Video.** Veo (`veo-3.1-generate-preview`) animates each keyframe into a 4, 6 or 8 s clip from the
+   scene's `action`. The clip is fitted to the narration length: slowed slightly, or the last frame held.
+   Veo's own audio is dropped and replaced by the Malayalam voice-over and ambience.
+4. If Veo refuses or fails on a scene, for example because of its person-generation rules for children,
+   that scene uses its keyframe with a camera move and the reel still renders. Run
+   `reelbot --style 3d rebuild <dir> --retry-ai` later to retry only those scenes.
+
+Everything is cached in the reel directory, so re-running never pays twice for a finished image or clip.
+
+```bash
+pip install -e '.[realistic]'
+export GEMINI_API_KEY=...                # aistudio.google.com
+reelbot --style 3d make --story examples/umbrella_story.json
+REELBOT_AI_VIDEO=0 reelbot --style 3d make   # 3D stills + camera motion only (far cheaper)
+```
+
+**Cost:** each reel uses about 8–14 images plus 6–9 Veo clips. Veo is billed per second of video and
+is by far the largest cost, so check Google's current pricing before turning on daily auto-publishing.
+For the scheduled workflow, add the `GEMINI_API_KEY` secret and set the repo variable `REELBOT_STYLE=3d`.
+
+**Note:** `google-genai` is pinned below 3.0 because 3.0 dropped Veo for API-key (Gemini Developer API)
+use. If Google stops serving Veo to API keys, switch to Vertex AI with `GOOGLE_GENAI_USE_VERTEXAI=true`,
+`GOOGLE_CLOUD_PROJECT` and `GOOGLE_CLOUD_LOCATION`.
+
 ## Voices and sound
 
 - **Casting:** the story gives the narrator and every character a voice type (`man`, `woman`,

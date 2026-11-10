@@ -20,6 +20,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=8"]
+# 3D style (Gemini image model + Veo). Pinned below 3.0: google-genai 3.x dropped Veo for API-key auth.
+realistic = ["google-genai>=2.30,<3"]
 
 [project.scripts]
 reelbot = "reelbot.cli:main"

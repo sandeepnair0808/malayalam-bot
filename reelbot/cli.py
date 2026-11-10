@@ -15,6 +15,7 @@ from .models import Story
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="reelbot", description="Malayalam story reel creator + Instagram publisher")
     p.add_argument("-v", "--verbose", action="store_true")
+    p.add_argument("--style", choices=["cartoon", "3d"], help="visual style (default: REELBOT_STYLE or cartoon)")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     mk = sub.add_parser("make", help="write, illustrate and render a new reel")
@@ -23,6 +24,7 @@ def main(argv: list[str] | None = None) -> int:
 
     rb = sub.add_parser("rebuild", help="re-render voice/video for an existing reel dir (no Claude calls)")
     rb.add_argument("reel_dir", type=Path)
+    rb.add_argument("--retry-ai", action="store_true", help="3d style: retry scenes whose AI video clip failed")
 
     pb = sub.add_parser("publish", help="upload an existing reel dir to Instagram")
     pb.add_argument("reel_dir", type=Path)
@@ -41,13 +43,15 @@ def main(argv: list[str] | None = None) -> int:
         logging.getLogger(noisy).setLevel(logging.WARNING)
 
     settings = Settings()
+    if args.style:
+        settings.style = args.style
 
     if args.cmd == "make":
         story = Story.model_validate_json(args.story.read_text(encoding="utf-8")) if args.story else None
         reel_dir = pipeline.make(settings, theme=args.theme, story=story)
         print(reel_dir)
     elif args.cmd == "rebuild":
-        print(pipeline.rebuild(settings, args.reel_dir))
+        print(pipeline.rebuild(settings, args.reel_dir, retry_ai=args.retry_ai))
     elif args.cmd == "publish":
         result = pipeline.publish(settings, args.reel_dir, video_url=args.video_url)
         print(result.permalink or result.media_id)
