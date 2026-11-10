@@ -7,7 +7,8 @@
 Writes (and copies to /sdcard/Download so you can share them):
     stats/videos_<date>.csv   one row per video: title, published, views, likes, comments, shares,
                               watch minutes, avg view seconds, avg % viewed, subscribers gained,
-                              engaged views + "stayed %" (Shorts: share of views that were not swiped away),
+                              engaged views + engaged % (NOT Studio's "stayed to watch"; the API does not
+                              expose swipe-aways, so check that number in YouTube Studio),
                               and which queue file it came from
     stats/daily_<date>.csv    channel totals per day: views, watch minutes, subscribers gained/lost, likes
 Uses its own login (analytics_token.json), separate from the uploader's.
@@ -114,14 +115,15 @@ def main() -> int:
     for r in rows:
         v = by_id.setdefault(r["video"], {"video_id": r["video"]})
         v.update({k: r[k] for k in r if k != "video"})
+        v["avg_pct"] = round(float(r.get("averageViewPercentage", 0) or 0), 1)
     try:  # Shorts: engaged views = views that were not swiped away in the first seconds
         for r in report(ya, args.since, today, "views,engagedViews", "video", sort="-views", maxResults=200):
             v = by_id.setdefault(r["video"], {"video_id": r["video"]})
             v["engagedViews"] = r["engagedViews"]
             if r["views"]:
-                v["stayed_pct"] = round(100 * r["engagedViews"] / r["views"], 1)
+                v["engaged_pct"] = round(100 * r["engagedViews"] / r["views"], 1)
     except HttpError:
-        print("(engagedViews not available for this channel yet; 'stayed %' left empty)")
+        print("(engagedViews not available for this channel yet; 'engaged %' left empty)")
 
     # which queue file each upload came from (phone uploader log)
     done = json.loads((HERE / "uploaded.json").read_text()) if (HERE / "uploaded.json").exists() else {}
@@ -130,7 +132,7 @@ def main() -> int:
             by_id[info["id"]]["queue_file"] = f
 
     OUT.mkdir(exist_ok=True)
-    cols = ["published", "title", "views_total", "views", "engagedViews", "stayed_pct", "averageViewPercentage",
+    cols = ["published", "title", "views_total", "views", "engagedViews", "engaged_pct", "averageViewPercentage",
             "averageViewDuration", "estimatedMinutesWatched", "likes_total", "comments_total", "shares",
             "subscribersGained", "duration", "queue_file", "video_id"]
     vfile = OUT / f"videos_{today}.csv"
@@ -154,7 +156,7 @@ def main() -> int:
 
     print(f"\nTop 10 by views ({len(by_id)} videos):")
     for v in sorted(by_id.values(), key=lambda x: -int(x.get("views_total", 0) or 0))[:10]:
-        stay = f"{v['stayed_pct']}% stayed" if v.get("stayed_pct") is not None else ""
+        stay = f"{v['avg_pct']}% watched" if v.get("avg_pct") else ""
         print(f"  {v.get('views_total', 0):>6} views  {stay:<12} {v.get('title', '')[:50]}")
     for p in (vfile, dfile):
         try:
