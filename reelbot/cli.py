@@ -38,6 +38,7 @@ def main(argv: list[str] | None = None) -> int:
     ln = sub.add_parser("lint", help="safety-check kids story packs (no API calls)")
     ln.add_argument("packs", nargs="+", type=Path)
     ln.add_argument("--general", action="store_true", help="grown-up nostalgia packs: no moral line required")
+    ln.add_argument("--require-hook", action="store_true", help="every story needs a 'hook:' opening line (default for new packs)")
 
     pl = sub.add_parser("payloads", help="write Metricool post payloads (YouTube + Instagram) for rendered kids reels")
     pl.add_argument("packs", nargs="+", type=Path)
@@ -88,7 +89,7 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "lint":
         from .safety import lint
 
-        report = lint(args.packs, kids=not args.general)
+        report = lint(args.packs, kids=not args.general, require_hook=args.require_hook)
         for key, probs in report.items():
             for prob in probs:
                 print(f"{key}: {prob}")

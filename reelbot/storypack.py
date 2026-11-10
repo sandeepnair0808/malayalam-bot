@@ -112,6 +112,12 @@ def parse(text: str) -> list[tuple[str, Story]]:
                 k, _, v = ln.partition(":")
                 meta[k.strip()] = v.strip()
         title_ml, _, title_en = meta.get("title", slug).partition("|")
+        hook = meta.get("hook", "").strip()
+        if hook and scenes:
+            # 2-3 second opening question over the first picture: viewers decide in 1-2 s (see docs/LEARNINGS.md)
+            first = scenes[0]
+            scenes.insert(0, first.model_copy(update={"narration_ml": hook, "dialogue_ml": "", "speaker": None,
+                                                      "camera": "zoom_in"}))
         ids = []
         for sc in scenes:
             for c in sc.characters:

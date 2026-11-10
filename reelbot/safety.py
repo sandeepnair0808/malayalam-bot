@@ -90,7 +90,18 @@ def morals(text: str) -> dict[str, str]:
     return out
 
 
-def lint(paths: list[Path], all_packs: list[Path] | None = None, kids: bool = True) -> dict[str, list[str]]:
+def hooks(text: str) -> dict[str, str]:
+    out, slug = {}, None
+    for ln in text.splitlines():
+        if ln.startswith("###"):
+            slug = ln[3:].strip()
+        elif slug and ln.startswith("hook:"):
+            out[slug] = ln.partition(":")[2].strip()
+    return out
+
+
+def lint(paths: list[Path], all_packs: list[Path] | None = None, kids: bool = True,
+         require_hook: bool = False) -> dict[str, list[str]]:
     """Check kids packs. `all_packs` (default: every pack beside them) is used for uniqueness."""
     report: dict[str, list[str]] = {}
     seen_slug, seen_title, seen_moral = {}, {}, {}
@@ -101,6 +112,14 @@ def lint(paths: list[Path], all_packs: list[Path] | None = None, kids: bool = Tr
         for slug, story in parse(text):
             key = f"{pack.name}:{slug}"
             probs = check_story(slug, story, ms.get(slug, ""), kids) if pack in paths else []
+            if pack in paths and require_hook:
+                h = hooks(text).get(slug, "")
+                if not h:
+                    probs.append("missing 'hook:' line (opening question, see docs/LEARNINGS.md)")
+                elif len(h) > 70:
+                    probs.append(f"hook too long ({len(h)} chars, keep it under 70)")
+                if len(story.scenes) > 8:
+                    probs.append(f"{len(story.scenes)} scenes incl. hook (want <= 8 so the reel stays ~30-35 s)")
             for table, value in ((seen_slug, slug), (seen_title, story.title_ml.strip()), (seen_moral, ms.get(slug))):
                 if value and value in table and table[value] != key:
                     probs.append(f"duplicate of {table[value]}: {value!r}")
