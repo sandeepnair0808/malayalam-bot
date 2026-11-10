@@ -10,8 +10,8 @@ tags: malayalam malayalamstory achan rationshop childhoodmemories kerala mallure
 - lane | zoom_in | wind | achan:talk,point ammachi:surprised || ഞങ്ങളുടെ ഊഴം വന്നപ്പോൾ അച്ഛൻ പിന്നിലെ അമ്മൂമ്മയെ മുന്നിലേക്ക് വിട്ടു. || achan: അമ്മ ആദ്യം വാങ്ങിക്കോളൂ.
 - lane | still | wind | kid:talk,sad achan:happy || എനിക്ക് ദേഷ്യം വന്നു. || kid: അച്ഛാ, നമ്മൾ എത്ര നേരമായി നിൽക്കുന്നു!
 - lane | zoom_in | wind | achan:talk kid:surprised || അച്ഛൻ പതുക്കെ പറഞ്ഞു. || achan: നമുക്ക് നിൽക്കാൻ കാലുണ്ട് മോനേ. അവർക്ക് അതില്ല.
-- interior | pan_right | indoor | grownup:hold=bag,happy || ഇന്ന് സൂപ്പർമാർക്കറ്റിൽ ബില്ലിംഗ് വരിയിൽ നിൽക്കുമ്പോൾ ഞാനും പിന്നിലുള്ളവരെ മുന്നിലേക്ക് വിടും. ||
-- interior+close | zoom_out | indoor | grownup:happy | photo:achan || വരിയിൽ നിൽക്കാൻ അല്ല, മനുഷ്യരെ കാണാനാണ് അച്ഛൻ പഠിപ്പിച്ചത്. ||
+- bus_stop | zoom_in | wind | grownup:surprised uncle:talk || വർഷങ്ങൾക്ക് ശേഷം, ആ പഴയ റേഷൻ കടക്കാരൻ എന്നോട് ഒരു രഹസ്യം പറഞ്ഞു. || uncle: എല്ലാ മാസവും ആ അമ്മൂമ്മയുടെ അരിയുടെ പൈസ നിന്റെ അച്ഛനാണ് ആരും അറിയാതെ തന്നിരുന്നത്.
+- interior+close | zoom_out | indoor | grownup:happy | photo:achan || അച്ഛൻ മുന്നിലേക്ക് വിട്ടത് വരിയിലെ ഒരു സ്ഥലം മാത്രമായിരുന്നില്ല. ആ അമ്മൂമ്മയുടെ ഒരു മാസത്തെ അന്നമായിരുന്നു. ||
 
 ### 52-june-school-opening
 hook: പുതിയ പുസ്തകത്തിന്റെ ആ മണം ഓർമ്മയുണ്ടോ?
@@ -25,8 +25,8 @@ tags: malayalam malayalamstory school june monsoon childhoodmemories kerala mall
 - veranda+rain | zoom_in | rain | kid:umbrella,happy,hold=bag amma:wave,happy || രാവിലെ, കൃത്യം സ്കൂൾ തുറക്കുന്ന ദിവസം തന്നെ മഴ എത്തി. പുതിയ കുട ആദ്യമായി തുറന്നു. ||
 - lane+rain | pan_right | rain | kid:umbrella,walk,happy friend:umbrella,walk,happy || വഴിയിൽ കൂട്ടുകാരും. എല്ലാവരുടെയും കയ്യിൽ പുതിയ കുടകൾ. ചെളിവെള്ളത്തിൽ ചാടി നടന്നു. ||
 - classroom | still | indoor | kid:wet,happy teacher:talk friend:happy || ക്ലാസിൽ എത്തുമ്പോൾ യൂണിഫോം പകുതി നനഞ്ഞിരിക്കും. പുതിയ ടീച്ചർ, പുതിയ ബെഞ്ച്. ||
-- interior | zoom_in | indoor | grownup:hold=book,sad || ഇന്ന് ജൂൺ ഒന്നിന് ഓഫീസിലേക്ക് പോകുമ്പോൾ മഴ പെയ്താൽ ഞാൻ ഒരു നിമിഷം നിൽക്കും. ||
-- veranda+rain | zoom_out | rain | grownup:umbrella,happy || ഒരു പുതിയ പുസ്തകത്തിന്റെ മണം കിട്ടാൻ ഇന്നും മനസ്സ് കൊതിക്കുന്നു. ||
+- interior | zoom_in | indoor | grownup:surprised amma:talk,happy || വർഷങ്ങൾക്ക് ശേഷം അമ്മ ചിരിച്ചുകൊണ്ട് ഒരു രഹസ്യം പറഞ്ഞു. || amma: അതൊന്നും പുതിയ പുസ്തകങ്ങളായിരുന്നില്ല മോനേ. അടുത്ത വീട്ടിലെ ചേട്ടന്റെ പഴയ പുസ്തകങ്ങൾ. ഞാൻ ഒരു തുള്ളി അത്തർ തളിച്ചതാ.
+- interior+close | zoom_out | indoor | grownup:hold=book,happy || ലോകത്തിലെ ഏറ്റവും നല്ല ആ മണം പുസ്തകത്തിന്റേതായിരുന്നില്ല. അമ്മയുടെ സ്നേഹത്തിന്റേതായിരുന്നു. ||
 
 ### 53-std-booth-call
 hook: മൂന്ന് മിനിറ്റിൽ എല്ലാം പറയണം, മീറ്റർ ഓടുകയാണ്!
@@ -55,11 +55,11 @@ tags: malayalam malayalamstory doordarshan tv sunday childhoodmemories kerala ma
 - interior | zoom_in | indoor | kid:surprised friend:surprised | tv || സിനിമയുടെ ഏറ്റവും നല്ല ഭാഗം എത്തുമ്പോൾ കറന്റ് പോകും! എല്ലാവരും ഒരുമിച്ച് "അയ്യോ!" ||
 - interior+night | still | night | kid:sit,happy friend:sit,happy | kerosene_lamp || കറന്റ് വരുന്നത് വരെ ആരും പോകില്ല. ആ ഇരുട്ടിൽ ബാക്കി കഥ ഊഹിച്ച് പറഞ്ഞ് ചിരിക്കും. ||
 - interior | zoom_in | indoor | kid:jump,happy friend:jump,happy | tv || കറന്റ് വരുമ്പോൾ ഒരു വലിയ ആർപ്പുവിളി. പരസ്യം പോലും ഞങ്ങൾ ആസ്വദിച്ചു. ||
-- night_room | pan_right | night | grownup:phone,sad || ഇന്ന് ആയിരം സിനിമകൾ ഫോണിൽ ഉണ്ട്. ഒറ്റയ്ക്കിരുന്ന് കാണും. പകുതി കണ്ട് നിർത്തും. ||
-- night_room | zoom_out | night | grownup:sad | tv || സിനിമയല്ല, ആ ആൾക്കൂട്ടമായിരുന്നു ഞങ്ങളുടെ സന്തോഷം. ||
+- veranda | zoom_in | wind | grownup:surprised appooppan:talk,happy || വർഷങ്ങൾക്ക് ശേഷം, വയസ്സായ വർഗീസ് ചേട്ടൻ ചിരിച്ചുകൊണ്ട് ഒരു രഹസ്യം പറഞ്ഞു. || appooppan: അന്ന് കറന്റ് പോയിട്ടേയില്ല മോനേ. ക്ലൈമാക്സ് ആകുമ്പോൾ മെയിൻ സ്വിച്ച് ഓഫ് ചെയ്തിരുന്നത് ഞാനാ.
+- interior+night+close | zoom_out | night | grownup:happy | kerosene_lamp || ഒറ്റയ്ക്ക് താമസിച്ചിരുന്ന ആ മനുഷ്യന്, ഞങ്ങൾ കുറച്ചു നേരം കൂടി ആ വീട്ടിൽ ഇരിക്കണമായിരുന്നു. ||
 
 ### 55-milk-society
-hook: പുലർച്ചെ അപ്പൂപ്പനോടൊപ്പം പാൽ കൊടുക്കാൻ പോയിട്ടുണ്ടോ?
+hook: അപ്പൂപ്പന് ഓരോ മരത്തിന്റെയും പേര് എങ്ങനെ അറിയാമായിരുന്നു?
 title: പാൽ സൊസൈറ്റിയിലെ പ്രഭാതം | Mornings at the Milk Society
 theme: Walking with Appooppan to the milk society at dawn with a steel can, learning the names of every tree on the way
 narrator: man
@@ -70,11 +70,11 @@ tags: malayalam malayalamstory appooppan milk morning childhoodmemories kerala m
 - lane | still | wind | appooppan:point,talk kid:surprised || നടക്കുമ്പോൾ അപ്പൂപ്പൻ ഓരോ മരത്തിന്റെയും പേര് പറഞ്ഞു തരും. || appooppan: ഇതാണ് ആഞ്ഞിലി. ആ കാണുന്നത് പ്ലാവ്.
 - bus_stop | zoom_in | wind | appooppan:talk,happy kid:happy || സൊസൈറ്റിയിൽ എല്ലാവരും അപ്പൂപ്പനെ അറിയും. ആ ദിവസത്തെ വാർത്തകൾ എല്ലാം അവിടെയാണ് കേൾക്കുക. ||
 - lane | still | wind | appooppan:hold=laddu,happy kid:eat,happy || തിരിച്ചു വരുമ്പോൾ ചായക്കടയിൽ നിന്ന് ഒരു പരിപ്പുവട. പകുതി എനിക്ക്, പകുതി അപ്പൂപ്പന്. ||
-- lane | zoom_in | wind | grownup:walk,sad || ഇന്ന് മോർണിംഗ് വാക്കിന് പോകുമ്പോൾ ചെവിയിൽ ഹെഡ്‌ഫോൺ ആണ്. മരങ്ങളുടെ പേര് ആരും പറഞ്ഞു തരാനില്ല. ||
-- lane | zoom_out | wind | grownup:point,happy || എന്റെ മകനോട് ഞാൻ ഇപ്പോൾ പറയും: ഇതാണ് ആഞ്ഞിലി. ആ കാണുന്നത് പ്ലാവ്. ||
+- lane | zoom_in | wind | grownup:walk,surprised uncle:talk || അപ്പൂപ്പൻ പോയ ശേഷം, സൊസൈറ്റിയിലെ പഴയ സെക്രട്ടറി എന്നോട് പറഞ്ഞു. || uncle: ആ വഴിയിലെ മരങ്ങളെല്ലാം നിന്റെ അപ്പൂപ്പൻ ചെറുപ്പത്തിൽ സ്വന്തം കൈ കൊണ്ട് നട്ടതാണ്.
+- lane+close | zoom_out | wind | grownup:happy || അപ്പൂപ്പൻ എന്നെ പഠിപ്പിച്ചത് മരങ്ങളുടെ പേരുകളല്ല. സ്വന്തം മക്കളുടെ പേരുകളായിരുന്നു. ||
 
 ### 56-rain-holiday
-hook: കനത്ത മഴ, നാളെ സ്കൂളിന് അവധി! ഓർമ്മയുണ്ടോ ആ സന്തോഷം?
+hook: മഴ അവധിയുടെ ദിവസം അച്ഛൻ എവിടെ പോയി?
 title: മഴ കാരണം അവധി! | A Rain Holiday!
 theme: The thrill of hearing on the radio that the collector declared a school holiday because of heavy rain
 narrator: man
@@ -85,11 +85,11 @@ tags: malayalam malayalamstory rain holiday school childhoodmemories kerala mall
 - interior+rain | zoom_in | rain | kid:jump,happy | radio || ഞാൻ ബാഗ് വലിച്ചെറിഞ്ഞ് തുള്ളിച്ചാടി! കളക്ടർ ആയിരുന്നു അന്നത്തെ ഹീറോ. ||
 - veranda+rain | pan_right | rain | kid:happy,wet friend:happy,wet || പിന്നെ വരാന്തയിൽ ഇരുന്ന് കടലാസ് തോണി. മുറ്റത്ത് കെട്ടി നിൽക്കുന്ന വെള്ളത്തിൽ മീൻ പിടുത്തം. ||
 - kitchen+rain | still | rain | amma:cook,happy kid:eat,happy | stove || ഉച്ചയ്ക്ക് അമ്മയുടെ കഞ്ഞിയും ചുട്ട പപ്പടവും. മഴയുടെ ശബ്ദത്തിൽ ഒരു ഉറക്കം. ||
-- interior+rain | zoom_in | rain | grownup:phone,sad || ഇന്ന് മഴ എത്ര പെയ്താലും ഓഫീസിന് അവധിയില്ല. ലാപ്‌ടോപ്പ് തുറന്ന് "വർക്ക് ഫ്രം ഹോം". ||
-- veranda+rain | zoom_out | rain | grownup:happy || പക്ഷേ മഴ കാരണം സ്കൂളിന് അവധി എന്ന് കേൾക്കുമ്പോൾ ഇന്നും ഉള്ളിൽ ഒരു കുട്ടി തുള്ളിച്ചാടും. ||
+- interior+rain+night | zoom_in | rain | kid:surprised amma:talk | kerosene_lamp || അന്ന് രാത്രി നനഞ്ഞു കുളിച്ചാണ് അച്ഛൻ തിരിച്ചു വന്നത്. അമ്മ പതുക്കെ പറഞ്ഞു. || amma: മഴയത്ത് പൊട്ടിയ കറന്റ് കമ്പികൾ നന്നാക്കുകയായിരുന്നു അച്ഛൻ. ലൈൻമാന് മഴക്കാലത്ത് അവധിയില്ല മോനേ.
+- veranda+rain | zoom_out | rain | grownup:happy || ഞങ്ങൾ ആഘോഷിച്ച ഓരോ മഴ അവധിക്കും പിന്നിൽ, മഴയത്ത് പോസ്റ്റിൽ കയറിയ ഒരച്ഛൻ ഉണ്ടായിരുന്നു. ||
 
 ### 57-sslc-result
-hook: പത്രത്തിൽ എന്റെ നമ്പർ ഉണ്ടാകുമോ?
+hook: അച്ഛൻ ആ പഴയ പത്രം എന്തിന് സൂക്ഷിച്ചു വെച്ചു?
 title: പത്രത്തിലെ റിസൾട്ട് | The Result in the Newspaper
 theme: The night the SSLC results came in the newspaper, the whole family searched for one register number together
 narrator: man
@@ -101,7 +101,7 @@ tags: malayalam malayalamstory sslc result exam childhoodmemories kerala mallure
 - veranda+close | still | wind | achan:happy,talk || പെട്ടെന്ന് അച്ഛന്റെ മുഖം തെളിഞ്ഞു. || achan: ഉണ്ടെടാ! നിന്റെ നമ്പർ ഉണ്ട്! ഫസ്റ്റ് ക്ലാസ്!
 - veranda | pan_right | wind | amma:hug,happy kid:hug,happy achan:happy || അമ്മ എന്നെ കെട്ടിപ്പിടിച്ചു. അച്ഛൻ ആ പത്രം മടക്കി അലമാരയിൽ സൂക്ഷിച്ചു വെച്ചു. ||
 - interior | zoom_in | indoor | grownup:read,hold=newspaper,surprised | photo:achan || വർഷങ്ങൾക്ക് ശേഷം അലമാര വൃത്തിയാക്കുമ്പോൾ ആ മഞ്ഞച്ച പത്രം കിട്ടി. എന്റെ നമ്പറിന് ചുറ്റും അച്ഛൻ വരച്ച ഒരു വട്ടം. ||
-- interior | zoom_out | indoor | grownup:read,happy | photo:achan || എന്റെ ആദ്യ വിജയം ആഘോഷിച്ചത് എന്നേക്കാൾ കൂടുതൽ അച്ഛനായിരുന്നു. ||
+- interior+close | zoom_out | indoor | grownup:read,hold=newspaper,happy | photo:achan || വട്ടത്തിനടുത്ത് അച്ഛന്റെ കൈയക്ഷരം. ഞാൻ തോറ്റ പരീക്ഷ, എന്റെ മോൻ ജയിച്ചു. ||
 
 ### 58-cassette-songs
 hook: കാസറ്റിൽ അറിയാതെ റെക്കോർഡ് ആയ ആ ശബ്ദം ആരുടേത്?
@@ -115,8 +115,8 @@ tags: malayalam malayalamstory cassette songs 90skids childhoodmemories kerala m
 - interior+close | zoom_in | indoor | kid:hold=book,happy || ടേപ്പ് കുരുങ്ങിയാൽ ഒരു പെൻസിൽ ഇട്ട് ശ്രദ്ധയോടെ ചുറ്റിയെടുക്കും. ബാറ്ററി ലാഭിക്കാനുള്ള വിദ്യ. ||
 - kitchen | still | indoor | amma:cook,talk,happy | stove || ഒരു ദിവസം ഞങ്ങൾ അറിയാതെ റെക്കോർഡ് ബട്ടൺ ഓണായി കിടന്നു. അടുക്കളയിൽ അമ്മ ഒരു പഴയ പാട്ട് മൂളുകയായിരുന്നു. ||
 - interior | zoom_in | indoor | kid:surprised chechi:surprised amma:surprised | radio || രാത്രി കാസറ്റ് ഇട്ടപ്പോൾ പാട്ടിനിടയിൽ അമ്മയുടെ ശബ്ദം! അമ്മ നാണിച്ച് ചിരിച്ചു. ||
-- night_room | pan_right | night | grownup:phone,sad || ഇന്ന് ലക്ഷക്കണക്കിന് പാട്ടുകൾ ഫോണിലുണ്ട്. പക്ഷേ ആ കാസറ്റ് ഞാൻ ഡിജിറ്റൽ ആക്കി സൂക്ഷിച്ചിട്ടുണ്ട്. ||
-- night_room | zoom_out | night | grownup:phone,happy || എന്റെ പ്ലേലിസ്റ്റിലെ ഏറ്റവും നല്ല പാട്ട് അമ്മ അടുക്കളയിൽ മൂളിയ ആ രണ്ട് വരികളാണ്. ||
+- interior | zoom_in | indoor | grownup:hold=gift,happy amma:surprised | radio || അമ്മയുടെ അറുപതാം പിറന്നാളിന് ഞാൻ ആ കാസറ്റ് വീണ്ടും ഇട്ടു. അമ്മയുടെ കണ്ണ് നിറഞ്ഞു. || amma: കോളേജിൽ പാട്ടിന് ഒന്നാം സമ്മാനം എനിക്കായിരുന്നു. കല്യാണം കഴിഞ്ഞ് പിന്നെ പാടിയിട്ടേയില്ല.
+- interior+close | zoom_out | indoor | amma:happy | radio || അന്ന് മുതൽ അമ്മ വീണ്ടും പാടാൻ തുടങ്ങി. ആ പഴയ കാസറ്റ് തിരിച്ചു കൊടുത്തത് അമ്മയുടെ ശബ്ദമായിരുന്നു. ||
 
 ### 59-sewing-machine
 hook: അമ്മയുടെ തയ്യൽ മെഷീൻ രാത്രി മുഴുവൻ ഓടിയത് എന്തിന്?
@@ -130,11 +130,11 @@ tags: malayalam malayalamstory amma sewing hardwork childhoodmemories kerala mal
 - night_room+night | zoom_in | night | kid:sleep amma:sit,sad | kerosene_lamp || ഞങ്ങൾ ഉറങ്ങിയ ശേഷവും അമ്മ തയ്ച്ചു കൊണ്ടിരിക്കും. ഫീസ് അടയ്ക്കേണ്ട അവസാന തീയതി അടുത്തിരുന്നു. ||
 - interior | still | indoor | amma:hold=gift,happy kid:surprised || ഓണത്തിന് എല്ലാവർക്കും പുതിയ ഉടുപ്പ്. ബാക്കി വന്ന തുണിക്കഷണങ്ങൾ കൊണ്ട് എനിക്കും ഒരു ഷർട്ട്. ||
 - interior+close | zoom_in | indoor | kid:happy || എന്റെ ഷർട്ടിന് ഓരോ കൈയ്ക്കും ഓരോ നിറം. എനിക്ക് അതായിരുന്നു ലോകത്തിലെ ഏറ്റവും സ്പെഷ്യൽ ഷർട്ട്. ||
-- interior | pan_right | indoor | grownup:hold=gift,happy amma:surprised || ആദ്യ ശമ്പളം കിട്ടിയപ്പോൾ ഞാൻ അമ്മയ്ക്ക് ഒരു പുതിയ ഇലക്ട്രിക് തയ്യൽ മെഷീൻ വാങ്ങിക്കൊടുത്തു. ||
-- interior | zoom_out | indoor | amma:hug,happy grownup:hug,happy || പക്ഷേ അമ്മ ഇന്നും പഴയ മെഷീനിലാണ് തയ്ക്കുന്നത്. അതിൽ ഞങ്ങളുടെ കുട്ടിക്കാലം മുഴുവനുണ്ടത്രേ. ||
+- interior | zoom_in | indoor | grownup:surprised ammachi:talk || വർഷങ്ങൾക്ക് ശേഷം അമ്മൂമ്മയാണ് ആ സത്യം പറഞ്ഞത്. || ammachi: ആ ഷർട്ടിന്റെ ഒരു കൈ ബാക്കി വന്ന തുണിയായിരുന്നില്ല മോനേ. നിന്റെ അമ്മയുടെ കല്യാണസാരിയുടെ കഷണമായിരുന്നു.
+- interior+close | zoom_out | indoor | amma:happy || ലോകത്തിലെ ഏറ്റവും സ്പെഷ്യൽ ഷർട്ട് എന്ന് ഞാൻ പറഞ്ഞത് വെറുതെയായിരുന്നില്ല. ||
 
 ### 60-well-bucket
-hook: തറവാട്ടിലെ കിണറ്റിലെ ആ തണുത്ത വെള്ളം ഓർമ്മയുണ്ടോ?
+hook: കിണറ്റിൽ നിന്ന് മറുപടി പറഞ്ഞത് ആരായിരുന്നു?
 title: കിണറ്റിലെ തണുത്ത വെള്ളം | Cold Water from the Well
 theme: Drawing water from the well with Ammachi each morning, the sound of the pulley, and the coldest, sweetest water in the world
 narrator: man
@@ -143,7 +143,7 @@ tags: malayalam malayalamstory well tharavadu ammachi childhoodmemories kerala m
 - yard | zoom_in | wind | ammachi:happy kid:happy || തറവാട്ടിലെ മുറ്റത്ത് ഒരു വലിയ കിണർ ഉണ്ടായിരുന്നു. രാവിലെ ആദ്യം കേൾക്കുന്ന ശബ്ദം കപ്പിയുടെ കരകര ശബ്ദമാണ്. ||
 - yard | still | wind | ammachi:talk kid:surprised || അമ്മൂമ്മ ബക്കറ്റ് വലിച്ചു കയറ്റുമ്പോൾ ഞാൻ കയർ പിടിക്കാൻ കൂടും. || ammachi: പതുക്കെ മോനേ, കയറിൽ കൈ മുറിയും.
 - yard | zoom_in | wind | kid:eat,happy ammachi:happy || ആ വെള്ളത്തിന് വല്ലാത്ത തണുപ്പ്. വേനലിൽ പോലും ഐസ് പോലെ. ഒരു കിണ്ടി നിറയെ ഒറ്റ ശ്വാസത്തിൽ കുടിക്കും. ||
-- yard+sunset | still | wind | kid:surprised ammachi:point,talk || വൈകുന്നേരം ഞാൻ കിണറ്റിലേക്ക് നോക്കി ഉറക്കെ വിളിക്കും. അപ്പോൾ എന്റെ ശബ്ദം തിരിച്ചു വരും! ||
+- yard+sunset | still | wind | kid:talk,surprised ammachi:happy || വൈകുന്നേരം ഞാൻ കിണറ്റിലേക്ക് നോക്കി വിളിക്കും. അപ്പോൾ കിണറ്റിൽ നിന്ന് മറുപടി വരും, ഞാനുണ്ട് എന്ന്! || kid: ആരുണ്ട് അവിടെ?
 - yard | zoom_in | wind | ammachi:talk kid:happy || അമ്മൂമ്മ പറയും. || ammachi: വെള്ളം ദൈവമാണ് മോനേ. ഒരു തുള്ളി പോലും പാഴാക്കരുത്.
-- kitchen | pan_right | indoor | grownup:sad || ഇന്ന് ഫ്ലാറ്റിലെ ടാപ്പിൽ നിന്ന് ഫിൽട്ടർ വെള്ളം. ഒരു രുചിയുമില്ല. ||
-- yard | zoom_out | wind | grownup:happy || തറവാട്ടിൽ പോകുമ്പോൾ ഞാൻ ആദ്യം ചെയ്യുന്നത് ആ കിണറ്റിൽ നിന്ന് ഒരു ബക്കറ്റ് വെള്ളം കോരുകയാണ്. ||
+- yard | zoom_in | wind | grownup:surprised ammachi:talk,happy || വർഷങ്ങൾക്ക് ശേഷം അമ്മൂമ്മ ചിരിച്ചുകൊണ്ട് പറഞ്ഞു. || ammachi: കിണറിന് മറുപടി പറയാൻ അറിയില്ല മോനേ. പിന്നിൽ നിന്ന് പറഞ്ഞത് ഞാനായിരുന്നു.
+- yard+close | zoom_out | wind | grownup:happy || ഇന്ന് എന്റെ മകൾ കിണറ്റിലേക്ക് നോക്കി വിളിക്കുമ്പോൾ, പിന്നിൽ നിന്ന് മറുപടി പറയുന്നത് ഞാനാണ്. ||
