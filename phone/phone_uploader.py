@@ -20,6 +20,7 @@ Files next to this script:
 from __future__ import annotations
 
 import argparse
+import fcntl
 import json
 import sys
 import time
@@ -63,6 +64,12 @@ def load(name: str, default):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
 
 
+def save(done: dict) -> None:
+    tmp = HERE / "uploaded.json.tmp"
+    tmp.write_text(json.dumps(done, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(HERE / "uploaded.json")  # atomic: a crash never leaves a half-written file
+
+
 def upload_one(youtube, item: dict, videos_dir: Path) -> str:
     from googleapiclient.http import MediaFileUpload
 
@@ -95,16 +102,36 @@ def main() -> int:
     ap.add_argument("--auth", action="store_true", help="sign in to Google (once)")
     ap.add_argument("--count", type=int, default=1, help="videos to upload this run")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--retry", metavar="FILE", help="allow one interrupted file to be uploaded again")
     ap.add_argument("--videos", default=str(HERE / "videos"), help="folder with the mp4 files")
     args = ap.parse_args()
 
     queue = load("uploads.json", [])
     done = load("uploaded.json", {})
-    left = [it for it in queue if it["file"] not in done]
+    done_titles = {v.get("title") for v in done.values() if isinstance(v, dict) and v.get("title")}
+    done_titles |= {it["title"] for it in queue if it["file"] in done}  # older entries saved without a title
+    # never re-upload: skip files already done (or started), and any queue entry whose title was already used
+    left = [it for it in queue if it["file"] not in done and it["title"] not in done_titles]
+    if args.retry:
+        done.pop(args.retry, None)
+        save(done)
+        print(f"{args.retry} will be uploaded again on the next run")
+        return 0
     if args.status:
-        print(f"{len(done)} uploaded, {len(left)} left")
+        stuck = [f for f, v in done.items() if isinstance(v, dict) and v.get("status") == "started"]
+        print(f"{len(done) - len(stuck)} uploaded, {len(left)} left")
+        for f in stuck:
+            print("  needs a check (upload was interrupted):", f)
         for it in left[:5]:
             print("  next:", it["file"])
+        return 0
+
+    # only one uploader at a time (a slow upload must not overlap the next 15-minute run)
+    lock = open(HERE / ".uploader.lock", "w")
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        log("another upload is still running; skipping this run")
         return 0
 
     creds = credentials(interactive=args.auth)
@@ -121,19 +148,29 @@ def main() -> int:
     for item in left:
         if uploaded_now >= args.count:
             break
+        if item["title"] in done_titles:
+            continue  # same video already uploaded under another file name
         if not (videos_dir / item["file"]).exists():
             log(f"MISSING {item['file']} (skipped for now)")
             continue
+        done_titles.add(item["title"])
+        # mark as started BEFORE uploading: if the phone dies mid-way it is never retried automatically
+        done[item["file"]] = {"id": None, "status": "started", "title": item["title"],
+                              "at": datetime.now().isoformat(timespec="minutes")}
+        save(done)
         for attempt in range(3):
             try:
                 vid = upload_one(youtube, item, videos_dir)
-                done[item["file"]] = {"id": vid, "at": datetime.now().isoformat(timespec="minutes")}
-                (HERE / "uploaded.json").write_text(json.dumps(done, ensure_ascii=False, indent=1), encoding="utf-8")
+                done[item["file"]] = {"id": vid, "status": "uploaded", "title": item["title"],
+                                      "at": datetime.now().isoformat(timespec="minutes")}
+                save(done)
                 log(f"OK {item['file']} -> https://youtube.com/shorts/{vid}")
                 uploaded_now += 1
                 break
             except HttpError as err:
                 if "quotaExceeded" in str(err) or "uploadLimitExceeded" in str(err):
+                    del done[item["file"]]  # nothing was uploaded; try this one again tomorrow
+                    save(done)
                     log("YouTube daily limit reached; will continue next run")
                     return 0
                 log(f"ERROR {item['file']}: {err} (attempt {attempt + 1})")
@@ -141,6 +178,8 @@ def main() -> int:
             except OSError as err:  # network drop
                 log(f"NETWORK {item['file']}: {err} (attempt {attempt + 1})")
                 time.sleep(60)
+        else:
+            log(f"GAVE UP {item['file']}: check YouTube Studio; run --retry {item['file']} if it is not there")
     return 0
 
 

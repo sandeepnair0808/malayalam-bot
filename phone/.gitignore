@@ -1,0 +1,8 @@
+client_secret.json
+token.json
+uploaded.json
+uploaded.json.tmp
+uploader.log
+cron.log
+.uploader.lock
+videos
