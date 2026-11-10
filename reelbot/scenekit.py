@@ -864,6 +864,8 @@ def compile_scene(art: dict, seed: int = 0) -> str:
         body = body.replace('fill="url(#clear)"', 'fill="#2a2f4a"', 1) + stars(seed)
     props = [sp.split(":")[0] for sp in art.get("props", [])]
     lamps = [(880, 1200)] * ("nilavilakku" in props) + [(960, 1230)] * ("kerosene_lamp" in props)
+    if lamps and bg_name not in OUTDOOR:
+        fx.add("night")  # a lit lamp indoors means evening: use the lamplight mood
     if "night" in fx:
         if lamps:  # darkness everywhere except a pool of lamplight
             lx, ly = lamps[0]
