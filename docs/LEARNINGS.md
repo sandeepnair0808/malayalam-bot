@@ -68,3 +68,14 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
 - Stayed to watch: > 70% (ours: 51% on the best one, so hooks are the priority)
 - Average % viewed: > 80%
 - Likes + comments: >= 3 per 100 views
+
+
+## Story structure: hook + twist (2026-11-10)
+- Every story needs a real twist: a reveal in the last scene that changes the meaning of what came before
+  (a secret sacrifice, a hidden helper, a role reversal). "Back then vs today" endings are not twists.
+- Plant the twist early (the leaf watch always shows 4 o'clock, the empty banana leaf at the end of the row),
+  and make the hook ask the question the twist answers.
+- The renderer now holds a 0.8 s beat before the last line and shows it big in gold (Reveal style);
+  the hook scene is a close-up of the main character.
+- Competitor (youthful_mediatech) look to match and beat: one warm lamp lighting a dark room, glossy
+  big eyes, close-up reaction shots, floating dust, natural (non-pitch-shifted) voices.

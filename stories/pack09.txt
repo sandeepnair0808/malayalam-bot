@@ -44,7 +44,7 @@ tags: malayalam malayalamstory wedding neighbours village childhoodmemories kera
 - yard+festive | zoom_out | wind | grownup:happy kid:happy | photo:ammachi || ഓഡിറ്റോറിയം വേണ്ട. പഴയ നാട്ടിൽ, അതേ മുറ്റത്ത് ഒരു പന്തൽ. ആ രാത്രി ഗ്രാമം മുഴുവൻ വീണ്ടും ഒന്നിച്ചു. ||
 
 ### 84-puncture-shop
-hook: കുട്ടികളുടെ കയ്യിൽ നിന്ന് പൈസ വാങ്ങാത്ത ആ മെക്കാനിക്കിന്റെ കടം ആര് വീട്ടും?
+hook: ആ മെക്കാനിക്കിന്റെ കടം ആര് വീട്ടും?
 title: പഞ്ചർ കടയിലെ കുഞ്ഞാപ്പു | Kunjappu of the Puncture Shop
 theme: The cycle repair man at the junction fixed every child's puncture for free and taught me how to fix it myself
 narrator: man
