@@ -10,11 +10,11 @@ tags: malayalam malayalamstory photo studio family childhoodmemories kerala mall
 - interior | zoom_in | indoor | uncle:talk,point kid:surprised || ഫോട്ടോഗ്രാഫർ കൈ ഉയർത്തി. || uncle: അനങ്ങല്ലേ... ഇങ്ങോട്ട് നോക്ക്... ചിരിക്ക്!
 - interior+close | still | indoor | achan:surprised || ഫ്ലാഷ് മിന്നിയപ്പോൾ എല്ലാവരും കണ്ണ് ചിമ്മി. അച്ഛൻ മാത്രം ഗൗരവത്തിൽ. ||
 - interior | zoom_in | indoor | achan:hold=gift,happy kid:hold=gift,happy | photo:achan || രണ്ടാഴ്ച കഴിഞ്ഞ് ഫോട്ടോ കിട്ടിയപ്പോൾ എല്ലാവരും ചിരിച്ചു. ഫ്രെയിം ചെയ്ത് ചുമരിൽ തൂക്കി. ||
-- interior | pan_right | indoor | grownup:phone,happy || ഇന്ന് എന്റെ ഫോണിൽ പതിനായിരം ഫോട്ടോകൾ. ഒന്നു പോലും ഞാൻ പ്രിന്റ് ചെയ്തിട്ടില്ല. ||
-- interior | zoom_out | indoor | grownup:happy | photo:achan || പക്ഷേ ചുമരിലെ ആ ഒരു ഫോട്ടോ ആണ് എന്റെ ഏറ്റവും വിലപ്പെട്ട ആൽബം. ||
+- interior | zoom_in | indoor | grownup:talk amma:talk || വർഷങ്ങൾക്ക് ശേഷം ഞാൻ അമ്മയോട് ചോദിച്ചു, അച്ഛൻ എന്താ ഒരു ഫോട്ടോയിലും ചിരിക്കാത്തത്? || amma: നീ കുഞ്ഞായിരുന്നപ്പോൾ മാവിൽ നിന്ന് വീണു. അന്ന് നിന്നെ പിടിക്കാൻ ചാടിയപ്പോൾ പൊട്ടിയതാ അച്ഛന്റെ മുൻപല്ല്.
+- interior+close | zoom_out | indoor | achan:happy | photo:achan || ഈ ഓണത്തിന് ഞാൻ അച്ഛന് പുതിയ പല്ല് വെപ്പിച്ചു. സ്റ്റുഡിയോയിലെ പുതിയ ഫോട്ടോയിൽ, ആദ്യമായി അച്ഛൻ ചിരിക്കുന്നു. ||
 
 ### 72-achan-scooter
-hook: അച്ഛന്റെ സ്കൂട്ടറിന്റെ മുന്നിൽ നിന്നിട്ടുണ്ടോ?
+hook: അച്ഛന്റെ ആ പഴയ സ്കൂട്ടർ ഒരു ദിവസം എവിടെ പോയി?
 title: അച്ഛന്റെ സ്കൂട്ടർ | Achan's Scooter
 theme: Standing in front of Achan on his old scooter, the tilt to start it, and the feeling of wind in my face
 narrator: man
@@ -25,11 +25,11 @@ tags: malayalam malayalamstory achan scooter ride childhoodmemories kerala mallu
 - lane | zoom_in | wind | achan:happy kid:happy || സ്റ്റാർട്ട് ആയാൽ ഞാൻ മുന്നിൽ നിൽക്കും. അച്ഛന്റെ രണ്ട് കൈകൾക്കുമിടയിൽ. ||
 - lane | pan_right | wind | achan:happy kid:happy,wave || മുഖത്ത് തണുത്ത കാറ്റ്. വഴിയിലെ എല്ലാവരെയും ഞാൻ കൈ വീശി കാണിക്കും. ലോകത്തിന്റെ രാജാവ് ഞാനായിരുന്നു. ||
 - lane+rain | still | rain | achan:umbrella,wet kid:happy || മഴ പെയ്താൽ അച്ഛൻ നനയും. പക്ഷേ എന്നെ റെയിൻകോട്ടിനകത്ത് ഒളിപ്പിച്ചു പിടിക്കും. ||
-- yard | zoom_in | indoor | grownup:sad | photo:achan || ഇന്ന് എന്റെ കാറിൽ എസി ഉണ്ട്, പാട്ടുണ്ട്. പക്ഷേ ആ കാറ്റില്ല. ||
-- lane | zoom_out | wind | grownup:happy kid:happy,wave || ഇന്നലെ എന്റെ മകനെ സ്കൂട്ടറിൽ മുന്നിൽ നിർത്തി ഒരു റൗണ്ട് പോയി. അവനും കൈ വീശി. ||
+- yard | zoom_in | wind | grownup:sad achan:sad || എന്റെ കോളേജ് ഫീസിന് വേണ്ടി ഒരു ദിവസം അച്ഛൻ ആ സ്കൂട്ടർ ആരോടും പറയാതെ വിറ്റു. പിന്നെ വർഷങ്ങളോളം അച്ഛൻ ബസിലാണ് ജോലിക്ക് പോയത്. ||
+- lane | zoom_out | wind | grownup:happy achan:happy,wave || അച്ഛന്റെ എഴുപതാം പിറന്നാളിന് ഞാൻ അതേ സ്കൂട്ടർ തേടിപ്പിടിച്ച് തിരിച്ചു വാങ്ങി. ഇത്തവണ പിന്നിലിരുന്ന് കൈ വീശിയത് അച്ഛനാണ്. ||
 
 ### 73-oil-bath
-hook: ഞായറാഴ്ചത്തെ എണ്ണതേച്ചു കുളി! ഓടി ഒളിച്ചിട്ടുണ്ടോ?
+hook: ഓടി ഒളിച്ച ആ എണ്ണതേച്ചു കുളി, ഇന്ന് ആരാണ് ആർക്ക് ചെയ്യുന്നത്?
 title: ഞായറാഴ്ചത്തെ എണ്ണതേച്ചു കുളി | The Sunday Oil Bath
 theme: Every Sunday Ammachi rubbed warm coconut oil into my hair and bathed me with hot water and herbal powder, no matter how I protested
 narrator: man
@@ -40,8 +40,8 @@ tags: malayalam malayalamstory ammachi oilbath sunday childhoodmemories kerala m
 - veranda+close | zoom_in | wind | kid:happy || ആദ്യം ദേഷ്യം വരും. പിന്നെ ആ വിരലുകളുടെ തലോടലിൽ കണ്ണടഞ്ഞു പോകും. ||
 - yard | still | wind | ammachi:talk kid:surprised || പിന്നെ ചെമ്പരത്തി താളിയും ചൂടുവെള്ളവും. കണ്ണിൽ പോയാൽ ഞാൻ ഉറക്കെ കരയും. || ammachi: കണ്ണടച്ചോ, കഴിഞ്ഞു കഴിഞ്ഞു!
 - kitchen | zoom_in | indoor | kid:eat,happy ammachi:happy | table:rice || കുളി കഴിഞ്ഞാൽ നല്ല വിശപ്പ്. അമ്മൂമ്മ ഉണ്ടാക്കിയ ചൂട് കഞ്ഞിയും ചമ്മന്തിയും. പിന്നെ ഒരു ഉഗ്രൻ ഉച്ചയുറക്കം. ||
-- interior | pan_right | indoor | grownup:sad || ഇന്ന് സലൂണിൽ പോയി ആയിരം രൂപയുടെ ഹെഡ് മസാജ് ചെയ്യുന്നു. ഒന്നും തോന്നാറില്ല. ||
-- veranda | zoom_out | wind | grownup:happy | photo:ammachi || ലോകത്തിലെ ഏറ്റവും നല്ല സ്പാ അമ്മൂമ്മയുടെ വരാന്തയായിരുന്നു. ||
+- veranda | zoom_in | wind | grownup:sad ammachi:sit,sad || ഇന്ന് അമ്മൂമ്മയുടെ കൈകൾ വിറയ്ക്കും. സ്വന്തം തലയിൽ എണ്ണ തേക്കാൻ പോലും പറ്റില്ല. ||
+- veranda+close | zoom_out | wind | ammachi:happy || ഇപ്പോൾ ഞായറാഴ്ചകളിൽ അതേ സ്റ്റൂളിൽ അമ്മൂമ്മയെ ഇരുത്തി എണ്ണ തേക്കുന്നത് ഞാനാണ്. അമ്മൂമ്മ കണ്ണടച്ച് ചിരിക്കും. ||
 
 ### 74-goli-champion
 hook: എന്റെ ഭാഗ്യ ഗോലി വർഷങ്ങൾക്ക് ശേഷം എവിടെ കണ്ടു?
@@ -59,7 +59,7 @@ tags: malayalam malayalamstory goli marbles games childhoodmemories kerala mallu
 - interior | zoom_out | indoor | grownup:phone,happy || ഫോട്ടോയിൽ അവന്റെ മകന്റെ കയ്യിൽ ആ നീല ഗോലി. "ഇത് ഭാഗ്യ ഗോലിയാ" എന്ന് അവനും പറഞ്ഞു കൊടുത്തിട്ടുണ്ടത്രേ. ||
 
 ### 75-first-mobile
-hook: വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ! സ്നേക്ക് ഗെയിം ഓർമ്മയുണ്ടോ?
+hook: ആ പഴയ മൊബൈലിൽ അച്ഛൻ ഒളിപ്പിച്ച മെസേജ്!
 title: വീട്ടിലെ ആദ്യത്തെ മൊബൈൽ | The First Mobile Phone at Home
 theme: When the first mobile phone came home, the whole family took turns with it, saved every number, and played the snake game
 narrator: man
@@ -70,8 +70,8 @@ tags: malayalam malayalamstory mobile phone 2000s childhoodmemories kerala mallu
 - interior | zoom_in | indoor | chechi:phone,happy kid:surprised || ചേച്ചി എല്ലാ നമ്പറുകളും സേവ് ചെയ്തു. ഓരോന്നിനും ഓരോ റിംഗ്ടോൺ. ||
 - interior | still | indoor | kid:phone,happy chechi:talk || എന്റെ ലക്ഷ്യം വേറെയായിരുന്നു. സ്നേക്ക് ഗെയിം! || chechi: ബാറ്ററി തീർക്കല്ലേടാ!
 - interior+night | zoom_in | night | achan:phone,happy kid:happy | kerosene_lamp || രാത്രി ഫോൺ ചാർജിൽ ഇടുമ്പോൾ അതിനെ ഒരു കുഞ്ഞിനെ പോലെ എല്ലാവരും നോക്കിയിരുന്നു. ||
-- interior | pan_right | indoor | grownup:phone kid:phone girl:phone chechi:phone || ഇന്ന് വീട്ടിൽ എല്ലാവരുടെ കയ്യിലും ഫോൺ. ഒരേ മുറിയിൽ ഇരുന്ന് വാട്ട്സ്ആപ്പിൽ സംസാരിക്കുന്നു. ||
-- interior | zoom_out | indoor | grownup:happy kid:happy girl:happy || അന്ന് ഒരു ഫോണിന് ചുറ്റും ഒരു കുടുംബം. ഇന്ന് ഓരോരുത്തർക്കും ചുറ്റും ഓരോ ഫോൺ. ||
+- interior | zoom_in | indoor | grownup:phone,surprised || കഴിഞ്ഞ മാസം അലമാരയിൽ ആ പഴയ ഫോൺ കിട്ടി. ചാർജ് ചെയ്ത് ഓണാക്കിയപ്പോൾ ആർക്കും അയക്കാത്ത ഒരു മെസേജ്. ||
+- interior+close | zoom_out | indoor | grownup:phone,happy | photo:achan || അച്ഛൻ ആദ്യമായി ടൈപ്പ് ചെയ്യാൻ പഠിച്ചപ്പോൾ എഴുതിയ വാക്കുകൾ. എന്റെ മക്കൾ, എന്റെ ഭാഗ്യം. ||
 
 ### 76-tuition-master
 hook: കർശനക്കാരനായ മാഷ് ആരോടും പറയാതെ ചെയ്തത്...
@@ -134,7 +134,7 @@ tags: malayalam malayalamstory circus town family childhoodmemories kerala mallu
 - interior | zoom_out | indoor | grownup:happy | photo:achan || ആ രണ്ടാഴ്ച അച്ഛൻ ഉച്ചഭക്ഷണം ഒഴിവാക്കിയാണ് ആ പൈസ ഉണ്ടാക്കിയതെന്ന് അമ്മ പിന്നീട് പറഞ്ഞു. ||
 
 ### 80-paddy-fishing
-hook: അമ്മ അറിയാതെ പാടത്ത് മീൻ പിടിക്കാൻ പോയിട്ടുണ്ടോ?
+hook: പാടത്ത് ഒളിച്ചു പോയ ഞങ്ങൾക്ക് ആരാണ് കാവൽ നിന്നത്?
 title: പാടത്തെ മീൻപിടുത്തം | Fishing in the Paddy Field
 theme: Sneaking out after the first heavy rain to catch small fish in the flooded paddy field, and Amma knowing everything from the mud
 narrator: man
@@ -145,5 +145,5 @@ tags: malayalam malayalamstory paddy fishing monsoon childhoodmemories kerala ma
 - paddy | zoom_in | wind | kid:jump,happy friend:jump,happy || തോർത്ത് വല പോലെ പിടിച്ച് ഞങ്ങൾ ഓടി. ചെളിയിൽ വീണു, എഴുന്നേറ്റു, വീണ്ടും ഓടി. ||
 - paddy | still | wind | kid:hold=plate,happy friend:happy || ഒടുവിൽ ഒരു ചിരട്ട നിറയെ പരൽ മീൻ! ലോകം കീഴടക്കിയ സന്തോഷം. ||
 - veranda+sunset | zoom_in | wind | amma:talk,point kid:surprised,hold=plate || വീട്ടിലെത്തിയപ്പോൾ ദേഹം മുഴുവൻ ചെളി. അമ്മ ഒന്നും ചോദിച്ചില്ല. നോക്കി ചിരിച്ചു. || amma: പോയി കുളിക്ക്. മീൻ ഞാൻ വറുത്തു തരാം.
-- kitchen | pan_right | indoor | amma:cook,happy kid:eat,happy | stove || അന്ന് രാത്രി ആ കുഞ്ഞു മീൻ വറുത്തതിന് ഒരു പ്രത്യേക രുചിയായിരുന്നു. ||
-- paddy+sunset | zoom_out | wind | grownup:happy kid:happy || ഇന്ന് ആ പാടം പകുതിയും വീടുകളായി. ബാക്കിയുള്ളതിൽ ഞാൻ എന്റെ മകനെ മീൻ പിടിക്കാൻ കൊണ്ടുപോയി. ||
+- kitchen | pan_right | indoor | grownup:surprised amma:talk,happy | stove || വർഷങ്ങൾക്ക് ശേഷം അമ്മ ചിരിച്ചുകൊണ്ട് ഒരു രഹസ്യം പറഞ്ഞു. || amma: നിങ്ങൾ ഒളിച്ചു പോയ ഓരോ തവണയും, ഞാനും കണ്ണന്റെ അമ്മയും വരമ്പത്ത് മറഞ്ഞു നിന്ന് കാവലുണ്ടായിരുന്നു.
+- paddy+sunset | zoom_out | wind | grownup:happy kid:happy || ഇന്ന് എന്റെ മകൻ ഒളിച്ചു പാടത്തേക്ക് പോകുമ്പോൾ, വരമ്പത്ത് മറഞ്ഞു നിൽക്കുന്നത് ഞാനാണ്. ||
