@@ -58,7 +58,7 @@ def kids_post(story: Story, moral_en: str, video_url: str, when: datetime,
 
 
 def write_payloads(packs: list[Path], queue: Path, url_base: str, start: datetime, every_min: int,
-                   out: Path) -> list[Path]:
+                   out: Path, style: str = "kids") -> list[Path]:
     """One payload per rendered story in `queue`, in pack order, `every_min` apart from `start`."""
     from .storypack import parse
 
@@ -72,9 +72,42 @@ def write_payloads(packs: list[Path], queue: Path, url_base: str, start: datetim
             if not (d / "reel.mp4").exists():
                 continue
             story = Story.model_validate_json((d / "story.json").read_text(encoding="utf-8"))
-            payload = kids_post(story, ms.get(slug, ""), f"{url_base.rstrip('/')}/{slug}.mp4", when)
+            url = f"{url_base.rstrip('/')}/{slug}.mp4"
+            payload = (nostalgia_post(story, url, when) if style == "nostalgia"
+                       else kids_post(story, ms.get(slug, ""), url, when))
             f = out / f"{slug}.json"
             f.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
             files.append(f)
             when += timedelta(minutes=every_min)
     return files
+
+
+NOSTALGIA_YT_TAGS = ["malayalam story", "malayalam emotional story", "malayalam shorts", "malayalam short story",
+                     "kerala", "malayalam animation", "family story", "nostalgia", "heart touching story", "shorts"]
+FIRST_COMMENT = "ഈ കഥ നിങ്ങളെ ആരെയെങ്കിലും ഓർമ്മിപ്പിച്ചോ? 👇 കമന്റിൽ പറയൂ ❤️\nദിവസവും പുതിയ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ 🔔"
+
+
+def nostalgia_post(story: Story, video_url: str, when: datetime) -> dict:
+    """Grown-up nostalgia Short: comments on, not made for kids, first comment to start conversation."""
+    skip = {"malayalam", "malayalamstory", "kerala", "mallureels", "malayalamreels", "nostalgia"}
+    topical = [t for t in story.hashtags if t not in skip][:4]
+    tags = ["shorts", "malayalam", "malayalamstory"] + topical + ["kerala", "malayalamshorts", "nostalgia"]
+    title = f"{story.title_ml} | {story.title_en} | Malayalam Story #shorts"
+    if len(title) > 100:
+        title = f"{story.title_ml} | {story.title_en} #shorts"
+    text = "\n\n".join(filter(None, [
+        story.caption_ml, story.theme + ".",
+        "🔔 ദിവസവും പുതിയ മലയാളം കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ\nSubscribe for a new heart-touching Malayalam story every day.",
+        " ".join(f"#{t}" for t in dict.fromkeys(tags)),
+    ]))
+    info = {
+        "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": FIRST_COMMENT,
+        "hasNotReadNotes": False, "media": [video_url], "mediaAltText": [],
+        "providers": [{"network": "youtube"}],
+        "publicationDate": {"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": TZ},
+        "shortener": False, "smartLinkData": {"ids": []}, "text": text,
+        "youtubeData": {"title": title[:100], "type": "short", "privacy": "public", "madeForKids": False,
+                        "category": "FILM_ANIMATION", "isAiGeneratedContent": False,
+                        "tags": list(dict.fromkeys(topical + NOSTALGIA_YT_TAGS))[:15]},
+    }
+    return {"date": when.strftime("%Y-%m-%dT%H:%M:%S+05:30"), "info": json.dumps(info, ensure_ascii=False)}

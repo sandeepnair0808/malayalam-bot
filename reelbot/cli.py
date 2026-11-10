@@ -46,6 +46,7 @@ def main(argv: list[str] | None = None) -> int:
     pl.add_argument("--start", required=True, help="first post time, IST, e.g. 2026-11-11T16:30")
     pl.add_argument("--every", type=int, default=30, help="minutes between posts")
     pl.add_argument("--out", type=Path, default=Path("payloads"))
+    pl.add_argument("--post-style", choices=["kids", "nostalgia"], default="kids")
 
     nx = sub.add_parser("next", help="render (and optionally publish) the next unpublished reel from the queue")
     nx.add_argument("--queue", type=Path, default=Path("queue"))
@@ -99,7 +100,7 @@ def main(argv: list[str] | None = None) -> int:
         from .metricool import write_payloads
 
         files = write_payloads(args.packs, args.queue, args.url_base, datetime.fromisoformat(args.start),
-                               args.every, args.out)
+                               args.every, args.out, style=args.post_style)
         print(f"{len(files)} payloads in {args.out}")
     elif args.cmd == "next":
         d = pipeline.next_in_queue(settings, args.queue)
