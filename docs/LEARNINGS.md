@@ -40,10 +40,10 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
    school, first job / leaving home, Achan's hidden love. Emotional twist at the end.
 4. **Weak themes so far:** radio, kite, mango tree, pookkalam on YouTube (2-7 views); revisit only
    with a strong hook.
-5. **Kids "Made for Kids" Shorts reach very few people** (9-16 views): no comments, no
+5. **Kids content is ranked last in the queue (owner's decision, Nov 10).** "Made for Kids" Shorts reach very few people (9-16 views): no comments, no
    notifications. Keep them a minority in the queue (3 nostalgia : 1 kids) or move them to a
    separate channel.
-6. **Do not flood.** Shorts posted minutes apart cannibalised each other. Current pace: every 30 min;
+6. **Do not flood.** Owner's current choice: 1 upload per hour (cron `0 * * * *`). Shorts posted minutes apart cannibalised each other. Current pace: every 30 min;
    if new Shorts stay under ~20 views after 14 days, drop to 4/day (7 am, 12 pm, 6 pm, 9 pm).
 7. **Never delete flops early.** Judge after 14 days; set real losers to Private, not Delete
    (deleting removes their views and watch time from monetization totals).

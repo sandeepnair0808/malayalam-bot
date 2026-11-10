@@ -1,4 +1,4 @@
-RANKING (best to worst, predicted from your top Shorts: Amma/Ammachi sacrifice, Gulf, tiffin/school)
+RANKING (best to worst). Nostalgia first, kids (Made for Kids) always last.
 rank score file  title
   1. [ 10] 23-sadya-last.mp4  അവസാനം ഉണ്ണുന്ന അമ്മ 🥺 | The One Who Eats Last | Malayalam Story #shorts
   2. [ 10] new/53-std-booth-call.mp4  എസ്.ടി.ഡി ബൂത്തിലെ മൂന്ന് മിനിറ്റ് | Three Minutes at the STD Booth | Malayalam Story #shorts
@@ -90,12 +90,12 @@ rank score file  title
  88. [  0] new/94-streetlight-study.mp4  തെരുവുവിളക്കിന് താഴെ | Under the Street Light | Malayalam Story #shorts
  89. [  0] new/96-ice-stick-man.mp4  കോലൈസ് വണ്ടി | The Ice Stick Cart | Malayalam Story #shorts
  90. [  0] new/100-last-day-tharavadu.mp4  തറവാട്ടിലെ അവസാന ദിവസം | The Last Day at the Tharavadu | Malayalam Story #shorts
- 91. [ -1] kids/k012-ammachi-reading.mp4  അമ്മൂമ്മയുടെ കണ്ണട | Reading for Ammachi | Malayalam Moral Story for Kids #shorts
- 92. [ -1] kids/k025-help-amma.mp4  അമ്മയ്ക്ക് ഒരു കൈ | A Helping Hand for Amma | Malayalam Moral Story for Kids #shorts
- 93. [ -1] new/74-goli-champion.mp4  ഗോലി ചാമ്പ്യൻ | The Marble Champion | Malayalam Story #shorts
- 94. [ -1] new/79-circus-came.mp4  സർക്കസ് വന്ന വർഷം | The Year the Circus Came | Malayalam Story #shorts
- 95. [ -1] new/90-broken-window.mp4  പൊട്ടിയ ജനൽച്ചില്ല് | The Broken Window | Malayalam Story #shorts
- 96. [ -1] new/99-radio-cricket.mp4  റേഡിയോയിലെ അവസാന ഓവർ | The Last Over on the Radio | Malayalam Story #shorts
+ 91. [ -1] new/74-goli-champion.mp4  ഗോലി ചാമ്പ്യൻ | The Marble Champion | Malayalam Story #shorts
+ 92. [ -1] new/79-circus-came.mp4  സർക്കസ് വന്ന വർഷം | The Year the Circus Came | Malayalam Story #shorts
+ 93. [ -1] new/90-broken-window.mp4  പൊട്ടിയ ജനൽച്ചില്ല് | The Broken Window | Malayalam Story #shorts
+ 94. [ -1] new/99-radio-cricket.mp4  റേഡിയോയിലെ അവസാന ഓവർ | The Last Over on the Radio | Malayalam Story #shorts
+ 95. [ -1] kids/k012-ammachi-reading.mp4  അമ്മൂമ്മയുടെ കണ്ണട | Reading for Ammachi | Malayalam Moral Story for Kids #shorts
+ 96. [ -1] kids/k025-help-amma.mp4  അമ്മയ്ക്ക് ഒരു കൈ | A Helping Hand for Amma | Malayalam Moral Story for Kids #shorts
  97. [ -1] kids/k046-take-umbrella.mp4  അമ്മ പറഞ്ഞ കുട | The Umbrella Amma Gave | Malayalam Moral Story for Kids #shorts
  98. [ -1] kids/k049-handmade-card.mp4  അമ്മൂമ്മയ്ക്ക് ഒരു കാർഡ് | A Card for Ammachi | Malayalam Moral Story for Kids #shorts
  99. [ -3] kids/k018-piggy-bank.mp4  അപ്പുവിന്റെ കുടുക്ക | Appu's Coin Box | Malayalam Moral Story for Kids #shorts
