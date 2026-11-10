@@ -14,9 +14,9 @@ from .subtitles import Cue, write_ass
 
 log = logging.getLogger(__name__)
 
-LEAD_IN = 0.35  # silence before each narration line
-TAIL = 0.55  # breathing room after it
-FADE = 0.25  # dip between scenes
+LEAD_IN = 0.12  # silence before each narration line
+TAIL = 0.28  # breathing room after it
+FADE = 0.15  # dip between scenes
 
 
 @dataclass

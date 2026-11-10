@@ -17,6 +17,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import os
+import re
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
@@ -36,15 +37,15 @@ class VoicePreset:
 
 
 PRESETS = {
-    "man": VoicePreset(MALE, 0, -8),
-    "woman": VoicePreset(FEMALE, 0, -8),
-    "old_man": VoicePreset(MALE, -8, -16),
-    "old_woman": VoicePreset(FEMALE, -10, -16),
-    "boy": VoicePreset(FEMALE, 28, -4),
-    "girl": VoicePreset(FEMALE, 40, -2),
+    "man": VoicePreset(MALE, 0, 6),
+    "woman": VoicePreset(FEMALE, 0, 6),
+    "old_man": VoicePreset(MALE, -8, -2),
+    "old_woman": VoicePreset(FEMALE, -10, -2),
+    "boy": VoicePreset(FEMALE, 28, 10),
+    "girl": VoicePreset(FEMALE, 40, 12),
 }
 
-GAP = 0.35  # silence between narration and dialogue in one scene
+GAP = 0.18  # silence between narration and dialogue in one scene
 
 # Gentle "radio warmth": cut rumble, a little body and presence, even out levels, tiny room.
 VOICE_POLISH = (
@@ -61,7 +62,7 @@ def preset_for(kind: str | None, settings: Settings) -> VoicePreset:
     if kind in PRESETS:
         return PRESETS[kind]
     # plain voice name from settings (e.g. REELBOT_VOICE) for anything uncast
-    return VoicePreset(settings.voice, 0, -8)
+    return VoicePreset(settings.voice, 0, 6)
 
 
 def probe_duration(path: Path) -> float:
@@ -74,7 +75,15 @@ def probe_duration(path: Path) -> float:
 
 def reading_time(text: str) -> float:
     """Seconds a viewer needs to read a Malayalam subtitle without narration."""
-    return max(2.5, min(6.0, 1.2 + len(text) * 0.09))
+    return max(2.0, min(5.0, 1.0 + len(text) * 0.07))
+
+
+def settings_rate() -> int:
+    """Global speed offset in percent (REELBOT_RATE, e.g. 10 = faster, -10 = slower)."""
+    try:
+        return int(os.environ.get("REELBOT_RATE", "0"))
+    except ValueError:
+        return 0
 
 
 async def _edge(text: str, preset: VoicePreset, rate_extra: int, out: Path) -> None:
@@ -82,7 +91,7 @@ async def _edge(text: str, preset: VoicePreset, rate_extra: int, out: Path) -> N
 
     # edge-tts uses aiohttp, which ignores proxy env vars unless told explicitly.
     proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or None
-    rate = preset.rate + rate_extra
+    rate = preset.rate + rate_extra + settings_rate()
     await edge_tts.Communicate(
         text, preset.voice, rate=f"{rate:+d}%", pitch=f"{preset.pitch:+d}Hz", proxy=proxy
     ).save(str(out))
@@ -108,6 +117,8 @@ def synthesize(settings: Settings, text: str, out: Path, preset: VoicePreset | N
     provider = settings.tts.lower()
     if provider == "none" or not text.strip():
         return None
+    # "..." makes the neural voice stop for a long beat; a comma pause keeps the pace up
+    text = re.sub(r"\s*(\.\.\.|…)\s*", ", ", text).strip(" ,")
     out.parent.mkdir(parents=True, exist_ok=True)
     raw = out.with_suffix(".raw.mp3")
     preset = preset or preset_for(None, settings)
@@ -154,7 +165,7 @@ def narrate_story(settings: Settings, story, workdir: Path) -> list[SceneVoice]:
     result: list[SceneVoice] = []
     last = len(story.scenes) - 1
     for i, scene in enumerate(story.scenes):
-        slow = -6 if i == last else 0  # land the final line a little slower
+        slow = -3 if i == last else 0  # land the final line a touch slower
         n_path = synthesize(settings, scene.narration_ml, workdir / f"narr_{i + 1:02d}.wav", narrator, slow)
         d_path = None
         if scene.dialogue_ml.strip():

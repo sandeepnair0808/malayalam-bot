@@ -54,7 +54,7 @@ def test_ass_escaping_and_timing():
 
 
 def test_durations_and_camera():
-    assert scene_duration(3.0, 2.5) == pytest.approx(3.9)
+    assert scene_duration(3.0, 2.5) == pytest.approx(3.4)
     assert scene_duration(0.0, 4.0) == 4.0
     assert "d=90" in zoompan_expr("pan_left", 90, 1080, 1920, 30)
 
