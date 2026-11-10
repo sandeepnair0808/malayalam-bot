@@ -47,7 +47,7 @@ SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")
 
-ANIMS = {"blink", "talk", "breathe", "swing", "spin", "bob", "float", "move", "rain", "drift"}
+ANIMS = {"blink", "talk", "breathe", "swing", "spin", "bob", "float", "move", "rain", "drift", "flicker"}
 
 
 @dataclass
@@ -133,12 +133,15 @@ class SceneAnimator:
 
     def _wrap_camera(self) -> None:
         self.camera_node = ET.Element(f"{{{SVG_NS}}}g")
+        fixed = []
         for child in list(self.root):
             if child.tag.endswith("defs"):
                 continue
             self.root.remove(child)
-            self.camera_node.append(child)
+            (fixed if child.get("data-fixed") else self.camera_node).append(child)
         self.root.append(self.camera_node)
+        for child in fixed:  # overlays such as the vignette stay put while the camera moves
+            self.root.append(child)
         self.root.set("width", str(self.w))
         self.root.set("height", str(self.h))
 
@@ -187,6 +190,8 @@ class SceneAnimator:
             return f"translate({p.dx * k:.2f},{p.dy * k:.2f})"
         if p.anim == "rain":
             return f"translate(0,{(t * (p.speed or 1400)) % self.h:.1f})"
+        if p.anim == "flicker":
+            return ""
         if p.anim == "drift":
             return f"translate({(t * (p.speed or 25)) % self.w:.1f},0)"
         return ""
@@ -214,6 +219,10 @@ class SceneAnimator:
             extra = self._transform(p, t)
             # Motion goes before the element's own transform, so it acts in the parent's coordinates.
             p.node.set("transform", f"{extra} {p.base_transform}".strip())
+            if p.anim == "flicker":
+                amp, period = p.amp or 0.1, p.period or 0.4
+                wob = math.sin(2 * math.pi * t / period) * 0.6 + math.sin(2 * math.pi * t / (period * 2.7) + 1.3) * 0.4
+                p.node.set("opacity", f"{1 - amp + amp * wob:.3f}")
         self.camera_node.set("transform", self._camera(t))
         return ET.tostring(self.root, encoding="utf-8")
 

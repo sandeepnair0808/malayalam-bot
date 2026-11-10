@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import math
 import random
+import re
 
 W, H = 1080, 1920
 GROUND = 1690
@@ -41,7 +42,32 @@ DEFS = """<defs>
 <linearGradient id="mud" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9b7a55"/><stop offset="1" stop-color="#6d5238"/></linearGradient>
 <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f9bb3"/><stop offset="1" stop-color="#2f6f86"/></linearGradient>
 <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd27a" stop-opacity="0.85"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>
+<radialGradient id="skin" cx="0.38" cy="0.32" r="0.75"><stop offset="0" stop-color="#c98a5c"/><stop offset="0.55" stop-color="#a66b45"/><stop offset="1" stop-color="#6e4129"/></radialGradient>
+<radialGradient id="skinOld" cx="0.38" cy="0.32" r="0.75"><stop offset="0" stop-color="#bd8259"/><stop offset="0.55" stop-color="#99633f"/><stop offset="1" stop-color="#633a24"/></radialGradient>
+<linearGradient id="shade" x1="0" y1="0" x2="1" y2="0.25"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="0.35" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.65" stop-color="#000000" stop-opacity="0.05"/><stop offset="1" stop-color="#000000" stop-opacity="0.42"/></linearGradient>
+<linearGradient id="fold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000000" stop-opacity="0.18"/><stop offset="0.3" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.25"/></linearGradient>
+<radialGradient id="blush" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e8665c" stop-opacity="0.55"/><stop offset="1" stop-color="#e8665c" stop-opacity="0"/></radialGradient>
+<radialGradient id="contact" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#000000" stop-opacity="0.45"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<radialGradient id="iris" cx="0.4" cy="0.35" r="0.7"><stop offset="0" stop-color="#7a4a26"/><stop offset="1" stop-color="#2a170b"/></radialGradient>
+<radialGradient id="vignette" cx="0.5" cy="0.46" r="0.72"><stop offset="0.5" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.62"/></radialGradient>
+<radialGradient id="lamplight" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffb347" stop-opacity="0.55"/><stop offset="0.45" stop-color="#ff9a2e" stop-opacity="0.22"/><stop offset="1" stop-color="#ff8a1e" stop-opacity="0"/></radialGradient>
+<radialGradient id="moonglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fdf6d8" stop-opacity="0.75"/><stop offset="0.3" stop-color="#cfe0ff" stop-opacity="0.25"/><stop offset="1" stop-color="#cfe0ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="firefly" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff9b0" stop-opacity="1"/><stop offset="0.35" stop-color="#e8f56a" stop-opacity="0.6"/><stop offset="1" stop-color="#e8f56a" stop-opacity="0"/></radialGradient>
 </defs>"""
+
+_SHAPE = re.compile(r'<(?:path|rect|circle|ellipse)\b[^>]*/>')
+
+
+def shaded(svg: str, grad: str = "shade") -> str:
+    """Draw `svg`, then a copy of each filled shape painted with a light/shadow gradient (soft 3D look)."""
+    over = []
+    for el in _SHAPE.findall(svg):
+        m = re.search(r'fill="([^"]*)"', el)
+        if not m or m.group(1) == "none" or 'opacity="0' in el:
+            continue
+        el = re.sub(r'\s(?:stroke|stroke-width|opacity)="[^"]*"', "", el)
+        over.append(el.replace(m.group(0), f'fill="url(#{grad})"'))
+    return svg + "".join(over)
 
 
 def g(anim: str, inner: str, **attrs) -> str:
@@ -126,7 +152,7 @@ def bg_interior(fx):
 
 
 def bg_night_room(fx):
-    return (f'<rect width="{W}" height="{H}" fill="#3b4256"/>{rafters()}{windows("rain" in fx, True)}'
+    return (f'<rect width="{W}" height="{H}" fill="#cbb994"/>{rafters()}{windows("rain" in fx, True)}'
             f'<rect y="1500" width="{W}" height="420" fill="#4a2a22"/>')
 
 
@@ -302,7 +328,15 @@ ALIASES = {"father": "grownup", "daughter": "girl", "son": "kid", "boy": "kid", 
 def eyes_svg(cx, cy, r, mode):
     ex = r * 0.38
     if mode == "open":
-        return g("blink", f'<circle cx="{cx - ex}" cy="{cy}" r="10" fill="#2b1d14"/><circle cx="{cx + ex}" cy="{cy}" r="10" fill="#2b1d14"/>', pivot=f"{cx},{cy}")
+        big = 1.0 if r > 110 else 1.3
+        rx, ry, ir = r * 0.17 * big, r * 0.16 * big, r * 0.125 * big
+        one = lambda x: (f'<ellipse cx="{x}" cy="{cy}" rx="{rx:.1f}" ry="{ry:.1f}" fill="#fbf6ee"/>'
+                         f'<circle cx="{x + 2}" cy="{cy + 2}" r="{ir:.1f}" fill="url(#iris)"/>'
+                         f'<circle cx="{x + 2}" cy="{cy + 2}" r="{ir * 0.5:.1f}" fill="#120a05"/>'
+                         f'<circle cx="{x - ir * 0.35:.1f}" cy="{cy - ir * 0.4:.1f}" r="{ir * 0.38:.1f}" fill="#ffffff"/>'
+                         f'<circle cx="{x + ir * 0.45:.1f}" cy="{cy + ir * 0.45:.1f}" r="{ir * 0.14:.1f}" fill="#ffffff" opacity="0.8"/>'
+                         f'<path d="M{x - rx * 1.1:.1f} {cy - ry * 0.25:.1f} Q{x} {cy - ry * 1.45:.1f} {x + rx * 1.1:.1f} {cy - ry * 0.25:.1f}" fill="none" stroke="#1d120b" stroke-width="6" stroke-linecap="round"/>')
+        return g("blink", one(cx - ex) + one(cx + ex), pivot=f"{cx},{cy}")
     bend = 16 if mode == "closed" else -12
     off = 0 if mode == "closed" else 6
     return (f'<g fill="none" stroke="{INK}" stroke-width="7" stroke-linecap="round">'
@@ -377,14 +411,14 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
     lsw = 14 if walk else 0
     if build == "man":
         if c["bottom"] == "mundu":
-            legs = ('<path d="M-120 -320 L120 -320 L130 -10 L-130 -10Z" fill="#f4f1e8"/>'
+            legs = (shaded(shaded('<path d="M-120 -320 L120 -320 L130 -10 L-130 -10Z" fill="#f4f1e8"/>'), "fold")
                     + g("swing", '<ellipse cx="-60" cy="0" rx="60" ry="20" fill="#3a2a1a"/>', pivot="-60,-60", amp=12 if walk else 0, period=1.0)
                     + g("swing", '<ellipse cx="60" cy="0" rx="60" ry="20" fill="#3a2a1a"/>', pivot="60,-60", amp=12 if walk else 0, period=1.0, phase=0.5))
         else:
             legs = "".join(g("swing", f'<rect x="{lx - 50}" y="-330" width="100" height="320" rx="20" fill="#4a4f57"/><ellipse cx="{lx}" cy="0" rx="60" ry="20" fill="#3a2a1a"/>',
                              pivot=f"{lx},-320", amp=lsw, period=1.0, phase=ph) for lx, ph in ((-60, 0), (60, 0.5)))
         torso = (f'<path d="M-135 -640 Q0 -680 135 -640 L125 -300 L-125 -300Z" fill="{top}"/>'
-                 '<path d="M-40 -660 L0 -610 L40 -660" fill="none" stroke="#00000022" stroke-width="10"/>')
+                 '<path d="M-40 -660 L0 -610 L40 -660" fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="10"/>')
     elif build == "woman":
         dress = f'<path d="M-125 -320 L125 -320 L150 -12 L-150 -12Z" fill="{top}"/>'
         if c.get("dots"):
@@ -394,7 +428,7 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
             dress += f'<path d="M-150 -40 L150 -40" stroke="{c["border"]}" stroke-width="22"/>'
         if teen:
             dress += '<path d="M-100 -320 L-120 -12 M100 -320 L120 -12" stroke="#2f6b4f" stroke-width="10" opacity="0.4"/>'
-        legs = dress + "".join(g("swing", f'<ellipse cx="{lx}" cy="0" rx="50" ry="17" fill="#3a2a1a"/>', pivot=f"{lx},-60", amp=12 if walk else 0, period=1.0, phase=ph)
+        legs = shaded(shaded(dress), "fold") + "".join(g("swing", f'<ellipse cx="{lx}" cy="0" rx="50" ry="17" fill="#3a2a1a"/>', pivot=f"{lx},-60", amp=12 if walk else 0, period=1.0, phase=ph)
                                for lx, ph in ((-55, 0), (55, 0.5)))
         torso = f'<path d="M-125 -640 Q0 -675 125 -640 L120 -300 L-120 -300Z" fill="{top}"/>'
         if c.get("border"):  # saree pallu over the shoulder
@@ -404,7 +438,7 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
         legs = "".join(g("swing", f'<rect x="{lx - 19}" y="-200" width="38" height="200" fill="{skin}"/><ellipse cx="{lx}" cy="0" rx="40" ry="14" fill="#3a2a1a"/>',
                          pivot=f"{lx},-190", amp=18 if walk else 0, period=1.0, phase=ph) for lx, ph in ((-36, 0), (36, 0.5)))
         if girl:
-            torso = f'<path d="M-80 -400 Q0 -425 80 -400 L120 -150 L-120 -150Z" fill="{top}"/>'
+            torso = f'<path d="M-80 -400 Q0 -425 80 -400 L120 -150 L-120 -150Z" fill="{top}"/><path d="M-118 -165 L118 -165 L120 -150 L-120 -150Z" fill="#000000" opacity="0.13"/>'
         else:
             torso = (f'<path d="M-85 -400 Q0 -425 85 -400 L80 -230 L-80 -230Z" fill="{top}"/>'
                      f'<rect x="-82" y="-240" width="164" height="80" rx="10" fill="{c["bottom"]}"/>')
@@ -472,7 +506,9 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
 
     # ---- head
     hair_col = "#efefea" if old else "#1f1712"
-    head = f'<circle cx="0" cy="{head_cy}" r="{hr}" fill="{skin}"/>'
+    face_grad = "skinOld" if old else "skin"
+    head = (f'<circle cx="0" cy="{head_cy}" r="{hr}" fill="url(#{face_grad})"/>'
+            f'<ellipse cx="0" cy="{head_cy + hr * 0.98:.0f}" rx="{hr * 0.55:.0f}" ry="{hr * 0.16:.0f}" fill="#000000" opacity="0.08"/>')
     hair = c.get("hair", "")
     if hair == "old_man":
         head += ('<path d="M-125 -800 Q-130 -880 -80 -900 Q-110 -850 -105 -780Z" fill="#efefea"/>'
@@ -494,14 +530,27 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
         head += '<path d="M-104 -505 Q-110 -615 0 -612 Q110 -615 104 -505 Q90 -575 0 -575 Q-90 -575 -104 -505Z" fill="#1f1712"/>'
     ear_y = head_cy + 10
     head += f'<circle cx="{-hr - 1}" cy="{ear_y}" r="{hr * 0.15}" fill="{skin}"/><circle cx="{hr + 1}" cy="{ear_y}" r="{hr * 0.15}" fill="{skin}"/>'
+    hl = "#ffffff" if old else "#6a5a52"
+    head += (f'<path d="M{-hr * 0.55:.0f} {head_cy - hr * 0.86:.0f} Q0 {head_cy - hr * 1.08:.0f} {hr * 0.45:.0f} {head_cy - hr * 0.9:.0f}" '
+             f'fill="none" stroke="{hl}" stroke-width="{hr * 0.09:.0f}" stroke-linecap="round" opacity="0.35"/>')
     ey = head_cy + (0 if adult else 5)
     head += eyes_svg(0, ey, hr, eyes)
     if old:
         ex = hr * 0.38
         head += (f'<g fill="none" stroke="{INK}" stroke-width="7"><circle cx="{-ex}" cy="{ey}" r="{hr * 0.27}"/>'
                  f'<circle cx="{ex}" cy="{ey}" r="{hr * 0.27}"/><path d="M{-ex + hr * 0.27} {ey} H{ex - hr * 0.27}"/></g>')
-    head += (f'<ellipse cx="{-hr * 0.6}" cy="{ey + hr * 0.32}" rx="24" ry="14" fill="#d9776f" opacity="0.5"/>'
-             f'<ellipse cx="{hr * 0.6}" cy="{ey + hr * 0.32}" rx="24" ry="14" fill="#d9776f" opacity="0.5"/>')
+    exb = hr * 0.38
+    lift_in, lift_out = (12, -4) if "sad" in p else (12, 12) if mouth == "o" else (0, 0)
+    brow_col = "#d8d4cc" if old else "#1d120b"
+    for sx in (-1, 1):
+        inner_y = ey - hr * 0.40 - lift_in
+        outer_y = ey - hr * 0.36 - lift_out
+        head += (f'<path d="M{sx * (exb - hr * 0.2):.0f} {inner_y:.0f} Q{sx * exb:.0f} {ey - hr * 0.52 - lift_in:.0f} {sx * (exb + hr * 0.22):.0f} {outer_y:.0f}" '
+                 f'fill="none" stroke="{brow_col}" stroke-width="{hr * 0.05:.0f}" stroke-linecap="round"/>')
+    head += (f'<path d="M{-hr * 0.05:.0f} {ey + hr * 0.18:.0f} Q{hr * 0.1:.0f} {ey + hr * 0.3:.0f} {-hr * 0.06:.0f} {ey + hr * 0.36:.0f}" '
+             f'fill="none" stroke="#5a3320" stroke-width="5" stroke-linecap="round" opacity="0.6"/>')
+    head += (f'<ellipse cx="{-hr * 0.58}" cy="{ey + hr * 0.36}" rx="{hr * 0.24:.0f}" ry="{hr * 0.15:.0f}" fill="url(#blush)"/>'
+             f'<ellipse cx="{hr * 0.58}" cy="{ey + hr * 0.36}" rx="{hr * 0.24:.0f}" ry="{hr * 0.15:.0f}" fill="url(#blush)"/>')
     if "sad" in p and "cry" in actor.tokens:
         head += g("rain", f'<circle cx="{-hr * 0.38}" cy="{ey + 30}" r="7" fill="#bfe0f2"/>', speed=60)
     my = ey + hr * 0.5
@@ -513,10 +562,11 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
     head_amp = 1.2 if "sleep" in p else 2.5
     head_g = g("swing", neck_svg + head, pivot=f"0,{neck + 30}", amp=head_amp, period=4.0, phase=(seed % 7) / 7)
 
-    body = legs + torso + wet + arms + head_g
+    shadow = f'<ellipse cx="0" cy="6" rx="{190 if adult else 130}" ry="{34 if adult else 26}" fill="url(#contact)"/>'
+    body = legs + shaded(torso) + wet + arms + head_g
     breathe = g("breathe", body, pivot="0,0", amp=2.2 if "sleep" in p else 1.3)
     scale = s * (0.88 if teen else 1.0)
-    inner = f'<g transform="translate({x:.0f},{y:.0f}) scale({scale:.3f})">{breathe}</g>'
+    inner = f'<g transform="translate({x:.0f},{y:.0f}) scale({scale:.3f})">{shadow}{breathe}</g>'
     if walk:
         inner = g("bob", inner, amp=9, period=0.5)
     if "jump" in p:
@@ -576,7 +626,7 @@ def table(food=None):
     for x in (330, 760):
         out += f'<ellipse cx="{x}" cy="1290" rx="130" ry="30" fill="#f4f4f0"/><ellipse cx="{x}" cy="1286" rx="100" ry="20" fill="#e3e3dc"/>'
         if food == "dosa":
-            out += "".join(f'<ellipse cx="{x}" cy="{1280 - i * 10}" rx="95" ry="20" fill="#e2a849" stroke="#00000018" stroke-width="3"/>' for i in range(3))
+            out += "".join(f'<ellipse cx="{x}" cy="{1280 - i * 10}" rx="95" ry="20" fill="#e2a849" stroke="#000000" stroke-opacity="0.1" stroke-width="3"/>' for i in range(3))
         elif food == "burnt":
             out += f'<ellipse cx="{x}" cy="1280" rx="95" ry="20" fill="{"#4a2c17" if x == 330 else "#e2a849"}"/>'
         elif food == "rice":
@@ -738,6 +788,26 @@ def prop(spec: str) -> tuple[str, str]:
     raise ValueError(f"unknown prop {spec!r}")
 
 
+# --------------------------------------------------------------------------- night atmosphere
+def moon(seed=0):
+    x = 780 if seed % 2 else 300
+    return (f'<circle cx="{x}" cy="330" r="330" fill="url(#moonglow)"/>'
+            f'<circle cx="{x}" cy="330" r="78" fill="#fbf3d0"/><circle cx="{x + 22}" cy="312" r="16" fill="#e9dfb5" opacity="0.6"/>'
+            f'<circle cx="{x - 26}" cy="352" r="11" fill="#e9dfb5" opacity="0.5"/>')
+
+
+def dust(seed, cx, cy, n=22):
+    r = random.Random(seed + 7)
+    return "".join(g("float", f'<circle cx="{cx + r.uniform(-450, 450):.0f}" cy="{cy + r.uniform(-650, 350):.0f}" r="{r.uniform(2, 5):.1f}" fill="#ffe2a8" opacity="{r.uniform(.3, .7):.2f}"/>',
+                     amp=f"{r.uniform(10, 25):.0f}", period=f"{r.uniform(3, 6):.1f}", phase=f"{r.random():.2f}") for _ in range(n))
+
+
+def fireflies(seed=0, n=14):
+    r = random.Random(seed + 99)
+    return "".join(g("float", f'<circle cx="{r.uniform(60, W - 60):.0f}" cy="{r.uniform(900, 1700):.0f}" r="{r.uniform(10, 18):.0f}" fill="url(#firefly)"/>',
+                     amp=f"{r.uniform(12, 30):.0f}", period=f"{r.uniform(2, 4):.1f}", phase=f"{r.random():.2f}") for _ in range(n))
+
+
 # --------------------------------------------------------------------------- compose
 def layout(n: int) -> list[float]:
     return {0: [], 1: [540], 2: [330, 760], 3: [230, 540, 860], 4: [170, 410, 670, 910]}.get(n, [540] * n)
@@ -792,11 +862,28 @@ def compile_scene(art: dict, seed: int = 0) -> str:
     body += back + people + front
     if "night" in fx and bg_name in OUTDOOR:
         body = body.replace('fill="url(#clear)"', 'fill="#2a2f4a"', 1) + stars(seed)
+    props = [sp.split(":")[0] for sp in art.get("props", [])]
+    lamps = [(880, 1200)] * ("nilavilakku" in props) + [(960, 1230)] * ("kerosene_lamp" in props)
     if "night" in fx:
-        body += f'<rect width="{W}" height="{H}" fill="#1a2140" opacity="0.32"/>'
+        if lamps:  # darkness everywhere except a pool of lamplight
+            lx, ly = lamps[0]
+            body += (f'<defs><radialGradient id="dark{seed}" gradientUnits="userSpaceOnUse" cx="{lx}" cy="{ly}" r="1150">'
+                     '<stop offset="0" stop-color="#05060f" stop-opacity="0"/><stop offset="0.35" stop-color="#05060f" stop-opacity="0.25"/>'
+                     '<stop offset="1" stop-color="#05060f" stop-opacity="0.88"/></radialGradient></defs>'
+                     f'<rect width="{W}" height="{H}" fill="url(#dark{seed})"/>' + dust(seed, lx, ly))
+        else:
+            body += f'<rect width="{W}" height="{H}" fill="#0d1230" opacity="{0.5 if bg_name not in OUTDOOR else 0.36}"/>'
+        if bg_name in OUTDOOR:
+            body += moon(seed) + fireflies(seed)
+    for lx, ly in lamps:
+        r = 900 if "night" in fx else 650
+        body += g("flicker", f'<circle cx="{lx}" cy="{ly}" r="{r}" fill="url(#lamplight)"/>', amp=0.12, period=0.37)
+    if not lamps and bg_name not in OUTDOOR and "night" not in fx:
+        body += f'<rect width="{W}" height="{H}" fill="#ffb060" opacity="0.07"/>'
     if "sunset" in fx and bg_name != "beach":
         body += f'<rect width="{W}" height="{H}" fill="#f4a261" opacity="0.18"/>'
     if "festive" in fx:
         r = random.Random(seed)
         body += g("rain", "".join(f'<rect x="{r.uniform(0, W):.0f}" y="{r.uniform(0, H):.0f}" width="12" height="12" fill="{r.choice(["#f2a516", "#d23c3c", "#f2c84b", "#8a5ab8"])}" transform="rotate(30)"/>' for _ in range(50)), speed=160)
-    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}{body}</svg>'
+    vignette = f'<rect width="{W}" height="{H}" fill="url(#vignette)" data-fixed="1"/>'
+    return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}{body}{vignette}</svg>'
