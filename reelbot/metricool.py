@@ -29,7 +29,7 @@ def _title(story: Story) -> str:
 
 
 def kids_post(story: Story, moral_en: str, video_url: str, when: datetime,
-              networks: tuple[str, ...] = ("youtube",)) -> dict:
+              networks: tuple[str, ...] = ("youtube", "instagram")) -> dict:
     topical = [t for t in story.hashtags if t not in BASE_TAGS + TAIL_TAGS + ["malayalam"]]
     tags = BASE_TAGS + topical + TAIL_TAGS
     moral_ml = story.scenes[-1].narration_ml if story.scenes else ""
@@ -37,7 +37,7 @@ def kids_post(story: Story, moral_en: str, video_url: str, when: datetime,
         story.caption_ml,
         moral_ml,
         f"Moral: {moral_en}" if moral_en else "",
-        "🔔 ദിവസവും പുതിയ ഗുണപാഠ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ",
+        "🔔 ദിവസവും പുതിയ ഗുണപാഠ കഥകൾക്ക് ഫോളോ ചെയ്യൂ / സബ്സ്ക്രൈബ് ചെയ്യൂ",
         " ".join(f"#{t}" for t in dict.fromkeys(tags)),
     ]))
     info = {
