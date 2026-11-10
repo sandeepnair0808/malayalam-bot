@@ -8,6 +8,9 @@ different.
 
 Providers:
 - edge: Microsoft Edge neural voices via `edge-tts` (ml-IN-MidhunNeural / ml-IN-SobhanaNeural). Free.
+- sarvam: Sarvam AI "Bulbul" voices (api.sarvam.ai): the most human-sounding Malayalam,
+  with a real voice per character instead of pitch-shifted copies. Key in SARVAM_API_KEY
+  (or injected by the network proxy). Falls back to edge on any error.
 - gtts: Google Translate TTS via `gTTS` (lang="ml"). Free, one voice only, more robotic.
 - none: no narration; scenes get a fixed reading duration from the subtitle length.
 """
@@ -41,9 +44,9 @@ PRESETS = {
     "woman": VoicePreset(FEMALE, 0, 6),
     "old_man": VoicePreset(MALE, -8, -2),
     "old_woman": VoicePreset(FEMALE, -10, -2),
-    "boy": VoicePreset(FEMALE, 28, 10),
-    "girl": VoicePreset(FEMALE, 40, 12),
-    "teen_girl": VoicePreset(FEMALE, 16, 8),
+    "boy": VoicePreset(FEMALE, 12, 6),
+    "girl": VoicePreset(FEMALE, 18, 6),
+    "teen_girl": VoicePreset(FEMALE, 8, 4),
 }
 
 GAP = 0.18  # silence between narration and dialogue in one scene
@@ -54,8 +57,7 @@ VOICE_POLISH = (
     "equalizer=f=180:t=q:w=1.0:g=2,"
     "equalizer=f=3200:t=q:w=1.2:g=2.5,"
     "equalizer=f=7500:t=q:w=1.5:g=-1.5,"
-    "acompressor=threshold=-20dB:ratio=2.5:attack=8:release=150:makeup=2,"
-    "aecho=0.85:0.6:35|70:0.10|0.05"
+    "acompressor=threshold=-20dB:ratio=2.5:attack=8:release=150:makeup=2"
 )
 
 
@@ -98,6 +100,43 @@ async def _edge(text: str, preset: VoicePreset, rate_extra: int, out: Path) -> N
     ).save(str(out))
 
 
+# Sarvam Bulbul: one real speaker per character (pitch/pace kept close to natural).
+SARVAM_MODEL = os.environ.get("REELBOT_SARVAM_MODEL", "bulbul:v2")
+SARVAM_CAST = {  # preset kind -> (speaker, pitch, pace)
+    "narrator": ("vidya", 0.0, 0.92),
+    "man": ("abhilash", 0.0, 1.0),
+    "woman": ("anushka", 0.0, 1.0),
+    "old_man": ("karun", -0.1, 0.9),
+    "old_woman": ("vidya", -0.08, 0.9),
+    "boy": ("arya", 0.12, 1.05),
+    "girl": ("manisha", 0.15, 1.05),
+    "teen_girl": ("manisha", 0.05, 1.0),
+}
+
+
+def _sarvam(text: str, kind: str, out: Path) -> None:
+    import base64
+    import json
+    import urllib.request
+
+    speaker, pitch, pace = SARVAM_CAST.get(kind, SARVAM_CAST["narrator"])
+    body = {"text": text, "target_language_code": "ml-IN", "speaker": speaker, "model": SARVAM_MODEL,
+            "pace": pace, "speech_sample_rate": 24000, "enable_preprocessing": True}
+    if SARVAM_MODEL.endswith("v2"):
+        body.update(pitch=pitch, loudness=1.0)
+    req = urllib.request.Request(
+        "https://api.sarvam.ai/text-to-speech", data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json",
+                 # a placeholder is replaced by the network proxy when the key is stored there
+                 "api-subscription-key": os.environ.get("SARVAM_API_KEY", "proxy-injected")})
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.load(r)
+    except urllib.error.HTTPError as err:
+        raise RuntimeError(f"sarvam {err.code}: {err.read()[:300]!r}") from err
+    out.write_bytes(b"".join(base64.b64decode(a) for a in data["audios"]))
+
+
 def _gtts(text: str, out: Path) -> None:
     from gtts import gTTS
 
@@ -113,7 +152,7 @@ def _polish(raw: Path, out: Path) -> Path:
 
 
 def synthesize(settings: Settings, text: str, out: Path, preset: VoicePreset | None = None,
-               rate_extra: int = 0) -> Path | None:
+               rate_extra: int = 0, kind: str = "narrator") -> Path | None:
     """Write one polished line of speech (wav). Returns None when narration is disabled or text is empty."""
     provider = settings.tts.lower()
     if provider == "none" or not text.strip():
@@ -126,7 +165,16 @@ def synthesize(settings: Settings, text: str, out: Path, preset: VoicePreset | N
     raw = out.with_suffix(".raw.mp3")
     preset = preset or preset_for(None, settings)
     done = False
-    if provider == "edge":
+    if provider == "sarvam":
+        try:
+            raw = out.with_suffix(".raw.wav")
+            _sarvam(text, kind, raw)
+            done = True
+        except Exception as err:
+            log.warning("sarvam failed (%s); falling back to edge-tts", err)
+            raw = out.with_suffix(".raw.mp3")
+            provider = "edge"
+    if provider == "edge" and not done:
         try:
             asyncio.run(_edge(text, preset, rate_extra, raw))
             done = True
@@ -165,18 +213,18 @@ def narrate_story(settings: Settings, story, workdir: Path) -> list[SceneVoice]:
     """Voice every scene with the narrator's and characters' presets."""
     cast = {c.id: c.voice for c in story.characters}
     narrator = preset_for(story.narrator_voice, settings)
-    # small per-story variation (pitch -4..+4 Hz, pace -3..+3 %) so the channel does not sound mass-produced
-    seed = sum(map(ord, story.title_en or story.title_ml))
-    narrator = VoicePreset(narrator.voice, narrator.pitch + seed % 9 - 4, narrator.rate + (seed // 9) % 7 - 3)
+    # a slightly slower, unshifted storyteller: pitch shifting is what makes TTS sound artificial
+    narrator = VoicePreset(narrator.voice, narrator.pitch, narrator.rate - 6)
     result: list[SceneVoice] = []
     last = len(story.scenes) - 1
     for i, scene in enumerate(story.scenes):
         slow = -3 if i == last else 0  # land the final line a touch slower
-        n_path = synthesize(settings, scene.narration_ml, workdir / f"narr_{i + 1:02d}.wav", narrator, slow)
+        n_path = synthesize(settings, scene.narration_ml, workdir / f"narr_{i + 1:02d}.wav", narrator, slow, kind="narrator")
         d_path = None
         if scene.dialogue_ml.strip():
-            who = preset_for(cast.get(scene.speaker or ""), settings) if scene.speaker else narrator
-            d_path = synthesize(settings, scene.dialogue_ml, workdir / f"dlg_{i + 1:02d}.wav", who, slow)
+            kind = (cast.get(scene.speaker or "") or "narrator") if scene.speaker else "narrator"
+            who = preset_for(kind, settings) if scene.speaker else narrator
+            d_path = synthesize(settings, scene.dialogue_ml, workdir / f"dlg_{i + 1:02d}.wav", who, slow, kind=kind)
         parts = [p for p in (n_path, d_path) if p]
         if not parts:
             result.append(SceneVoice(None, 0.0, None, 0.0))
