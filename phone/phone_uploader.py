@@ -129,6 +129,7 @@ def main() -> int:
     ap.add_argument("--auth", action="store_true", help="sign in to Google (once)")
     ap.add_argument("--count", type=int, default=1, help="videos to upload this run")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--comments-only", action="store_true", help="only post missing comments, upload nothing")
     ap.add_argument("--retry", metavar="FILE", help="allow one interrupted file to be uploaded again")
     ap.add_argument("--videos", default=str(HERE / "videos"), help="folder with the mp4 files")
     args = ap.parse_args()
@@ -178,7 +179,7 @@ def main() -> int:
     queue_by_file = {it["file"]: it for it in queue}
     backlog = [f for f, v in done.items() if isinstance(v, dict) and v.get("id") and not v.get("commented")
                and v.get("comment_tries", 0) < 3]
-    for f in backlog[:3] if can_comment else []:
+    for f in (backlog if args.comments_only else backlog[:3]) if can_comment else []:
         v = done[f]
         try:
             post_comment(youtube, v["id"], comment_for(queue_by_file.get(f, {"file": f})))
@@ -188,6 +189,9 @@ def main() -> int:
             v["comment_tries"] = v.get("comment_tries", 0) + 1
             log(f"comment failed {f}: {str(err)[:150]}")
         save(done)
+    if args.comments_only:
+        log(f"comments done ({len(backlog)} were missing)")
+        return 0
     videos_dir = Path(args.videos)
     uploaded_now = 0
     for item in left:
