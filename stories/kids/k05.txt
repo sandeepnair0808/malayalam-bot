@@ -1,0 +1,149 @@
+### k041-stage-song
+title: വേദിയിലെ പാട്ട് | The Song on the Stage
+theme: Ammu is scared to sing at the school function, Chechi encourages her, and she sings bravely
+moral: Be brave and try; courage grows when we try.
+narrator: woman
+caption: പേടി മാറാൻ ഒരു ശ്രമം മതി 🎤✨\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory courage confidence kerala
+- school+festive | zoom_in | wind | girl:sad teacher:happy || സ്കൂൾ വാർഷികം. അമ്മുവിന്റെ പേര് പാട്ടിന് വിളിച്ചു. ||
+- school+close | still | wind | girl:sad || വേദിയിൽ ഒരുപാട് ആളുകൾ. അമ്മുവിന്റെ കാലുകൾ വിറച്ചു. ||
+- school | zoom_in | wind | girl:talk,sad chechi:happy || അവൾ ചേച്ചിയുടെ അടുത്തേക്ക് ഓടി. || girl: ചേച്ചീ, എനിക്ക് പേടിയാ. ഞാൻ പാടുന്നില്ല.
+- school | still | wind | chechi:talk girl:surprised || ചേച്ചി അവളുടെ കൈ പിടിച്ചു. || chechi: വീട്ടിൽ പാടുന്നത് പോലെ പാടിയാൽ മതി. എന്നെ മാത്രം നോക്കി പാടിക്കോ.
+- school+festive | zoom_in | wind | girl:talk,happy || അമ്മു ദീർഘമായി ശ്വാസമെടുത്തു. പിന്നെ ചേച്ചിയെ നോക്കി മധുരമായി പാടി. ||
+- school+festive | pan_right | wind | girl:jump,happy chechi:jump,happy teacher:happy || പാട്ട് കഴിഞ്ഞപ്പോൾ എല്ലാവരും ഉറക്കെ കയ്യടിച്ചു! ||
+- school+festive | zoom_out | wind | chechi:hug,happy girl:hug,happy || ഗുണപാഠം: പേടി തോന്നിയാലും ധൈര്യത്തോടെ ശ്രമിക്കണം. ||
+
+### k042-neighbour-bag
+title: അയലത്തെ അപ്പൂപ്പൻ | The Neighbour Appooppan
+theme: Appu sees the old neighbour struggling with a heavy bag and carries it home for him
+moral: Help the elderly whenever you can.
+narrator: woman
+caption: പ്രായമായവരെ സഹായിക്കാം 👴🤝\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory helping elders kerala
+- lane | zoom_in | wind | appooppan:walk,sad,hold=bag || അയലത്തെ കൃഷ്ണൻ അപ്പൂപ്പൻ ഒരു വലിയ സഞ്ചിയുമായി പതുക്കെ നടന്നു വന്നു. ||
+- lane | still | wind | appooppan:sad kid:surprised || സഞ്ചിക്ക് നല്ല ഭാരം. അപ്പൂപ്പൻ ഇടയ്ക്കിടെ നിന്ന് ശ്വാസം വിട്ടു. ||
+- lane | zoom_in | wind | kid:talk appooppan:surprised || അപ്പു ഓടിച്ചെന്നു. || kid: അപ്പൂപ്പാ, ആ സഞ്ചി ഞാൻ എടുക്കാം.
+- lane | pan_right | wind | kid:walk,hold=bag appooppan:walk,happy || അപ്പു സഞ്ചിയുമായി അപ്പൂപ്പന്റെ കൂടെ വീട് വരെ നടന്നു. ||
+- veranda | still | wind | appooppan:talk,happy kid:happy || വീട്ടിലെത്തിയപ്പോൾ അപ്പൂപ്പൻ പറഞ്ഞു. || appooppan: നിന്നെപ്പോലെ ഒരു കൊച്ചുമോൻ ഉള്ളത് എന്റെ ഭാഗ്യമാണ്.
+- veranda | zoom_in | wind | appooppan:hold=laddu,happy kid:hold=laddu,happy || അപ്പൂപ്പൻ അവന് ഒരു ലഡ്ഡു കൊടുത്തു. അതിനേക്കാൾ മധുരം അപ്പുവിന്റെ മനസ്സിലായിരുന്നു. ||
+- veranda | zoom_out | wind | appooppan:wave,happy kid:wave,happy || ഗുണപാഠം: പ്രായമായവരെ കഴിയുമ്പോഴെല്ലാം സഹായിക്കണം. ||
+
+### k043-forgive-friend
+title: പൊട്ടിയ കളിപ്പാട്ടം | The Broken Toy
+theme: Kannan accidentally breaks Appu's toy car; Appu is upset but forgives him and they fix it together
+moral: Forgive friends when they make mistakes.
+narrator: woman
+caption: ക്ഷമിക്കാൻ കഴിയുന്നവനാണ് യഥാർത്ഥ കൂട്ടുകാരൻ 🤝\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory forgiveness friendship kerala
+- yard | zoom_in | wind | kid:hold=toy,happy friend:happy || അപ്പുവിന്റെ പുതിയ നീല കാറുമായി കൂട്ടുകാർ കളിക്കുകയായിരുന്നു. ||
+- yard | still | wind | friend:surprised,sad kid:surprised || കണ്ണന്റെ കയ്യിൽ നിന്ന് കാർ താഴെ വീണു. ഒരു ചക്രം ഊരിപ്പോയി! ||
+- yard | zoom_in | wind | friend:talk,sad kid:sad || കണ്ണൻ പേടിച്ചു. || friend: അപ്പൂ, അറിയാതെ പറ്റിപ്പോയതാ. സോറി.
+- yard+close | still | wind | kid:sad || അപ്പുവിന് സങ്കടം വന്നു. പക്ഷേ കണ്ണൻ മനപ്പൂർവ്വം ചെയ്തതല്ല എന്ന് അവന് അറിയാമായിരുന്നു. ||
+- yard | zoom_in | wind | kid:talk,happy friend:surprised || എന്നിട്ടും അപ്പു ചിരിച്ചു. || kid: സാരമില്ല കണ്ണാ. നമുക്ക് ഇത് ശരിയാക്കാൻ പറ്റുമോ എന്ന് നോക്കാം.
+- veranda | pan_right | wind | achan:happy kid:hold=toy,happy friend:happy || അച്ഛന്റെ സഹായത്തോടെ അവർ ചക്രം തിരികെ ഘടിപ്പിച്ചു. കാർ വീണ്ടും ഓടി! ||
+- yard | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: കൂട്ടുകാർക്ക് തെറ്റ് പറ്റുമ്പോൾ ക്ഷമിക്കണം. ||
+
+### k044-vegetable-garden
+title: അപ്പുവിന്റെ പച്ചക്കറിത്തോട്ടം | Appu's Vegetable Garden
+theme: Appu plants beans with Achan, waits impatiently, keeps watering, and finally harvests them
+moral: Hard work and patience bring good results.
+narrator: woman
+caption: ക്ഷമയോടെ അധ്വാനിച്ചാൽ നല്ല ഫലം കിട്ടും 🌱\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory patience hardwork kerala
+- yard | zoom_in | wind | achan:happy kid:happy || അവധിക്കാലത്ത് അച്ഛനും അപ്പുവും ചേർന്ന് മുറ്റത്ത് പയർ വിത്തുകൾ നട്ടു. ||
+- yard | still | wind | kid:talk,sad achan:happy || പിറ്റേന്ന് രാവിലെ അപ്പു ഓടിച്ചെന്നു നോക്കി. ഒന്നും മുളച്ചിട്ടില്ല! || kid: അച്ഛാ, ചെടി എവിടെ?
+- yard | zoom_in | wind | achan:talk kid:surprised || അച്ഛൻ ചിരിച്ചു. || achan: വിത്ത് മുളയ്ക്കാൻ സമയം എടുക്കും. എല്ലാ ദിവസവും വെള്ളം ഒഴിച്ച് കാത്തിരിക്കണം.
+- yard | pan_right | wind | kid:happy || എല്ലാ ദിവസവും രാവിലെ അപ്പു വെള്ളം ഒഴിച്ചു. ഒരാഴ്ച കഴിഞ്ഞ് കുഞ്ഞു മുളകൾ പൊങ്ങി വന്നു! ||
+- yard | still | wind | kid:point,happy achan:happy || ആഴ്ചകൾ കഴിഞ്ഞു. വള്ളികളിൽ നിറയെ പയർ! ||
+- kitchen | zoom_in | indoor | amma:cook,happy kid:happy | stove || അന്ന് അമ്മ അപ്പുവിന്റെ പയർ കൊണ്ട് തോരൻ ഉണ്ടാക്കി. ലോകത്തിലെ ഏറ്റവും രുചിയുള്ള തോരൻ! ||
+- yard+sunset | zoom_out | wind | achan:hug,happy kid:hug,happy || ഗുണപാഠം: അധ്വാനവും ക്ഷമയും ഉണ്ടെങ്കിൽ നല്ല ഫലം കിട്ടും. ||
+
+### k045-mango-share
+title: എല്ലാ മാങ്ങയും എനിക്കോ? | All the Mangoes for Me?
+theme: Appu wants to pick every mango from the tree for himself; Appooppan teaches him to leave some for others
+moral: Do not be greedy; take only what you need.
+narrator: woman
+caption: ആവശ്യത്തിന് മാത്രം എടുക്കാം, ബാക്കി പങ്കിടാം 🥭\nകുട്ടികൾക്ക് പറഞ്ഞു കൊടുക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory sharing goodvalues kerala
+- yard | zoom_in | wind | kid:point,happy | mango_tree || മാവ് നിറയെ പഴുത്ത മാങ്ങകൾ! അപ്പുവിന് സന്തോഷമായി. ||
+- yard | still | wind | kid:talk,point appooppan:surprised | mango_tree || അപ്പു ആവേശത്തോടെ പറഞ്ഞു. || kid: അപ്പൂപ്പാ, ഈ മാങ്ങയെല്ലാം പറിച്ച് എനിക്ക് മാത്രം വെക്കണം!
+- yard | zoom_in | wind | appooppan:talk kid:surprised | mango_tree || അപ്പൂപ്പൻ ചോദിച്ചു. || appooppan: ഇത്രയും മാങ്ങ നീ ഒറ്റയ്ക്ക് എങ്ങനെ തിന്നും? ബാക്കി ചീഞ്ഞു പോകില്ലേ?
+- yard | still | wind | appooppan:talk,point kid:happy | mango_tree || അപ്പൂപ്പൻ ഒരു വഴി പറഞ്ഞു. || appooppan: കുറച്ച് നമുക്ക്, കുറച്ച് അയൽക്കാർക്ക്, കുറച്ച് കിളികൾക്കും അണ്ണാനും.
+- lane | pan_right | wind | kid:walk,hold=plate,happy friend:happy || അപ്പു മാങ്ങകൾ അയൽവീടുകളിൽ കൊണ്ടുപോയി കൊടുത്തു. ||
+- yard | zoom_in | wind | kid:eat,happy friend:eat,happy appooppan:happy | mango_tree || എല്ലാവരും ചേർന്ന് മാവിൻ ചുവട്ടിൽ ഇരുന്ന് മാങ്ങ തിന്നു. ||
+- yard+sunset | zoom_out | wind | appooppan:hug,happy kid:hug,happy | mango_tree || ഗുണപാഠം: അത്യാഗ്രഹം പാടില്ല. ആവശ്യത്തിന് മാത്രം എടുത്ത് ബാക്കി പങ്കിടണം. ||
+
+### k046-take-umbrella
+title: അമ്മ പറഞ്ഞ കുട | The Umbrella Amma Gave
+theme: Appu ignores Amma's advice to take an umbrella, gets soaked and catches a cold, and learns to listen
+moral: Listen to the good advice of elders.
+narrator: woman
+caption: മുതിർന്നവരുടെ ഉപദേശം കേൾക്കാം ☔\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory listen goodhabits kerala
+- veranda | zoom_in | wind | amma:talk kid:hold=bag || രാവിലെ അമ്മ കുട നീട്ടി പറഞ്ഞു. || amma: അപ്പൂ, കുട എടുത്തോ. മഴ പെയ്യാൻ സാധ്യതയുണ്ട്.
+- veranda | still | wind | kid:talk,hold=bag amma:sad || ആകാശം തെളിഞ്ഞു കിടന്നു. || kid: ഇല്ലമ്മേ, ഒരു തുള്ളി മഴ പോലുമില്ല!
+- lane+rain | zoom_in | rain | kid:walk,sad,wet || വൈകുന്നേരം സ്കൂൾ വിട്ടപ്പോൾ പെട്ടെന്ന് പെരുമഴ! അപ്പു മുഴുവൻ നനഞ്ഞു. ||
+- night_room+night | still | night | kid:sleep,sad amma:hold=plate || രാത്രി അപ്പുവിന് ജലദോഷവും തുമ്മലും. അമ്മ ചുക്കുകാപ്പി ഉണ്ടാക്കി കൊടുത്തു. ||
+- night_room+night | zoom_in | night | kid:talk,sad amma:happy || അപ്പു പറഞ്ഞു. || kid: അമ്മ പറഞ്ഞത് കേൾക്കേണ്ടതായിരുന്നു. ഇനി ഞാൻ ശ്രദ്ധിക്കാം.
+- veranda | pan_right | wind | kid:umbrella,happy amma:happy || പിറ്റേന്ന് മുതൽ അപ്പു മറക്കാതെ കുട ബാഗിൽ വെച്ചു. ||
+- veranda | zoom_out | wind | amma:hug,happy kid:hug,happy || ഗുണപാഠം: മുതിർന്നവരുടെ നല്ല ഉപദേശങ്ങൾ കേൾക്കണം. ||
+
+### k047-ammu-football
+title: അമ്മുവിന്റെ ഗോൾ | Ammu's Goal
+theme: The boys say Ammu cannot play football; Appu lets her join, she scores, and everyone plays together
+moral: Everyone can play and learn; never leave anyone out.
+narrator: woman
+caption: എല്ലാവരെയും കൂടെ കൂട്ടാം ⚽\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory equality friendship kerala
+- school | zoom_in | wind | kid:jump,happy friend:jump,happy || ഇടവേളയിൽ ആൺകുട്ടികൾ ഫുട്ബോൾ കളിക്കുകയായിരുന്നു. ||
+- school | still | wind | girl:talk,happy friend:talk || അമ്മു ചോദിച്ചു. ഒരു കുട്ടി പറഞ്ഞു. || friend: ഇത് പെൺകുട്ടികൾക്കുള്ള കളിയല്ല.
+- school+close | zoom_in | wind | girl:sad || അമ്മുവിന് വിഷമമായി. അവൾ മാറി നിന്നു. ||
+- school | still | wind | kid:talk friend:surprised girl:surprised || അപ്പു പറഞ്ഞു. || kid: കളിക്കാൻ ആൺകുട്ടി, പെൺകുട്ടി എന്നൊന്നുമില്ല. അമ്മൂ, വാ! നീ ഞങ്ങളുടെ ടീമിൽ.
+- school | pan_right | wind | girl:jump,happy kid:jump,happy || കളി തുടങ്ങി. അമ്മു പന്തുമായി മുന്നോട്ട് ഓടി. പിന്നെ ഒരു കിടിലൻ ഗോൾ! ||
+- school | zoom_in | wind | friend:talk,happy girl:happy || എല്ലാവരും കയ്യടിച്ചു. || friend: അമ്മൂ, നാളെയും കളിക്കാൻ വരണം കേട്ടോ!
+- school | zoom_out | wind | girl:wave,happy kid:wave,happy friend:wave,happy || ഗുണപാഠം: എല്ലാവർക്കും കളിക്കാനും പഠിക്കാനും കഴിയും. ആരെയും മാറ്റി നിർത്തരുത്. ||
+
+### k048-clean-classroom
+title: ഞങ്ങളുടെ ക്ലാസ് മുറി | Our Classroom
+theme: The class is messy after a party; instead of waiting for someone else, the children clean it together
+moral: Take responsibility for keeping our places clean.
+narrator: woman
+caption: നമ്മുടെ ക്ലാസ് നമ്മൾ തന്നെ വൃത്തിയാക്കാം 🧹\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory responsibility cleanliness kerala
+- classroom+festive | zoom_in | indoor | kid:eat,happy friend:eat,happy girl:eat,happy | sweets || ടീച്ചറുടെ പിറന്നാളിന് ക്ലാസിൽ ചെറിയൊരു ആഘോഷം നടന്നു. ||
+- classroom | still | indoor | kid:surprised friend:surprised || ആഘോഷം കഴിഞ്ഞപ്പോൾ ക്ലാസ് മുഴുവൻ കടലാസും മിഠായി കവറും. ||
+- classroom | zoom_in | indoor | friend:talk kid:happy || ഒരു കുട്ടി പറഞ്ഞു. || friend: ഇത് വൃത്തിയാക്കാൻ നാളെ ചേച്ചി വരുമല്ലോ.
+- classroom | still | indoor | kid:talk friend:surprised girl:happy || അപ്പു പറഞ്ഞു. || kid: നമ്മളല്ലേ ഇത് വൃത്തികേടാക്കിയത്? നമുക്ക് തന്നെ വൃത്തിയാക്കാം!
+- classroom | pan_right | indoor | kid:happy friend:happy girl:happy || എല്ലാവരും ചേർന്ന് കടലാസുകൾ പെറുക്കി, ബെഞ്ചുകൾ നിരത്തി, ചൂലെടുത്ത് തൂത്തു. ||
+- classroom | zoom_in | indoor | teacher:talk,happy kid:happy girl:happy || ടീച്ചർ വന്നപ്പോൾ ക്ലാസ് തിളങ്ങുന്നു! || teacher: ഇതാണ് എനിക്ക് കിട്ടിയ ഏറ്റവും നല്ല പിറന്നാൾ സമ്മാനം!
+- classroom | zoom_out | indoor | teacher:happy kid:wave,happy friend:wave,happy girl:wave,happy || ഗുണപാഠം: നമ്മുടെ ചുറ്റുപാട് വൃത്തിയായി സൂക്ഷിക്കേണ്ടത് നമ്മുടെ ഉത്തരവാദിത്തമാണ്. ||
+
+### k049-handmade-card
+title: അമ്മൂമ്മയ്ക്ക് ഒരു കാർഡ് | A Card for Ammachi
+theme: Ammu has no money for a birthday gift for Ammachi, so she makes a card by hand, and Ammachi treasures it
+moral: A gift made with love is the most precious gift.
+narrator: woman
+caption: സ്നേഹം കൊണ്ട് ഉണ്ടാക്കിയ സമ്മാനത്തിന് വിലയിടാനാവില്ല 💌\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory gifts grandparents kerala
+- interior | zoom_in | indoor | girl:sad || നാളെ അമ്മൂമ്മയുടെ പിറന്നാളാണ്. പക്ഷേ സമ്മാനം വാങ്ങാൻ അമ്മുവിന്റെ കയ്യിൽ പൈസയില്ല. ||
+- interior | still | indoor | chechi:talk girl:surprised || ചേച്ചി ഒരു വഴി പറഞ്ഞു. || chechi: നിനക്ക് നന്നായി വരയ്ക്കാൻ അറിയാമല്ലോ. ഒരു കാർഡ് ഉണ്ടാക്കിക്കോ!
+- night_room+night | zoom_in | night | girl:read,happy | books || രാത്രി ഇരുന്ന് അമ്മു ഒരു കാർഡ് ഉണ്ടാക്കി. അതിൽ അമ്മൂമ്മയുടെയും തന്റെയും ചിത്രം വരച്ചു. ||
+- veranda | still | wind | girl:hold=gift,talk ammachi:surprised || രാവിലെ അമ്മു കാർഡ് അമ്മൂമ്മയ്ക്ക് കൊടുത്തു. || girl: പിറന്നാൾ ആശംസകൾ അമ്മൂമ്മേ!
+- veranda+close | zoom_in | wind | ammachi:hold=gift,happy || അമ്മൂമ്മ കാർഡ് തുറന്ന് നോക്കി. അമ്മൂമ്മയുടെ കണ്ണുകൾ സന്തോഷം കൊണ്ട് നിറഞ്ഞു. ||
+- veranda | still | wind | ammachi:talk,happy girl:happy || അമ്മൂമ്മ പറഞ്ഞു. || ammachi: കടയിൽ നിന്ന് വാങ്ങുന്ന ഒന്നിനും ഇത്രയും ഭംഗി ഉണ്ടാകില്ല മോളേ.
+- veranda | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: സ്നേഹത്തോടെ സ്വയം ഉണ്ടാക്കുന്ന സമ്മാനമാണ് ഏറ്റവും വിലപ്പെട്ടത്. ||
+
+### k050-reading-friend
+title: പുസ്തകം എന്ന കൂട്ടുകാരൻ | My Friend the Book
+theme: Bored in the holidays, Appu reluctantly opens a storybook from Achan and discovers the joy of reading
+moral: Books are our best friends; read every day.
+narrator: woman
+caption: വായിച്ചു വളരാം 📚✨\nകുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory reading books kerala
+- interior | zoom_in | indoor | kid:sit,sad || അവധിക്കാലം. പുറത്ത് മഴ. അപ്പുവിന് ഒന്നും ചെയ്യാനില്ല. ||
+- interior | still | indoor | achan:hold=book,talk kid:sad || അച്ഛൻ ഒരു പുസ്തകം കൊടുത്തു. || achan: ഇത് വായിച്ചു നോക്ക്. ഇതിൽ ഒരു കപ്പൽ യാത്രയുടെ കഥയുണ്ട്.
+- interior | zoom_in | indoor | kid:read,sad || മനസ്സില്ലാമനസ്സോടെ അപ്പു ആദ്യത്തെ പേജ് മറിച്ചു. ||
+- interior | still | indoor | kid:read,surprised || പക്ഷേ പിന്നെ അവന് നിർത്താൻ കഴിഞ്ഞില്ല. കടലും കപ്പലും ദ്വീപുകളും അവന്റെ മനസ്സിൽ നിറഞ്ഞു! ||
+- night_room+night | zoom_in | night | kid:read,happy amma:talk || രാത്രിയായിട്ടും അപ്പു വായിച്ചു കൊണ്ടിരുന്നു. || amma: ബാക്കി നാളെ വായിക്കാം അപ്പൂ. ഇനി ഉറങ്ങാം.
+- interior | pan_right | indoor | kid:read,happy friend:read,happy | books || അവധി കഴിഞ്ഞപ്പോൾ അപ്പു പത്ത് പുസ്തകങ്ങൾ വായിച്ചു തീർത്തു. കൂട്ടുകാർക്കും കഥകൾ പറഞ്ഞു കൊടുത്തു. ||
+- interior | zoom_out | indoor | achan:hug,happy kid:hug,happy,hold=book || ഗുണപാഠം: പുസ്തകങ്ങളാണ് നമ്മുടെ ഏറ്റവും നല്ല കൂട്ടുകാർ. ദിവസവും വായിക്കണം. ||

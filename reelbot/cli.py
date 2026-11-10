@@ -35,6 +35,17 @@ def main(argv: list[str] | None = None) -> int:
     pk.add_argument("--out", type=Path, default=Path("queue"))
     pk.add_argument("--render", action="store_true", help="also render each reel.mp4")
 
+    ln = sub.add_parser("lint", help="safety-check kids story packs (no API calls)")
+    ln.add_argument("packs", nargs="+", type=Path)
+
+    pl = sub.add_parser("payloads", help="write Metricool post payloads (YouTube + Instagram) for rendered kids reels")
+    pl.add_argument("packs", nargs="+", type=Path)
+    pl.add_argument("--queue", type=Path, default=Path("queue"))
+    pl.add_argument("--url-base", required=True, help="public URL folder holding <slug>.mp4")
+    pl.add_argument("--start", required=True, help="first post time, IST, e.g. 2026-11-11T16:30")
+    pl.add_argument("--every", type=int, default=30, help="minutes between posts")
+    pl.add_argument("--out", type=Path, default=Path("payloads"))
+
     nx = sub.add_parser("next", help="render (and optionally publish) the next unpublished reel from the queue")
     nx.add_argument("--queue", type=Path, default=Path("queue"))
     nx.add_argument("--publish", action="store_true")
@@ -72,6 +83,23 @@ def main(argv: list[str] | None = None) -> int:
                 print(d)
                 if args.render:
                     pipeline.rebuild(settings, d)
+    elif args.cmd == "lint":
+        from .safety import lint
+
+        report = lint(args.packs)
+        for key, probs in report.items():
+            for prob in probs:
+                print(f"{key}: {prob}")
+        print("OK" if not report else f"{len(report)} stories need fixes")
+        return 1 if report else 0
+    elif args.cmd == "payloads":
+        from datetime import datetime
+
+        from .metricool import write_payloads
+
+        files = write_payloads(args.packs, args.queue, args.url_base, datetime.fromisoformat(args.start),
+                               args.every, args.out)
+        print(f"{len(files)} payloads in {args.out}")
     elif args.cmd == "next":
         d = pipeline.next_in_queue(settings, args.queue)
         if d is None:

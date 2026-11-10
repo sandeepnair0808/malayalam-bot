@@ -1,0 +1,149 @@
+### k011-say-sorry
+title: ഒരു "സോറി" | Just Say Sorry
+theme: Appu shouts at Kannan during a game, feels bad, and says sorry the next day
+moral: When we hurt someone, we should say sorry.
+narrator: woman
+caption: ഒരു "സോറി" കൊണ്ട് സൗഹൃദം തിരിച്ചു കിട്ടും 🤝\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory sorry friendship kerala
+- yard | zoom_in | wind | kid:jump,happy friend:jump,happy || അപ്പുവും കണ്ണനും മുറ്റത്ത് ഗോലി കളിക്കുകയായിരുന്നു. ||
+- yard | still | wind | kid:talk,point friend:sad || കളിയിൽ തോറ്റപ്പോൾ അപ്പുവിന് ദേഷ്യം വന്നു. അവൻ കണ്ണനോട് ഉറക്കെ സംസാരിച്ചു. || kid: നീ കള്ളക്കളി കളിച്ചു! എനിക്ക് ഇനി നിന്റെ കൂടെ കളിക്കണ്ട!
+- lane | pan_left | wind | friend:walk,sad || കണ്ണൻ ഒന്നും മിണ്ടാതെ വീട്ടിലേക്ക് പോയി. ||
+- night_room+night | zoom_in | night | kid:sad amma:talk || രാത്രി അപ്പുവിന് ഉറക്കം വന്നില്ല. അമ്മ കാര്യം ചോദിച്ചു. || amma: തെറ്റ് പറ്റിയാൽ ക്ഷമ ചോദിച്ചാൽ മതി മോനേ.
+- lane | still | wind | kid:talk,sad friend:surprised || പിറ്റേന്ന് രാവിലെ അപ്പു കണ്ണന്റെ വീട്ടിലേക്ക് ചെന്നു. || kid: കണ്ണാ, ഇന്നലെ ഞാൻ അങ്ങനെ പറഞ്ഞത് തെറ്റായിപ്പോയി. സോറി.
+- lane | zoom_in | wind | friend:happy,talk kid:happy || കണ്ണൻ ചിരിച്ചു. || friend: സാരമില്ല അപ്പൂ. വാ, നമുക്ക് വീണ്ടും കളിക്കാം!
+- yard | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: നമ്മൾ ആരെയെങ്കിലും വിഷമിപ്പിച്ചാൽ ക്ഷമ ചോദിക്കണം. ||
+
+### k012-ammachi-reading
+title: അമ്മൂമ്മയുടെ കണ്ണട | Reading for Ammachi
+theme: Ammachi cannot read the small letters any more, so Ammu reads the newspaper aloud to her every morning
+moral: Help and care for our grandparents.
+narrator: woman
+caption: അപ്പൂപ്പനും അമ്മൂമ്മയും നമുക്ക് തന്ന സ്നേഹം തിരിച്ചു കൊടുക്കാം 👵❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory grandparents care kerala
+- veranda | zoom_in | wind | ammachi:read,sad || രാവിലെ അമ്മൂമ്മ പത്രം വായിക്കാൻ ശ്രമിക്കുകയായിരുന്നു. ||
+- veranda+close | still | wind | ammachi:read,sad,talk || പക്ഷേ ചെറിയ അക്ഷരങ്ങൾ കാണാൻ പറ്റുന്നില്ല. || ammachi: ഈ കണ്ണടയും പഴയതായി.
+- veranda | zoom_in | wind | girl:talk,happy ammachi:surprised || അമ്മു ഓടി വന്നു. || girl: അമ്മൂമ്മേ, ഞാൻ വായിച്ചു തരാം!
+- veranda | still | wind | girl:read,happy ammachi:happy || അമ്മു പത്രം ഉറക്കെ വായിച്ചു. ചില വാക്കുകൾ തെറ്റി, അമ്മൂമ്മ തിരുത്തി കൊടുത്തു. ||
+- veranda | pan_right | wind | girl:read,happy ammachi:happy || എല്ലാ ദിവസവും രാവിലെ ഇത് അവരുടെ ശീലമായി. ||
+- school | zoom_in | wind | teacher:talk,happy girl:happy || ഒരു മാസം കഴിഞ്ഞപ്പോൾ ടീച്ചർ പറഞ്ഞു. || teacher: അമ്മു, നിന്റെ വായന ഒരുപാട് നന്നായിട്ടുണ്ട്!
+- veranda | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: അപ്പൂപ്പനെയും അമ്മൂമ്മയെയും സഹായിക്കണം. അവരോടൊപ്പം നമ്മളും പഠിക്കും. ||
+
+### k013-fan-off
+title: ആരുമില്ലാത്ത മുറിയിലെ ഫാൻ | The Fan in the Empty Room
+theme: Appu learns from Achan to switch off fans and lights when leaving a room
+moral: Save electricity; switch off what we do not use.
+narrator: woman
+caption: ആവശ്യമില്ലാത്തപ്പോൾ സ്വിച്ച് ഓഫ് ചെയ്യൂ 💡\nകുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory saveelectricity kerala
+- interior | zoom_in | indoor | kid:walk,happy || അപ്പു കളിക്കാൻ മുറ്റത്തേക്ക് ഓടി. മുറിയിൽ ഫാനും ലൈറ്റും ഓണായി കിടന്നു. ||
+- interior | still | indoor | achan:point,talk || അച്ഛൻ അത് കണ്ടു. || achan: അപ്പൂ, ഒന്നിങ്ങു വന്നേ.
+- interior | zoom_in | indoor | achan:talk kid:surprised || അച്ഛൻ ചോദിച്ചു. || achan: മുറിയിൽ ആരും ഇല്ലല്ലോ. പിന്നെ ഫാൻ ആർക്ക് വേണ്ടിയാ കറങ്ങുന്നത്?
+- interior | still | indoor | kid:talk,sad achan:happy || അപ്പുവിന് തെറ്റ് മനസ്സിലായി. || kid: അയ്യോ, ഞാൻ മറന്നു പോയി അച്ഛാ.
+- interior | zoom_in | indoor | achan:talk kid:happy || അച്ഛൻ പറഞ്ഞു. || achan: നമ്മൾ ലാഭിക്കുന്ന കറന്റ് വേറെ ഒരു വീട്ടിൽ വെളിച്ചമാകും.
+- interior | still | indoor | kid:point,happy || അന്ന് മുതൽ മുറി വിടുമ്പോൾ അപ്പു എല്ലാ സ്വിച്ചും ഓഫ് ചെയ്തു. ||
+- interior | zoom_out | indoor | achan:hug,happy kid:hug,happy || ഗുണപാഠം: ആവശ്യമില്ലാത്തപ്പോൾ ഫാനും ലൈറ്റും ഓഫ് ചെയ്യണം. ||
+
+### k014-clean-beach
+title: കടപ്പുറത്തെ പ്ലാസ്റ്റിക് | The Plastic on the Beach
+theme: On a beach trip Appu and Ammu pick up plastic wrappers and put them in a bin
+moral: Keep our places clean; never throw waste around.
+narrator: woman
+caption: നമ്മുടെ കടപ്പുറം, നമ്മുടെ ഉത്തരവാദിത്തം 🌊\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory cleanliness nature kerala
+- beach | zoom_in | wind | kid:jump,happy girl:jump,happy achan:happy || ഞായറാഴ്ച എല്ലാവരും കടപ്പുറത്ത് പോയി. ||
+- beach | still | wind | girl:point,surprised kid:surprised || മണലിൽ നിറയെ പ്ലാസ്റ്റിക് കവറുകളും കുപ്പികളും! ||
+- beach | zoom_in | wind | achan:talk kid:sad girl:sad || അച്ഛൻ പറഞ്ഞു. || achan: ഇതെല്ലാം കടലിലേക്ക് പോയാൽ മീനുകൾക്കും ആമകൾക്കും അപകടമാണ്.
+- beach | pan_right | wind | kid:hold=bag,happy girl:hold=bag,happy || അപ്പുവും അമ്മുവും കവറുകൾ പെറുക്കി ഒരു സഞ്ചിയിലാക്കി. ||
+- beach | still | wind | kid:hold=bag,happy girl:happy friend:surprised || അത് കണ്ട് മറ്റു കുട്ടികളും കൂടെ ചേർന്നു. ||
+- beach+sunset | zoom_in | wind | kid:happy girl:happy friend:happy || വൈകുന്നേരം ആയപ്പോൾ കടപ്പുറം വൃത്തിയായി തിളങ്ങി. ||
+- beach+sunset | zoom_out | wind | achan:happy kid:wave,happy girl:wave,happy || ഗുണപാഠം: മാലിന്യം വലിച്ചെറിയരുത്. നമ്മുടെ നാട് വൃത്തിയായി സൂക്ഷിക്കണം. ||
+
+### k015-water-line
+title: വരിയിൽ നിൽക്കാം | Wait in Line
+theme: At the school water tap Appu wants to push ahead but waits his turn and helps the smallest child
+moral: Wait for your turn patiently.
+narrator: woman
+caption: ക്ഷമയോടെ കാത്തുനിൽക്കാൻ പഠിക്കാം 🙂\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory patience manners kerala
+- school | zoom_in | wind | kid:sad friend:happy || കളി കഴിഞ്ഞ് അപ്പുവിന് നല്ല ദാഹം. പൈപ്പിന് മുന്നിൽ നീണ്ട വരി. ||
+- school | still | wind | kid:walk friend:surprised || അപ്പു വരിയുടെ മുന്നിലേക്ക് കയറാൻ നോക്കി. ||
+- school | zoom_in | wind | friend:talk kid:surprised || കണ്ണൻ പറഞ്ഞു. || friend: അപ്പൂ, എല്ലാവർക്കും ദാഹമുണ്ട്. നമുക്ക് വരിയിൽ നിൽക്കാം.
+- school | still | wind | kid:happy friend:happy || അപ്പു തിരിച്ചു വന്ന് വരിയുടെ അവസാനം നിന്നു. ||
+- school | zoom_in | wind | kid:talk girl:happy || ഒരു കുഞ്ഞ് കുട്ടിക്ക് പൈപ്പ് എത്തുന്നില്ല. അപ്പു സഹായിച്ചു. || kid: വാ, ഞാൻ പൈപ്പ് തുറന്ന് തരാം.
+- school | still | wind | teacher:talk,happy kid:happy || ടീച്ചർ അത് കണ്ട് പറഞ്ഞു. || teacher: ക്ഷമയും സഹായമനസ്സും ഉള്ള കുട്ടി!
+- school | zoom_out | wind | kid:wave,happy friend:wave,happy || ഗുണപാഠം: നമ്മുടെ ഊഴത്തിനായി ക്ഷമയോടെ കാത്തുനിൽക്കണം. ||
+
+### k016-forgot-homework
+title: മറന്നുപോയ ഹോംവർക്ക് | The Forgotten Homework
+theme: Ammu forgets her homework and tells the teacher the truth instead of making up an excuse
+moral: Do not make excuses; tell the truth and do better.
+narrator: woman
+caption: കള്ളം പറയുന്നതിനേക്കാൾ നല്ലത് സത്യം പറഞ്ഞ് തിരുത്തുന്നതാണ് 📚\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory truth school kerala
+- classroom | zoom_in | indoor | teacher:talk girl:surprised | books || ടീച്ചർ എല്ലാവരോടും ഹോംവർക്ക് ചോദിച്ചു. ||
+- classroom+close | still | indoor | girl:sad || അമ്മു ഞെട്ടി. ഇന്നലെ കളിച്ചു നടന്ന് അവൾ എഴുതാൻ മറന്നുപോയി. ||
+- classroom | zoom_in | indoor | friend:talk girl:sad || അടുത്തിരുന്ന കൂട്ടുകാരൻ പറഞ്ഞു. || friend: ബുക്ക് വീട്ടിൽ വെച്ച് മറന്നു എന്ന് പറഞ്ഞോ.
+- classroom | still | indoor | girl:talk,sad teacher:surprised || പക്ഷേ അമ്മു എഴുന്നേറ്റ് നിന്ന് പറഞ്ഞു. || girl: ടീച്ചർ, ഞാൻ ഹോംവർക്ക് ചെയ്യാൻ മറന്നുപോയി. നാളെ ഉറപ്പായും ചെയ്തു കൊണ്ടുവരാം.
+- classroom | zoom_in | indoor | teacher:talk,happy girl:happy || ടീച്ചർ പുഞ്ചിരിച്ചു. || teacher: സത്യം പറഞ്ഞതിന് നന്ദി അമ്മൂ. നാളെ മറക്കരുത് കേട്ടോ.
+- night_room+night | still | night | girl:read,happy | books || അന്ന് രാത്രി അമ്മു ഹോംവർക്ക് ഭംഗിയായി ചെയ്തു തീർത്തു. ||
+- classroom | zoom_out | indoor | teacher:happy girl:happy,hold=book || ഗുണപാഠം: ഒഴിവുകഴിവ് പറയരുത്. സത്യം പറഞ്ഞ് തെറ്റ് തിരുത്തണം. ||
+
+### k017-umbrella-share
+title: ഒരു കുടയിൽ രണ്ടുപേർ | Two Under One Umbrella
+theme: It suddenly rains after school and Appu shares his umbrella with a classmate who has none
+moral: Help others when they need it.
+narrator: woman
+caption: ചെറിയ സഹായം, വലിയ സന്തോഷം ☔\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory helping rain kerala
+- school+rain | zoom_in | rain | kid:umbrella,happy friend:sad || സ്കൂൾ വിട്ടപ്പോൾ പെട്ടെന്ന് മഴ പെയ്തു. ||
+- school+rain | still | rain | friend:sad,wet || കണ്ണന്റെ കയ്യിൽ കുടയില്ല. അവൻ വരാന്തയിൽ ഒറ്റയ്ക്ക് നിന്നു. ||
+- school+rain | zoom_in | rain | kid:umbrella,talk friend:surprised || അപ്പു അത് കണ്ടു. || kid: കണ്ണാ, വാ! നമുക്ക് ഒരുമിച്ച് പോകാം.
+- lane+rain | pan_right | rain | kid:umbrella,walk,happy friend:walk,happy,wet || രണ്ടുപേരും ഒരു കുടക്കീഴിൽ ചേർന്ന് നടന്നു. ||
+- lane+rain | still | rain | kid:umbrella,happy,wet friend:happy || അപ്പുവിന്റെ ഒരു തോൾ നനഞ്ഞു. പക്ഷേ അവന് ഒട്ടും വിഷമം തോന്നിയില്ല. ||
+- veranda+rain | zoom_in | rain | amma:talk,happy kid:happy,wet || വീട്ടിലെത്തിയപ്പോൾ അമ്മ ചോദിച്ചു. അപ്പു കാര്യം പറഞ്ഞു. || amma: നീ ചെയ്തത് നല്ല കാര്യമാണ്. എന്റെ മിടുക്കൻ!
+- veranda+rain | zoom_out | rain | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ആവശ്യമുള്ളപ്പോൾ മറ്റുള്ളവരെ സഹായിക്കണം. ||
+
+### k018-piggy-bank
+title: അപ്പുവിന്റെ കുടുക്ക | Appu's Coin Box
+theme: Appu saves coins in a clay box for months to buy a gift for Amma
+moral: Small savings every day become something big.
+narrator: woman
+caption: ഇന്നത്തെ ചെറിയ സമ്പാദ്യം നാളത്തെ വലിയ സന്തോഷം 🪙\nകുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory saving amma kerala
+- interior | zoom_in | indoor | achan:hold=gift,happy kid:surprised || അച്ഛൻ അപ്പുവിന് ഒരു മൺകുടുക്ക കൊടുത്തു. ||
+- interior | still | indoor | achan:talk kid:happy || അച്ഛൻ ഒരു വഴി പറഞ്ഞു. || achan: കിട്ടുന്ന ചില്ലറ ഇതിലിട്ടോ. ഒരു ദിവസം നിനക്ക് വേണ്ടത് വാങ്ങാം.
+- lane | zoom_in | wind | kid:hold=money,happy || മിഠായി വാങ്ങാൻ കിട്ടിയ പൈസ അപ്പു കുടുക്കയിൽ ഇട്ടു. ||
+- interior | pan_right | indoor | kid:hold=money,happy || ദിവസങ്ങളും മാസങ്ങളും കഴിഞ്ഞു. കുടുക്ക കനം വെച്ചു. ||
+- interior | still | indoor | kid:hold=gift,happy achan:happy || അമ്മയുടെ പിറന്നാളിന് അപ്പു കുടുക്ക തുറന്നു. ആ പൈസ കൊണ്ട് ഒരു സമ്മാനം വാങ്ങി. ||
+- kitchen | zoom_in | indoor | kid:hold=gift,talk amma:surprised || അപ്പു സമ്മാനം അമ്മയ്ക്ക് നീട്ടി. || kid: അമ്മേ, ഇത് എന്റെ സ്വന്തം പൈസ കൊണ്ട് വാങ്ങിയതാ!
+- kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ദിവസവും കുറച്ച് സമ്പാദിച്ചാൽ ഒരു ദിവസം അത് വലിയൊരു കാര്യമാകും. ||
+
+### k019-pookkalam-team
+title: ഒരുമയുടെ പൂക്കളം | The Teamwork Pookkalam
+theme: For Onam the children argue over the pookkalam design, then work together and make the best one
+moral: Working together makes everything better.
+narrator: woman
+caption: ഒരുമിച്ച് നിന്നാൽ എല്ലാം മനോഹരമാകും 🌼\nകൂട്ടുകാരെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory teamwork onam kerala
+- yard+festive | zoom_in | wind | kid:hold=flower,happy girl:hold=flower,happy friend:happy || ഓണത്തിന് പൂക്കളം ഇടാൻ കുട്ടികൾ എല്ലാവരും ഒത്തുകൂടി. ||
+- yard | still | wind | kid:talk,point girl:talk,point friend:sad || ആര് എവിടെ പൂ ഇടണം എന്ന് പറഞ്ഞ് അവർ തർക്കമായി. || girl: മഞ്ഞപ്പൂ നടുക്ക് വേണം!
+- yard | zoom_in | wind | ammachi:talk kid:surprised girl:surprised || അമ്മൂമ്മ വന്നു പറഞ്ഞു. || ammachi: ഒറ്റയ്ക്ക് ഒരു പൂവ് മാത്രം. എല്ലാവരും ചേർന്നാലേ പൂക്കളം ആകൂ.
+- yard | pan_right | wind | kid:hold=flower,happy girl:hold=flower,happy friend:hold=flower,happy || ഓരോരുത്തരും ഓരോ നിറം ഏറ്റെടുത്തു. എല്ലാവരും ചേർന്ന് പൂ നിരത്തി. ||
+- yard+festive | still | wind | kid:jump,happy girl:jump,happy friend:jump,happy | pookkalam || മനോഹരമായ ഒരു പൂക്കളം തയ്യാറായി! ||
+- yard+festive | zoom_in | wind | ammachi:happy,talk girl:happy | pookkalam || അമ്മൂമ്മ ചിരിച്ചു. || ammachi: കണ്ടോ, ഒരുമിച്ച് ചെയ്തപ്പോൾ എത്ര ഭംഗി!
+- yard+festive | zoom_out | wind | kid:wave,happy girl:wave,happy friend:wave,happy | pookkalam || ഗുണപാഠം: ഒരുമിച്ച് പ്രവർത്തിച്ചാൽ എല്ലാം കൂടുതൽ നന്നാകും. ||
+
+### k020-sleep-early
+title: രാത്രിയിലെ ടിവി | Late Night TV
+theme: Appu watches TV late, falls asleep in class the next morning, and learns to sleep on time
+moral: Sleep early and wake up early to stay healthy.
+narrator: woman
+caption: നേരത്തെ ഉറങ്ങാം, നേരത്തെ ഉണരാം 🌙☀️\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory health goodhabits kerala
+- interior+night | zoom_in | night | kid:sit,happy | tv || രാത്രി ഏറെ വൈകിയിട്ടും അപ്പു ടിവി കണ്ടിരുന്നു. ||
+- interior+night | still | night | amma:talk kid:sit | tv || അമ്മ വിളിച്ചു. || amma: അപ്പൂ, സമയം ഒരുപാടായി. ഉറങ്ങാൻ വാ.
+- interior+night | zoom_in | night | kid:talk,sit | tv || അപ്പു ടിവിയിൽ നിന്ന് കണ്ണെടുത്തില്ല. || kid: ഒരു അഞ്ച് മിനിറ്റ് കൂടി അമ്മേ!
+- classroom | still | indoor | kid:sleep teacher:surprised || പിറ്റേന്ന് ക്ലാസിൽ ഇരുന്ന് അപ്പു ഉറക്കം തൂങ്ങി. ടീച്ചർ പറഞ്ഞ പാഠം ഒന്നും മനസ്സിലായില്ല. ||
+- classroom | zoom_in | indoor | teacher:talk kid:sad || ടീച്ചർ സ്നേഹത്തോടെ പറഞ്ഞു. || teacher: കുട്ടികൾക്ക് രാത്രി നല്ല ഉറക്കം വേണം. എന്നാലേ പഠിക്കാൻ ഉന്മേഷം ഉണ്ടാകൂ.
+- night_room+night | still | night | kid:sleep | clock || അന്ന് രാത്രി അപ്പു നേരത്തെ ഉറങ്ങി. ||
+- yard | zoom_out | wind | kid:jump,happy amma:happy || ഗുണപാഠം: നേരത്തെ ഉറങ്ങുകയും നേരത്തെ ഉണരുകയും ചെയ്താൽ ആരോഗ്യത്തോടെ ഇരിക്കാം. ||

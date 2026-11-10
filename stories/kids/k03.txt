@@ -1,0 +1,149 @@
+### k021-teachers-day
+title: ടീച്ചർക്ക് ഒരു പൂവ് | A Flower for Teacher
+theme: On Teachers' Day Appu thanks his teacher with a flower and a card he made himself
+moral: Respect and thank our teachers.
+narrator: woman
+caption: അക്ഷരം പഠിപ്പിച്ചവർക്ക് ഒരു നന്ദി 🌸📚\nനിങ്ങളുടെ പ്രിയപ്പെട്ട ടീച്ചറെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory teachersday gratitude kerala
+- interior | zoom_in | indoor | kid:read,happy | books || അധ്യാപക ദിനത്തിന്റെ തലേന്ന് അപ്പു ഒരു കാർഡ് ഉണ്ടാക്കുകയായിരുന്നു. ||
+- interior | still | indoor | amma:talk kid:happy | books || അമ്മ ചോദിച്ചു. അപ്പു പറഞ്ഞു. || kid: എന്നെ അക്ഷരം പഠിപ്പിച്ച ലീല ടീച്ചർക്കാണ് അമ്മേ.
+- yard | zoom_in | wind | kid:hold=flower,happy || രാവിലെ മുറ്റത്തെ ചെടിയിൽ നിന്ന് ഒരു ചെമ്പരത്തിപ്പൂവും അവൻ എടുത്തു. ||
+- classroom | still | indoor | kid:hold=flower,talk teacher:surprised || ക്ലാസിൽ എത്തിയ ഉടനെ അപ്പു ടീച്ചറുടെ അടുത്തേക്ക് ചെന്നു. || kid: ടീച്ചർ, എന്നെ പഠിപ്പിച്ചതിന് നന്ദി!
+- classroom+close | zoom_in | indoor | teacher:hold=flower,happy || ടീച്ചറുടെ കണ്ണുകൾ സന്തോഷം കൊണ്ട് തിളങ്ങി. ||
+- classroom | still | indoor | teacher:talk,happy kid:happy friend:happy || ടീച്ചർ എല്ലാവരോടുമായി പറഞ്ഞു. || teacher: നിങ്ങൾ നന്നായി പഠിക്കുന്നതാണ് എനിക്കുള്ള ഏറ്റവും വലിയ സമ്മാനം.
+- classroom | zoom_out | indoor | teacher:happy kid:wave,happy friend:wave,happy || ഗുണപാഠം: അറിവ് പകർന്നു തരുന്ന അധ്യാപകരെ ബഹുമാനിക്കണം. ||
+
+### k022-brush-teeth
+title: അമ്മുവിന്റെ പല്ല് | Ammu's Shiny Teeth
+theme: Ammu wants to skip brushing at night, and Ammachi gently explains why teeth need care
+moral: Brush your teeth every morning and night.
+narrator: woman
+caption: രാവിലെയും രാത്രിയും പല്ല് തേക്കാം 😁\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory goodhabits health kerala
+- night_room+night | zoom_in | night | girl:sleep || രാത്രി അമ്മു പല്ല് തേക്കാതെ കിടക്കാൻ പോയി. ||
+- night_room+night | still | night | ammachi:talk girl:surprised || അമ്മൂമ്മ ചോദിച്ചു. || ammachi: അമ്മൂ, പല്ല് തേച്ചോ?
+- night_room+night | zoom_in | night | girl:talk,sad || അമ്മു ഉറക്കച്ചടവോടെ പറഞ്ഞു. || girl: എനിക്ക് ഉറക്കം വരുന്നു അമ്മൂമ്മേ. നാളെ രാവിലെ തേക്കാം.
+- night_room+night | still | night | ammachi:talk girl:surprised || അമ്മൂമ്മ അടുത്തിരുന്നു പറഞ്ഞു. || ammachi: നമ്മൾ കഴിച്ച മധുരം രാത്രി മുഴുവൻ പല്ലിൽ ഇരുന്നാൽ പല്ല് കേടാകും മോളേ.
+- kitchen | zoom_in | indoor | girl:happy ammachi:happy || അമ്മു എഴുന്നേറ്റ് പോയി നന്നായി പല്ല് തേച്ചു. ||
+- interior | still | indoor | girl:jump,happy || അന്ന് മുതൽ രാവിലെയും രാത്രിയും അമ്മു പല്ല് തേക്കാൻ മറന്നില്ല. ||
+- interior | zoom_out | indoor | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: എല്ലാ ദിവസവും രാവിലെയും രാത്രിയും പല്ല് തേക്കണം. ||
+
+### k023-vegetable-thoran
+title: അപ്പു ഉണ്ടാക്കിയ തോരൻ | The Thoran Appu Made
+theme: Appu refuses vegetables until Amma lets him help make cabbage thoran, and he loves it
+moral: Vegetables make us strong; try new healthy food.
+narrator: woman
+caption: പച്ചക്കറി കഴിച്ചാൽ ശക്തിയും ആരോഗ്യവും 🥬💪\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory healthyfood kerala
+- kitchen | zoom_in | indoor | kid:sad amma:hold=plate | table:rice || ഉച്ചയൂണിന് അപ്പു തോരൻ മാറ്റിവെച്ചു. ||
+- kitchen | still | indoor | kid:talk,sad amma:surprised | table:rice || അപ്പു മുഖം ചുളിച്ചു. || kid: എനിക്ക് പച്ചക്കറി ഇഷ്ടമല്ല അമ്മേ.
+- kitchen | zoom_in | indoor | amma:talk kid:surprised | stove || അമ്മ ഒരു ഉപായം കണ്ടെത്തി. || amma: എങ്കിൽ നാളെ തോരൻ നീ തന്നെ ഉണ്ടാക്കിക്കോ. ഞാൻ സഹായിക്കാം.
+- kitchen | pan_right | indoor | amma:cook,happy kid:happy | stove || പിറ്റേന്ന് അപ്പു അമ്മയോടൊപ്പം ക്യാബേജ് അരിഞ്ഞു, തേങ്ങ ചേർത്തു. ||
+- kitchen | still | indoor | kid:eat,happy amma:happy | table:rice || സ്വന്തമായി ഉണ്ടാക്കിയ തോരൻ അപ്പു രുചിച്ചു നോക്കി. || kid: ഹായ്! ഇത് നല്ല രുചിയുണ്ടല്ലോ!
+- kitchen | zoom_in | indoor | amma:talk,happy kid:happy | table:rice || അമ്മ ചിരിച്ചു. || amma: പച്ചക്കറി കഴിച്ചാൽ നല്ല ശക്തിയും ബുദ്ധിയും ഉണ്ടാകും.
+- kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: പച്ചക്കറികൾ നമുക്ക് ആരോഗ്യം തരും. പുതിയ നല്ല ഭക്ഷണങ്ങൾ രുചിച്ചു നോക്കണം. ||
+
+### k024-library-book
+title: ലൈബ്രറി പുസ്തകം | The Library Book
+theme: Ammu borrows a library book and makes sure to return it on time and in good condition
+moral: Keep your promises and take care of borrowed things.
+narrator: woman
+caption: വാക്ക് പാലിക്കുന്നവരെ എല്ലാവരും വിശ്വസിക്കും 📖\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory promise reading kerala
+- classroom | zoom_in | indoor | teacher:hold=book,talk girl:happy | books || ടീച്ചർ അമ്മുവിന് ലൈബ്രറിയിൽ നിന്ന് ഒരു കഥാപുസ്തകം കൊടുത്തു. || teacher: ഒരാഴ്ച കഴിഞ്ഞ് തിരികെ തരണം കേട്ടോ.
+- night_room+night | still | night | girl:read,happy || അമ്മു എല്ലാ രാത്രിയും കുറച്ച് പേജുകൾ വായിച്ചു. ||
+- interior | zoom_in | indoor | girl:read,surprised kid:jump || ഒരു ദിവസം അനിയൻ അപ്പു പുസ്തകം എടുത്ത് ഓടാൻ നോക്കി. ||
+- interior | still | indoor | girl:talk kid:sad || അമ്മു സ്നേഹത്തോടെ പറഞ്ഞു. || girl: ഇത് സ്കൂളിലെ പുസ്തകമാണ്. കീറിയാൽ മറ്റു കുട്ടികൾക്ക് വായിക്കാൻ പറ്റില്ല.
+- interior | pan_right | indoor | girl:read,happy kid:read,happy || പകരം അവൾ അപ്പുവിന് കഥ വായിച്ചു കൊടുത്തു. ||
+- classroom | zoom_in | indoor | girl:hold=book,talk teacher:happy || ഏഴാം ദിവസം അമ്മു പുസ്തകം ഭംഗിയായി തിരികെ കൊടുത്തു. || teacher: കൃത്യസമയത്ത് തിരിച്ചു തന്നല്ലോ. മിടുക്കി!
+- classroom | zoom_out | indoor | teacher:happy girl:happy,hold=book || ഗുണപാഠം: വാക്ക് പാലിക്കണം. കടം വാങ്ങിയ സാധനങ്ങൾ സൂക്ഷിച്ച് തിരികെ കൊടുക്കണം. ||
+
+### k025-help-amma
+title: അമ്മയ്ക്ക് ഒരു കൈ | A Helping Hand for Amma
+theme: Amma is tired after a long day, so Appu and Ammu set the table and clean up on their own
+moral: Help at home; small hands can do big things.
+narrator: woman
+caption: വീട്ടുജോലിയിൽ കുട്ടികൾക്കും സഹായിക്കാം 🏠❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory helping amma kerala
+- kitchen+sunset | zoom_in | indoor | amma:cook,sad | stove || അന്ന് അമ്മയ്ക്ക് നല്ല ക്ഷീണമായിരുന്നു. എന്നിട്ടും അമ്മ അടുക്കളയിൽ പണിയെടുത്തു. ||
+- interior | still | indoor | kid:talk girl:happy || അപ്പുവും അമ്മുവും അത് ശ്രദ്ധിച്ചു. || kid: അമ്മു, നമുക്ക് അമ്മയെ സഹായിക്കാം!
+- kitchen | zoom_in | indoor | girl:hold=plate,happy kid:hold=plate,happy | table || അവർ പാത്രങ്ങൾ എടുത്ത് മേശപ്പുറത്ത് നിരത്തി. ||
+- kitchen | pan_right | indoor | kid:happy girl:happy | table:rice || വെള്ളം നിറച്ചു വെച്ചു, ചോറും കറിയും മേശയിൽ എത്തിച്ചു. ||
+- kitchen | still | indoor | amma:surprised,talk kid:happy girl:happy | table:rice || അമ്മ വന്നപ്പോൾ എല്ലാം തയ്യാർ! || amma: ഇതെല്ലാം നിങ്ങൾ ചെയ്തതാണോ?
+- kitchen | zoom_in | indoor | amma:eat,happy kid:eat,happy girl:eat,happy | table:rice || ഭക്ഷണം കഴിഞ്ഞ് അവർ പാത്രങ്ങളും കഴുകി വെച്ചു. അമ്മയുടെ ക്ഷീണം മാറി. ||
+- kitchen | zoom_out | indoor | amma:hug,happy kid:hug,happy girl:hug,happy || ഗുണപാഠം: വീട്ടുജോലികളിൽ നമ്മളും സഹായിക്കണം. ചെറിയ കൈകൾക്കും വലിയ കാര്യങ്ങൾ ചെയ്യാം. ||
+
+### k026-cycle-try-again
+title: വീണ്ടും ശ്രമിക്കാം | Try Again
+theme: Appu keeps losing balance while learning to ride a bicycle; Chechi encourages him until he rides
+moral: Never give up; keep trying and you will succeed.
+narrator: woman
+caption: വീണാലും വീണ്ടും എഴുന്നേറ്റ് ശ്രമിക്കണം 🚲💪\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory nevergiveup cycle kerala
+- lane | zoom_in | wind | kid:happy chechi:happy | bicycle:red || അപ്പുവിന് സൈക്കിൾ ഓടിക്കാൻ പഠിക്കണം. ചേച്ചി സഹായിക്കാം എന്ന് പറഞ്ഞു. ||
+- lane | still | wind | kid:sad,surprised chechi:surprised | bicycle:red || ആദ്യത്തെ ശ്രമത്തിൽ തന്നെ സൈക്കിൾ ചരിഞ്ഞു. അപ്പു താഴെ ഇറങ്ങി. ||
+- lane | zoom_in | wind | kid:talk,sad chechi:happy | bicycle:red || അപ്പു വിഷമത്തോടെ പറഞ്ഞു. || kid: എനിക്ക് ഇത് പറ്റില്ല ചേച്ചീ.
+- lane | still | wind | chechi:talk kid:surprised | bicycle:red || ചേച്ചി ചിരിച്ചു. || chechi: ഞാനും ആദ്യം ഒരുപാട് തവണ വീണിട്ടുണ്ട്. ഒന്നു കൂടി നോക്ക്!
+- lane | pan_right | wind | kid:happy chechi:happy | bicycle:red || അപ്പു വീണ്ടും വീണ്ടും ശ്രമിച്ചു. ഓരോ തവണയും കുറച്ചു കൂടി ദൂരം പോയി. ||
+- lane+sunset | zoom_in | wind | kid:jump,happy chechi:jump,happy | bicycle:red || ഒടുവിൽ അപ്പു ഒറ്റയ്ക്ക് സൈക്കിൾ ഓടിച്ചു! ചേച്ചി കയ്യടിച്ചു. ||
+- lane+sunset | zoom_out | wind | kid:hug,happy chechi:hug,happy | bicycle:red || ഗുണപാഠം: ഒരിക്കലും തോറ്റു പിന്മാറരുത്. ശ്രമിച്ചു കൊണ്ടേയിരുന്നാൽ വിജയിക്കും. ||
+
+### k027-fair-play
+title: ആരും കാണാത്ത വര | The Line Nobody Saw
+theme: In a hopscotch game nobody sees Ammu step on the line, but she owns up and gives her turn away
+moral: Play fair even when nobody is watching.
+narrator: woman
+caption: ആരും കാണാത്തപ്പോഴും ശരി ചെയ്യുന്നതാണ് യഥാർത്ഥ മിടുക്ക് ✨\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory fairplay honesty kerala
+- yard | zoom_in | wind | girl:jump,happy friend:happy kid:happy || മുറ്റത്ത് കുട്ടികൾ കക്ക് കളിക്കുകയായിരുന്നു. അമ്മുവിന്റെ ഊഴം. ||
+- yard+close | still | wind | girl:jump,surprised || ചാടുന്നതിനിടയിൽ അമ്മുവിന്റെ കാൽ വരയിൽ തൊട്ടു. ||
+- yard | zoom_in | wind | friend:talk kid:happy girl:surprised || പക്ഷേ ആരും അത് കണ്ടില്ല. || friend: അമ്മു ജയിച്ചു! അടുത്ത കളം ചാടിക്കോ!
+- yard | still | wind | girl:talk,sad friend:surprised kid:surprised || അമ്മു ഒന്ന് നിന്നു. പിന്നെ പറഞ്ഞു. || girl: വേണ്ട. എന്റെ കാൽ വരയിൽ തൊട്ടു. ഇനി അടുത്ത ആളുടെ ഊഴമാണ്.
+- yard | zoom_in | wind | kid:talk,happy girl:happy || കൂട്ടുകാർക്ക് അത്ഭുതമായി. || kid: അമ്മു നല്ല സത്യസന്ധയാണ്. ഇനി ഏത് കളി കളിച്ചാലും അമ്മുവാണ് റഫറി!
+- yard+sunset | pan_right | wind | girl:jump,happy friend:jump,happy kid:jump,happy || അന്ന് കളി തോറ്റെങ്കിലും എല്ലാവരുടെയും വിശ്വാസം അമ്മു നേടി. ||
+- yard+sunset | zoom_out | wind | girl:wave,happy friend:wave,happy kid:wave,happy || ഗുണപാഠം: ആരും കാണുന്നില്ലെങ്കിലും ന്യായമായി കളിക്കണം. ||
+
+### k028-lost-purse
+title: ബസ് സ്റ്റോപ്പിലെ പേഴ്സ് | The Purse at the Bus Stop
+theme: Appu finds a purse at the bus stop and, with Achan, returns it to the old woman who lost it
+moral: If we find something lost, return it to its owner.
+narrator: woman
+caption: കളഞ്ഞുകിട്ടിയത് ഉടമയ്ക്ക് തിരികെ നൽകാം 👛\nകുട്ടികൾക്ക് പറഞ്ഞു കൊടുക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory honesty kindness kerala
+- bus_stop | zoom_in | wind | kid:point,surprised achan:happy || ബസ് കാത്തുനിൽക്കുമ്പോൾ അപ്പു ബെഞ്ചിൽ ഒരു പേഴ്സ് കണ്ടു. ||
+- bus_stop | still | wind | kid:hold=money,talk achan:surprised || അപ്പു പേഴ്സ് അച്ഛനെ കാണിച്ചു. || kid: അച്ഛാ, ഇതിൽ ഒരുപാട് പൈസയും ഒരു ഫോട്ടോയും ഉണ്ട്!
+- bus_stop | zoom_in | wind | achan:talk kid:surprised || അച്ഛൻ പറഞ്ഞു. || achan: ഇത് കളഞ്ഞുപോയ ആൾ ഇപ്പോൾ വല്ലാതെ വിഷമിക്കുന്നുണ്ടാകും. നമുക്ക് ഉടമയെ കണ്ടെത്താം.
+- bus_stop | pan_left | wind | ammachi:sad,walk || അപ്പോൾ ഒരു അമ്മൂമ്മ എന്തോ തിരഞ്ഞു കൊണ്ട് തിരികെ നടന്നു വന്നു. ||
+- bus_stop | still | wind | kid:hold=money,talk ammachi:surprised || അപ്പു ചോദിച്ചു. || kid: അമ്മൂമ്മേ, ഇത് നിങ്ങളുടെ പേഴ്സ് ആണോ?
+- bus_stop | zoom_in | wind | ammachi:happy,talk kid:happy achan:happy || അമ്മൂമ്മയുടെ മുഖം തെളിഞ്ഞു. || ammachi: അതേ മോനേ! മരുന്ന് വാങ്ങാനുള്ള പൈസയാണ്. നന്ദി!
+- bus_stop | zoom_out | wind | ammachi:wave,happy kid:wave,happy achan:happy | bus || ഗുണപാഠം: കളഞ്ഞുകിട്ടുന്ന സാധനങ്ങൾ ഉടമയ്ക്ക് തിരികെ നൽകണം. ||
+
+### k029-tidy-toys
+title: കാണാതായ കളിപ്പാട്ടം | Where Is My Toy Car?
+theme: Appu cannot find his favourite toy car in his messy room and learns to keep things in their place
+moral: Keep everything in its place.
+narrator: woman
+caption: എല്ലാം അതിന്റെ സ്ഥാനത്ത് വെക്കാം 🧸\nകുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory goodhabits tidy kerala
+- interior | zoom_in | indoor | kid:sad,surprised | books || അപ്പുവിന്റെ മുറി മുഴുവൻ സാധനങ്ങൾ ചിതറിക്കിടക്കുകയായിരുന്നു. ||
+- interior | still | indoor | kid:sad,point || കൂട്ടുകാരൻ കളിക്കാൻ വന്നപ്പോൾ അപ്പു തന്റെ നീല കാർ തിരഞ്ഞു. പക്ഷേ എവിടെയും കണ്ടില്ല. ||
+- interior | zoom_in | indoor | amma:talk kid:sad || അമ്മ പറഞ്ഞു. || amma: എല്ലാം അതിന്റെ സ്ഥാനത്ത് വെച്ചാൽ ഇങ്ങനെ തിരയേണ്ടി വരില്ല മോനേ.
+- interior | pan_right | indoor | amma:happy kid:hold=book,happy | books || അമ്മയും അപ്പുവും ചേർന്ന് മുറി വൃത്തിയാക്കി. പുസ്തകങ്ങൾ ഷെൽഫിൽ, ഉടുപ്പുകൾ അലമാരയിൽ. ||
+- interior | still | indoor | kid:hold=toy,jump,happy || അപ്പോഴതാ, കട്ടിലിനടിയിൽ നിന്ന് നീല കാർ കിട്ടി! ||
+- interior | zoom_in | indoor | kid:hold=toy,happy friend:happy || അന്ന് മുതൽ കളി കഴിഞ്ഞാൽ അപ്പു കളിപ്പാട്ടങ്ങൾ പെട്ടിയിൽ എടുത്തു വെക്കും. ||
+- interior | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: ഓരോ സാധനവും അതിന്റെ സ്ഥാനത്ത് സൂക്ഷിക്കണം. ||
+
+### k030-ask-first
+title: ചോദിച്ചിട്ട് എടുക്കാം | Ask Before You Take
+theme: Ammu takes Chechi's colour pencils without asking, sees Chechi worried, and learns to ask first
+moral: Always ask before taking someone else's things.
+narrator: woman
+caption: മറ്റൊരാളുടെ സാധനം എടുക്കും മുൻപ് ചോദിക്കാം 🖍️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory manners siblings kerala
+- interior | zoom_in | indoor | girl:hold=book,happy | books || ചേച്ചിയുടെ മേശപ്പുറത്ത് പുതിയ കളർ പെൻസിലുകൾ ഇരിക്കുന്നത് അമ്മു കണ്ടു. ||
+- interior | still | indoor | girl:read,happy || ആരോടും ചോദിക്കാതെ അവൾ അതെടുത്ത് ചിത്രം വരയ്ക്കാൻ തുടങ്ങി. ||
+- interior | zoom_in | indoor | chechi:sad,surprised | books || കുറച്ചു കഴിഞ്ഞ് ചേച്ചി വന്നു. പെൻസിലുകൾ കാണാതെ ചേച്ചി വിഷമിച്ചു. || chechi: അയ്യോ, എന്റെ പെൻസിലുകൾ എവിടെ? നാളെ സ്കൂളിൽ വേണം.
+- interior | still | indoor | girl:talk,sad chechi:surprised || അമ്മുവിന് തെറ്റ് മനസ്സിലായി. || girl: ചേച്ചീ, സോറി. ചോദിക്കാതെ ഞാൻ എടുത്തു.
+- interior | zoom_in | indoor | chechi:talk,happy girl:happy || ചേച്ചി ചിരിച്ചു. || chechi: ചോദിച്ചിരുന്നെങ്കിൽ ഞാൻ സന്തോഷത്തോടെ തരുമായിരുന്നല്ലോ മോളേ.
+- interior | pan_right | indoor | chechi:read,happy girl:read,happy || പിന്നെ രണ്ടുപേരും ഒരുമിച്ചിരുന്ന് ചിത്രം വരച്ചു. ||
+- interior | zoom_out | indoor | chechi:hug,happy girl:hug,happy || ഗുണപാഠം: മറ്റൊരാളുടെ സാധനം എടുക്കും മുൻപ് അനുവാദം ചോദിക്കണം. ||

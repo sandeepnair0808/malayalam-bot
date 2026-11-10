@@ -1,0 +1,150 @@
+### k001-extra-change
+title: ബാക്കി വന്ന പത്ത് രൂപ | The Extra Ten Rupees
+theme: Appu gets ten rupees too much change at the shop and walks back to return it
+moral: Always return what is not ours.
+narrator: woman
+caption: സത്യസന്ധതയാണ് ഏറ്റവും വലിയ ഗുണം ✨\nകുട്ടികൾക്ക് ഈ കഥ കാണിച്ചു കൊടുക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory honesty kerala
+- lane | zoom_in | wind | kid:walk,happy,hold=bag || അമ്മ അപ്പുവിനെ കടയിൽ പഞ്ചസാര വാങ്ങാൻ അയച്ചു. ||
+- lane | still | wind | uncle:talk,hold=money kid:hold=bag || പഞ്ചസാര വാങ്ങി, കടയിലെ മാമൻ ബാക്കി പൈസ കൊടുത്തു. || uncle: ഇതാ മോനേ, ബാക്കി.
+- lane+close | zoom_in | wind | kid:hold=money,surprised || വഴിയിൽ വെച്ച് അപ്പു പൈസ എണ്ണി നോക്കി. പത്ത് രൂപ കൂടുതലുണ്ട്! ||
+- lane | pan_left | wind | kid:walk || അപ്പു ഒന്ന് ആലോചിച്ചു. പിന്നെ തിരിച്ച് കടയിലേക്ക് നടന്നു. ||
+- lane | still | wind | kid:talk,hold=money uncle:surprised || അപ്പു പൈസ മാമന് നേരെ നീട്ടി. || kid: മാമാ, നിങ്ങൾ പത്ത് രൂപ കൂടുതൽ തന്നു.
+- lane | zoom_in | wind | uncle:happy,talk kid:happy || മാമൻ ചിരിച്ചു. || uncle: മിടുക്കൻ! നീ നല്ല സത്യസന്ധനായ കുട്ടിയാണ്.
+- interior | zoom_out | indoor | amma:hug,happy kid:hug,happy || ഗുണപാഠം: നമ്മുടേതല്ലാത്തത് എപ്പോഴും തിരികെ കൊടുക്കണം. ||
+
+### k002-shared-tiffin
+title: പങ്കിട്ട ചോറ്റുപാത്രം | The Shared Lunch Box
+theme: Kannan forgets his lunch and Appu shares his tiffin with him
+moral: Sharing makes everyone happy.
+narrator: woman
+caption: പങ്കിടുമ്പോൾ സന്തോഷം ഇരട്ടിയാകും 🍱😊\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory sharing friendship kerala
+- classroom | zoom_in | indoor | kid:hold=tiffin,happy friend:sad || ഉച്ചയ്ക്ക് ക്ലാസിൽ എല്ലാവരും ചോറ്റുപാത്രം തുറന്നു. ||
+- classroom+close | still | indoor | friend:sad || പക്ഷേ കണ്ണൻ മാത്രം വെറുതെ ഇരുന്നു. അവൻ ചോറ് എടുക്കാൻ മറന്നുപോയിരുന്നു. ||
+- classroom | zoom_in | indoor | kid:talk,hold=tiffin friend:surprised || അപ്പു അത് കണ്ടു. || kid: കണ്ണാ, വാ. നമുക്ക് ഒരുമിച്ച് കഴിക്കാം.
+- classroom | still | indoor | kid:eat,happy friend:eat,happy || രണ്ടുപേരും ചോറും തോരനും പങ്കിട്ട് കഴിച്ചു. ||
+- classroom | zoom_in | indoor | teacher:happy,talk kid:happy friend:happy || ടീച്ചർ അത് കണ്ടു. || teacher: അപ്പു, നീ ചെയ്തത് വളരെ നല്ല കാര്യമാണ്.
+- school | pan_right | wind | kid:walk,happy friend:walk,happy || അന്ന് മുതൽ അവർ ഏറ്റവും നല്ല കൂട്ടുകാരായി. ||
+- school | zoom_out | wind | kid:wave,happy friend:wave,happy || ഗുണപാഠം: ഉള്ളത് പങ്കിടുമ്പോൾ എല്ലാവർക്കും സന്തോഷം കിട്ടും. ||
+
+### k003-broken-pot
+title: പൊട്ടിയ പൂച്ചട്ടി | The Broken Flower Pot
+theme: Ammu breaks Ammachi's flower pot and tells the truth instead of hiding it
+moral: Telling the truth takes courage, and it is always right.
+narrator: woman
+caption: തെറ്റ് പറ്റിയാൽ സത്യം പറയാൻ ധൈര്യം വേണം 🌸\nകുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory truth honesty kerala
+- yard | zoom_in | wind | girl:jump,happy || അമ്മു മുറ്റത്ത് പന്ത് കളിക്കുകയായിരുന്നു. ||
+- yard | still | wind | girl:surprised,hold=flower || പെട്ടെന്ന് പന്ത് തട്ടി അമ്മൂമ്മയുടെ പൂച്ചട്ടി വീണ് പൊട്ടി! ||
+- yard+close | zoom_in | wind | girl:sad,hold=flower || അമ്മുവിന് പേടിയായി. ആരും കണ്ടില്ല. ഒളിപ്പിച്ചാലോ എന്ന് അവൾ ഓർത്തു. ||
+- veranda | still | wind | girl:sad,talk ammachi:surprised || പക്ഷേ അമ്മു നേരെ അമ്മൂമ്മയുടെ അടുത്തേക്ക് പോയി. || girl: അമ്മൂമ്മേ, എന്നോട് ക്ഷമിക്കണം. ഞാനാണ് പൂച്ചട്ടി പൊട്ടിച്ചത്.
+- veranda | zoom_in | wind | ammachi:happy,talk girl:sad || അമ്മൂമ്മ അവളെ ചേർത്തു പിടിച്ചു. || ammachi: സത്യം പറഞ്ഞതിൽ എനിക്ക് സന്തോഷമുണ്ട് മോളേ.
+- yard | pan_right | wind | ammachi:happy girl:happy,hold=flower || അവർ രണ്ടുപേരും ചേർന്ന് ചെടി പുതിയ ചട്ടിയിൽ നട്ടു. ||
+- yard | zoom_out | wind | ammachi:hug,happy girl:hug,happy || ഗുണപാഠം: തെറ്റ് പറ്റിയാൽ സത്യം പറയണം. അതാണ് ശരിയായ വഴി. ||
+
+### k004-water-tap
+title: തുറന്നു കിടന്ന പൈപ്പ് | The Running Tap
+theme: Appu sees a school tap left running and closes it, learning why water matters
+moral: Every drop of water is precious; never waste it.
+narrator: woman
+caption: ഓരോ തുള്ളി വെള്ളവും വിലപ്പെട്ടതാണ് 💧\nകുട്ടികൾക്ക് പറഞ്ഞു കൊടുക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory savewater kerala
+- school | zoom_in | wind | kid:walk,hold=bag || ഒരു ദിവസം രാവിലെ അപ്പു സ്കൂളിലേക്ക് നടന്നു വരികയായിരുന്നു. ||
+- school+close | still | wind | kid:surprised || സ്കൂൾ മുറ്റത്തെ പൈപ്പിൽ നിന്ന് വെള്ളം ഒഴുകി പോകുന്നു. ആരും അടച്ചിട്ടില്ല! ||
+- school | zoom_in | wind | kid:point,happy || അപ്പു ഓടിച്ചെന്ന് പൈപ്പ് അടച്ചു. ||
+- school | still | wind | teacher:talk,happy kid:happy || ടീച്ചർ അത് കണ്ടു. || teacher: മിടുക്കൻ! പല നാട്ടിലും കുടിക്കാൻ പോലും വെള്ളം കിട്ടാത്തവരുണ്ട്.
+- classroom | zoom_in | indoor | teacher:talk kid:happy friend:happy || അന്ന് ടീച്ചർ ക്ലാസിൽ എല്ലാവരോടും അപ്പുവിന്റെ കാര്യം പറഞ്ഞു. ||
+- interior | still | indoor | kid:talk amma:happy || വീട്ടിലെത്തിയ അപ്പു അമ്മയോട് പറഞ്ഞു. || kid: അമ്മേ, പല്ല് തേക്കുമ്പോൾ ഇനി ഞാൻ പൈപ്പ് അടച്ചിടും.
+- school | zoom_out | wind | kid:wave,happy teacher:happy || ഗുണപാഠം: ഓരോ തുള്ളി വെള്ളവും വിലപ്പെട്ടതാണ്. ഒരിക്കലും പാഴാക്കരുത്. ||
+
+### k005-mango-seed
+title: അപ്പൂപ്പന്റെ മാവ് | Appooppan's Mango Tree
+theme: Appooppan plants a mango seed with Appu and explains we plant trees for the future
+moral: Plant trees; they give to everyone for many years.
+narrator: woman
+caption: ഇന്ന് നടുന്ന ഒരു മരം നാളത്തെ തണലാണ് 🌳\nഒരു മരം നടാൻ കുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory planttrees nature kerala
+- yard | zoom_in | wind | appooppan:hold=flower,happy kid:surprised || ഒരു ദിവസം അപ്പൂപ്പൻ ഒരു മാങ്ങയണ്ടി മുറ്റത്ത് നടുകയായിരുന്നു. ||
+- yard | still | wind | kid:talk appooppan:happy || അപ്പു ചോദിച്ചു. || kid: അപ്പൂപ്പാ, ഇത് വളർന്ന് മാങ്ങ ഉണ്ടാകാൻ എത്ര കാലം എടുക്കും?
+- yard | zoom_in | wind | appooppan:talk,happy kid:happy || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: കുറേ വർഷങ്ങൾ എടുക്കും മോനേ.
+- yard+close | still | wind | kid:surprised,talk || അപ്പുവിന് അത്ഭുതമായി. || kid: അപ്പോൾ ആ മാങ്ങ ആര് തിന്നും?
+- yard | zoom_in | wind | appooppan:talk kid:happy | mango_tree || അപ്പൂപ്പൻ പഴയ മാവിലേക്ക് ചൂണ്ടി. || appooppan: ഞാൻ തിന്നുന്ന മാങ്ങ എന്റെ അപ്പൂപ്പൻ നട്ട മാവിലേതാണ്. ഇത് നിനക്കും നിന്റെ മക്കൾക്കും ഉള്ളതാണ്.
+- yard | pan_right | wind | kid:happy appooppan:happy | mango_tree || അപ്പു എല്ലാ ദിവസവും ആ തൈയ്ക്ക് വെള്ളം ഒഴിച്ചു. ||
+- yard+sunset | zoom_out | wind | appooppan:hug,happy kid:hug,happy | mango_tree || ഗുണപാഠം: മരങ്ങൾ നടണം. അവ എല്ലാവർക്കും വർഷങ്ങളോളം തണലും ഫലവും നൽകും. ||
+
+### k006-new-student
+title: പുതിയ കൂട്ടുകാരൻ | The New Boy in Class
+theme: A shy new boy joins class, and Appu invites him to sit and play with him
+moral: Be kind and welcoming to someone new.
+narrator: woman
+caption: ഒരു ചിരി മതി ഒരാളുടെ ദിവസം മാറ്റാൻ 😊
+കുട്ടികളെ കാണിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory kindness friendship kerala
+- classroom | zoom_in | indoor | teacher:talk friend:surprised || ഒരു ദിവസം ടീച്ചർ ക്ലാസിലേക്ക് ഒരു പുതിയ കുട്ടിയെ കൊണ്ടുവന്നു. || teacher: ഇവൻ ആനന്ദ്. ഇന്ന് മുതൽ നമ്മുടെ ക്ലാസിലാണ്.
+- classroom+close | still | indoor | friend:sad || ആനന്ദിന് ആരെയും അറിയില്ല. അവൻ നാണിച്ച് തല താഴ്ത്തി നിന്നു. ||
+- classroom | zoom_in | indoor | kid:wave,happy,talk friend:surprised || അപ്പോൾ അപ്പു കൈ വീശി വിളിച്ചു. || kid: ആനന്ദ്, വാ! എന്റെ അടുത്ത് ഇരുന്നോളൂ.
+- classroom | still | indoor | kid:read,happy friend:read,happy || അപ്പു അവന് തന്റെ പുസ്തകങ്ങൾ കാണിച്ചു കൊടുത്തു. ||
+- school | pan_right | wind | kid:jump,happy friend:jump,happy || ഇടവേളയിൽ അപ്പു അവനെ എല്ലാവർക്കും പരിചയപ്പെടുത്തി. അവർ ഒരുമിച്ച് കളിച്ചു. ||
+- school+sunset | zoom_in | wind | friend:wave,happy || വൈകുന്നേരം ആനന്ദ് ചിരിച്ചു കൊണ്ടാണ് വീട്ടിലേക്ക് പോയത്. ||
+- school | zoom_out | wind | kid:wave,happy friend:wave,happy teacher:happy || ഗുണപാഠം: പുതുതായി വരുന്നവരോട് സ്നേഹത്തോടെ പെരുമാറണം. ||
+
+### k007-thank-you-bus
+title: ബസ്സിലെ നന്ദി | Thank You, Driver
+theme: Appu learns from Achan to thank the bus driver and conductor every day
+moral: Say thank you to everyone who helps us.
+narrator: woman
+caption: ഒരു "നന്ദി" ആരുടെയും മനസ്സ് നിറയ്ക്കും 🙏\nകുട്ടികളെ പഠിപ്പിക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory gratitude kerala
+- bus_stop | zoom_in | wind | achan:hold=bag kid:happy | bus || അപ്പുവും അച്ഛനും ബസ്സിൽ ടൗണിലേക്ക് പോയി. ||
+- bus_stop | still | wind | achan:talk,wave kid:surprised || ബസ്സിൽ നിന്ന് ഇറങ്ങുമ്പോൾ അച്ഛൻ ഡ്രൈവറോട് പറഞ്ഞു. || achan: നന്ദി ചേട്ടാ!
+- bus_stop | zoom_in | wind | kid:talk achan:happy || അപ്പു ചോദിച്ചു. || kid: അച്ഛാ, എന്തിനാ നന്ദി പറഞ്ഞത്? അയാളുടെ ജോലിയല്ലേ?
+- bus_stop | still | wind | achan:talk kid:happy || അച്ഛൻ സ്നേഹത്തോടെ പറഞ്ഞു. || achan: അതെ മോനേ. പക്ഷേ നമ്മളെ സുരക്ഷിതമായി എത്തിച്ചത് അദ്ദേഹമാണ്. ഒരു നന്ദി കേട്ടാൽ അവർക്കും സന്തോഷമാകും.
+- bus_stop | zoom_in | wind | kid:wave,happy,talk | bus || അടുത്ത ദിവസം അപ്പു സ്കൂൾ ബസ്സിൽ നിന്ന് ഇറങ്ങി. || kid: നന്ദി ഡ്രൈവർ മാമാ!
+- bus_stop+close | still | wind | kid:happy || ഡ്രൈവർ മാമൻ ചിരിച്ചു കൈ വീശി. അപ്പുവിനും സന്തോഷമായി. ||
+- lane | zoom_out | wind | achan:walk,happy kid:walk,happy || ഗുണപാഠം: നമ്മളെ സഹായിക്കുന്ന എല്ലാവരോടും നന്ദി പറയണം. ||
+
+### k008-race-fall
+title: ഓട്ടമത്സരം | The Running Race
+theme: In a school race Appu stops to help Kannan who fell, and they finish together
+moral: Helping a friend is greater than winning.
+narrator: woman
+caption: ജയിക്കുന്നതിനേക്കാൾ വലുതാണ് കൂട്ടുകാരനെ സഹായിക്കുന്നത് 🏃‍♂️❤️\nകൂട്ടുകാരനെ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory friendship sportsday kerala
+- school+festive | zoom_in | wind | kid:happy friend:happy || സ്കൂളിലെ കായികദിനം. അപ്പുവും കണ്ണനും ഓട്ടമത്സരത്തിന് തയ്യാറായി. ||
+- school | pan_right | wind | kid:walk friend:walk || വിസിൽ മുഴങ്ങി. എല്ലാവരും ഓടി. അപ്പുവായിരുന്നു മുന്നിൽ. ||
+- school | still | wind | friend:sad,cry || പെട്ടെന്ന് കണ്ണൻ കാൽ തെറ്റി വീണു. ||
+- school | zoom_in | wind | kid:talk friend:sad || അപ്പു ഓട്ടം നിർത്തി തിരിച്ചു വന്നു. || kid: കണ്ണാ, എഴുന്നേൽക്ക്. ഞാൻ പിടിക്കാം.
+- school | pan_right | wind | kid:walk,happy friend:walk,happy || അവർ കൈ പിടിച്ച് ഒരുമിച്ച് ഫിനിഷ് ലൈൻ കടന്നു. ||
+- school+festive | zoom_in | wind | teacher:talk,happy kid:happy friend:happy || സമ്മാനം കിട്ടിയില്ല. പക്ഷേ എല്ലാവരും കയ്യടിച്ചു. || teacher: ഇന്നത്തെ യഥാർത്ഥ വിജയി അപ്പുവാണ്!
+- school | zoom_out | wind | kid:hug,happy friend:hug,happy || ഗുണപാഠം: ജയിക്കുന്നതിനേക്കാൾ വലുതാണ് കൂട്ടുകാരനെ സഹായിക്കുന്നത്. ||
+
+### k009-rice-waste
+title: ഒരു മണി ചോറ് | Every Grain of Rice
+theme: Ammu wants to throw away leftover rice; Appooppan shows her the paddy field work behind it
+moral: Never waste food; many people work hard to grow it.
+narrator: woman
+caption: ഒരു മണി ചോറിന് പിന്നിൽ ഒരുപാട് അധ്വാനമുണ്ട് 🍚🌾\nകുട്ടികൾക്ക് പറഞ്ഞു കൊടുക്കൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory savefood farmers kerala
+- kitchen | zoom_in | indoor | girl:hold=plate,sad | table:rice || അമ്മു പാത്രത്തിൽ ചോറ് ബാക്കി വെച്ച് എഴുന്നേറ്റു. ||
+- kitchen | still | indoor | appooppan:talk girl:surprised | table:rice || അപ്പൂപ്പൻ ചോദിച്ചു. || appooppan: മോളേ, ഈ അരി എവിടെ നിന്നാണ് വരുന്നത് എന്ന് അറിയാമോ?
+- paddy | zoom_in | wind | appooppan:walk,happy girl:walk || അടുത്ത ദിവസം അപ്പൂപ്പൻ അവളെ പാടത്തേക്ക് കൊണ്ടുപോയി. ||
+- paddy | pan_right | wind | appooppan:point,talk girl:surprised || അപ്പൂപ്പൻ പാടം ചൂണ്ടിക്കാട്ടി. || appooppan: വിത്ത് വിതയ്ക്കണം, വെള്ളം കയറ്റണം, മാസങ്ങളോളം നോക്കണം. എന്നിട്ടാണ് നെല്ല് കിട്ടുന്നത്.
+- paddy+close | still | wind | girl:sad || വെയിലത്ത് പണിയെടുക്കുന്ന കർഷകരെ അമ്മു നോക്കി നിന്നു. ||
+- kitchen | zoom_in | indoor | girl:eat,happy appooppan:happy | table:rice || അന്ന് മുതൽ അമ്മു പാത്രത്തിൽ ഒരു മണി ചോറ് പോലും ബാക്കി വെച്ചില്ല. ||
+- paddy+sunset | zoom_out | wind | appooppan:happy girl:wave,happy || ഗുണപാഠം: ഭക്ഷണം പാഴാക്കരുത്. അതിന് പിന്നിൽ ഒരുപാട് പേരുടെ അധ്വാനമുണ്ട്. ||
+
+### k010-kite-sister
+title: അനിയത്തിയുടെ പട്ടം | Little Sister's Kite
+theme: Appu does not want to share his new kite with Ammu but learns that playing together is more fun
+moral: Things are more fun when we share them with family.
+narrator: woman
+caption: ഒരുമിച്ച് കളിക്കുമ്പോഴാണ് ഏറ്റവും രസം 🪁\nഅനിയനെയോ അനിയത്തിയെയോ ടാഗ് ചെയ്യൂ
+tags: malayalam kidsstory moralstory malayalamkidsstory sharing siblings kerala
+- yard | zoom_in | wind | kid:hold=kite,happy | kite || അച്ഛൻ അപ്പുവിന് ഒരു ചുവന്ന പട്ടം ഉണ്ടാക്കി കൊടുത്തു. ||
+- yard | still | wind | girl:talk kid:hold=kite | kite || അമ്മു ഓടി വന്നു. || girl: ചേട്ടാ, എനിക്കും ഒന്ന് പറത്തണം.
+- yard | zoom_in | wind | kid:hold=kite,talk girl:sad | kite || അപ്പു പട്ടം മാറ്റിപ്പിടിച്ചു. || kid: ഇല്ല, ഇത് എന്റെ പട്ടമാണ്. നിനക്ക് തരില്ല.
+- yard+close | still | wind | kid:hold=kite,sad | kite || കുറച്ചു കഴിഞ്ഞപ്പോൾ പട്ടം താഴെ വീണു. ഒറ്റയ്ക്ക് നൂലും പിടിച്ച് ഓടാൻ അപ്പുവിന് പറ്റിയില്ല. ||
+- yard | zoom_in | wind | kid:talk girl:happy | kite || അപ്പു അമ്മുവിനെ വിളിച്ചു. || kid: അമ്മൂ, നീ പട്ടം ഉയർത്തി പിടിക്ക്. ഞാൻ നൂലുമായി ഓടാം.
+- yard | pan_right | wind | kid:hold=kite,jump,happy girl:jump,happy | kite || പട്ടം ആകാശത്തോളം ഉയർന്നു! രണ്ടുപേരും ചിരിച്ചു തുള്ളി. ||
+- yard+sunset | zoom_out | wind | kid:hug,happy girl:hug,happy | kite || ഗുണപാഠം: ഒരുമിച്ച് പങ്കിട്ട് കളിക്കുമ്പോഴാണ് ഏറ്റവും സന്തോഷം. ||
