@@ -52,6 +52,10 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
 9. **Safety for kids content** (blocklist, morals, no scary/violent words): `reelbot lint`.
    Nostalgia: `reelbot lint --general --require-hook`.
 
+10. **First comment on every Short** (posted by the phone uploader right after upload, rotating
+    questions that invite memories, plus older uploads get one too). Pin the best one by hand in
+    YouTube Studio (the API cannot pin).
+
 ## Weekly review loop
 
 1. Owner sends YouTube Studio screenshots: Content tab sorted by views, plus "Stayed to watch vs

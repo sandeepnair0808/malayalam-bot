@@ -28,7 +28,34 @@ from datetime import datetime
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+SCOPES = ["https://www.googleapis.com/auth/youtube.upload",
+          "https://www.googleapis.com/auth/youtube.force-ssl"]  # force-ssl: post the first comment
+
+# first comment under every Short (picked per video so they do not all look identical)
+NOSTALGIA_COMMENTS = [
+    "ഈ കഥ നിങ്ങളെ ആരെയെങ്കിലും ഓർമ്മിപ്പിച്ചോ? 👇 കമന്റിൽ പറയൂ ❤️\nദിവസവും പുതിയ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ 🔔",
+    "നിങ്ങളുടെ കുട്ടിക്കാലത്തും ഇങ്ങനെ ഒരു ഓർമ്മയുണ്ടോ? 🥹 കമന്റിൽ എഴുതൂ 👇",
+    "ആ കാലം ഇനി തിരിച്ചു വരുമോ? 😢 നിങ്ങളുടെ ഓർമ്മ ഇവിടെ പങ്കുവെക്കൂ 👇\nപുതിയ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ 🔔",
+    "ഈ കഥ ആരെയാണ് നിങ്ങൾക്ക് ഓർമ്മ വന്നത്? അവരെ ടാഗ് ചെയ്യൂ / ഷെയർ ചെയ്യൂ ❤️",
+    "1 മുതൽ 10 വരെ, ഈ കഥ നിങ്ങളെ എത്ര തൊട്ടു? 👇 അടുത്ത കഥ ഏത് വിഷയത്തിൽ വേണം?",
+]
+FAMILY_COMMENTS = [
+    "ഈ കഥയിലെ ഗുണപാഠം നിങ്ങൾക്ക് ഇഷ്ടമായോ? 👇 വീട്ടിലെ കുട്ടികളെ കാണിക്കൂ ❤️",
+    "നിങ്ങളുടെ വീട്ടിലും ഇങ്ങനെ ഒരു സംഭവം ഉണ്ടായിട്ടുണ്ടോ? 👇 കമന്റിൽ പറയൂ",
+    "കുട്ടിക്കാലത്ത് നിങ്ങൾ പഠിച്ച ഏറ്റവും നല്ല പാഠം ഏതാണ്? 👇\nപുതിയ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ 🔔",
+]
+
+
+def comment_for(item: dict) -> str:
+    if item.get("comment"):
+        return item["comment"]
+    pool = FAMILY_COMMENTS if item["file"].startswith("kids/") else NOSTALGIA_COMMENTS
+    return pool[sum(map(ord, item["file"])) % len(pool)]
+
+
+def post_comment(youtube, video_id: str, text: str) -> None:
+    youtube.commentThreads().insert(part="snippet", body={"snippet": {
+        "videoId": video_id, "topLevelComment": {"snippet": {"textOriginal": text}}}}).execute()
 CATEGORIES = {"FILM_ANIMATION": "1", "EDUCATION": "27", "ENTERTAINMENT": "24", "PEOPLE_BLOGS": "22"}
 
 
@@ -45,10 +72,10 @@ def credentials(interactive: bool):
     from google_auth_oauthlib.flow import InstalledAppFlow
 
     token = HERE / "token.json"
-    creds = Credentials.from_authorized_user_file(str(token), SCOPES) if token.exists() else None
+    creds = Credentials.from_authorized_user_file(str(token)) if token.exists() else None
     if creds and creds.expired and creds.refresh_token:
         creds.refresh(Request())
-    if not creds or not creds.valid:
+    if interactive or not creds or not creds.valid:  # --auth always signs in again (e.g. to add comment access)
         if not interactive:
             sys.exit("Not signed in. Run: python phone_uploader.py --auth")
         flow = InstalledAppFlow.from_client_secrets_file(str(HERE / "client_secret.json"), SCOPES)
@@ -143,6 +170,24 @@ def main() -> int:
     from googleapiclient.errors import HttpError
 
     youtube = build("youtube", "v3", credentials=creds, cache_discovery=False)
+    can_comment = SCOPES[1] in (creds.scopes or [])
+    if not can_comment:
+        log("comments are off: run 'python phone_uploader.py --auth' once to allow posting comments")
+
+    # comment on earlier uploads that do not have one yet (max 3 per run, a few tries each)
+    queue_by_file = {it["file"]: it for it in queue}
+    backlog = [f for f, v in done.items() if isinstance(v, dict) and v.get("id") and not v.get("commented")
+               and v.get("comment_tries", 0) < 3]
+    for f in backlog[:3] if can_comment else []:
+        v = done[f]
+        try:
+            post_comment(youtube, v["id"], comment_for(queue_by_file.get(f, {"file": f})))
+            v["commented"] = True
+            log(f"COMMENT {f}")
+        except HttpError as err:
+            v["comment_tries"] = v.get("comment_tries", 0) + 1
+            log(f"comment failed {f}: {str(err)[:150]}")
+        save(done)
     videos_dir = Path(args.videos)
     uploaded_now = 0
     for item in left:
@@ -166,6 +211,15 @@ def main() -> int:
                 save(done)
                 log(f"OK {item['file']} -> https://youtube.com/shorts/{vid}")
                 uploaded_now += 1
+                if can_comment:
+                    try:
+                        post_comment(youtube, vid, comment_for(item))
+                        done[item["file"]]["commented"] = True
+                        log(f"COMMENT {item['file']}")
+                    except HttpError as err:  # e.g. comments not ready yet; retried on the next runs
+                        done[item["file"]]["comment_tries"] = 1
+                        log(f"comment failed {item['file']}: {str(err)[:150]} (will retry)")
+                    save(done)
                 break
             except HttpError as err:
                 if "quotaExceeded" in str(err) or "uploadLimitExceeded" in str(err):
