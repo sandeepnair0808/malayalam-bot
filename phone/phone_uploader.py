@@ -117,9 +117,12 @@ def main() -> int:
 
     youtube = build("youtube", "v3", credentials=creds, cache_discovery=False)
     videos_dir = Path(args.videos)
-    for item in left[: args.count]:
+    uploaded_now = 0
+    for item in left:
+        if uploaded_now >= args.count:
+            break
         if not (videos_dir / item["file"]).exists():
-            log(f"MISSING {item['file']} (skipped)")
+            log(f"MISSING {item['file']} (skipped for now)")
             continue
         for attempt in range(3):
             try:
@@ -127,6 +130,7 @@ def main() -> int:
                 done[item["file"]] = {"id": vid, "at": datetime.now().isoformat(timespec="minutes")}
                 (HERE / "uploaded.json").write_text(json.dumps(done, ensure_ascii=False, indent=1), encoding="utf-8")
                 log(f"OK {item['file']} -> https://youtube.com/shorts/{vid}")
+                uploaded_now += 1
                 break
             except HttpError as err:
                 if "quotaExceeded" in str(err) or "uploadLimitExceeded" in str(err):
