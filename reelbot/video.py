@@ -8,6 +8,7 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
+from .animate import render_animated, voice_envelope
 from .config import Settings
 from .subtitles import Cue, write_ass
 
@@ -25,6 +26,7 @@ class SceneClip:
     duration: float
     camera: str
     subtitle: str
+    svg: str | None = None  # when set, the scene is animated frame by frame
 
 
 def scene_duration(spoken: float, reading: float) -> float:
@@ -55,13 +57,23 @@ def run(cmd: list[str]) -> None:
         raise RuntimeError(f"ffmpeg failed ({proc.returncode}):\n{proc.stderr[-3000:]}")
 
 
-def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, last: bool) -> Path:
-    frames = max(int(round(clip.duration * settings.fps)), 1)
-    vf = [zoompan_expr(clip.camera, frames, settings.width, settings.height, settings.fps)]
+def _fades(clip: SceneClip, first: bool, last: bool) -> list[str]:
+    vf = []
     if not first:
         vf.append(f"fade=t=in:st=0:d={FADE}")
     if not last:
         vf.append(f"fade=t=out:st={clip.duration - FADE:.3f}:d={FADE}")
+    return vf
+
+
+def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, last: bool) -> Path:
+    if clip.svg and settings.animate:
+        env = voice_envelope(clip.audio, clip.duration, settings.fps, LEAD_IN)
+        return render_animated(clip.svg, clip.duration, clip.camera, out, fps=settings.fps, width=settings.width,
+                               height=settings.height, envelope=env, vf_extra=_fades(clip, first, last))
+    frames = max(int(round(clip.duration * settings.fps)), 1)
+    vf = [zoompan_expr(clip.camera, frames, settings.width, settings.height, settings.fps)]
+    vf += _fades(clip, first, last)
     vf.append("format=yuv420p")
     run([
         "ffmpeg", "-y", "-loglevel", "error", "-i", str(clip.image),

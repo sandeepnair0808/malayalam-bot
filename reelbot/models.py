@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import List, Literal
+from typing import List, Literal, Optional
 
 from pydantic import BaseModel, Field
 
@@ -25,6 +25,16 @@ class Scene(BaseModel):
     subtitle_ml: str = Field(description="on-screen Malayalam subtitle, max ~32 characters per line, max 2 lines")
     visual: str = Field(description="English description of what the illustration shows: who, pose, expression, setting")
     characters: List[str] = Field(description="ids of characters visible in the scene")
+    action: str = Field(
+        default="",
+        description="English: how the characters move in this shot, e.g. 'walking left to right', "
+        "'grandmother waves', 'boy jumps with joy', 'sitting still, breathing'",
+    )
+    speaker: Optional[str] = Field(
+        default=None,
+        description="id of the on-screen character whose words are spoken in this scene (their mouth "
+        "moves with the voice); null when it is the off-screen narrator",
+    )
     camera: CameraMove
 
 

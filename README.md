@@ -8,7 +8,9 @@ Malayalam subtitles) and publishes it to your Instagram account. It can run dail
 idea ─► Claude writes story (Malayalam, 6–9 scenes, caption, hashtags)
      ─► Claude draws each scene as flat-vector SVG ─► PNG (cairosvg)
      ─► Malayalam voice-over per scene (edge-tts / gTTS)
-     ─► ffmpeg: Ken-Burns motion + fades + music + burned-in Malayalam subtitles (libass)
+     ─► character animation: every frame re-rendered from the rigged SVG (walk, blink,
+        lip-sync to the voice, breathing, swinging arms, falling rain) + camera move
+     ─► ffmpeg: fades + music + burned-in Malayalam subtitles (libass)
      ─► Instagram Graph API: resumable upload ─► wait for processing ─► publish
 ```
 
@@ -46,6 +48,18 @@ reelbot run                                   # make + publish
 
 Each reel directory holds `story.json`, `caption.txt`, `scenes/scene_NN.{svg,png}`, and
 `reel.mp4`. You can edit `story.json` or the SVGs, then `rebuild` before publishing.
+
+## Character animation
+
+Claude draws every scene as a *rigged* SVG: arms, legs, heads, eyes, mouths, rain and so on
+are separate groups tagged with `data-anim` (`swing`, `blink`, `talk`, `breathe`, `bob`, `move`,
+`rain`, `drift`, `float`) and a joint `data-pivot`. `reelbot/animate.py` moves those parts
+frame by frame (30 fps), adds the camera move, renders the frames with cairosvg in parallel and
+pipes them into ffmpeg. The speaking character's mouth opens with the loudness of the voice-over.
+The full tag reference is in the module docstring.
+
+A 45 s reel takes about 2 minutes to render on 4 cores. Set `REELBOT_ANIMATE=0` to fall back to
+still images with a camera move.
 
 ## Instagram access
 

@@ -62,6 +62,10 @@ Rules:
 - Visual descriptions are concrete and drawable as flat vector art: one clear moment per
   scene, simple poses, Kerala village setting (tiled-roof house, wooden pillars, coconut
   trees, red-oxide floor, paddy fields, etc.).
+- Every scene has visible motion in `action` (walking, waving, hugging, pointing, jumping,
+  rain falling, fan turning...). Static "standing and looking" shots get "idle" motion.
+- When a character's own words are spoken (dialogue in quotes), set `speaker` to that
+  character's id so their mouth moves; otherwise leave it null (narrator).
 - Original story. Do not reuse lines, characters or names from existing films or creators.
 - Hashtags: no '#' prefix, no spaces.
 """

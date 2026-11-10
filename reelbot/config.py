@@ -33,6 +33,8 @@ class Settings:
     width: int = 1080
     height: int = 1920
     fps: int = 30
+    # Animate tagged characters frame by frame (False = still image + camera move only).
+    animate: bool = field(default_factory=lambda: _env("REELBOT_ANIMATE", "1") not in ("0", "false", "no"))
     font: str = field(default_factory=lambda: _env("REELBOT_FONT", "Manjari"))
     fonts_dir: Path = field(default_factory=lambda: Path(_env("REELBOT_FONTS_DIR", "assets/fonts")))
     music_dir: Path = field(default_factory=lambda: Path(_env("REELBOT_MUSIC_DIR", "assets/music")))

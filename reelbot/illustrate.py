@@ -36,8 +36,34 @@ as hand-written SVG in a flat, minimal, warm vector style:
   important touches the edges). Keep faces and the main action between y=250 and y=1350.
   The bottom ~500px is floor/ground only: subtitles are drawn there later.
 - Absolutely no text, letters, numbers or logos in the image.
-- Pure static SVG: no <script>, no <foreignObject>, no external images/fonts/links, no CSS
+- No <script>, no <foreignObject>, no external images/fonts/links, no CSS
   animations, no <text>. Use <defs>/<g>/<use> to stay compact. Keep it under ~400 elements.
+
+
+ANIMATION RIGGING (required). The frame is animated by moving tagged groups, so build each
+character from separate <g> groups and tag them with data-* attributes. data-pivot="x,y" is the
+joint the part rotates/scales around, in the coordinates of that element's PARENT (canvas
+pixels unless the parent group has a transform). Draw every part in its rest pose.
+
+- Whole character: <g data-anim="breathe" data-pivot="FEET_X,FEET_Y"> around the character.
+  If the character walks across the shot: wrap it in <g data-anim="move" data-dx="160" data-dy="0">
+  and inside that add <g data-anim="bob" data-amp="10" data-period="0.5">.
+- Legs (walking only): each leg its own <g data-anim="swing" data-pivot="HIP_X,HIP_Y" data-amp="14"
+  data-period="1.0">, the second leg with data-phase="0.5".
+- Arms: each arm its own group, pivot at the shoulder. Hanging arms: data-anim="swing" data-amp="3"
+  data-period="3". Waving / gesturing / walking arms: data-amp="12"-"25", data-period="0.6"-"1.0".
+  Anything held in the hand (umbrella, bag, plate) goes INSIDE that arm's group.
+- Head: its own group, data-anim="swing" data-amp="2.5" data-period="4" pivot at the neck.
+- Open eyes (dots/ovals): both eyes in one <g data-anim="blink" data-pivot="EYE_CENTRE_X,EYE_Y">.
+  Closed/smiling curve eyes need no tag.
+- The speaking character (only that one): mouth = dark open ellipse in
+  <g data-anim="talk" data-pivot="MOUTH_X,MOUTH_TOP_Y">, drawn fully open; it is scaled with the voice.
+  Everyone else gets a normal closed smile/line.
+- Rain: all rain streaks in one <g data-anim="rain" data-speed="1400"> spread over the full canvas.
+- Clouds, smoke, birds: <g data-anim="drift" data-speed="25">. Trees, curtains, hanging things:
+  data-anim="swing" with data-amp="2" data-period="3" and a pivot at their base/top.
+- Nesting is fine (move > bob > character > arm). Never put a transform on a tagged group AND
+  give it a pivot computed in its own coordinates: pivots are in the parent's coordinates.
 
 Output ONLY the SVG document, starting with <svg and ending with </svg>. No prose, no code fences.
 """
@@ -102,6 +128,8 @@ def _scene_prompt(index: int, total: int, scene: Scene, has_reference: bool) -> 
         f"Draw frame {index + 1} of {total}.\n\n{ref}"
         f"Characters in frame: {', '.join(scene.characters) or 'none'}\n"
         f"Moment: {scene.visual}\n"
+        f"Motion to rig: {scene.action or 'idle: breathing, blinking, small head/arm sway'}\n"
+        f"Speaking on screen: {scene.speaker or 'nobody (off-screen narrator) - no talk mouth'}\n"
         f"(Narration, for mood only — do not write it in the image: {scene.narration_ml})"
     )
 

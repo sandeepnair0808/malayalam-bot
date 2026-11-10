@@ -124,6 +124,7 @@ def test_offline_render(tmp_path):
 
     settings = Settings()
     settings.tts = "none"
+    settings.animate = False
     settings.music_dir = tmp_path / "nomusic"
     story = sample_story()
     scenes = tmp_path / "scenes"
@@ -131,3 +132,42 @@ def test_offline_render(tmp_path):
     images = [render_png(fallback_svg(), scenes / f"scene_{i:02d}.png", 1080, 1920) for i in range(len(story.scenes))]
     out = render(settings, story, tmp_path, images)
     assert out.exists() and out.stat().st_size > 10_000
+
+
+RIGGED = """<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<rect width="1080" height="1920" fill="#cfd8c4"/>
+<g data-anim="rain" data-speed="1000"><line x1="10" y1="10" x2="5" y2="60" stroke="#fff"/></g>
+<g data-anim="move" data-dx="100"><g data-anim="breathe" data-pivot="540,1500">
+  <g data-anim="swing" data-pivot="500,900" data-amp="10"><rect x="480" y="900" width="40" height="300"/></g>
+  <g data-anim="blink" data-pivot="540,700"><circle cx="520" cy="700" r="8"/><circle cx="560" cy="700" r="8"/></g>
+  <g data-anim="talk" data-pivot="540,760"><ellipse cx="540" cy="780" rx="20" ry="20"/></g>
+  <g data-anim="swing"><rect width="1" height="1"/></g>
+</g></g></svg>"""
+
+
+def test_animator_moves_tagged_parts():
+    from reelbot.animate import SceneAnimator, count_tags
+
+    assert count_tags(RIGGED) == 7
+    a = SceneAnimator(RIGGED, duration=2.0, camera="zoom_in", envelope=[0.0] * 30 + [1.0] * 30)
+    assert len(a.parts) == 6  # the swing without a pivot is ignored
+    first, mid = a.svg_at(0.0).decode(), a.svg_at(1.5).decode()
+    assert first != mid
+    assert "translate(100.00,0.00)" in a.svg_at(2.0).decode()  # move finished
+    assert "scale(1,1.070)" in mid  # mouth open while the voice is loud
+    # rain layer was tiled so it can scroll without a gap
+    assert mid.count("<line") == 2
+
+
+def test_voice_envelope_without_audio():
+    from reelbot.animate import voice_envelope
+
+    assert voice_envelope(None, 1.0, 30, 0.3) == [0.0] * 30
+
+
+@pytest.mark.skipif(shutil.which("ffmpeg") is None, reason="ffmpeg not installed")
+def test_animated_clip_renders(tmp_path):
+    from reelbot.animate import render_animated
+
+    out = render_animated(RIGGED, 0.5, "pan_left", tmp_path / "c.mp4", fps=10, width=270, height=480, workers=2)
+    assert out.stat().st_size > 1000

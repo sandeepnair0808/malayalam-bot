@@ -40,6 +40,11 @@ def load_story(reel_dir: Path) -> Story:
     return Story.model_validate_json((reel_dir / "story.json").read_text(encoding="utf-8"))
 
 
+def _scene_svg(image: Path) -> str | None:
+    svg = image.with_suffix(".svg")
+    return svg.read_text(encoding="utf-8") if svg.exists() else None
+
+
 def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path]) -> Path:
     """Voice-over + video assembly from already-drawn scene images."""
     work = reel_dir / "work"
@@ -51,6 +56,7 @@ def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path])
             duration=scene_duration(spoken, reading_time(scene.subtitle_ml)),
             camera=scene.camera,
             subtitle=scene.subtitle_ml,
+            svg=_scene_svg(img),
         )
         for scene, img, (audio, spoken) in zip(story.scenes, images, voices)
     ]
