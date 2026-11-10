@@ -3,6 +3,19 @@
 Update this file every time new numbers come in. Newest evidence first.
 Raw snapshots live in `stats/`.
 
+## Evidence: analytics export 2026-11-10 23:24 IST (stats/videos_2026-11-10.csv)
+
+- Publish times (IST): #1 15:35, #2 16:02, #3 16:36 -> 1,158 / 1,111 / 1,100 views.
+  From the 4th upload (16:46, only 10 min later) EVERY Short is 0-15 views, nostalgia and kids alike,
+  including strong themes (Amma's Earrings 0, The One Who Eats Last 1, STD Booth 3).
+  => The drop is about **posting frequency**, not theme. The first 3 got YouTube's test audience;
+  the flood after them did not. Strongest lesson so far: **space uploads out (max ~4/day)**.
+- Like rate on the hits: 12-15 likes per 1,100 views (~1.2%), 1-2 comments each: low; ask a question
+  in the caption/first comment to lift it.
+- Detailed analytics (watch %, engaged views) lag 2-3 days; re-check these Shorts after Nov 13.
+- The channel also holds old TABS-game and electrical-engineering videos (2020-21) that confuse
+  the channel topic; consider making them Unlisted.
+
 ## Evidence so far (YouTube, Nov 10 2026, first 48 h, 3,725 views)
 
 | Short | Views | Notes |

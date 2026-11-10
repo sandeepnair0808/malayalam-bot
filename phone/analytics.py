@@ -21,7 +21,7 @@ import csv
 import json
 import shutil
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -87,7 +87,7 @@ def report(ya, start: str, end: str, metrics: str, dims: str, **kw) -> list[dict
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--auth", action="store_true", help="sign in once (read-only)")
-    ap.add_argument("--since", default="2020-01-01", help="start date for analytics (YYYY-MM-DD)")
+    ap.add_argument("--since", default=(date.today() - timedelta(days=90)).isoformat(), help="start date (default: last 90 days)")
     args = ap.parse_args()
 
     creds = credentials(interactive=args.auth)
