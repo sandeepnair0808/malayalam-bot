@@ -1,4 +1,4 @@
-"""Build Metricool scheduled-post payloads (one post = YouTube Short + Instagram Reel).
+"""Build Metricool scheduled-post payloads (YouTube Short, optionally also an Instagram Reel).
 
 The posts themselves are created through the Metricool connector (createScheduledPost),
 so this module only prepares `{"date": ..., "info": "<json>"}` files, keeping each
@@ -16,7 +16,7 @@ from .safety import morals
 
 TZ = "Asia/Calcutta"
 BASE_TAGS = ["shorts", "malayalam", "kidsstory", "moralstory", "malayalamkidsstory"]
-TAIL_TAGS = ["kerala", "kidsvideos", "storytime", "reels"]
+TAIL_TAGS = ["kerala", "kidsvideos", "storytime"]
 YT_TAGS = ["malayalam kids story", "malayalam moral story", "kids moral stories", "malayalam cartoon",
            "malayalam animation", "bedtime story malayalam", "kerala kids", "shorts"]
 
@@ -28,7 +28,8 @@ def _title(story: Story) -> str:
     return title[:100]
 
 
-def kids_post(story: Story, moral_en: str, video_url: str, when: datetime) -> dict:
+def kids_post(story: Story, moral_en: str, video_url: str, when: datetime,
+              networks: tuple[str, ...] = ("youtube",)) -> dict:
     topical = [t for t in story.hashtags if t not in BASE_TAGS + TAIL_TAGS + ["malayalam"]]
     tags = BASE_TAGS + topical + TAIL_TAGS
     moral_ml = story.scenes[-1].narration_ml if story.scenes else ""
@@ -36,13 +37,13 @@ def kids_post(story: Story, moral_en: str, video_url: str, when: datetime) -> di
         story.caption_ml,
         moral_ml,
         f"Moral: {moral_en}" if moral_en else "",
-        "🔔 ദിവസവും പുതിയ ഗുണപാഠ കഥകൾക്ക് ഫോളോ ചെയ്യൂ / സബ്സ്ക്രൈബ് ചെയ്യൂ",
+        "🔔 ദിവസവും പുതിയ ഗുണപാഠ കഥകൾക്ക് സബ്സ്ക്രൈബ് ചെയ്യൂ",
         " ".join(f"#{t}" for t in dict.fromkeys(tags)),
     ]))
     info = {
         "autoPublish": True, "draft": False, "descendants": [], "firstCommentText": "",
         "hasNotReadNotes": False, "media": [video_url], "mediaAltText": [],
-        "providers": [{"network": "youtube"}, {"network": "instagram"}],
+        "providers": [{"network": n} for n in networks],
         "publicationDate": {"dateTime": when.strftime("%Y-%m-%dT%H:%M:%S"), "timezone": TZ},
         "shortener": False, "smartLinkData": {"ids": []}, "text": text,
         "youtubeData": {
@@ -50,8 +51,9 @@ def kids_post(story: Story, moral_en: str, video_url: str, when: datetime) -> di
             "category": "EDUCATION", "isAiGeneratedContent": False,
             "tags": list(dict.fromkeys(topical + YT_TAGS))[:15],
         },
-        "instagramData": {"type": "REEL", "showReelOnFeed": True},
     }
+    if "instagram" in networks:
+        info["instagramData"] = {"type": "REEL", "showReelOnFeed": True}
     return {"date": when.strftime("%Y-%m-%dT%H:%M:%S+05:30"), "info": json.dumps(info, ensure_ascii=False)}
 
 
