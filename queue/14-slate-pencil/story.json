@@ -1,0 +1,210 @@
+{
+  "title_ml": "പകുതി കല്ലുപെൻസിൽ",
+  "title_en": "Half a Slate Pencil",
+  "theme": "A friend breaks his only slate pencil in half to share; years later the favour returns",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഒന്നാം ക്ലാസിലെ ആദ്യ ദിവസം, എന്റെ കല്ലുപെൻസിൽ നഷ്ടപ്പെട്ടു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:sad,cry friend:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sad,cry",
+          "friend:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അടുത്ത് ഇരുന്ന ഒരു കുട്ടി, അവന്റെ ഒരേയൊരു പെൻസിൽ രണ്ടായി ഒടിച്ചു.",
+      "dialogue_ml": "ഇതാ, പകുതി നിനക്ക്.",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:sad friend:talk,hold=letter",
+      "speaker": "friend",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sad",
+          "friend:talk,hold=letter"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്നുമുതൽ ഞങ്ങൾ എല്ലാം പകുതി പങ്കിട്ടു. പെൻസിൽ, മിഠായി, തല്ല്, ചിരി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:happy friend:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:happy",
+          "friend:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ പഠനം കഴിഞ്ഞു. ജീവിതം ഞങ്ങളെ രണ്ടു വഴിക്കാക്കി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:walk friend:walk",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:walk",
+          "friend:walk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾക്ക് ശേഷം ഒരു ബസ് സ്റ്റോപ്പിൽ അവനെ കണ്ടു. ജോലി പോയി, ആകെ തളർന്ന് ഇരിക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with friend, grownup",
+      "characters": [
+        "friend",
+        "grownup"
+      ],
+      "action": "friend:sad grownup:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "friend:sad",
+          "grownup:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ എന്റെ കയ്യിലുള്ളതിന്റെ പകുതി അവന് നീട്ടി.",
+      "dialogue_ml": "ഇതാ, പകുതി നിനക്ക്.",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with grownup, friend",
+      "characters": [
+        "grownup",
+        "friend"
+      ],
+      "action": "grownup:hold=money,talk friend:surprised",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=money,talk",
+          "friend:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അവൻ കരഞ്ഞു കൊണ്ട് ചിരിച്ചു. ആ പകുതി കല്ലുപെൻസിൽ ഞങ്ങൾ രണ്ടുപേരും മറന്നിരുന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with grownup, friend",
+      "characters": [
+        "grownup",
+        "friend"
+      ],
+      "action": "grownup:hug friend:hug,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hug",
+          "friend:hug,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "പകുതി കല്ലുപെൻസിൽ തന്ന ആ കൂട്ടുകാരൻ ഇപ്പോൾ എവിടെയാണ്? ✏️❤️\nബെസ്റ്റ് ഫ്രണ്ടിനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "friendship",
+    "school",
+    "slate",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "bestfriend"
+  ]
+}

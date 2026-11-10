@@ -1,0 +1,217 @@
+{
+  "title_ml": "അഞ്ച് മിനിറ്റ് മുന്നിലുള്ള വാച്ച്",
+  "title_en": "The Watch Five Minutes Fast",
+  "theme": "A father's old watch always runs five minutes fast, and he explains why when he gives it to his son",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "അച്ഛന് ഒരു പഴയ വാച്ച് ഉണ്ടായിരുന്നു. മുപ്പത് വർഷം പഴക്കം.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:happy"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അതിന് ഒരു കുഴപ്പം ഉണ്ടായിരുന്നു.",
+      "dialogue_ml": "അച്ഛാ, ഈ വാച്ച് അഞ്ച് മിനിറ്റ് മുന്നിലാ!",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:happy kid:point,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:happy",
+          "kid:point,talk"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ചിരിച്ചു.",
+      "dialogue_ml": "അറിയാം. അത് ഞാൻ മനഃപൂർവ്വം വെച്ചതാ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:talk,happy kid:idle",
+      "speaker": "achan",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "kid:idle"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എനിക്ക് ആദ്യ ജോലി കിട്ടി പോകുന്ന ദിവസം, അച്ഛൻ ആ വാച്ച് എന്റെ കയ്യിൽ കെട്ടിത്തന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with grownup, achan",
+      "characters": [
+        "grownup",
+        "achan"
+      ],
+      "action": "grownup:hold=bag achan:hold=gift",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=bag",
+          "achan:hold=gift"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അപ്പോഴാണ് അച്ഛൻ അതിന്റെ രഹസ്യം പറഞ്ഞത്.",
+      "dialogue_ml": "അഞ്ച് മിനിറ്റ് മുന്നിലായാൽ, ജീവിതത്തിൽ പ്രധാനപ്പെട്ട ഒന്നിനും നീ വൈകില്ല.",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with achan, grownup",
+      "characters": [
+        "achan",
+        "grownup"
+      ],
+      "action": "achan:talk,happy grownup:surprised",
+      "speaker": "achan",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "grownup:surprised"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പതിനഞ്ച് വർഷമായി. ഞാൻ ഒരിക്കലും വൈകിയിട്ടില്ല. ഒരു മീറ്റിംഗിനും, ഒരു വാക്കിനും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone,happy"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്നും ആ വാച്ച് അഞ്ച് മിനിറ്റ് മുന്നിലാണ്. ഞാൻ ഒരിക്കലും അത് ശരിയാക്കില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "അച്ഛൻ തന്ന വാച്ച് സമയം മാത്രമല്ല കാണിക്കുന്നത് ⌚❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "watch",
+    "father",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "fatherslove"
+  ]
+}

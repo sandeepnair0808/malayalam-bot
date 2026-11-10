@@ -1,0 +1,213 @@
+{
+  "title_ml": "പത്രക്കടലാസിലെ പട്ടം",
+  "title_en": "The Newspaper Kite",
+  "theme": "A boy is ashamed of the kite his father made from newspaper, until it flies the highest",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "വേനലവധിക്ക് എല്ലാവരും പാടത്ത് പട്ടം പറത്തും. കടയിൽ നിന്ന് വാങ്ങിയ നിറമുള്ള പട്ടങ്ങൾ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "paddy scene with friend",
+      "characters": [
+        "friend"
+      ],
+      "action": "friend:jump,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "paddy",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "friend:jump,happy"
+        ],
+        "props": [
+          "kite"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എന്റെ അച്ഛൻ പത്രക്കടലാസ് കൊണ്ട് ഒരു പട്ടം ഉണ്ടാക്കി.",
+      "dialogue_ml": "എനിക്ക് ഇത് വേണ്ട, എല്ലാവരും കളിയാക്കും!",
+      "subtitle_ml": "",
+      "visual": "veranda scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:hold=letter kid:sad,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=letter",
+          "kid:sad,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ചിരിച്ചു.",
+      "dialogue_ml": "പട്ടം പറക്കുന്നത് നിറം കൊണ്ടല്ല മോനേ, കാറ്റ് കൊണ്ടാണ്.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:talk,happy kid:sad",
+      "speaker": "achan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "kid:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിറ്റേന്ന് ഞങ്ങൾ പാടത്തേക്ക് പോയി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "paddy scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:walk kid:walk",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "paddy",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:walk",
+          "kid:walk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛന്റെ പത്രപ്പട്ടം, എല്ലാ പട്ടങ്ങളേക്കാളും ഉയരത്തിൽ പറന്നു!",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "paddy scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:point kid:jump,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "paddy",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:point",
+          "kid:jump,happy"
+        ],
+        "props": [
+          "kite"
+        ]
+      }
+    },
+    {
+      "narration_ml": "കൂട്ടുകാർ ചോദിച്ചു.",
+      "dialogue_ml": "ഈ പട്ടം എവിടുന്നാ വാങ്ങിയത്?",
+      "subtitle_ml": "",
+      "visual": "paddy scene with friend, kid",
+      "characters": [
+        "friend",
+        "kid"
+      ],
+      "action": "friend:surprised,talk kid:happy",
+      "speaker": "friend",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "paddy",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "friend:surprised,talk",
+          "kid:happy"
+        ],
+        "props": [
+          "kite"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ അഭിമാനത്തോടെ പറഞ്ഞു, ഇത് വാങ്ങിയതല്ല. എന്റെ അച്ഛൻ ഉണ്ടാക്കിയതാ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "paddy scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "paddy",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "kid:happy"
+        ],
+        "props": [
+          "kite"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "കടയിൽ നിന്ന് വാങ്ങാൻ പറ്റാത്തത് അച്ഛന്മാർ സ്വന്തം കൈകൊണ്ട് ഉണ്ടാക്കിത്തരും 🪁❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "kite",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "childhoodmemories"
+  ]
+}

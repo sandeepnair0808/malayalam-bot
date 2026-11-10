@@ -1,0 +1,219 @@
+{
+  "title_ml": "മാമന്റെ ചെരുപ്പ്",
+  "title_en": "Uncle's Old Slippers",
+  "theme": "An uncle returns from the Gulf with gifts for everyone, wearing the same torn slippers",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "uncle",
+      "name_ml": "മാമൻ",
+      "look": "uncle back from the Gulf, black hair and moustache, orange shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "മൂന്ന് വർഷത്തിന് ശേഷം മാമൻ ഗൾഫിൽ നിന്ന് വന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with uncle, kid",
+      "characters": [
+        "uncle",
+        "kid"
+      ],
+      "action": "uncle:wave,hold=bag kid:jump,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "uncle:wave,hold=bag",
+          "kid:jump,happy"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വലിയ പെട്ടി തുറന്നു. എല്ലാവർക്കും സമ്മാനം. എനിക്ക് ഒരു റിമോട്ട് കാർ!",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with uncle, kid, amma",
+      "characters": [
+        "uncle",
+        "kid",
+        "amma"
+      ],
+      "action": "uncle:hold=gift,happy kid:hold=toy,jump amma:happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "uncle:hold=gift,happy",
+          "kid:hold=toy,jump",
+          "amma:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "കളിക്കുന്നതിനിടയിൽ ഞാൻ മാമന്റെ കാലിലേക്ക് നോക്കി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with uncle, kid",
+      "characters": [
+        "uncle",
+        "kid"
+      ],
+      "action": "uncle:happy kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "uncle:happy",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ആ ചെരുപ്പ്, മൂന്ന് വർഷം മുമ്പ് പോയപ്പോൾ ഇട്ട അതേ ചെരുപ്പ്. പൊട്ടിയത് തുന്നിക്കെട്ടിയിരിക്കുന്നു.",
+      "dialogue_ml": "മാമാ, ചെരുപ്പ് പൊട്ടിയല്ലോ!",
+      "subtitle_ml": "",
+      "visual": "interior scene with uncle, kid",
+      "characters": [
+        "uncle",
+        "kid"
+      ],
+      "action": "uncle:happy kid:point,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "uncle:happy",
+          "kid:point,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "മാമൻ ചിരിച്ചു.",
+      "dialogue_ml": "അത് സാരമില്ല മോനേ, അവിടെ ആരും കാലിലേക്ക് നോക്കില്ല.",
+      "subtitle_ml": "",
+      "visual": "interior scene with uncle",
+      "characters": [
+        "uncle"
+      ],
+      "action": "uncle:talk,happy",
+      "speaker": "uncle",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "uncle:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് എനിക്ക് നല്ല ജോലിയുണ്ട്. മാമൻ തിരിച്ചു പോകുന്ന ദിവസം ഞാൻ ഒരു പൊതി കൊടുത്തു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with grownup, uncle",
+      "characters": [
+        "grownup",
+        "uncle"
+      ],
+      "action": "grownup:hold=gift uncle:surprised",
+      "speaker": null,
+      "camera": "pan_left",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=gift",
+          "uncle:surprised"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ജോഡി പുതിയ ചെരുപ്പ്. മാമൻ ഒന്നും പറഞ്ഞില്ല. പക്ഷേ ആ കണ്ണുകൾ എല്ലാം പറഞ്ഞു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with uncle",
+      "characters": [
+        "uncle"
+      ],
+      "action": "uncle:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "uncle:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "എല്ലാവർക്കും സമ്മാനങ്ങൾ കൊണ്ടുവരുന്ന പ്രവാസിയുടെ ബാഗിൽ അവനു വേണ്ടി ഒന്നും ഉണ്ടാവില്ല ✈️❤️\nപ്രവാസികൾക്ക് സമർപ്പണം",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "gulf",
+    "pravasi",
+    "uncle",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "gulfmalayali"
+  ]
+}

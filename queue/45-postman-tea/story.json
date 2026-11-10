@@ -1,0 +1,204 @@
+{
+  "title_ml": "പോസ്റ്റ്മാന്റെ ചായ",
+  "title_en": "Tea for the Postman",
+  "theme": "A grandmother makes tea for the postman every day while waiting for her son's letters; the habit outlives the letters",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "uncle",
+      "name_ml": "മാമൻ",
+      "look": "uncle back from the Gulf, black hair and moustache, orange shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും രാവിലെ പതിനൊന്ന് മണിക്ക് അമ്മൂമ്മ ഒരു കപ്പ് ചായ ഉണ്ടാക്കി ഉമ്മറത്ത് വെക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:hold=plate,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=plate,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അത് പോസ്റ്റ്മാൻ രാഘവേട്ടന് വേണ്ടിയാണ്. ഗൾഫിലുള്ള മാമന്റെ കത്തുമായി വരുന്ന ആൾ.",
+      "dialogue_ml": "അമ്മേ, മോന്റെ കത്തുണ്ട്!",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, uncle",
+      "characters": [
+        "ammachi",
+        "uncle"
+      ],
+      "action": "ammachi:happy uncle:hold=letter,talk",
+      "speaker": "uncle",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "uncle:hold=letter,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "കത്തില്ലാത്ത ദിവസവും അദ്ദേഹം വരും. ചായ കുടിക്കും. വിശേഷം ചോദിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:read,happy kid:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:read,happy",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ മാമൻ നാട്ടിൽ തിരിച്ചെത്തി. ഫോൺ വന്നു. കത്തുകൾ നിന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with uncle",
+      "characters": [
+        "uncle"
+      ],
+      "action": "uncle:wave,hold=bag",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "uncle:wave,hold=bag"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ ഇന്നും പതിനൊന്ന് മണിക്ക് ആ ചായ ഉമ്മറത്തുണ്ട്.",
+      "dialogue_ml": "ഇനി ആര്ക്കാ അമ്മൂമ്മേ ഈ ചായ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:hold=plate kid:surprised,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=plate",
+          "kid:surprised,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ ഗേറ്റിലേക്ക് നോക്കി ചിരിച്ചു.",
+      "dialogue_ml": "കത്ത് ഇല്ലെങ്കിലെന്താ, രാഘവൻ വരുമല്ലോ.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:talk,happy",
+      "speaker": "ammachi",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "ammachi:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഗേറ്റ് തുറന്ന് രാഘവേട്ടൻ വന്നു. കത്തുകളില്ലാതെ. ഇരുപത് വർഷമായി, ഒരു ദിവസം പോലും മുടങ്ങാതെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with uncle",
+      "characters": [
+        "uncle"
+      ],
+      "action": "uncle:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "uncle:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "കത്തുകൾ വരാതായപ്പോഴും ആ ചായക്കപ്പ് കാത്തിരുന്നു ☕❤️\nഇങ്ങനെ ഒരു അമ്മൂമ്മ നിങ്ങൾക്കും ഉണ്ടോ?",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "postman",
+    "tea",
+    "grandmother",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "title_ml": "അമ്പലത്തിലെ ലഡ്ഡു",
+  "title_en": "The Temple Laddu",
+  "theme": "A grandfather always gives his temple laddu to his grandson, claiming sugar is bad for him",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "appooppan",
+      "name_ml": "അപ്പൂപ്പൻ",
+      "look": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
+      "voice": "old_man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എല്ലാ ഞായറാഴ്ചയും അപ്പൂപ്പനും ഞാനും അമ്പലത്തിൽ പോകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:pray kid:pray",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:pray",
+          "kid:pray"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പ്രസാദമായി രണ്ടുപേർക്കും ഓരോ ലഡ്ഡു കിട്ടും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:hold=laddu,happy kid:hold=laddu,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:hold=laddu,happy",
+          "kid:hold=laddu,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ അതും എനിക്ക് തരും.",
+      "dialogue_ml": "അപ്പൂപ്പന് ഷുഗറാ മോനേ, മധുരം പാടില്ല.",
+      "subtitle_ml": "",
+      "visual": "temple scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:talk,hold=laddu kid:surprised",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,hold=laddu",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ രണ്ട് ലഡ്ഡുവും കഴിച്ച് സന്തോഷത്തോടെ വീട്ടിലേക്ക് നടക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:walk kid:walk,hold=laddu,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:walk",
+          "kid:walk,hold=laddu,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾക്ക് ശേഷം, എന്റെ കല്യാണത്തിന് അപ്പൂപ്പൻ മൂന്ന് ലഡ്ഡു കഴിക്കുന്നത് ഞാൻ കണ്ടു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with appooppan, grownup",
+      "characters": [
+        "appooppan",
+        "grownup"
+      ],
+      "action": "appooppan:eat,happy grownup:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:eat,happy",
+          "grownup:surprised"
+        ],
+        "props": [
+          "table:sweets"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അപ്പൂപ്പന് ഷുഗർ അല്ലേ?",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, appooppan",
+      "characters": [
+        "grownup",
+        "appooppan"
+      ],
+      "action": "grownup:talk appooppan:happy",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk",
+          "appooppan:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ കണ്ണിറുക്കി ചിരിച്ചു.",
+      "dialogue_ml": "എനിക്ക് ഒരിക്കലും ഷുഗർ ഉണ്ടായിരുന്നില്ല മോനേ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with appooppan",
+      "characters": [
+        "appooppan"
+      ],
+      "action": "appooppan:talk,happy",
+      "speaker": "appooppan",
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "appooppan:talk,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "മധുരം ഇഷ്ടമല്ല എന്ന് പറഞ്ഞവർ, നമ്മുടെ ജീവിതം മധുരമാക്കിയവരാണ് 🍬❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "appooppan",
+    "laddu",
+    "temple",
+    "grandfather",
+    "kerala",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

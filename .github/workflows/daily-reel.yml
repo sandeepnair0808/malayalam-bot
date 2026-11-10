@@ -6,8 +6,13 @@ on:
     - cron: "7 13 * * *"
   workflow_dispatch:
     inputs:
+      source:
+        description: "queue = next ready-made reel from queue/ (no API keys needed); new = write a new story with Claude"
+        type: choice
+        options: [queue, new]
+        default: queue
       theme:
-        description: "Story idea (English). Leave empty to pick an unused one."
+        description: "Story idea (English) for source=new. Leave empty to pick an unused one."
         required: false
       story_file:
         description: "Use a ready story instead of writing one, e.g. examples/umbrella_story.json"
@@ -68,7 +73,17 @@ jobs:
         env:
           THEME: ${{ inputs.theme }}
           STORY_FILE: ${{ inputs.story_file }}
+          SOURCE: ${{ inputs.source || 'queue' }}
         run: |
+          if [ "$SOURCE" = "queue" ] && [ -z "$STORY_FILE" ]; then
+            dir=$(reelbot next | tail -n1)
+            if [ "$dir" != "queue is empty" ]; then
+              echo "dir=$dir" >> "$GITHUB_OUTPUT"
+              cat "$dir/caption.txt"
+              exit 0
+            fi
+            echo "Queue is empty; writing a new story with Claude."
+          fi
           args=()
           if [ -n "$STORY_FILE" ]; then args=(--story "$STORY_FILE");
           elif [ -n "$THEME" ]; then args=(--theme "$THEME"); fi
@@ -108,6 +123,7 @@ jobs:
         run: |
           git config user.name "reelbot"
           git config user.email "reelbot@users.noreply.github.com"
-          git add data/history.json
+          if [ -f data/history.json ]; then git add data/history.json; fi
+          git add queue/*/published.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "reel: ${{ steps.make.outputs.dir }}"
           git push

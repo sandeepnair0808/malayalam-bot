@@ -1,0 +1,209 @@
+{
+  "title_ml": "അമ്മൂമ്മയുടെ കടുമാങ്ങ",
+  "title_en": "Ammachi's Mango Pickle",
+  "theme": "A grandmother packs mango pickle every time her grandson leaves for the city; he only understands its taste later",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഞാൻ ഹോസ്റ്റലിലേക്ക് പോകുമ്പോഴെല്ലാം അമ്മൂമ്മ ഒരു കുപ്പി കടുമാങ്ങ ബാഗിൽ വെക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:hold=tiffin,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=tiffin,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എനിക്ക് നാണക്കേടായിരുന്നു.",
+      "dialogue_ml": "അമ്മൂമ്മേ, ഇത് വേണ്ട, ബാഗ് മുഴുവൻ മണം വരും.",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with ammachi, grownup",
+      "characters": [
+        "ammachi",
+        "grownup"
+      ],
+      "action": "ammachi:hold=tiffin grownup:sad,talk",
+      "speaker": "grownup",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=tiffin",
+          "grownup:sad,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഹോസ്റ്റലിൽ ഒരു ദിവസം കൂട്ടുകാർ അത് കണ്ടു. ഒരാഴ്ച കൊണ്ട് കുപ്പി കാലി!",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with friend, grownup",
+      "characters": [
+        "friend",
+        "grownup"
+      ],
+      "action": "friend:eat,happy grownup:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "friend:eat,happy",
+          "grownup:surprised"
+        ],
+        "props": [
+          "table:rice"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എല്ലാവരും ചോദിക്കും.",
+      "dialogue_ml": "ഡാ, അടുത്ത തവണ രണ്ട് കുപ്പി കൊണ്ടുവരണം!",
+      "subtitle_ml": "",
+      "visual": "classroom scene with friend, grownup",
+      "characters": [
+        "friend",
+        "grownup"
+      ],
+      "action": "friend:talk,happy grownup:happy",
+      "speaker": "friend",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "friend:talk,happy",
+          "grownup:happy"
+        ],
+        "props": [
+          "table:rice"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾക്ക് ശേഷം അമ്മൂമ്മ പോയി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:sad"
+        ],
+        "props": [
+          "photo:ammachi+garland"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ പറഞ്ഞ അതേ രീതിയിൽ ഞാൻ കടുമാങ്ങ ഉണ്ടാക്കി നോക്കി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:cook",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:cook"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എല്ലാം ശരിയായിരുന്നു. ഉപ്പ്, മുളക്, മാങ്ങ. പക്ഷേ ഒരു ചേരുവ ഇല്ലായിരുന്നു. അമ്മൂമ്മയുടെ കൈ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:sad",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:sad"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഏത് ഹോട്ടലിലെ അച്ചാറിനും അമ്മൂമ്മയുടെ കടുമാങ്ങയുടെ രുചി കിട്ടില്ല 🥭❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "pickle",
+    "kadumanga",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "hostellife"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "title_ml": "ചേച്ചി വിട്ട സൈക്കിൾ",
+  "title_en": "When Chechi Let Go",
+  "theme": "An elder sister teaches her brother to cycle, secretly letting go of the seat",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എനിക്ക് സൈക്കിൾ ഓടിക്കാൻ പഠിപ്പിച്ചത് ചേച്ചിയാണ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:happy kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:happy",
+          "kid:surprised"
+        ],
+        "props": [
+          "bicycle:blue"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വീഴുമോ എന്ന് പേടിച്ചു.",
+      "dialogue_ml": "പേടിക്കണ്ട, ഞാൻ പിന്നിൽ പിടിച്ചിട്ടുണ്ട്.",
+      "subtitle_ml": "",
+      "visual": "lane scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:walk,talk kid:walk,sad",
+      "speaker": "chechi",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:walk,talk",
+          "kid:walk,sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചവിട്ടി. ചവിട്ടി. വേഗം കൂടി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:walk,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:walk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ഉറക്കെ വിളിച്ചു.",
+      "dialogue_ml": "ചേച്ചീ, വിടല്ലേ!",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:happy,talk",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:happy,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "തിരിഞ്ഞു നോക്കിയപ്പോൾ ചേച്ചി ദൂരെ നിന്ന് കൈ വീശുന്നു. ഒരുപാട് നേരമായി ചേച്ചി എന്നെ വിട്ടിട്ട്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with chechi",
+      "characters": [
+        "chechi"
+      ],
+      "action": "chechi:wave,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:wave,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് ഞാൻ എന്റെ മോളെ സൈക്കിൾ പഠിപ്പിക്കുന്നു.",
+      "dialogue_ml": "പേടിക്കണ്ട, ഞാൻ പിന്നിൽ പിടിച്ചിട്ടുണ്ട്.",
+      "subtitle_ml": "",
+      "visual": "yard scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:talk girl:surprised",
+      "speaker": "grownup",
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk",
+          "girl:surprised"
+        ],
+        "props": [
+          "bicycle:red"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ഞാൻ പതുക്കെ കൈ വിട്ടു. ചേച്ചിയെപ്പോലെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "പിടിച്ചിട്ടുണ്ട് എന്ന് പറഞ്ഞ് കൈ വിട്ടവരാണ് നമ്മളെ ഓടാൻ പഠിപ്പിച്ചത് 🚲❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "chechi",
+    "cycle",
+    "sister",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "childhoodmemories"
+  ]
+}

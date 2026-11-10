@@ -1,0 +1,208 @@
+{
+  "title_ml": "അപ്പൂപ്പന്റെ പതുക്കെ നടത്തം",
+  "title_en": "Walking Slowly with Appooppan",
+  "theme": "A grandfather once walked slowly for his little grandson; now the grandson walks slowly for him",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "appooppan",
+      "name_ml": "അപ്പൂപ്പൻ",
+      "look": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
+      "voice": "old_man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "കുട്ടിക്കാലത്ത് എന്നും രാവിലെ അപ്പൂപ്പനോടൊപ്പം അമ്പലത്തിലേക്ക് നടക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:walk kid:walk,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:walk",
+          "kid:walk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ വളരെ പതുക്കെയാണ് നടക്കുക.",
+      "dialogue_ml": "അപ്പൂപ്പൻ എന്താ ഇത്ര പതുക്കെ നടക്കുന്നേ?",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:happy kid:talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:happy",
+          "kid:talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ ചിരിച്ചു.",
+      "dialogue_ml": "നിന്റെ കുഞ്ഞിക്കാല് എനിക്കൊപ്പം എത്തണ്ടേ.",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:talk,happy kid:idle",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,happy",
+          "kid:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അങ്ങനെ എല്ലാ ദിവസവും. ഞാൻ ഓടിയില്ല, അപ്പൂപ്പൻ വേഗം കൂട്ടിയില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:pray kid:pray",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:pray",
+          "kid:pray"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് അപ്പൂപ്പന് തൊണ്ണൂറ് വയസ്സ്. ഞാൻ കൂടെ നടക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with grownup, appooppan",
+      "characters": [
+        "grownup",
+        "appooppan"
+      ],
+      "action": "grownup:walk appooppan:walk",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:walk",
+          "appooppan:walk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ ചോദിച്ചു.",
+      "dialogue_ml": "നീ എന്താ ഇത്ര പതുക്കെ നടക്കുന്നേ?",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan, grownup",
+      "characters": [
+        "appooppan",
+        "grownup"
+      ],
+      "action": "appooppan:talk,surprised grownup:happy",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,surprised",
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചിരിച്ചു. ഇത്തവണ എന്റെ ഊഴം ആണ് അപ്പൂപ്പാ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഒരിക്കൽ അവർ നമുക്ക് വേണ്ടി പതുക്കെ നടന്നു. ഇന്ന് നമ്മൾ അവർക്ക് വേണ്ടി 🚶‍♂️❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "appooppan",
+    "walk",
+    "grandfather",
+    "kerala",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

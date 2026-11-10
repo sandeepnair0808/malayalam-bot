@@ -25,7 +25,7 @@ class SceneClip:
     audio: Path | None
     duration: float
     camera: str
-    subtitle: str
+    subtitle: str | list  # fixed text, or [(text, start, end)] timed inside the scene
     svg: str | None = None  # when set, the scene is animated frame by frame
     talk_audio: Path | None = None  # speech that drives the on-screen speaker's mouth
     talk_offset: float = 0.0  # seconds into the scene's speech where talk_audio starts
@@ -238,7 +238,11 @@ def assemble(settings: Settings, clips: list[SceneClip], workdir: Path, out: Pat
 
     cues, t = [], 0.0
     for clip in clips:
-        cues.append(Cue(t + 0.1, t + clip.duration - 0.1, clip.subtitle))
+        if isinstance(clip.subtitle, list):  # [(text, start, end)] relative to the scene
+            for text, a, b in clip.subtitle:
+                cues.append(Cue(t + max(a, 0.05), t + min(b + 0.15, clip.duration - 0.05), text))
+        elif clip.subtitle:
+            cues.append(Cue(t + 0.1, t + clip.duration - 0.1, clip.subtitle))
         t += clip.duration
     ass = write_ass(cues, settings.font, workdir / "subs.ass", settings.width, settings.height)
 

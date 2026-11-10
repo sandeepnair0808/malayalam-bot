@@ -30,6 +30,15 @@ def main(argv: list[str] | None = None) -> int:
     pb.add_argument("reel_dir", type=Path)
     pb.add_argument("--video-url", help="public HTTPS URL of reel.mp4 instead of uploading the file")
 
+    pk = sub.add_parser("pack", help="expand story pack(s) into ready story folders (and optionally render them)")
+    pk.add_argument("packs", nargs="+", type=Path)
+    pk.add_argument("--out", type=Path, default=Path("queue"))
+    pk.add_argument("--render", action="store_true", help="also render each reel.mp4")
+
+    nx = sub.add_parser("next", help="render (and optionally publish) the next unpublished reel from the queue")
+    nx.add_argument("--queue", type=Path, default=Path("queue"))
+    nx.add_argument("--publish", action="store_true")
+
     rn = sub.add_parser("run", help="make a reel and publish it")
     rn.add_argument("--theme")
     rn.add_argument("--no-publish", action="store_true", help="only make the reel")
@@ -55,6 +64,24 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "publish":
         result = pipeline.publish(settings, args.reel_dir, video_url=args.video_url)
         print(result.permalink or result.media_id)
+    elif args.cmd == "pack":
+        from .storypack import write_pack
+
+        for pack in args.packs:
+            for d in write_pack(pack, args.out):
+                print(d)
+                if args.render:
+                    pipeline.rebuild(settings, d)
+    elif args.cmd == "next":
+        d = pipeline.next_in_queue(settings, args.queue)
+        if d is None:
+            print("queue is empty")
+            return 0
+        pipeline.rebuild(settings, d)
+        print(d)
+        if args.publish:
+            result = pipeline.publish(settings, d)
+            print(result.permalink or result.media_id)
     elif args.cmd == "run":
         reel_dir = pipeline.make(settings, theme=args.theme)
         print(reel_dir)

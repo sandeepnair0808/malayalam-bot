@@ -1,0 +1,224 @@
+{
+  "title_ml": "അച്ഛന്റെ ലോട്ടറി",
+  "title_en": "Achan's Lottery Ticket",
+  "theme": "A father buys a lottery ticket every week and never wins, but says he already won the biggest prize",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എല്ലാ ആഴ്ചയും അച്ഛൻ ഒരു ലോട്ടറി ടിക്കറ്റ് എടുക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:hold=letter,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=letter,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പത്രത്തിൽ ഫലം നോക്കും. ഒരിക്കലും അടിക്കില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:read kid:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:read",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അച്ഛാ, ഒരിക്കലും അടിക്കില്ലല്ലോ. പിന്നെ എന്തിനാ എടുക്കുന്നേ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:talk achan:happy",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:talk",
+          "achan:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ചിരിച്ചു.",
+      "dialogue_ml": "ഒരു ദിവസം അടിച്ചാൽ ആദ്യം നിനക്ക് ഒരു സൈക്കിൾ. അമ്മയ്ക്ക് ഒരു മാല.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:talk,happy kid:idle",
+      "speaker": "achan",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "kid:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ലോട്ടറി ഒരിക്കലും അടിച്ചില്ല. പക്ഷേ എനിക്ക് സൈക്കിളും അമ്മയ്ക്ക് മാലയും കിട്ടി. അച്ഛന്റെ ഓവർടൈം കൊണ്ട്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, amma, kid, girl",
+      "characters": [
+        "achan",
+        "amma",
+        "kid",
+        "girl"
+      ],
+      "action": "achan:happy amma:happy kid:jump,happy girl:jump,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:happy",
+          "amma:happy",
+          "kid:jump,happy",
+          "girl:jump,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരിക്കൽ ഞാൻ കളിയാക്കി ചോദിച്ചു.",
+      "dialogue_ml": "അച്ഛാ, ഇതുവരെ ഒരു ലോട്ടറിയും അടിച്ചില്ലല്ലോ?",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, achan",
+      "characters": [
+        "grownup",
+        "achan"
+      ],
+      "action": "grownup:talk achan:happy",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk",
+          "achan:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ഞങ്ങളെ എല്ലാവരെയും നോക്കി പറഞ്ഞു.",
+      "dialogue_ml": "ബമ്പർ എന്നോ അടിച്ചു മോനേ. ദാ, എന്റെ മുന്നിൽ ഇരിക്കുന്നു.",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:talk,happy",
+      "speaker": "achan",
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "achan:talk,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ചില ഭാഗ്യങ്ങൾ ടിക്കറ്റിൽ അല്ല, വീട്ടിലാണ് 🎟️❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "lottery",
+    "father",
+    "family",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "funny"
+  ]
+}

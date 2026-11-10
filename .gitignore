@@ -9,3 +9,7 @@ examples/*/scenes/*.png
 examples/*/work/
 examples/*/reel.mp4
 examples/*/caption.txt
+queue/*/reel.mp4
+queue/*/work/
+queue/*/scenes/*.png
+queue/*.log

@@ -1,0 +1,210 @@
+{
+  "title_ml": "ചേച്ചി കെട്ടിത്തന്ന മുടി",
+  "title_en": "The Braids Chechi Tied",
+  "theme": "An elder sister braids her little sister's hair every morning, until she leaves home after marriage",
+  "setting": "Kerala village home",
+  "narrator_voice": "woman",
+  "characters": [
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും രാവിലെ ചേച്ചി എന്റെ മുടി പിന്നിക്കെട്ടിത്തരും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with chechi, girl",
+      "characters": [
+        "chechi",
+        "girl"
+      ],
+      "action": "chechi:happy girl:sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:happy",
+          "girl:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ എന്നും കരയും, വേദനിക്കുന്നു എന്ന് പറഞ്ഞ്.",
+      "dialogue_ml": "പതുക്കെ ചേച്ചീ, വേദനിക്കുന്നു!",
+      "subtitle_ml": "",
+      "visual": "interior scene with chechi, girl",
+      "characters": [
+        "chechi",
+        "girl"
+      ],
+      "action": "chechi:talk girl:sad,talk",
+      "speaker": "girl",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:talk",
+          "girl:sad,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചി ചിരിക്കും.",
+      "dialogue_ml": "ഭംഗി വേണമെങ്കിൽ കുറച്ച് വേദന സഹിക്കണം!",
+      "subtitle_ml": "",
+      "visual": "interior scene with chechi, girl",
+      "characters": [
+        "chechi",
+        "girl"
+      ],
+      "action": "chechi:talk,happy girl:happy",
+      "speaker": "chechi",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:talk,happy",
+          "girl:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ചേച്ചിയുടെ കല്യാണം കഴിഞ്ഞു. ചേച്ചി ദൂരെ ഒരു വീട്ടിലേക്ക് പോയി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with chechi, girl",
+      "characters": [
+        "chechi",
+        "girl"
+      ],
+      "action": "chechi:hug girl:hug,sad,cry",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "chechi:hug",
+          "girl:hug,sad,cry"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിറ്റേന്ന് രാവിലെ ഞാൻ തനിയെ മുടി കെട്ടാൻ നോക്കി. പറ്റിയില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with girl",
+      "characters": [
+        "girl"
+      ],
+      "action": "girl:sad",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "girl:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് ആദ്യമായി, ആ വേദന ഞാൻ ആഗ്രഹിച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with girl",
+      "characters": [
+        "girl"
+      ],
+      "action": "girl:sad,cry",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "girl:sad,cry"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് ഞാൻ എന്റെ മോളുടെ മുടി കെട്ടുന്നു. അവൾ കരയുമ്പോൾ ഞാൻ ചിരിക്കും. ചേച്ചിയെപ്പോലെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, girl",
+      "characters": [
+        "amma",
+        "girl"
+      ],
+      "action": "amma:happy girl:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:happy",
+          "girl:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ചേച്ചി പോയതിന് ശേഷം ആണ് മുടി കെട്ടാൻ ഇത്ര ബുദ്ധിമുട്ടാണെന്ന് മനസ്സിലായത് 🎀❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "chechi",
+    "sister",
+    "braid",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "sisterlove"
+  ]
+}

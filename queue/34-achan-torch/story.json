@@ -1,0 +1,216 @@
+{
+  "title_ml": "അച്ഛന്റെ ടോർച്ച്",
+  "title_en": "Achan's Torch",
+  "theme": "A father waits with a torch every night after tuition; when the boy tells him to stop, he keeps waiting in secret",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ട്യൂഷൻ കഴിഞ്ഞ് രാത്രി ഒൻപതിന് ബസ് ഇറങ്ങുമ്പോൾ, അച്ഛൻ ടോർച്ചുമായി കാത്തുനിൽക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:hold=lamp kid:hold=bag",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=lamp",
+          "kid:hold=bag"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇരുട്ടുള്ള ഇടവഴിയിലൂടെ ഞങ്ങൾ ഒരുമിച്ച് നടക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:walk,hold=lamp kid:walk",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:walk,hold=lamp",
+          "kid:walk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പതിനഞ്ച് വയസ്സായപ്പോൾ ഞാൻ പറഞ്ഞു.",
+      "dialogue_ml": "ഇനി വരണ്ട അച്ഛാ. കൂട്ടുകാർ കളിയാക്കുന്നു. ഞാൻ വലുതായി.",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:talk,sad achan:idle",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:talk,sad",
+          "achan:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിറ്റേന്ന് ബസ് സ്റ്റോപ്പിൽ ആരും ഉണ്ടായിരുന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:surprised,hold=bag",
+      "speaker": null,
+      "camera": "pan_left",
+      "ambience": "night",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:surprised,hold=bag"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇരുട്ട്. പട്ടികളുടെ കുര. എനിക്ക് പേടിയായി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:walk,sad",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:walk,sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ ഇടവഴിയുടെ നടുവിൽ, ഒരു മരത്തിന്റെ പിന്നിൽ നിന്ന് ഒരു ടോർച്ച് വെളിച്ചം എന്റെ വഴിയിലേക്ക് വീണു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:hold=lamp,happy kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=lamp,happy",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ വന്നിരുന്നു. ഞാൻ കാണാതെ. എന്റെ വഴിക്ക് വെളിച്ചം കാണിക്കാൻ മാത്രം.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:hold=lamp,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "night"
+        ],
+        "shot": "close",
+        "cast": [
+          "achan:hold=lamp,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഇരുട്ടുള്ള വഴിയിൽ നമുക്ക് മുന്നിൽ ഒരു വെളിച്ചം ഉണ്ടായിരുന്നു... അച്ഛൻ 🔦❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "torch",
+    "tuition",
+    "father",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "fatherslove"
+  ]
+}

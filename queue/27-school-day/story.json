@@ -1,0 +1,208 @@
+{
+  "title_ml": "സ്കൂൾ വാർഷികത്തിലെ അച്ഛൻ",
+  "title_en": "Achan at the School Day",
+  "theme": "A boy asks his father not to come to the school function in his old clothes; the father comes anyway",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "teacher",
+      "name_ml": "ടീച്ചർ",
+      "look": "school teacher, black hair bun, blue saree with gold border",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "സ്കൂൾ വാർഷികത്തിന് എനിക്ക് സമ്മാനം കിട്ടുന്നുണ്ടായിരുന്നു.",
+      "dialogue_ml": "അച്ഛൻ വരണ്ട. എല്ലാവരുടെയും അച്ഛന്മാർ നല്ല ഡ്രസ്സിലാ വരുന്നത്.",
+      "subtitle_ml": "",
+      "visual": "yard scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:talk,sad achan:idle",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:talk,sad",
+          "achan:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ഒന്നും മിണ്ടിയില്ല. തല കുലുക്കി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:sad",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "സമ്മാനം വാങ്ങാൻ ഞാൻ സ്റ്റേജിൽ കയറി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "school scene with teacher, kid",
+      "characters": [
+        "teacher",
+        "kid"
+      ],
+      "action": "teacher:hold=gift kid:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "school",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "teacher:hold=gift",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ ഗേറ്റിന് പുറത്ത്, മതിലിനപ്പുറം, ഒരു മുഖം ഞാൻ കണ്ടു. എല്ലാവരേക്കാളും ഉച്ചത്തിൽ കൈയടിക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "school scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:wave,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "school",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:wave,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എന്റെ അച്ഛൻ. പഴയ ഷർട്ടിട്ട്, ആരും കാണാതെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "school scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:happy,wave kid:sad,cry,hold=gift",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "school",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:happy,wave",
+          "kid:sad,cry,hold=gift"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "തിരിച്ചു നടക്കുമ്പോൾ ഞാൻ അച്ഛന്റെ കൈ മുറുകെ പിടിച്ചു. ഒന്നും പറയാൻ പറ്റിയില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:walk kid:walk,hold=gift",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:walk",
+          "kid:walk,hold=gift"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അടുത്ത വർഷം ഞാൻ അച്ഛനെ ഏറ്റവും മുന്നിലെ കസേരയിൽ ഇരുത്തി. ആ പഴയ ഷർട്ടിൽ തന്നെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "school scene with achan",
+      "characters": [
+        "achan"
+      ],
+      "action": "achan:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "school",
+        "fx": [
+          "festive"
+        ],
+        "shot": "close",
+        "cast": [
+          "achan:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഏറ്റവും ഉച്ചത്തിൽ കൈയടിക്കുന്നത്, ഏറ്റവും പിന്നിൽ നിൽക്കുന്ന അച്ഛനായിരിക്കും 👏❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "school",
+    "anniversary",
+    "father",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "fatherslove"
+  ]
+}

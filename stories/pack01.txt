@@ -1,0 +1,139 @@
+### 01-ammachi-kizhi
+title: അമ്മൂമ്മയുടെ സാരിത്തുമ്പിലെ കിഴി | Ammachi's Knotted Coins
+theme: A grandmother secretly saves coins in her saree knot for her grandson's school trip
+narrator: man
+caption: സാരിത്തുമ്പിൽ കെട്ടിവെച്ച ആ ചില്ലറകൾക്ക് ഇന്നത്തെ ഏത് ശമ്പളത്തേക്കാളും വിലയുണ്ട് ❤️\nനിങ്ങളുടെ അമ്മൂമ്മയെ ഓർക്കുന്നുണ്ടോ?
+tags: malayalam malayalamstory ammachi grandmother kerala nostalgia mallureels malayalamreels childhoodmemories
+- veranda | zoom_in | wind | ammachi:happy | nilavilakku || എന്റെ അമ്മൂമ്മയുടെ സാരിത്തുമ്പിൽ, എന്നും ഒരു ചെറിയ കെട്ട് ഉണ്ടാകും. ||
+- school | pan_right | wind | friend:jump kid:sad || സ്കൂളിൽ നിന്ന് ടൂർ പോകുന്നു. എല്ലാവരും പൈസ കൊടുത്തു, എനിക്ക് മാത്രം പറ്റിയില്ല. ||
+- interior | still | indoor | amma:sad kid:sad,talk || വീട്ടിൽ വന്ന് ഞാൻ കരഞ്ഞു. || kid: എനിക്ക് മാത്രം ടൂർ പോകാൻ പറ്റില്ല!
+- interior+night | zoom_in | night | ammachi:hold=money kid:surprised | kerosene_lamp || അന്ന് രാത്രി, അമ്മൂമ്മ ആ കെട്ട് അഴിച്ചു. || ammachi: ഇതാ മോനേ, ആരോടും പറയണ്ട.
+- bus_stop | pan_right | wind | kid:wave,happy friend:wave | bus || ഞാൻ ടൂർ പോയി. ജീവിതത്തിലെ ഏറ്റവും നല്ല ദിവസം. ||
+- veranda | still | wind | ammachi:sad | chair || പിന്നെയാണ് ഞാൻ അറിഞ്ഞത്, അമ്മൂമ്മ ഒരു മാസം ചായ കുടിക്കാതെയാണ് ആ പൈസ കൂട്ടിവെച്ചത്. ||
+- veranda+close | zoom_out | wind | ammachi:happy || ഇന്ന് എന്റെ പോക്കറ്റ് നിറയെ പൈസയുണ്ട്. പക്ഷേ ആ കിഴിയുടെ അത്രയും വിലയുള്ള ഒന്നും ഇല്ല. ||
+
+### 02-gulf-letter
+title: ഗൾഫിൽ നിന്നുള്ള കത്ത് | The Letter from the Gulf
+theme: A boy reads his father's Gulf letters aloud to his grandmother again and again; years later he understands why
+narrator: man
+caption: ഒരു കത്ത് എത്ര തവണ വായിച്ചാലും മതിയാവില്ല... അത് അയച്ച ആൾ ദൂരെയാകുമ്പോൾ ✉️❤️\nഗൾഫ് കുടുംബങ്ങൾക്ക് ഈ റീൽ
+tags: malayalam malayalamstory gulf pravasi letter kerala nostalgia mallureels malayalamreels
+- veranda | zoom_in | wind | ammachi:hold=letter kid:surprised || അച്ഛൻ ഗൾഫിലായിരുന്നു. മാസത്തിൽ ഒരിക്കൽ ഒരു കത്ത് വരും. ||
+- interior | still | indoor | ammachi:happy kid:read | photo:achan || അമ്മൂമ്മയ്ക്ക് വായിക്കാൻ അറിയില്ല. അതുകൊണ്ട് ഞാനാണ് ഉറക്കെ വായിക്കുക. ||
+- interior | zoom_in | indoor | ammachi:talk kid:read || ഒരു തവണ വായിച്ചു കഴിഞ്ഞാൽ അമ്മൂമ്മ പറയും. || ammachi: ഒന്നൂടെ വായിക്ക് മോനേ.
+- interior | still | indoor | ammachi:happy kid:sad,talk,read || രണ്ടാമതും, മൂന്നാമതും, നാലാമതും. || kid: എത്ര തവണയാ അമ്മൂമ്മേ!
+- bus_stop | pan_left | wind | grownup:hold=bag,wave | bus || വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് ഞാനാണ് ഗൾഫിൽ. ||
+- night_room | zoom_in | night | grownup:phone,happy | kerosene_lamp || എന്റെ മോൾ ഫോണിൽ ഒരു വോയിസ് മെസേജ് അയച്ചു. ||
+- night_room+close | zoom_out | night | grownup:phone,sad || ഞാൻ അത് ഇരുപത് തവണ കേട്ടു. അന്ന് എനിക്ക് മനസ്സിലായി, അമ്മൂമ്മ കേട്ടത് കത്തല്ല... മകന്റെ ശബ്ദമായിരുന്നു. ||
+
+### 03-extra-chapati
+title: ടിഫിനിലെ ഒരു ചപ്പാത്തി കൂടുതൽ | One Extra Chapati
+theme: A mother packs one extra chapati every day; years later the son learns who it was for
+narrator: man
+caption: അമ്മമാർക്ക് എല്ലാം അറിയാം... നമ്മൾ പറയാതെ തന്നെ 🍱❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma tiffin school kerala nostalgia mallureels malayalamreels motherslove
+- kitchen | zoom_in | indoor | amma:cook | stove || എന്നും രാവിലെ അമ്മ എന്റെ ടിഫിൻ ബോക്സ് നിറയ്ക്കും. ||
+- kitchen | still | indoor | amma:hold=tiffin kid:surprised,talk || ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, എന്നും ഒരു ചപ്പാത്തി കൂടുതൽ. || kid: അമ്മേ, ഞാൻ ഇത്രയും തിന്നില്ല!
+- kitchen | zoom_in | indoor | amma:talk,happy kid:idle || അമ്മ ചിരിച്ചു. || amma: അത് നിന്റെ കൂട്ടുകാരന് കൊടുത്തോ.
+- classroom | pan_right | indoor | kid:hold=tiffin friend:happy || ഉച്ചയ്ക്ക് ഞാൻ അത് അപ്പുവിന് കൊടുത്തു. അവൻ ഒരിക്കലും ചോറ് കൊണ്ടുവരാറില്ലായിരുന്നു. ||
+- classroom | still | indoor | kid:happy friend:happy,eat,hold=dosa || എല്ലാ ദിവസവും. ഞാൻ ഒന്നും ചോദിച്ചില്ല, അവൻ ഒന്നും പറഞ്ഞില്ല. ||
+- yard | zoom_in | wind | grownup:hug friend:hug || ഇരുപത് വർഷം കഴിഞ്ഞ് അപ്പുവിനെ വീണ്ടും കണ്ടു. ഇന്ന് അവൻ ഒരു ഡോക്ടറാണ്. ||
+- yard+close | zoom_out | wind | amma:happy || അവൻ പറഞ്ഞു, ആ ചപ്പാത്തി ഇല്ലായിരുന്നെങ്കിൽ ഞാൻ സ്കൂൾ നിർത്തിയേനെ. അമ്മയ്ക്ക് അത് ആദ്യമേ അറിയാമായിരുന്നു. ||
+
+### 04-power-cut
+title: കറന്റ് പോയ രാത്രികൾ | The Power Cut Nights
+theme: A father tells stories by lamplight during power cuts; years later his son tells the same stories to his daughter
+narrator: man
+caption: കറന്റ് പോകുമ്പോൾ ആയിരുന്നു ഞങ്ങളുടെ വീട്ടിൽ ഏറ്റവും വെളിച്ചം 🪔❤️\nനിങ്ങൾക്കും ഉണ്ടോ ഇങ്ങനെ ഓർമ്മകൾ?
+tags: malayalam malayalamstory powercut achan stories kerala nostalgia mallureels malayalamreels
+- night_room+rain | zoom_in | rain | kid:surprised | kerosene_lamp || മഴക്കാലത്ത് എന്നും രാത്രി കറന്റ് പോകും. ||
+- night_room+rain | still | rain | achan:talk,happy kid:happy girl:happy | kerosene_lamp || അപ്പോൾ അച്ഛൻ മണ്ണെണ്ണ വിളക്ക് കത്തിച്ച് കഥ പറയും. || achan: പണ്ട് പണ്ട്, ഒരു കാട്ടിൽ ഒരു ആന ഉണ്ടായിരുന്നു...
+- night_room+rain | zoom_in | rain | kid:sad,talk achan:happy | kerosene_lamp || കറന്റ് വന്നാൽ ഞങ്ങൾക്ക് സങ്കടമായിരുന്നു. || kid: അയ്യോ, കറന്റ് വന്നു!
+- interior | pan_right | indoor | grownup:phone girl:phone | tv || വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് എന്റെ വീട്ടിൽ ആരും കഥ പറയാറില്ല. എല്ലാവരും ഫോണിൽ. ||
+- night_room+rain | still | rain | grownup:surprised girl:surprised,talk | kerosene_lamp || ഒരു രാത്രി കറന്റ് പോയി. || girl: അച്ഛാ, പേടിയാവുന്നു!
+- night_room+rain | zoom_in | rain | grownup:talk,happy girl:happy | kerosene_lamp || ഞാൻ ഒരു വിളക്ക് കത്തിച്ചു. || grownup: പണ്ട് പണ്ട്, ഒരു കാട്ടിൽ ഒരു ആന ഉണ്ടായിരുന്നു...
+- night_room+close | zoom_out | night | grownup:happy | kerosene_lamp || കറന്റ് വന്നപ്പോൾ എന്റെ മോൾ പറഞ്ഞു, ലൈറ്റ് ഓഫ് ചെയ്യൂ അച്ഛാ, കഥ തീർന്നില്ല. ||
+
+### 05-paper-kite
+title: പത്രക്കടലാസിലെ പട്ടം | The Newspaper Kite
+theme: A boy is ashamed of the kite his father made from newspaper, until it flies the highest
+narrator: man
+caption: കടയിൽ നിന്ന് വാങ്ങാൻ പറ്റാത്തത് അച്ഛന്മാർ സ്വന്തം കൈകൊണ്ട് ഉണ്ടാക്കിത്തരും 🪁❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan kite kerala nostalgia mallureels malayalamreels childhoodmemories
+- paddy | zoom_in | wind | friend:jump,happy | kite || വേനലവധിക്ക് എല്ലാവരും പാടത്ത് പട്ടം പറത്തും. കടയിൽ നിന്ന് വാങ്ങിയ നിറമുള്ള പട്ടങ്ങൾ. ||
+- veranda | still | wind | achan:hold=letter kid:sad,talk || എന്റെ അച്ഛൻ പത്രക്കടലാസ് കൊണ്ട് ഒരു പട്ടം ഉണ്ടാക്കി. || kid: എനിക്ക് ഇത് വേണ്ട, എല്ലാവരും കളിയാക്കും!
+- veranda | zoom_in | wind | achan:talk,happy kid:sad || അച്ഛൻ ചിരിച്ചു. || achan: പട്ടം പറക്കുന്നത് നിറം കൊണ്ടല്ല മോനേ, കാറ്റ് കൊണ്ടാണ്.
+- paddy | pan_right | wind | achan:walk kid:walk || പിറ്റേന്ന് ഞങ്ങൾ പാടത്തേക്ക് പോയി. ||
+- paddy | zoom_out | wind | achan:point kid:jump,happy | kite || അച്ഛന്റെ പത്രപ്പട്ടം, എല്ലാ പട്ടങ്ങളേക്കാളും ഉയരത്തിൽ പറന്നു! ||
+- paddy | still | wind | friend:surprised,talk kid:happy | kite || കൂട്ടുകാർ ചോദിച്ചു. || friend: ഈ പട്ടം എവിടുന്നാ വാങ്ങിയത്?
+- paddy+close | zoom_out | wind | kid:happy | kite || ഞാൻ അഭിമാനത്തോടെ പറഞ്ഞു, ഇത് വാങ്ങിയതല്ല. എന്റെ അച്ഛൻ ഉണ്ടാക്കിയതാ. ||
+
+### 06-pookkalam
+title: ചേച്ചി തോൽക്കുന്ന പൂക്കളം | The Pookkalam Chechi Lost
+theme: Every Onam an elder sister loses the pookkalam contest on purpose so her little brother can win
+narrator: man
+caption: ചേച്ചിമാർ തോൽക്കുന്നത് നമ്മൾ ജയിക്കാൻ വേണ്ടി മാത്രമാണ് 🌼❤️\nനിങ്ങളുടെ ചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory onam pookkalam chechi sister kerala nostalgia mallureels malayalamreels
+- yard+festive | zoom_in | wind | chechi:happy kid:happy | pookkalam || ഓണത്തിന് എന്നും ഞാനും ചേച്ചിയും തമ്മിൽ പൂക്കള മത്സരം. ||
+- yard | still | wind | chechi:hold=flower kid:hold=flower || ചേച്ചിയുടെ പൂക്കളം എപ്പോഴും എന്റേതിനേക്കാൾ ഭംഗിയുള്ളതായിരിക്കും. ||
+- yard | zoom_in | wind | ammachi:point,talk chechi:sad kid:jump,happy | pookkalam || പക്ഷേ എന്നും ഞാനാണ് ജയിക്കുക. || ammachi: ഈ വർഷവും ഉണ്ണി തന്നെ ജയിച്ചു!
+- yard | still | wind | chechi:happy kid:happy,talk | pookkalam || ചേച്ചി എന്നും ചിരിച്ചു കൊണ്ട് കൈയടിക്കും. || kid: ചേച്ചിക്ക് പൂക്കളം ഇടാൻ അറിയില്ല!
+- yard+festive | pan_right | wind | chechi:hug grownup:hug || വർഷങ്ങൾ കഴിഞ്ഞു. ചേച്ചിയുടെ കല്യാണം ആയിരുന്നു. ||
+- yard | zoom_in | wind | ammachi:talk grownup:surprised | pookkalam || അന്ന് അമ്മൂമ്മ ആ രഹസ്യം പറഞ്ഞു. || ammachi: അവൾ എന്നും അവസാനം ഒരു പൂവ് മനഃപൂർവ്വം മാറ്റി വെക്കുമായിരുന്നു.
+- yard+close | zoom_out | wind | chechi:happy | pookkalam || ഞാൻ ജയിച്ച എല്ലാ ഓണങ്ങളും, ചേച്ചി എനിക്ക് തന്ന സമ്മാനങ്ങളായിരുന്നു. ||
+
+### 07-radio-seven
+title: ഏഴുമണിയുടെ റേഡിയോ | The Seven O'Clock Radio
+theme: A grandmother keeps switching on her late husband's radio every evening at seven
+narrator: man
+caption: ചില ശീലങ്ങൾ മാറില്ല... അവ സ്നേഹത്തിന്റെ ഓർമ്മകളാണ് 📻❤️\nഅപ്പൂപ്പനെയും അമ്മൂമ്മയെയും ഓർക്കുന്നുണ്ടോ?
+tags: malayalam malayalamstory radio appooppan ammachi kerala nostalgia mallureels malayalamreels love
+- interior | zoom_in | indoor | appooppan:happy | radio clock || എന്റെ അപ്പൂപ്പന് ഒരു പഴയ റേഡിയോ ഉണ്ടായിരുന്നു. ||
+- interior | still | indoor | appooppan:happy ammachi:talk | radio || എന്നും വൈകുന്നേരം ഏഴുമണിക്ക് അപ്പൂപ്പൻ അത് ഓൺ ചെയ്യും. || ammachi: ഈ ഒച്ച കാരണം ഒരു സ്വസ്ഥതയും ഇല്ല!
+- interior | zoom_in | indoor | appooppan:talk,happy ammachi:sad | radio || അമ്മൂമ്മ എന്നും പരാതി പറയും. അപ്പൂപ്പൻ ചിരിക്കും. || appooppan: നീ പരാതി പറഞ്ഞില്ലെങ്കിൽ എനിക്ക് വാർത്ത കേട്ട ഒരു തൃപ്തി ഇല്ല.
+- interior | still | indoor | ammachi:sad | photo:appooppan+garland chair || കുറേ വർഷങ്ങൾക്ക് ശേഷം, അപ്പൂപ്പൻ ഞങ്ങളെ വിട്ടുപോയി. ||
+- interior | zoom_in | indoor | ammachi:idle | radio clock || ഒരു വൈകുന്നേരം ഏഴുമണിക്ക്, ഞാൻ ആ ശബ്ദം വീണ്ടും കേട്ടു. ||
+- interior | still | indoor | ammachi:happy grownup:surprised | radio || അമ്മൂമ്മ റേഡിയോ ഓൺ ചെയ്ത് അടുത്ത് ഇരിക്കുന്നു. ||
+- interior+close | zoom_out | indoor | ammachi:talk,happy | radio || ഞാൻ എന്താ എന്ന് ചോദിച്ചപ്പോൾ അമ്മൂമ്മ പറഞ്ഞു. || ammachi: പരാതി പറയാൻ ഒരു ഒച്ച വേണ്ടേ മോനേ.
+
+### 08-mango-tree
+title: അപ്പൂപ്പൻ നട്ട മാവ് | The Mango Tree Appooppan Planted
+theme: An old man plants a mango tree knowing he will never eat its fruit
+narrator: man
+caption: ചിലർ മരം നടുന്നത് സ്വന്തം തണലിന് വേണ്ടിയല്ല... നമുക്ക് വേണ്ടിയാണ് 🥭❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory appooppan mango tree kerala nostalgia mallureels malayalamreels
+- yard | zoom_in | wind | appooppan:hold=flower kid:surprised || എനിക്ക് ആറ് വയസ്സുള്ളപ്പോൾ, അപ്പൂപ്പൻ മുറ്റത്ത് ഒരു മാവിൻ തൈ നട്ടു. ||
+- yard | still | wind | appooppan:happy kid:talk || ഞാൻ ചോദിച്ചു. || kid: ഇത് എന്നാ മാങ്ങ ഉണ്ടാവുക അപ്പൂപ്പാ?
+- yard | zoom_in | wind | appooppan:talk,happy kid:idle || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: പത്തു പതിനഞ്ച് കൊല്ലം കഴിയും മോനേ.
+- yard | still | wind | appooppan:happy kid:surprised,talk || അപ്പോൾ അപ്പൂപ്പന് ഒരു മാങ്ങ പോലും തിന്നാൻ പറ്റില്ലല്ലോ. || kid: പിന്നെ എന്തിനാ നടുന്നേ?
+- yard | zoom_in | wind | appooppan:talk,happy || അപ്പൂപ്പൻ എന്റെ തലയിൽ തലോടി. || appooppan: എനിക്ക് വേണ്ടിയല്ല, നിനക്ക് വേണ്ടിയാ.
+- yard | pan_right | wind | grownup:hold=laddu girl:jump,happy | mango_tree || ഇന്ന് ആ മാവ് നിറയെ മാങ്ങയാണ്. എന്റെ മോൾ ഓടി നടന്ന് പെറുക്കുന്നു. ||
+- yard | zoom_out | wind | grownup:hold=flower girl:surprised | mango_tree || ഇന്ന് ഞാനും ഒരു മാവിൻ തൈ നട്ടു. എനിക്ക് വേണ്ടിയല്ല. ||
+
+### 09-earring-payasam
+title: അമ്മയുടെ കമ്മൽ | Amma's Earrings
+theme: A mother quietly pawns her earrings to make birthday payasam for her son
+narrator: man
+caption: അമ്മയുടെ കാതിലെ കമ്മൽ കാണാതായത് അന്ന് ഞാൻ ശ്രദ്ധിച്ചില്ല... 💛\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma payasam birthday kerala nostalgia mallureels malayalamreels motherslove
+- interior | zoom_in | indoor | kid:sad,talk amma:idle || എന്റെ ഏഴാം പിറന്നാൾ. വീട്ടിൽ പൈസ ഒട്ടും ഇല്ലാത്ത കാലം. || kid: എനിക്ക് പായസം വേണം!
+- kitchen | still | indoor | amma:cook | stove || അന്ന് ഉച്ചയ്ക്ക് അമ്മ നല്ല പാൽപ്പായസം വെച്ചു. ||
+- interior+festive | zoom_in | indoor | amma:hold=plate,happy kid:eat,happy | table:sweets || ഞാൻ വയറു നിറയെ കുടിച്ചു. ലോകത്തിലെ ഏറ്റവും സന്തോഷമുള്ള കുട്ടി ഞാനായിരുന്നു. ||
+- interior | still | indoor | amma:happy kid:surprised,talk || പിന്നെ ഞാൻ ഒന്ന് ശ്രദ്ധിച്ചു. || kid: അമ്മേ, അമ്മയുടെ കമ്മൽ എവിടെ?
+- interior+close | zoom_in | indoor | amma:talk,happy || അമ്മ ചിരിച്ചു. || amma: അത് ഊരി വെച്ചതാ മോനേ, ഭാരം കാരണം.
+- interior | pan_right | indoor | grownup:hold=gift amma:surprised || ഇരുപത് വർഷം കഴിഞ്ഞ്, എന്റെ ആദ്യത്തെ ശമ്പളം കൊണ്ട് ഞാൻ അമ്മയ്ക്ക് ഒരു ജോഡി കമ്മൽ വാങ്ങി. ||
+- interior+close | zoom_out | indoor | amma:happy || അമ്മ അത് ഇട്ടു. അപ്പോൾ അമ്മ പറഞ്ഞു, ഇതിന് ഒട്ടും ഭാരമില്ലല്ലോ മോനേ. ||
+
+### 10-night-bus
+title: ശനിയാഴ്ചത്തെ രാത്രി വണ്ടി | The Saturday Night Bus
+theme: A father takes a long night bus every weekend just to be home for one Sunday
+narrator: man
+caption: ഒരു ദിവസം വീട്ടിൽ നിൽക്കാൻ ഒരു രാത്രി മുഴുവൻ യാത്ര ചെയ്യുന്ന അച്ഛന്മാർക്ക് 🚌❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan bus father kerala nostalgia mallureels malayalamreels fatherslove
+- bus_stop+night | zoom_in | night | achan:hold=bag | bus || അച്ഛൻ ജോലി ചെയ്തിരുന്നത് ദൂരെ ഒരു പട്ടണത്തിലായിരുന്നു. ||
+- night_room | still | night | kid:sleep,happy amma:idle | kerosene_lamp || എല്ലാ ശനിയാഴ്ചയും രാത്രി എട്ടുമണിക്ക് വണ്ടി കയറും. പുലർച്ചെ നാലുമണിക്ക് വീട്ടിലെത്തും. ||
+- interior | zoom_in | indoor | achan:happy kid:jump,happy || ഞായറാഴ്ച മുഴുവൻ ഞങ്ങളുടെ കൂടെ കളിക്കും. ||
+- bus_stop+night | still | night | achan:wave kid:sad,talk | bus || വൈകുന്നേരം വീണ്ടും വണ്ടി കയറും. || kid: ഒരു ദിവസം കൂടി നിന്നൂടെ അച്ഛാ?
+- bus_stop+night+close | zoom_in | night | achan:talk,happy || അച്ഛൻ എന്നും ഒരേ മറുപടി പറയും. || achan: അടുത്ത ശനിയാഴ്ച വരാമല്ലോ.
+- bus_stop+night | pan_left | night | grownup:hold=bag | bus || ഇന്ന് ഞാനും ഒരു പട്ടണത്തിൽ ജോലി ചെയ്യുന്നു. ഇന്ന് ശനിയാഴ്ചയാണ്. ||
+- bus_stop+night+close | zoom_out | night | grownup:happy || ഞാൻ വണ്ടി കയറി. എട്ടു മണിക്കൂർ യാത്ര, ഒരു ദിവസം വീട്ടിൽ നിൽക്കാൻ. ഇപ്പോൾ എനിക്ക് അറിയാം, അതാണ് ലോകത്തിലെ ഏറ്റവും ചെറിയ ദൂരം. ||

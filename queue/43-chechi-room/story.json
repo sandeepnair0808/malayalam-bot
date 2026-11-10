@@ -1,0 +1,213 @@
+{
+  "title_ml": "ചേച്ചിയുടെ മുറി",
+  "title_en": "Chechi's Room",
+  "theme": "After his sister's wedding, a boy finds a note she left under her pillow",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്റെ ചേച്ചിയുമായി ഞാൻ എന്നും വഴക്കായിരുന്നു.",
+      "dialogue_ml": "ഈ മുറി എനിക്ക് വേണം! ചേച്ചി പോ!",
+      "subtitle_ml": "",
+      "visual": "interior scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:happy kid:talk",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:happy",
+          "kid:talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചി എന്നും പറയും.",
+      "dialogue_ml": "ഞാൻ പോകുമ്പോൾ നീ തന്നെ എടുത്തോ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:talk,happy kid:sad",
+      "speaker": "chechi",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:talk,happy",
+          "kid:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചിയുടെ കല്യാണം കഴിഞ്ഞു. ചേച്ചി ദൂരെ ഒരു വീട്ടിലേക്ക് പോയി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with chechi, amma, kid",
+      "characters": [
+        "chechi",
+        "amma",
+        "kid"
+      ],
+      "action": "chechi:hug amma:sad,cry kid:sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "chechi:hug",
+          "amma:sad,cry",
+          "kid:sad"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അന്ന് രാത്രി ഞാൻ ചേച്ചിയുടെ മുറിയിൽ കിടന്നു. ഞാൻ ആഗ്രഹിച്ച മുറി. പക്ഷേ ഉറക്കം വന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "തലയിണയുടെ അടിയിൽ ഒരു കുറിപ്പ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:read,surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:read,surprised"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചിയുടെ കയ്യക്ഷരം.",
+      "dialogue_ml": "മുറി നിന്റേതാ. ഇനി അമ്മയെയും അച്ഛനെയും നോക്കേണ്ടതും നീയാ. ഞാൻ ഇല്ലാത്തപ്പോൾ എന്റെ ജോലിയും നിനക്കാ.",
+      "subtitle_ml": "",
+      "visual": "night_room scene with chechi",
+      "characters": [
+        "chechi"
+      ],
+      "action": "chechi:talk,happy",
+      "speaker": "chechi",
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "chechi:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് രാത്രി ആദ്യമായി ഞാൻ ചേച്ചിയെ മിസ്സ് ചെയ്തു. ആ മുറിയേക്കാൾ വലിയ ഒന്ന് ചേച്ചി എനിക്ക് തന്നിട്ട് പോയിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:sad,cry",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "kid:sad,cry"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "ചേച്ചി പോയപ്പോൾ വീട് മുഴുവൻ ശൂന്യമായി... പക്ഷേ ഒരു കുറിപ്പ് ബാക്കി വെച്ചു 💌❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "chechi",
+    "sister",
+    "wedding",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "sisterlove"
+  ]
+}

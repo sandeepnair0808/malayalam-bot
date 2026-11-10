@@ -1,0 +1,217 @@
+{
+  "title_ml": "അപ്പൂപ്പൻ നട്ട മാവ്",
+  "title_en": "The Mango Tree Appooppan Planted",
+  "theme": "An old man plants a mango tree knowing he will never eat its fruit",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "appooppan",
+      "name_ml": "അപ്പൂപ്പൻ",
+      "look": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
+      "voice": "old_man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എനിക്ക് ആറ് വയസ്സുള്ളപ്പോൾ, അപ്പൂപ്പൻ മുറ്റത്ത് ഒരു മാവിൻ തൈ നട്ടു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:hold=flower kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:hold=flower",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "ഇത് എന്നാ മാങ്ങ ഉണ്ടാവുക അപ്പൂപ്പാ?",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:happy kid:talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:happy",
+          "kid:talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ ചിരിച്ചു.",
+      "dialogue_ml": "പത്തു പതിനഞ്ച് കൊല്ലം കഴിയും മോനേ.",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:talk,happy kid:idle",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,happy",
+          "kid:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ അപ്പൂപ്പന് ഒരു മാങ്ങ പോലും തിന്നാൻ പറ്റില്ലല്ലോ.",
+      "dialogue_ml": "പിന്നെ എന്തിനാ നടുന്നേ?",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:happy kid:surprised,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:happy",
+          "kid:surprised,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ എന്റെ തലയിൽ തലോടി.",
+      "dialogue_ml": "എനിക്ക് വേണ്ടിയല്ല, നിനക്ക് വേണ്ടിയാ.",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan",
+      "characters": [
+        "appooppan"
+      ],
+      "action": "appooppan:talk,happy",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് ആ മാവ് നിറയെ മാങ്ങയാണ്. എന്റെ മോൾ ഓടി നടന്ന് പെറുക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:hold=laddu girl:jump,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=laddu",
+          "girl:jump,happy"
+        ],
+        "props": [
+          "mango_tree"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് ഞാനും ഒരു മാവിൻ തൈ നട്ടു. എനിക്ക് വേണ്ടിയല്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:hold=flower girl:surprised",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=flower",
+          "girl:surprised"
+        ],
+        "props": [
+          "mango_tree"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "ചിലർ മരം നടുന്നത് സ്വന്തം തണലിന് വേണ്ടിയല്ല... നമുക്ക് വേണ്ടിയാണ് 🥭❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "appooppan",
+    "mango",
+    "tree",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

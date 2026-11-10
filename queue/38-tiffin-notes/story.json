@@ -1,0 +1,208 @@
+{
+  "title_ml": "ടിഫിനിലെ കുറിപ്പുകൾ",
+  "title_en": "Notes in the Tiffin Box",
+  "theme": "A mother hides little notes in her son's tiffin; years later he finds she kept every reply he wrote",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഉച്ചയ്ക്ക് ടിഫിൻ തുറക്കുമ്പോൾ, എന്നും അതിൽ ഒരു കുഞ്ഞ് കുറിപ്പ് ഉണ്ടാകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:hold=tiffin,surprised friend:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:hold=tiffin,surprised",
+          "friend:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മയുടെ കയ്യക്ഷരം. എല്ലാം കഴിക്കണം. പരീക്ഷ നന്നായി എഴുതണം. നീ മിടുക്കനാ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:read,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:read,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ അതിന്റെ പിന്നിൽ എഴുതി തിരിച്ചു വെക്കും. നന്നായിരുന്നു അമ്മേ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:hold=letter,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:hold=letter,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ഞാൻ വളർന്നു. ടിഫിൻ ഇല്ലാതായി. കുറിപ്പുകളും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, amma",
+      "characters": [
+        "grownup",
+        "amma"
+      ],
+      "action": "grownup:hold=bag amma:wave",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=bag",
+          "amma:wave"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം വീട് വൃത്തിയാക്കുമ്പോൾ അലമാരയിൽ ഒരു പഴയ പെട്ടി കണ്ടു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:hold=tiffin,surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=tiffin,surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അതിൽ നൂറുകണക്കിന് കുഞ്ഞ് കടലാസുകൾ. എന്റെ കയ്യക്ഷരം. നന്നായിരുന്നു അമ്മേ, നന്നായിരുന്നു അമ്മേ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:read,cry,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:read,cry,sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ എഴുതിയ എല്ലാ മറുപടികളും അമ്മ സൂക്ഷിച്ചു വെച്ചിരുന്നു. പതിനഞ്ച് വർഷം.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "അമ്മമാർ ഒന്നും കളയില്ല... പ്രത്യേകിച്ച് നമ്മുടെ ഓർമ്മകൾ 📝❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "tiffin",
+    "notes",
+    "mother",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

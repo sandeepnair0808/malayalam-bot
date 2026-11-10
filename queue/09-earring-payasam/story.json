@@ -1,0 +1,210 @@
+{
+  "title_ml": "അമ്മയുടെ കമ്മൽ",
+  "title_en": "Amma's Earrings",
+  "theme": "A mother quietly pawns her earrings to make birthday payasam for her son",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്റെ ഏഴാം പിറന്നാൾ. വീട്ടിൽ പൈസ ഒട്ടും ഇല്ലാത്ത കാലം.",
+      "dialogue_ml": "എനിക്ക് പായസം വേണം!",
+      "subtitle_ml": "",
+      "visual": "interior scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:sad,talk amma:idle",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sad,talk",
+          "amma:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് ഉച്ചയ്ക്ക് അമ്മ നല്ല പാൽപ്പായസം വെച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:cook",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:cook"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വയറു നിറയെ കുടിച്ചു. ലോകത്തിലെ ഏറ്റവും സന്തോഷമുള്ള കുട്ടി ഞാനായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:hold=plate,happy kid:eat,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=plate,happy",
+          "kid:eat,happy"
+        ],
+        "props": [
+          "table:sweets"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ഞാൻ ഒന്ന് ശ്രദ്ധിച്ചു.",
+      "dialogue_ml": "അമ്മേ, അമ്മയുടെ കമ്മൽ എവിടെ?",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:happy kid:surprised,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:happy",
+          "kid:surprised,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "അത് ഊരി വെച്ചതാ മോനേ, ഭാരം കാരണം.",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:talk,happy",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇരുപത് വർഷം കഴിഞ്ഞ്, എന്റെ ആദ്യത്തെ ശമ്പളം കൊണ്ട് ഞാൻ അമ്മയ്ക്ക് ഒരു ജോഡി കമ്മൽ വാങ്ങി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, amma",
+      "characters": [
+        "grownup",
+        "amma"
+      ],
+      "action": "grownup:hold=gift amma:surprised",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=gift",
+          "amma:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ അത് ഇട്ടു. അപ്പോൾ അമ്മ പറഞ്ഞു, ഇതിന് ഒട്ടും ഭാരമില്ലല്ലോ മോനേ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "അമ്മയുടെ കാതിലെ കമ്മൽ കാണാതായത് അന്ന് ഞാൻ ശ്രദ്ധിച്ചില്ല... 💛\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "payasam",
+    "birthday",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

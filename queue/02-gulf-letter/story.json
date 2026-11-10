@@ -1,0 +1,209 @@
+{
+  "title_ml": "ഗൾഫിൽ നിന്നുള്ള കത്ത്",
+  "title_en": "The Letter from the Gulf",
+  "theme": "A boy reads his father's Gulf letters aloud to his grandmother again and again; years later he understands why",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "അച്ഛൻ ഗൾഫിലായിരുന്നു. മാസത്തിൽ ഒരിക്കൽ ഒരു കത്ത് വരും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:hold=letter kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=letter",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മയ്ക്ക് വായിക്കാൻ അറിയില്ല. അതുകൊണ്ട് ഞാനാണ് ഉറക്കെ വായിക്കുക.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:happy kid:read",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "kid:read"
+        ],
+        "props": [
+          "photo:achan"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു തവണ വായിച്ചു കഴിഞ്ഞാൽ അമ്മൂമ്മ പറയും.",
+      "dialogue_ml": "ഒന്നൂടെ വായിക്ക് മോനേ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:talk kid:read",
+      "speaker": "ammachi",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:talk",
+          "kid:read"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "രണ്ടാമതും, മൂന്നാമതും, നാലാമതും.",
+      "dialogue_ml": "എത്ര തവണയാ അമ്മൂമ്മേ!",
+      "subtitle_ml": "",
+      "visual": "interior scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:happy kid:sad,talk,read",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "kid:sad,talk,read"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് ഞാനാണ് ഗൾഫിൽ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "bus_stop scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:hold=bag,wave",
+      "speaker": null,
+      "camera": "pan_left",
+      "ambience": "wind",
+      "art": {
+        "bg": "bus_stop",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=bag,wave"
+        ],
+        "props": [
+          "bus"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എന്റെ മോൾ ഫോണിൽ ഒരു വോയിസ് മെസേജ് അയച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone,happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ അത് ഇരുപത് തവണ കേട്ടു. അന്ന് എനിക്ക് മനസ്സിലായി, അമ്മൂമ്മ കേട്ടത് കത്തല്ല... മകന്റെ ശബ്ദമായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,sad",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:phone,sad"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഒരു കത്ത് എത്ര തവണ വായിച്ചാലും മതിയാവില്ല... അത് അയച്ച ആൾ ദൂരെയാകുമ്പോൾ ✉️❤️\nഗൾഫ് കുടുംബങ്ങൾക്ക് ഈ റീൽ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "gulf",
+    "pravasi",
+    "letter",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

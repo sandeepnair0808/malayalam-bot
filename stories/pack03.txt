@@ -1,0 +1,139 @@
+### 21-kazhicho
+title: കഴിച്ചോ? | Did You Eat?
+theme: A mother calls her son in the city every night with the same question, until one night she doesn't
+narrator: man
+caption: ലോകത്തിലെ ഏറ്റവും സ്നേഹമുള്ള ചോദ്യം: "കഴിച്ചോ മോനേ?" 📞❤️\nഅമ്മയെ ഇന്ന് തന്നെ വിളിക്കൂ
+tags: malayalam malayalamstory amma phone kazhicho kerala mallureels malayalamreels motherslove
+- night_room | zoom_in | night | grownup:phone | kerosene_lamp || പട്ടണത്തിൽ ജോലി കിട്ടിയ ശേഷം, എല്ലാ രാത്രിയും ഒൻപത് മണിക്ക് അമ്മ വിളിക്കും. ||
+- veranda+night | still | night | amma:phone,talk || എന്നും ഒരേ ചോദ്യം. || amma: കഴിച്ചോ മോനേ?
+- night_room | zoom_in | night | grownup:phone,sad,talk | kerosene_lamp || എനിക്ക് ചിലപ്പോൾ ദേഷ്യം വരും. || grownup: എന്നും ഇത് തന്നെ ചോദിക്കണോ അമ്മേ?
+- night_room | still | night | grownup:phone,surprised | clock || ഒരു ദിവസം ഒൻപത് മണിയായി. ഫോൺ വന്നില്ല. പത്ത് മണി. പതിനൊന്ന് മണി. ||
+- night_room | zoom_in | night | grownup:phone,sad | clock || ഞാൻ പത്ത് തവണ വിളിച്ചു. ആരും എടുത്തില്ല. ഉറങ്ങാൻ പറ്റിയില്ല. ||
+- veranda | pan_right | wind | amma:phone,talk,happy || രാവിലെ അമ്മ വിളിച്ചു. ഫോൺ കേടായതായിരുന്നു. || amma: കഴിച്ചോ മോനേ?
+- night_room+close | zoom_out | night | grownup:phone,happy || അന്ന് ആദ്യമായി, ആ ചോദ്യം കേട്ടപ്പോൾ എന്റെ കണ്ണ് നിറഞ്ഞു. ഇന്ന് ഞാനാണ് ആദ്യം വിളിക്കുന്നത്. ||
+
+### 22-gulf-slippers
+title: മാമന്റെ ചെരുപ്പ് | Uncle's Old Slippers
+theme: An uncle returns from the Gulf with gifts for everyone, wearing the same torn slippers
+narrator: man
+caption: എല്ലാവർക്കും സമ്മാനങ്ങൾ കൊണ്ടുവരുന്ന പ്രവാസിയുടെ ബാഗിൽ അവനു വേണ്ടി ഒന്നും ഉണ്ടാവില്ല ✈️❤️\nപ്രവാസികൾക്ക് സമർപ്പണം
+tags: malayalam malayalamstory gulf pravasi uncle kerala mallureels malayalamreels gulfmalayali
+- bus_stop | zoom_in | wind | uncle:wave,hold=bag kid:jump,happy | bus || മൂന്ന് വർഷത്തിന് ശേഷം മാമൻ ഗൾഫിൽ നിന്ന് വന്നു. ||
+- interior+festive | still | indoor | uncle:hold=gift,happy kid:hold=toy,jump amma:happy || വലിയ പെട്ടി തുറന്നു. എല്ലാവർക്കും സമ്മാനം. എനിക്ക് ഒരു റിമോട്ട് കാർ! ||
+- interior | zoom_in | indoor | uncle:happy kid:surprised || കളിക്കുന്നതിനിടയിൽ ഞാൻ മാമന്റെ കാലിലേക്ക് നോക്കി. ||
+- interior | still | indoor | uncle:happy kid:point,talk || ആ ചെരുപ്പ്, മൂന്ന് വർഷം മുമ്പ് പോയപ്പോൾ ഇട്ട അതേ ചെരുപ്പ്. പൊട്ടിയത് തുന്നിക്കെട്ടിയിരിക്കുന്നു. || kid: മാമാ, ചെരുപ്പ് പൊട്ടിയല്ലോ!
+- interior+close | zoom_in | indoor | uncle:talk,happy || മാമൻ ചിരിച്ചു. || uncle: അത് സാരമില്ല മോനേ, അവിടെ ആരും കാലിലേക്ക് നോക്കില്ല.
+- bus_stop | pan_left | wind | grownup:hold=gift uncle:surprised | bus || ഇന്ന് എനിക്ക് നല്ല ജോലിയുണ്ട്. മാമൻ തിരിച്ചു പോകുന്ന ദിവസം ഞാൻ ഒരു പൊതി കൊടുത്തു. ||
+- bus_stop+close | zoom_out | wind | uncle:happy || ഒരു ജോഡി പുതിയ ചെരുപ്പ്. മാമൻ ഒന്നും പറഞ്ഞില്ല. പക്ഷേ ആ കണ്ണുകൾ എല്ലാം പറഞ്ഞു. ||
+
+### 23-sadya-last
+title: അവസാനം ഉണ്ണുന്ന അമ്മ | The One Who Eats Last
+theme: Every Onam a mother serves the whole family and eats last from what is left; one year her son changes that
+narrator: man
+caption: സദ്യ വിളമ്പുന്ന അമ്മ എപ്പോഴും അവസാനമാണ് ഉണ്ണുന്നത്. ഈ ഓണത്തിന് അമ്മയ്ക്ക് ആദ്യം വിളമ്പൂ 🍃❤️
+tags: malayalam malayalamstory onam sadya amma kerala mallureels malayalamreels onam2026 motherslove
+- interior+festive | zoom_in | indoor | amma:hold=plate,happy | table:sadya || ഓണത്തിന് ഞങ്ങളുടെ വീട്ടിൽ നല്ല സദ്യയാണ്. ||
+- interior | still | indoor | achan:eat ammachi:eat kid:eat | table:sadya || എല്ലാവരും ഇലയിട്ട് ഇരിക്കും. അമ്മ ഓടി നടന്ന് വിളമ്പും. ||
+- interior | zoom_in | indoor | kid:talk amma:hold=plate || ഞാൻ വിളിക്കും. || kid: അമ്മേ, വാ, ഒരുമിച്ച് കഴിക്കാം!
+- interior+close | still | indoor | amma:talk,happy || അമ്മ ചിരിക്കും. || amma: നിങ്ങൾ കഴിക്ക്, ഞാൻ പിന്നെ കഴിച്ചോളാം.
+- kitchen | pan_right | indoor | amma:eat | table:rice || എല്ലാവരും കഴിഞ്ഞ്, അടുക്കളയിൽ ഒറ്റയ്ക്ക്, ബാക്കി വന്നത് കഴിക്കും. ||
+- interior+festive | zoom_in | indoor | grownup:hold=plate,happy amma:surprised | table:sadya || ഈ ഓണത്തിന് ഞാൻ അമ്മയെ കസേരയിൽ പിടിച്ചിരുത്തി. ആദ്യത്തെ ഇല അമ്മയ്ക്ക്. ||
+- interior+festive+close | zoom_out | indoor | amma:happy,eat || ഞാൻ വിളമ്പി, അമ്മ കഴിച്ചു. അമ്മയുടെ ജീവിതത്തിലെ ആദ്യത്തെ ചൂടുള്ള ഓണസദ്യ. ||
+
+### 24-failed-exam
+title: തോറ്റ ദിവസം | The Day I Failed
+theme: A boy fears telling his father he failed an exam; the father's answer stays with him for life
+narrator: man
+caption: മാർക്ക് കുറഞ്ഞ ദിവസം നമ്മളെ കെട്ടിപ്പിടിച്ച ആൾ ആരാണ്? 📝❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory exam results achan father kerala mallureels malayalamreels fatherslove
+- school | zoom_in | wind | kid:hold=letter,sad,cry friend:jump || ഏഴാം ക്ലാസിലെ പരീക്ഷാഫലം. കണക്കിന് ഞാൻ തോറ്റു. ||
+- lane | pan_right | wind | kid:walk,sad || വീട്ടിലേക്ക് നടക്കുമ്പോൾ കാല് വിറച്ചു. അച്ഛൻ എന്ത് പറയും? ||
+- veranda | still | wind | achan:read kid:hold=letter,sad || അച്ഛൻ പത്രം വായിച്ച് ഇരിക്കുന്നു. ഞാൻ പേപ്പർ നീട്ടി. ||
+- veranda | zoom_in | wind | achan:surprised kid:sad,cry || അച്ഛൻ കുറേ നേരം അത് നോക്കി. ഞാൻ തല്ല് പ്രതീക്ഷിച്ചു. ||
+- veranda | still | wind | achan:hug,talk kid:hug,sad || പക്ഷേ അച്ഛൻ എന്നെ കെട്ടിപ്പിടിച്ചു. || achan: ഞാനും ഏഴിൽ തോറ്റതാ മോനേ. അടുത്ത തവണ നമുക്ക് ഒരുമിച്ച് പഠിക്കാം.
+- night_room | zoom_in | night | achan:read,happy kid:read | kerosene_lamp || അന്നുമുതൽ എല്ലാ രാത്രിയും അച്ഛൻ എന്റെ കൂടെ ഇരുന്നു. അടുത്ത പരീക്ഷയിൽ എനിക്ക് തൊണ്ണൂറ് മാർക്ക്. ||
+- veranda+close | zoom_out | wind | grownup:happy || പിന്നെയാണ് ഞാൻ അറിഞ്ഞത്, അച്ഛൻ ഏഴിൽ തോറ്റിട്ടില്ല. അച്ഛൻ ക്ലാസിൽ ഒന്നാമനായിരുന്നു. ||
+
+### 25-lullaby
+title: അമ്മൂമ്മയുടെ താരാട്ട് | Ammachi's Lullaby
+theme: A grandmother's lullaby comforts a frightened boy; decades later he sings it back to her
+narrator: man
+caption: ഒരിക്കൽ നമ്മളെ ഉറക്കിയ പാട്ട്, ഇന്ന് നമ്മൾ അവർക്ക് പാടിക്കൊടുക്കണം 🌙❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi lullaby tharattu grandmother kerala mallureels malayalamreels
+- night_room+rain | zoom_in | rain | kid:surprised,sad | kerosene_lamp || കുട്ടിക്കാലത്ത് എനിക്ക് ഇരുട്ടിനെ വലിയ പേടിയായിരുന്നു. ||
+- night_room+rain | still | rain | ammachi:talk,happy kid:sleep | kerosene_lamp || അപ്പോൾ അമ്മൂമ്മ അടുത്ത് വന്നിരുന്ന് പാടും. || ammachi: ഓമനത്തിങ്കൾ കിടാവോ, നല്ല കോമളത്താമരപ്പൂവോ...
+- night_room+rain | zoom_in | rain | ammachi:happy kid:sleep,happy | kerosene_lamp || ആ പാട്ട് കേട്ടാൽ എല്ലാ പേടിയും പോകും. ||
+- interior | pan_right | indoor | grownup:hold=bag ammachi:wave | clock || വർഷങ്ങൾ കഴിഞ്ഞു. അമ്മൂമ്മയ്ക്ക് വയസ്സായി. ഓർമ്മ കുറഞ്ഞുതുടങ്ങി. ||
+- night_room | still | night | ammachi:sad,talk grownup:surprised | kerosene_lamp || ഒരു രാത്രി അമ്മൂമ്മ പേടിച്ച് ഉണർന്നു. || ammachi: ഇരുട്ടാ... എനിക്ക് പേടിയാവുന്നു.
+- night_room | zoom_in | night | grownup:talk ammachi:sleep | kerosene_lamp || ഞാൻ അടുത്ത് ഇരുന്ന് പതുക്കെ പാടി. || grownup: ഓമനത്തിങ്കൾ കിടാവോ, നല്ല കോമളത്താമരപ്പൂവോ...
+- night_room+close | zoom_out | night | ammachi:sleep,happy | kerosene_lamp || അമ്മൂമ്മ ചിരിച്ചു കൊണ്ട് ഉറങ്ങി. ആ പാട്ട് അമ്മൂമ്മ മറന്നിരുന്നില്ല. ||
+
+### 26-chechi-books
+title: ചേച്ചി അടച്ചുവെച്ച പുസ്തകം | The Book Chechi Closed
+theme: An elder sister quits college to work so her brother can study; he gives her back her dream
+narrator: man
+caption: നമ്മുടെ സ്വപ്നങ്ങൾക്ക് വേണ്ടി സ്വന്തം സ്വപ്നം മാറ്റിവെച്ച ചേച്ചിമാർക്ക് 📖❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory chechi sister education kerala mallureels malayalamreels sisterlove
+- night_room | zoom_in | night | chechi:read,happy | kerosene_lamp books || എന്റെ ചേച്ചിക്ക് പഠിക്കാൻ വലിയ ഇഷ്ടമായിരുന്നു. ടീച്ചറാകണം എന്നായിരുന്നു സ്വപ്നം. ||
+- interior | still | indoor | achan:sad amma:sad || അച്ഛന് അസുഖം വന്നപ്പോൾ, വീട്ടിൽ രണ്ടുപേരെ പഠിപ്പിക്കാനുള്ള പൈസ ഇല്ലാതായി. ||
+- interior | zoom_in | indoor | chechi:talk kid:surprised || ചേച്ചി പുസ്തകം അടച്ചുവെച്ചു. || chechi: ഞാൻ തയ്യൽ ജോലിക്ക് പോകാം. ഉണ്ണി പഠിക്കട്ടെ.
+- night_room | pan_right | night | chechi:hold=plate,happy kid:read | kerosene_lamp || ചേച്ചി ജോലി ചെയ്ത പൈസ കൊണ്ട് ഞാൻ എഞ്ചിനീയറിംഗ് പഠിച്ചു. ||
+- interior+festive | still | indoor | grownup:hold=letter,happy chechi:happy || ആദ്യ ജോലി കിട്ടിയ ദിവസം, ഞാൻ ചേച്ചിക്ക് ഒരു കവർ കൊടുത്തു. ||
+- interior | zoom_in | indoor | chechi:surprised grownup:talk,happy || അതിൽ ഒരു കോളേജ് അഡ്മിഷൻ ഫോം. || grownup: ഇനി ചേച്ചി പഠിക്ക്. ഞാൻ നോക്കിക്കോളാം.
+- classroom+close | zoom_out | indoor | teacher:happy || ഇന്ന് എന്റെ ചേച്ചി ഒരു ടീച്ചറാണ്. നാല്പതാം വയസ്സിൽ നേടിയ സ്വപ്നം. ||
+
+### 27-school-day
+title: സ്കൂൾ വാർഷികത്തിലെ അച്ഛൻ | Achan at the School Day
+theme: A boy asks his father not to come to the school function in his old clothes; the father comes anyway
+narrator: man
+caption: ഏറ്റവും ഉച്ചത്തിൽ കൈയടിക്കുന്നത്, ഏറ്റവും പിന്നിൽ നിൽക്കുന്ന അച്ഛനായിരിക്കും 👏❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan school anniversary father kerala mallureels malayalamreels fatherslove
+- yard | zoom_in | wind | kid:talk,sad achan:idle || സ്കൂൾ വാർഷികത്തിന് എനിക്ക് സമ്മാനം കിട്ടുന്നുണ്ടായിരുന്നു. || kid: അച്ഛൻ വരണ്ട. എല്ലാവരുടെയും അച്ഛന്മാർ നല്ല ഡ്രസ്സിലാ വരുന്നത്.
+- yard | still | wind | achan:sad || അച്ഛൻ ഒന്നും മിണ്ടിയില്ല. തല കുലുക്കി. ||
+- school+festive | zoom_in | wind | teacher:hold=gift kid:happy || സമ്മാനം വാങ്ങാൻ ഞാൻ സ്റ്റേജിൽ കയറി. ||
+- school | pan_right | wind | achan:wave,happy || അപ്പോൾ ഗേറ്റിന് പുറത്ത്, മതിലിനപ്പുറം, ഒരു മുഖം ഞാൻ കണ്ടു. എല്ലാവരേക്കാളും ഉച്ചത്തിൽ കൈയടിക്കുന്നു. ||
+- school | still | wind | achan:happy,wave kid:sad,cry,hold=gift || എന്റെ അച്ഛൻ. പഴയ ഷർട്ടിട്ട്, ആരും കാണാതെ. ||
+- lane | zoom_in | wind | achan:walk kid:walk,hold=gift || തിരിച്ചു നടക്കുമ്പോൾ ഞാൻ അച്ഛന്റെ കൈ മുറുകെ പിടിച്ചു. ഒന്നും പറയാൻ പറ്റിയില്ല. ||
+- school+festive+close | zoom_out | wind | achan:happy || അടുത്ത വർഷം ഞാൻ അച്ഛനെ ഏറ്റവും മുന്നിലെ കസേരയിൽ ഇരുത്തി. ആ പഴയ ഷർട്ടിൽ തന്നെ. ||
+
+### 28-pickle-jar
+title: അമ്മൂമ്മയുടെ കടുമാങ്ങ | Ammachi's Mango Pickle
+theme: A grandmother packs mango pickle every time her grandson leaves for the city; he only understands its taste later
+narrator: man
+caption: ഏത് ഹോട്ടലിലെ അച്ചാറിനും അമ്മൂമ്മയുടെ കടുമാങ്ങയുടെ രുചി കിട്ടില്ല 🥭❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi pickle kadumanga kerala mallureels malayalamreels hostellife
+- kitchen | zoom_in | indoor | ammachi:hold=tiffin,happy || ഞാൻ ഹോസ്റ്റലിലേക്ക് പോകുമ്പോഴെല്ലാം അമ്മൂമ്മ ഒരു കുപ്പി കടുമാങ്ങ ബാഗിൽ വെക്കും. ||
+- kitchen | still | indoor | ammachi:hold=tiffin grownup:sad,talk || എനിക്ക് നാണക്കേടായിരുന്നു. || grownup: അമ്മൂമ്മേ, ഇത് വേണ്ട, ബാഗ് മുഴുവൻ മണം വരും.
+- classroom | zoom_in | indoor | friend:eat,happy grownup:surprised | table:rice || ഹോസ്റ്റലിൽ ഒരു ദിവസം കൂട്ടുകാർ അത് കണ്ടു. ഒരാഴ്ച കൊണ്ട് കുപ്പി കാലി! ||
+- classroom | still | indoor | friend:talk,happy grownup:happy | table:rice || എല്ലാവരും ചോദിക്കും. || friend: ഡാ, അടുത്ത തവണ രണ്ട് കുപ്പി കൊണ്ടുവരണം!
+- interior | pan_right | indoor | grownup:sad | photo:ammachi+garland || വർഷങ്ങൾക്ക് ശേഷം അമ്മൂമ്മ പോയി. ||
+- kitchen | zoom_in | indoor | grownup:cook | stove || അമ്മൂമ്മ പറഞ്ഞ അതേ രീതിയിൽ ഞാൻ കടുമാങ്ങ ഉണ്ടാക്കി നോക്കി. ||
+- kitchen+close | zoom_out | indoor | grownup:sad || എല്ലാം ശരിയായിരുന്നു. ഉപ്പ്, മുളക്, മാങ്ങ. പക്ഷേ ഒരു ചേരുവ ഇല്ലായിരുന്നു. അമ്മൂമ്മയുടെ കൈ. ||
+
+### 29-achan-hands
+title: അച്ഛന്റെ പരുക്കൻ കൈകൾ | Achan's Rough Hands
+theme: A boy is embarrassed that his father is a construction worker; he grows up to build bridges
+narrator: man
+caption: നമ്മളെ ഉയരത്തിൽ എത്തിച്ചത് ആ പരുക്കൻ കൈകളാണ് 🤲❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan worker father kerala mallureels malayalamreels fatherslove dignityoflabour
+- lane | zoom_in | wind | achan:walk,hold=bag || എന്റെ അച്ഛൻ ഒരു കൽപ്പണിക്കാരനായിരുന്നു. ||
+- classroom | still | indoor | teacher:talk friend:happy kid:sad || ക്ലാസിൽ ടീച്ചർ ചോദിച്ചു, അച്ഛന്റെ ജോലി എന്താ എന്ന്. || teacher: ഉണ്ണീ, നിന്റെ അച്ഛന് എന്താ ജോലി?
+- classroom | zoom_in | indoor | kid:sad,talk || ഞാൻ കള്ളം പറഞ്ഞു. || kid: അച്ഛന് കമ്പനിയിലാ ജോലി.
+- night_room | still | night | achan:sleep kid:surprised | kerosene_lamp || അന്ന് രാത്രി അച്ഛൻ ഉറങ്ങുമ്പോൾ ഞാൻ ആ കൈകൾ നോക്കി. വിണ്ടുകീറിയ, പരുക്കൻ കൈകൾ. ||
+- night_room | zoom_in | night | kid:sad,cry | kerosene_lamp || ആ കൈകൾ കൊണ്ടാണ് എന്റെ പുസ്തകങ്ങളും ഫീസും ചോറും വന്നതെന്ന് അന്ന് എനിക്ക് മനസ്സിലായി. ||
+- yard | pan_right | wind | grownup:hold=letter,happy achan:happy || ഇന്ന് ഞാൻ ഒരു എഞ്ചിനീയറാണ്. പാലങ്ങൾ പണിയുന്നു. ||
+- yard+close | zoom_out | wind | grownup:happy || ആരെങ്കിലും ചോദിച്ചാൽ ഞാൻ അഭിമാനത്തോടെ പറയും. എന്റെ അച്ഛൻ ഒരു കൽപ്പണിക്കാരനാണ്. ഞാൻ പണിയുന്ന ഓരോ പാലവും അച്ഛൻ പഠിപ്പിച്ചതാണ്. ||
+
+### 30-cycle-lessons
+title: ചേച്ചി വിട്ട സൈക്കിൾ | When Chechi Let Go
+theme: An elder sister teaches her brother to cycle, secretly letting go of the seat
+narrator: man
+caption: പിടിച്ചിട്ടുണ്ട് എന്ന് പറഞ്ഞ് കൈ വിട്ടവരാണ് നമ്മളെ ഓടാൻ പഠിപ്പിച്ചത് 🚲❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory chechi cycle sister kerala nostalgia mallureels malayalamreels childhoodmemories
+- yard | zoom_in | wind | chechi:happy kid:surprised | bicycle:blue || എനിക്ക് സൈക്കിൾ ഓടിക്കാൻ പഠിപ്പിച്ചത് ചേച്ചിയാണ്. ||
+- lane | still | wind | chechi:walk,talk kid:walk,sad || ഞാൻ വീഴുമോ എന്ന് പേടിച്ചു. || chechi: പേടിക്കണ്ട, ഞാൻ പിന്നിൽ പിടിച്ചിട്ടുണ്ട്.
+- lane | pan_right | wind | kid:walk,happy || ഞാൻ ചവിട്ടി. ചവിട്ടി. വേഗം കൂടി. ||
+- lane | zoom_in | wind | kid:happy,talk || ഞാൻ ഉറക്കെ വിളിച്ചു. || kid: ചേച്ചീ, വിടല്ലേ!
+- lane | still | wind | chechi:wave,happy || തിരിഞ്ഞു നോക്കിയപ്പോൾ ചേച്ചി ദൂരെ നിന്ന് കൈ വീശുന്നു. ഒരുപാട് നേരമായി ചേച്ചി എന്നെ വിട്ടിട്ട്. ||
+- yard | pan_right | wind | grownup:talk girl:surprised | bicycle:red || ഇന്ന് ഞാൻ എന്റെ മോളെ സൈക്കിൾ പഠിപ്പിക്കുന്നു. || grownup: പേടിക്കണ്ട, ഞാൻ പിന്നിൽ പിടിച്ചിട്ടുണ്ട്.
+- yard+close | zoom_out | wind | grownup:happy || പിന്നെ ഞാൻ പതുക്കെ കൈ വിട്ടു. ചേച്ചിയെപ്പോലെ. ||

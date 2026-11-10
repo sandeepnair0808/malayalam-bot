@@ -1,0 +1,215 @@
+{
+  "title_ml": "ആദ്യ ശമ്പളത്തിലെ സാരി",
+  "title_en": "The First-Salary Saree",
+  "theme": "A son buys his mother a saree with his first salary; she never wears it until one special day",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്റെ ആദ്യ ശമ്പളം കിട്ടിയ ദിവസം, ഞാൻ അമ്മയ്ക്ക് ഒരു പട്ടുസാരി വാങ്ങി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, amma",
+      "characters": [
+        "grownup",
+        "amma"
+      ],
+      "action": "grownup:hold=gift,happy amma:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=gift,happy",
+          "amma:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ അത് തൊട്ടുനോക്കി, നെഞ്ചോട് ചേർത്തു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, grownup",
+      "characters": [
+        "amma",
+        "grownup"
+      ],
+      "action": "amma:happy grownup:happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:happy",
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ ഒരിക്കലും ഉടുത്തില്ല. കല്യാണങ്ങൾക്കും, അമ്പലത്തിലും, പഴയ സാരി തന്നെ.",
+      "dialogue_ml": "അമ്മേ, ആ സാരി എന്താ ഉടുക്കാത്തത്?",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, grownup",
+      "characters": [
+        "amma",
+        "grownup"
+      ],
+      "action": "amma:idle grownup:sad,talk",
+      "speaker": "grownup",
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:idle",
+          "grownup:sad,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിക്കും.",
+      "dialogue_ml": "അത് ഒരു പ്രത്യേക ദിവസത്തിന് വേണ്ടി വെച്ചതാ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:talk,happy",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു വർഷം, രണ്ടു വർഷം, അഞ്ചു വർഷം. ആ സാരി അലമാരയിൽ തന്നെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:idle",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:idle"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ എന്റെ കല്യാണ ദിവസം വന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with grownup, amma, chechi",
+      "characters": [
+        "grownup",
+        "amma",
+        "chechi"
+      ],
+      "action": "grownup:happy amma:happy chechi:happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:happy",
+          "amma:happy",
+          "chechi:happy"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അന്ന് അമ്മ ആ പട്ടുസാരി ഉടുത്തു വന്നു. അമ്മയുടെ പ്രത്യേക ദിവസം, എന്റെ ദിവസമായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "festive"
+        ],
+        "shot": "close",
+        "cast": [
+          "amma:happy"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "അമ്മമാർ സമ്മാനങ്ങൾ ഉപയോഗിക്കില്ല... സൂക്ഷിച്ച് വെക്കും, ഹൃദയത്തിൽ 🎁❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "saree",
+    "firstsalary",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

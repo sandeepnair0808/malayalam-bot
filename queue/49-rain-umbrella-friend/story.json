@@ -1,0 +1,236 @@
+{
+  "title_ml": "ഒരു കുടയിൽ രണ്ടുപേർ",
+  "title_en": "Two Under One Umbrella",
+  "theme": "A boy with a new umbrella shares it with a friend who has none; both arrive half wet and best friends",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "teacher",
+      "name_ml": "ടീച്ചർ",
+      "look": "school teacher, black hair bun, blue saree with gold border",
+      "voice": "woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഈ വർഷം സ്കൂൾ തുറക്കുമ്പോൾ എനിക്ക് ഒരു പുതിയ കുട കിട്ടി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:jump,happy amma:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:jump,happy",
+          "amma:happy"
+        ],
+        "props": [
+          "hanging_umbrella"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വഴിയിൽ വെച്ച് ഞാൻ ഒരു കുട്ടിയെ കണ്ടു. കുടയില്ലാതെ, മഴയത്ത് നനഞ്ഞ് നടക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:walk friend:walk,sad,wet",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:walk",
+          "friend:walk,sad,wet"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വിളിച്ചു.",
+      "dialogue_ml": "വാ, ഈ കുടയിൽ കയറിക്കോ!",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:talk,umbrella friend:surprised,wet",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:talk,umbrella",
+          "friend:surprised,wet"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു കുട. രണ്ടുപേർ. രണ്ടുപേരുടെയും ഒരു തോൾ നനഞ്ഞു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:walk,umbrella,happy friend:walk,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:walk,umbrella,happy",
+          "friend:walk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "സ്കൂളിൽ എത്തിയപ്പോൾ ടീച്ചർ ചിരിച്ചു.",
+      "dialogue_ml": "രണ്ടുപേരും പാതി നനഞ്ഞല്ലോ!",
+      "subtitle_ml": "",
+      "visual": "classroom scene with teacher, kid, friend",
+      "characters": [
+        "teacher",
+        "kid",
+        "friend"
+      ],
+      "action": "teacher:talk kid:happy friend:happy",
+      "speaker": "teacher",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "teacher:talk",
+          "kid:happy",
+          "friend:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "മുപ്പത് വർഷം കഴിഞ്ഞു. ഇന്നും മഴ പെയ്യുമ്പോൾ ഞങ്ങൾ ഒരുമിച്ചാണ് നടക്കുന്നത്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with grownup, friend",
+      "characters": [
+        "grownup",
+        "friend"
+      ],
+      "action": "grownup:walk,umbrella friend:walk",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:walk,umbrella",
+          "friend:walk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് അവന്റെ കയ്യിൽ വലിയ ഒരു കുടയുണ്ട്. പക്ഷേ അവൻ ഇന്നും പറയും, ആ പഴയ കുടയായിരുന്നു ഏറ്റവും വലുത്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with friend",
+      "characters": [
+        "friend"
+      ],
+      "action": "friend:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "close",
+        "cast": [
+          "friend:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഒരു കുടയിൽ രണ്ടുപേർ നനഞ്ഞാലും, സൗഹൃദം നനയില്ല ☔❤️\nബെസ്റ്റ് ഫ്രണ്ടിനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "friendship",
+    "rain",
+    "umbrella",
+    "school",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

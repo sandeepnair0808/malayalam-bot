@@ -1,0 +1,230 @@
+{
+  "title_ml": "ചേച്ചി തോൽക്കുന്ന പൂക്കളം",
+  "title_en": "The Pookkalam Chechi Lost",
+  "theme": "Every Onam an elder sister loses the pookkalam contest on purpose so her little brother can win",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഓണത്തിന് എന്നും ഞാനും ചേച്ചിയും തമ്മിൽ പൂക്കള മത്സരം.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:happy kid:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "chechi:happy",
+          "kid:happy"
+        ],
+        "props": [
+          "pookkalam"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചിയുടെ പൂക്കളം എപ്പോഴും എന്റേതിനേക്കാൾ ഭംഗിയുള്ളതായിരിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:hold=flower kid:hold=flower",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:hold=flower",
+          "kid:hold=flower"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ എന്നും ഞാനാണ് ജയിക്കുക.",
+      "dialogue_ml": "ഈ വർഷവും ഉണ്ണി തന്നെ ജയിച്ചു!",
+      "subtitle_ml": "",
+      "visual": "yard scene with ammachi, chechi, kid",
+      "characters": [
+        "ammachi",
+        "chechi",
+        "kid"
+      ],
+      "action": "ammachi:point,talk chechi:sad kid:jump,happy",
+      "speaker": "ammachi",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:point,talk",
+          "chechi:sad",
+          "kid:jump,happy"
+        ],
+        "props": [
+          "pookkalam"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ചേച്ചി എന്നും ചിരിച്ചു കൊണ്ട് കൈയടിക്കും.",
+      "dialogue_ml": "ചേച്ചിക്ക് പൂക്കളം ഇടാൻ അറിയില്ല!",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:happy kid:happy,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:happy",
+          "kid:happy,talk"
+        ],
+        "props": [
+          "pookkalam"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ചേച്ചിയുടെ കല്യാണം ആയിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi, grownup",
+      "characters": [
+        "chechi",
+        "grownup"
+      ],
+      "action": "chechi:hug grownup:hug",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "chechi:hug",
+          "grownup:hug"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് അമ്മൂമ്മ ആ രഹസ്യം പറഞ്ഞു.",
+      "dialogue_ml": "അവൾ എന്നും അവസാനം ഒരു പൂവ് മനഃപൂർവ്വം മാറ്റി വെക്കുമായിരുന്നു.",
+      "subtitle_ml": "",
+      "visual": "yard scene with ammachi, grownup",
+      "characters": [
+        "ammachi",
+        "grownup"
+      ],
+      "action": "ammachi:talk grownup:surprised",
+      "speaker": "ammachi",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:talk",
+          "grownup:surprised"
+        ],
+        "props": [
+          "pookkalam"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ജയിച്ച എല്ലാ ഓണങ്ങളും, ചേച്ചി എനിക്ക് തന്ന സമ്മാനങ്ങളായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with chechi",
+      "characters": [
+        "chechi"
+      ],
+      "action": "chechi:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "chechi:happy"
+        ],
+        "props": [
+          "pookkalam"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "ചേച്ചിമാർ തോൽക്കുന്നത് നമ്മൾ ജയിക്കാൻ വേണ്ടി മാത്രമാണ് 🌼❤️\nനിങ്ങളുടെ ചേച്ചിയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "onam",
+    "pookkalam",
+    "chechi",
+    "sister",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

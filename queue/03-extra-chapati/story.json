@@ -1,0 +1,214 @@
+{
+  "title_ml": "ടിഫിനിലെ ഒരു ചപ്പാത്തി കൂടുതൽ",
+  "title_en": "One Extra Chapati",
+  "theme": "A mother packs one extra chapati every day; years later the son learns who it was for",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും രാവിലെ അമ്മ എന്റെ ടിഫിൻ ബോക്സ് നിറയ്ക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:cook",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:cook"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, എന്നും ഒരു ചപ്പാത്തി കൂടുതൽ.",
+      "dialogue_ml": "അമ്മേ, ഞാൻ ഇത്രയും തിന്നില്ല!",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:hold=tiffin kid:surprised,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=tiffin",
+          "kid:surprised,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "അത് നിന്റെ കൂട്ടുകാരന് കൊടുത്തോ.",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:talk,happy kid:idle",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:talk,happy",
+          "kid:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഉച്ചയ്ക്ക് ഞാൻ അത് അപ്പുവിന് കൊടുത്തു. അവൻ ഒരിക്കലും ചോറ് കൊണ്ടുവരാറില്ലായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:hold=tiffin friend:happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:hold=tiffin",
+          "friend:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എല്ലാ ദിവസവും. ഞാൻ ഒന്നും ചോദിച്ചില്ല, അവൻ ഒന്നും പറഞ്ഞില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:happy friend:happy,eat,hold=dosa",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:happy",
+          "friend:happy,eat,hold=dosa"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇരുപത് വർഷം കഴിഞ്ഞ് അപ്പുവിനെ വീണ്ടും കണ്ടു. ഇന്ന് അവൻ ഒരു ഡോക്ടറാണ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with grownup, friend",
+      "characters": [
+        "grownup",
+        "friend"
+      ],
+      "action": "grownup:hug friend:hug",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hug",
+          "friend:hug"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അവൻ പറഞ്ഞു, ആ ചപ്പാത്തി ഇല്ലായിരുന്നെങ്കിൽ ഞാൻ സ്കൂൾ നിർത്തിയേനെ. അമ്മയ്ക്ക് അത് ആദ്യമേ അറിയാമായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "yard",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "അമ്മമാർക്ക് എല്ലാം അറിയാം... നമ്മൾ പറയാതെ തന്നെ 🍱❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "tiffin",
+    "school",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

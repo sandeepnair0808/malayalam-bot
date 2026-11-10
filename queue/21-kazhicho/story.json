@@ -1,0 +1,199 @@
+{
+  "title_ml": "കഴിച്ചോ?",
+  "title_en": "Did You Eat?",
+  "theme": "A mother calls her son in the city every night with the same question, until one night she doesn't",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "പട്ടണത്തിൽ ജോലി കിട്ടിയ ശേഷം, എല്ലാ രാത്രിയും ഒൻപത് മണിക്ക് അമ്മ വിളിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എന്നും ഒരേ ചോദ്യം.",
+      "dialogue_ml": "കഴിച്ചോ മോനേ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:phone,talk",
+      "speaker": "amma",
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:phone,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എനിക്ക് ചിലപ്പോൾ ദേഷ്യം വരും.",
+      "dialogue_ml": "എന്നും ഇത് തന്നെ ചോദിക്കണോ അമ്മേ?",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,sad,talk",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone,sad,talk"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഒൻപത് മണിയായി. ഫോൺ വന്നില്ല. പത്ത് മണി. പതിനൊന്ന് മണി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone,surprised"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ പത്ത് തവണ വിളിച്ചു. ആരും എടുത്തില്ല. ഉറങ്ങാൻ പറ്റിയില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone,sad"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "രാവിലെ അമ്മ വിളിച്ചു. ഫോൺ കേടായതായിരുന്നു.",
+      "dialogue_ml": "കഴിച്ചോ മോനേ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:phone,talk,happy",
+      "speaker": "amma",
+      "camera": "pan_right",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:phone,talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് ആദ്യമായി, ആ ചോദ്യം കേട്ടപ്പോൾ എന്റെ കണ്ണ് നിറഞ്ഞു. ഇന്ന് ഞാനാണ് ആദ്യം വിളിക്കുന്നത്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:phone,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:phone,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ലോകത്തിലെ ഏറ്റവും സ്നേഹമുള്ള ചോദ്യം: \"കഴിച്ചോ മോനേ?\" 📞❤️\nഅമ്മയെ ഇന്ന് തന്നെ വിളിക്കൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "phone",
+    "kazhicho",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

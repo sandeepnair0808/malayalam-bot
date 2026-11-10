@@ -1,0 +1,139 @@
+### 11-first-salary-saree
+title: ആദ്യ ശമ്പളത്തിലെ സാരി | The First-Salary Saree
+theme: A son buys his mother a saree with his first salary; she never wears it until one special day
+narrator: man
+caption: അമ്മമാർ സമ്മാനങ്ങൾ ഉപയോഗിക്കില്ല... സൂക്ഷിച്ച് വെക്കും, ഹൃദയത്തിൽ 🎁❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma saree firstsalary kerala mallureels malayalamreels motherslove
+- interior | zoom_in | indoor | grownup:hold=gift,happy amma:surprised || എന്റെ ആദ്യ ശമ്പളം കിട്ടിയ ദിവസം, ഞാൻ അമ്മയ്ക്ക് ഒരു പട്ടുസാരി വാങ്ങി. ||
+- interior | still | indoor | amma:happy grownup:happy || അമ്മ അത് തൊട്ടുനോക്കി, നെഞ്ചോട് ചേർത്തു. ||
+- interior | pan_right | indoor | amma:idle grownup:sad,talk || പക്ഷേ ഒരിക്കലും ഉടുത്തില്ല. കല്യാണങ്ങൾക്കും, അമ്പലത്തിലും, പഴയ സാരി തന്നെ. || grownup: അമ്മേ, ആ സാരി എന്താ ഉടുക്കാത്തത്?
+- interior+close | zoom_in | indoor | amma:talk,happy || അമ്മ ചിരിക്കും. || amma: അത് ഒരു പ്രത്യേക ദിവസത്തിന് വേണ്ടി വെച്ചതാ.
+- interior | still | indoor | grownup:idle | clock || ഒരു വർഷം, രണ്ടു വർഷം, അഞ്ചു വർഷം. ആ സാരി അലമാരയിൽ തന്നെ. ||
+- temple+festive | pan_right | wind | grownup:happy amma:happy chechi:happy | nilavilakku || പിന്നെ എന്റെ കല്യാണ ദിവസം വന്നു. ||
+- temple+festive+close | zoom_out | wind | amma:happy | nilavilakku || അന്ന് അമ്മ ആ പട്ടുസാരി ഉടുത്തു വന്നു. അമ്മയുടെ പ്രത്യേക ദിവസം, എന്റെ ദിവസമായിരുന്നു. ||
+
+### 12-chechi-braid
+title: ചേച്ചി കെട്ടിത്തന്ന മുടി | The Braids Chechi Tied
+theme: An elder sister braids her little sister's hair every morning, until she leaves home after marriage
+narrator: woman
+caption: ചേച്ചി പോയതിന് ശേഷം ആണ് മുടി കെട്ടാൻ ഇത്ര ബുദ്ധിമുട്ടാണെന്ന് മനസ്സിലായത് 🎀❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory chechi sister braid kerala nostalgia mallureels malayalamreels sisterlove
+- interior | zoom_in | indoor | chechi:happy girl:sad || എന്നും രാവിലെ ചേച്ചി എന്റെ മുടി പിന്നിക്കെട്ടിത്തരും. ||
+- interior | still | indoor | chechi:talk girl:sad,talk || ഞാൻ എന്നും കരയും, വേദനിക്കുന്നു എന്ന് പറഞ്ഞ്. || girl: പതുക്കെ ചേച്ചീ, വേദനിക്കുന്നു!
+- interior | zoom_in | indoor | chechi:talk,happy girl:happy || ചേച്ചി ചിരിക്കും. || chechi: ഭംഗി വേണമെങ്കിൽ കുറച്ച് വേദന സഹിക്കണം!
+- temple+festive | pan_right | wind | chechi:hug girl:hug,sad,cry | nilavilakku || പിന്നെ ചേച്ചിയുടെ കല്യാണം കഴിഞ്ഞു. ചേച്ചി ദൂരെ ഒരു വീട്ടിലേക്ക് പോയി. ||
+- interior | still | indoor | girl:sad || പിറ്റേന്ന് രാവിലെ ഞാൻ തനിയെ മുടി കെട്ടാൻ നോക്കി. പറ്റിയില്ല. ||
+- interior | zoom_in | indoor | girl:sad,cry || അന്ന് ആദ്യമായി, ആ വേദന ഞാൻ ആഗ്രഹിച്ചു. ||
+- interior+close | zoom_out | indoor | amma:happy girl:happy || ഇന്ന് ഞാൻ എന്റെ മോളുടെ മുടി കെട്ടുന്നു. അവൾ കരയുമ്പോൾ ഞാൻ ചിരിക്കും. ചേച്ചിയെപ്പോലെ. ||
+
+### 13-teacher-chalk
+title: ടീച്ചർ തന്ന ചോക്ക് | The Chalk Teacher Gave Me
+theme: A teacher hands a shy boy the chalk every day; he grows up to be a teacher himself
+narrator: man
+caption: നമ്മളിൽ വിശ്വസിച്ച ഒരു ടീച്ചർ ഉണ്ടാകും, എല്ലാവരുടെയും ജീവിതത്തിൽ 📚❤️\nആ ടീച്ചറെ ഓർക്കുന്നുണ്ടോ?
+tags: malayalam malayalamstory teacher school chalk kerala nostalgia mallureels malayalamreels teachersday
+- classroom | zoom_in | indoor | kid:sad friend:happy || ക്ലാസിൽ ഏറ്റവും പിന്നിലെ ബെഞ്ചിൽ, ആരോടും മിണ്ടാതെ ഇരുന്ന ഒരു കുട്ടി ഞാനായിരുന്നു. ||
+- classroom | still | indoor | teacher:point,talk kid:surprised || ഒരു ദിവസം ശാരദ ടീച്ചർ എന്നെ വിളിച്ചു. || teacher: വാ, ഇത് ബോർഡിൽ എഴുതിക്കേ.
+- classroom | zoom_in | indoor | teacher:happy kid:hold=letter,sad || കൈ വിറച്ചു. അക്ഷരങ്ങൾ വളഞ്ഞു. കുട്ടികൾ ചിരിച്ചു. ||
+- classroom | still | indoor | teacher:talk,happy kid:happy || പക്ഷേ ടീച്ചർ പറഞ്ഞു. || teacher: നല്ല അക്ഷരം. നാളെയും നീ തന്നെ എഴുതണം.
+- classroom | pan_right | indoor | teacher:happy kid:happy || അന്നുമുതൽ എല്ലാ ദിവസവും ചോക്ക് എന്റെ കയ്യിലായിരുന്നു. ||
+- classroom | zoom_in | indoor | grownup:point,talk friend:sad || ഇന്ന് ഞാൻ ഒരു ടീച്ചറാണ്. പിന്നിലെ ബെഞ്ചിൽ ഒരു കുട്ടി ആരോടും മിണ്ടാതെ ഇരിക്കുന്നു. || grownup: വാ, ഇത് ബോർഡിൽ എഴുതിക്കേ.
+- classroom+close | zoom_out | indoor | grownup:happy || ശാരദ ടീച്ചർ തന്ന ചോക്ക്, ഇന്നും തീർന്നിട്ടില്ല. ||
+
+### 14-slate-pencil
+title: പകുതി കല്ലുപെൻസിൽ | Half a Slate Pencil
+theme: A friend breaks his only slate pencil in half to share; years later the favour returns
+narrator: man
+caption: പകുതി കല്ലുപെൻസിൽ തന്ന ആ കൂട്ടുകാരൻ ഇപ്പോൾ എവിടെയാണ്? ✏️❤️\nബെസ്റ്റ് ഫ്രണ്ടിനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory friendship school slate kerala nostalgia mallureels malayalamreels bestfriend
+- classroom | zoom_in | indoor | kid:sad,cry friend:surprised || ഒന്നാം ക്ലാസിലെ ആദ്യ ദിവസം, എന്റെ കല്ലുപെൻസിൽ നഷ്ടപ്പെട്ടു. ||
+- classroom | still | indoor | kid:sad friend:talk,hold=letter || അടുത്ത് ഇരുന്ന ഒരു കുട്ടി, അവന്റെ ഒരേയൊരു പെൻസിൽ രണ്ടായി ഒടിച്ചു. || friend: ഇതാ, പകുതി നിനക്ക്.
+- classroom | zoom_in | indoor | kid:happy friend:happy || അന്നുമുതൽ ഞങ്ങൾ എല്ലാം പകുതി പങ്കിട്ടു. പെൻസിൽ, മിഠായി, തല്ല്, ചിരി. ||
+- lane | pan_right | wind | kid:walk friend:walk || പിന്നെ പഠനം കഴിഞ്ഞു. ജീവിതം ഞങ്ങളെ രണ്ടു വഴിക്കാക്കി. ||
+- bus_stop | still | wind | friend:sad grownup:surprised || വർഷങ്ങൾക്ക് ശേഷം ഒരു ബസ് സ്റ്റോപ്പിൽ അവനെ കണ്ടു. ജോലി പോയി, ആകെ തളർന്ന് ഇരിക്കുന്നു. ||
+- bus_stop | zoom_in | wind | grownup:hold=money friend:surprised || ഞാൻ എന്റെ കയ്യിലുള്ളതിന്റെ പകുതി അവന് നീട്ടി. || grownup: ഇതാ, പകുതി നിനക്ക്.
+- bus_stop | zoom_out | wind | grownup:hug friend:hug,happy || അവൻ കരഞ്ഞു കൊണ്ട് ചിരിച്ചു. ആ പകുതി കല്ലുപെൻസിൽ ഞങ്ങൾ രണ്ടുപേരും മറന്നിരുന്നില്ല. ||
+
+### 15-festival-balloon
+title: ഉത്സവത്തിലെ ബലൂൺ | The Festival Balloon
+theme: A father spends his bus fare on a balloon for his son and they walk home in the dark
+narrator: man
+caption: അന്ന് ഞാൻ ബലൂൺ മാത്രമേ കണ്ടുള്ളൂ... അച്ഛന്റെ ക്ഷീണിച്ച കാലുകൾ കണ്ടില്ല 🎈❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ulsavam festival achan balloon kerala nostalgia mallureels malayalamreels
+- temple+night+festive | zoom_in | night | achan:happy kid:jump,happy | nilavilakku || അമ്പലത്തിലെ ഉത്സവം. വെളിച്ചം, ചെണ്ടമേളം, ആനകൾ. ||
+- temple+night | still | night | kid:point,talk achan:idle || ഞാൻ ഒരു ചുവന്ന ബലൂൺ കണ്ടു. || kid: അച്ഛാ, എനിക്ക് അത് വേണം!
+- temple+night | zoom_in | night | achan:sad || അച്ഛൻ പോക്കറ്റിൽ കൈയിട്ട് ഒന്ന് നോക്കി. കുറച്ചു നേരം ഒന്നും മിണ്ടിയില്ല. ||
+- temple+night+festive | still | night | achan:happy kid:jump,happy,hold=toy || പിന്നെ ചിരിച്ചു കൊണ്ട് ആ ബലൂൺ വാങ്ങിത്തന്നു. ||
+- lane+night | pan_right | night | achan:walk kid:walk || തിരിച്ച് ഞങ്ങൾ ബസ്സിൽ പോയില്ല. ഏഴു കിലോമീറ്റർ നടന്നു. || achan: നടക്കാൻ നല്ല രസമല്ലേ മോനേ?
+- lane+night | zoom_in | night | achan:walk kid:walk,happy || ഞാൻ ബലൂണും പിടിച്ച് പാട്ടുപാടി നടന്നു. ||
+- lane+night+close | zoom_out | night | achan:happy || ബസ്സിന്റെ പൈസ കൊണ്ടാണ് ആ ബലൂൺ വാങ്ങിയതെന്ന് ഞാൻ അറിഞ്ഞത്, എനിക്ക് ഒരു മോൻ ഉണ്ടായ ശേഷമാണ്. ||
+
+### 16-first-tv
+title: നാട്ടിലെ ആദ്യത്തെ ടിവി | The First TV in the Village
+theme: The whole village crowds into one home to watch the Sunday movie; years later the narrator misses the crowd
+narrator: man
+caption: ടിവി ചെറുതായിരുന്നു, വീട് ചെറുതായിരുന്നു... പക്ഷേ ഹൃദയങ്ങൾ വലുതായിരുന്നു 📺❤️\nഈ ഓർമ്മ ഉള്ളവർ ഉണ്ടോ?
+tags: malayalam malayalamstory tv sundaymovie village kerala nostalgia mallureels malayalamreels 90s
+- interior+festive | zoom_in | indoor | achan:happy kid:jump,happy | tv || നാട്ടിലെ ആദ്യത്തെ ടിവി, ഞങ്ങളുടെ വീട്ടിലായിരുന്നു. ||
+- interior | still | indoor | ammachi:happy friend:happy chechi:happy kid:sad | tv || ഞായറാഴ്ച സിനിമയ്ക്ക് നാട് മുഴുവൻ ഞങ്ങളുടെ വീട്ടിൽ വരും. ||
+- interior | zoom_in | indoor | amma:hold=plate,happy kid:sad,talk | tv || അമ്മ എല്ലാവർക്കും ചായ കൊടുക്കും. || kid: അമ്മേ, എനിക്ക് ഇരിക്കാൻ പോലും സ്ഥലമില്ല!
+- interior | still | indoor | amma:talk,happy kid:sad | tv || അമ്മ ചിരിച്ചു. || amma: വീട് നിറയുന്നത് ഒരു ഭാഗ്യമാ മോനേ.
+- interior | pan_right | indoor | grownup:idle | tv chair || ഇന്ന് എന്റെ വീട്ടിൽ ഒരു വലിയ ടിവിയുണ്ട്. എല്ലാ മുറിയിലും ഓരോന്ന്. ||
+- interior+night | zoom_in | night | grownup:sad | tv || ഞായറാഴ്ച സിനിമ കാണാൻ ആരും വരാറില്ല. ഞാൻ തനിയെ ഇരിക്കും. ||
+- interior+night+close | zoom_out | night | grownup:sad || അന്ന് എനിക്ക് ഇരിക്കാൻ സ്ഥലം ഇല്ലായിരുന്നു. ഇന്ന് എല്ലാ സ്ഥലവും ഒഴിഞ്ഞു കിടക്കുന്നു. ||
+
+### 17-ammachi-alphabet
+title: അമ്മൂമ്മ എഴുതിയ ആദ്യത്തെ വാക്ക് | Ammachi's First Word
+theme: A grandson teaches his grandmother to write; the first word she writes is his name
+narrator: man
+caption: അക്ഷരം പഠിക്കാൻ പ്രായം ഒരു പ്രശ്നമല്ല, സ്നേഹം ഉണ്ടെങ്കിൽ ✍️❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi grandmother alphabet kerala nostalgia mallureels malayalamreels
+- veranda | zoom_in | wind | ammachi:read || എന്നും രാവിലെ അമ്മൂമ്മ പത്രം കയ്യിൽ പിടിച്ചിരിക്കും. ||
+- veranda | still | wind | ammachi:read kid:surprised,talk || ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, പത്രം തല തിരിഞ്ഞാണ് പിടിച്ചിരിക്കുന്നത്. || kid: അമ്മൂമ്മേ, പത്രം തല കീഴായിട്ടാ!
+- veranda | zoom_in | wind | ammachi:sad,talk kid:idle || അമ്മൂമ്മ ഒന്ന് ചിരിച്ചു, പിന്നെ പതുക്കെ പറഞ്ഞു. || ammachi: എനിക്ക് വായിക്കാൻ അറിയില്ല മോനേ. ചെറുപ്പത്തിൽ സ്കൂളിൽ പോയിട്ടില്ല.
+- night_room | pan_right | night | ammachi:hold=book kid:point,talk | kerosene_lamp || അന്ന് രാത്രി മുതൽ ഞാൻ അമ്മൂമ്മയുടെ ടീച്ചറായി. || kid: ഇതാണ് അ. ഇതാണ് ആ.
+- night_room | still | night | ammachi:read,happy kid:happy | kerosene_lamp || അമ്മൂമ്മ പതുക്കെ പതുക്കെ അക്ഷരങ്ങൾ പഠിച്ചു. ||
+- night_room | zoom_in | night | ammachi:hold=letter,happy kid:surprised | kerosene_lamp || ഒരു മാസം കഴിഞ്ഞ്, അമ്മൂമ്മ ആദ്യമായി ഒരു വാക്ക് സ്വന്തമായി എഴുതി. ||
+- night_room+close | zoom_out | night | ammachi:happy | kerosene_lamp || അത് എന്റെ പേരായിരുന്നു. ||
+
+### 18-vishu-tin
+title: വിഷുക്കൈനീട്ടത്തിന്റെ ടിൻ | The Vishu Coin Tin
+theme: A boy gives his Vishu coins to his grandfather for safekeeping every year and forgets; the tin comes back when it matters
+narrator: man
+caption: അപ്പൂപ്പൻ സൂക്ഷിച്ചത് നാണയങ്ങൾ മാത്രമല്ല, എന്റെ ഭാവിയായിരുന്നു 🪙❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory vishu kaineettam appooppan kerala nostalgia mallureels malayalamreels
+- interior+festive | zoom_in | indoor | appooppan:hold=money,happy kid:jump,happy | nilavilakku || എല്ലാ വിഷുവിനും അപ്പൂപ്പൻ എനിക്ക് ഒരു നാണയം കൈനീട്ടം തരും. ||
+- interior | still | indoor | appooppan:talk kid:hold=money || കിട്ടിയ ഉടനെ അപ്പൂപ്പൻ പറയും. || appooppan: ഇത് അപ്പൂപ്പന്റെ കയ്യിൽ തന്നേക്ക്, സൂക്ഷിച്ച് വെക്കാം.
+- interior | zoom_in | indoor | appooppan:happy kid:sad,talk || ഞാൻ മടിച്ച് മടിച്ച് തിരിച്ചു കൊടുക്കും. || kid: എന്നെ പറ്റിക്കുവാ അപ്പൂപ്പൻ!
+- interior | pan_right | indoor | appooppan:happy kid:idle | clock || ഓരോ വർഷവും ഇത് തുടർന്നു. പിന്നെ ഞാൻ അത് മറന്നുപോയി. ||
+- bus_stop | still | wind | grownup:hold=bag,sad appooppan:hold=tiffin | bus || പതിനെട്ടാം വയസ്സിൽ കോളേജിൽ പോകാൻ ഇറങ്ങുമ്പോൾ, ഫീസിന് പൈസ തികഞ്ഞില്ലായിരുന്നു. ||
+- bus_stop | zoom_in | wind | appooppan:talk,happy grownup:surprised | bus || അപ്പൂപ്പൻ ഒരു പഴയ ടിൻ എന്റെ കയ്യിൽ തന്നു. || appooppan: നിന്റെ കൈനീട്ടമാ. പതിനെട്ട് കൊല്ലത്തെ.
+- bus_stop+close | zoom_out | wind | appooppan:happy | bus || അപ്പൂപ്പൻ ഓരോ വർഷവും ആ നാണയത്തോടൊപ്പം സ്വന്തം പൈസയും ഇട്ടിരുന്നു. എന്റെ ആദ്യ ഫീസ് അടച്ചത് ആ ടിന്നാണ്. ||
+
+### 19-fever-night
+title: പനിയുള്ള രാത്രി | The Fever Night
+theme: A father stays awake all night beside his feverish son; years later the son does the same
+narrator: man
+caption: നമ്മൾ ഉറങ്ങിയ രാത്രികളിൽ ഉറങ്ങാതിരുന്ന ആരോ ഉണ്ടായിരുന്നു 🌙❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan fever father kerala nostalgia mallureels malayalamreels fatherslove
+- night_room+rain | zoom_in | rain | kid:sleep,sad | kerosene_lamp || എനിക്ക് എട്ട് വയസ്സുള്ളപ്പോൾ, ഒരു രാത്രി നല്ല പനി വന്നു. ||
+- night_room+rain | still | rain | achan:hold=plate kid:sleep,sad | kerosene_lamp || അച്ഛൻ നനഞ്ഞ തുണി എന്റെ നെറ്റിയിൽ വെച്ചു കൊണ്ടിരുന്നു. || achan: ഒന്നും ഇല്ല മോനേ, ഇപ്പോ മാറും.
+- night_room+rain | zoom_in | rain | achan:idle kid:sleep | kerosene_lamp clock || രാത്രി മുഴുവൻ. ഒരു മിനിറ്റ് പോലും കണ്ണടച്ചില്ല. ||
+- interior | still | indoor | achan:sleep kid:surprised | chair || രാവിലെ ഞാൻ ഉണർന്നപ്പോൾ പനി മാറിയിരുന്നു. അച്ഛൻ കസേരയിൽ ഇരുന്ന് ഉറങ്ങുന്നു. ||
+- interior | zoom_in | indoor | achan:talk,happy kid:happy || അച്ഛൻ ഉണർന്നപ്പോൾ ആദ്യം ചോദിച്ചത്. || achan: പനി കുറഞ്ഞോ മോനേ?
+- night_room+rain | pan_right | rain | grownup:hold=plate girl:sleep,sad | kerosene_lamp || ഇന്നലെ രാത്രി എന്റെ മോൾക്ക് പനിയായിരുന്നു. ഞാൻ അവളുടെ അടുത്ത് ഇരുന്നു. ||
+- night_room+close | zoom_out | night | grownup:sleep || രാവിലെ അവൾ ഉണർന്നപ്പോൾ ഞാൻ കസേരയിൽ ഉറങ്ങുകയായിരുന്നു. അച്ഛാ, ഇപ്പോ എനിക്ക് മനസ്സിലായി. ||
+
+### 20-first-bus-alone
+title: ആദ്യമായി തനിയെ ബസ്സിൽ | My First Bus Ride Alone
+theme: A boy proudly rides the school bus alone for the first time, not knowing his father follows every day
+narrator: man
+caption: നമ്മൾ തനിയെ ആണെന്ന് വിചാരിച്ചപ്പോഴും, അച്ഛൻ പിന്നാലെ ഉണ്ടായിരുന്നു 🚲❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan bus school kerala nostalgia mallureels malayalamreels fatherslove
+- yard | zoom_in | wind | achan:talk kid:hold=bag,happy || പത്താം വയസ്സിൽ അച്ഛൻ പറഞ്ഞു. || achan: നാളെ മുതൽ നീ തനിയെ ബസ്സിൽ പോണം.
+- bus_stop | still | wind | kid:hold=bag,surprised | bus || ആദ്യ ദിവസം എനിക്ക് പേടിയായിരുന്നു. ||
+- bus_stop | pan_left | wind | kid:wave,happy | bus || പക്ഷേ ഞാൻ ബസ്സിൽ കയറി. തനിയെ, ഒരു വലിയ ആളെപ്പോലെ. ||
+- school | zoom_in | wind | kid:jump,happy friend:happy || സ്കൂളിൽ എത്തിയപ്പോൾ അഭിമാനം കൊണ്ട് ഞാൻ തുള്ളിച്ചാടി. ||
+- yard | still | wind | kid:talk,happy achan:happy | bicycle || വൈകുന്നേരം ഞാൻ അച്ഛനോട് എല്ലാം പറഞ്ഞു. || kid: ഞാൻ തനിയെ പോയി അച്ഛാ, ഒട്ടും പേടിച്ചില്ല!
+- yard | zoom_in | wind | grownup:surprised amma:talk | bicycle || വർഷങ്ങൾക്ക് ശേഷം അമ്മ ഒരു രഹസ്യം പറഞ്ഞു. || amma: ആ ഒരാഴ്ച മുഴുവൻ അച്ഛൻ സൈക്കിളിൽ ബസ്സിന്റെ പിന്നാലെ വന്നിരുന്നു.
+- yard+close | zoom_out | wind | achan:happy | bicycle || ഞാൻ തനിയെ ആയിരുന്നില്ല. ഒരിക്കലും. ||

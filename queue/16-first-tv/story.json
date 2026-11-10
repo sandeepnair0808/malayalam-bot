@@ -1,0 +1,251 @@
+{
+  "title_ml": "നാട്ടിലെ ആദ്യത്തെ ടിവി",
+  "title_en": "The First TV in the Village",
+  "theme": "The whole village crowds into one home to watch the Sunday movie; years later the narrator misses the crowd",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "നാട്ടിലെ ആദ്യത്തെ ടിവി, ഞങ്ങളുടെ വീട്ടിലായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:happy kid:jump,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:happy",
+          "kid:jump,happy"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞായറാഴ്ച സിനിമയ്ക്ക് നാട് മുഴുവൻ ഞങ്ങളുടെ വീട്ടിൽ വരും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with ammachi, friend, chechi, kid",
+      "characters": [
+        "ammachi",
+        "friend",
+        "chechi",
+        "kid"
+      ],
+      "action": "ammachi:happy friend:happy chechi:happy kid:sad",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "friend:happy",
+          "chechi:happy",
+          "kid:sad"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മ എല്ലാവർക്കും ചായ കൊടുക്കും.",
+      "dialogue_ml": "അമ്മേ, എനിക്ക് ഇരിക്കാൻ പോലും സ്ഥലമില്ല!",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:hold=plate,happy kid:sad,talk",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=plate,happy",
+          "kid:sad,talk"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "വീട് നിറയുന്നത് ഒരു ഭാഗ്യമാ മോനേ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:talk,happy kid:sad",
+      "speaker": "amma",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:talk,happy",
+          "kid:sad"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് എന്റെ വീട്ടിൽ ഒരു വലിയ ടിവിയുണ്ട്. എല്ലാ മുറിയിലും ഓരോന്ന്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:idle",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:idle"
+        ],
+        "props": [
+          "tv",
+          "chair"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞായറാഴ്ച സിനിമ കാണാൻ ആരും വരാറില്ല. ഞാൻ തനിയെ ഇരിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:sad"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അന്ന് എനിക്ക് ഇരിക്കാൻ സ്ഥലം ഇല്ലായിരുന്നു. ഇന്ന് എല്ലാ സ്ഥലവും ഒഴിഞ്ഞു കിടക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:sad",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "night"
+        ],
+        "shot": "close",
+        "cast": [
+          "grownup:sad"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ടിവി ചെറുതായിരുന്നു, വീട് ചെറുതായിരുന്നു... പക്ഷേ ഹൃദയങ്ങൾ വലുതായിരുന്നു 📺❤️\nഈ ഓർമ്മ ഉള്ളവർ ഉണ്ടോ?",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "tv",
+    "sundaymovie",
+    "village",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "90s"
+  ]
+}

@@ -5,9 +5,10 @@ from __future__ import annotations
 from typing import List, Literal, Optional
 
 from pydantic import BaseModel, Field
+from pydantic.json_schema import SkipJsonSchema
 
 CameraMove = Literal["zoom_in", "zoom_out", "pan_left", "pan_right", "still"]
-VoiceType = Literal["man", "woman", "old_man", "old_woman", "boy", "girl"]
+VoiceType = Literal["man", "woman", "old_man", "old_woman", "boy", "girl", "teen_girl"]
 Ambience = Literal["none", "rain", "night", "wind", "indoor"]
 
 
@@ -32,7 +33,11 @@ class Scene(BaseModel):
         default="",
         description="words spoken aloud by `speaker` in their own voice, without quote marks; empty if none",
     )
-    subtitle_ml: str = Field(description="on-screen Malayalam subtitle, max ~32 characters per line, max 2 lines")
+    subtitle_ml: str = Field(
+        default="",
+        description="on-screen Malayalam subtitle, max ~32 characters per line, max 2 lines; leave empty to "
+        "show the spoken words automatically",
+    )
     visual: str = Field(description="English description of what the illustration shows: who, pose, expression, setting")
     characters: List[str] = Field(description="ids of characters visible in the scene")
     action: str = Field(
@@ -47,6 +52,8 @@ class Scene(BaseModel):
     )
     camera: CameraMove
     ambience: Ambience = Field(default="none", description="background sound: rain, night (crickets), wind, indoor, none")
+    # Hidden from the schema Claude fills in (free-form dicts aren't allowed in structured outputs).
+    art: SkipJsonSchema[Optional[dict]] = Field(default=None, description="scene-kit description (reelbot.scenekit); drawn locally instead of by the illustrator")
 
 
 class Story(BaseModel):

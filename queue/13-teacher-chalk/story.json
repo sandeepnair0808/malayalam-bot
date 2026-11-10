@@ -1,0 +1,214 @@
+{
+  "title_ml": "ടീച്ചർ തന്ന ചോക്ക്",
+  "title_en": "The Chalk Teacher Gave Me",
+  "theme": "A teacher hands a shy boy the chalk every day; he grows up to be a teacher himself",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "friend",
+      "name_ml": "കൂട്ടുകാരൻ",
+      "look": "8 year old boy, green shirt, brown shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "teacher",
+      "name_ml": "ടീച്ചർ",
+      "look": "school teacher, black hair bun, blue saree with gold border",
+      "voice": "woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ക്ലാസിൽ ഏറ്റവും പിന്നിലെ ബെഞ്ചിൽ, ആരോടും മിണ്ടാതെ ഇരുന്ന ഒരു കുട്ടി ഞാനായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with kid, friend",
+      "characters": [
+        "kid",
+        "friend"
+      ],
+      "action": "kid:sad friend:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sad",
+          "friend:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ശാരദ ടീച്ചർ എന്നെ വിളിച്ചു.",
+      "dialogue_ml": "വാ, ഇത് ബോർഡിൽ എഴുതിക്കേ.",
+      "subtitle_ml": "",
+      "visual": "classroom scene with teacher, kid",
+      "characters": [
+        "teacher",
+        "kid"
+      ],
+      "action": "teacher:point,talk kid:surprised",
+      "speaker": "teacher",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "teacher:point,talk",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "കൈ വിറച്ചു. അക്ഷരങ്ങൾ വളഞ്ഞു. കുട്ടികൾ ചിരിച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with teacher, kid",
+      "characters": [
+        "teacher",
+        "kid"
+      ],
+      "action": "teacher:happy kid:hold=letter,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "teacher:happy",
+          "kid:hold=letter,sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ ടീച്ചർ പറഞ്ഞു.",
+      "dialogue_ml": "നല്ല അക്ഷരം. നാളെയും നീ തന്നെ എഴുതണം.",
+      "subtitle_ml": "",
+      "visual": "classroom scene with teacher, kid",
+      "characters": [
+        "teacher",
+        "kid"
+      ],
+      "action": "teacher:talk,happy kid:happy",
+      "speaker": "teacher",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "teacher:talk,happy",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്നുമുതൽ എല്ലാ ദിവസവും ചോക്ക് എന്റെ കയ്യിലായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with teacher, kid",
+      "characters": [
+        "teacher",
+        "kid"
+      ],
+      "action": "teacher:happy kid:happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "teacher:happy",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് ഞാൻ ഒരു ടീച്ചറാണ്. പിന്നിലെ ബെഞ്ചിൽ ഒരു കുട്ടി ആരോടും മിണ്ടാതെ ഇരിക്കുന്നു.",
+      "dialogue_ml": "വാ, ഇത് ബോർഡിൽ എഴുതിക്കേ.",
+      "subtitle_ml": "",
+      "visual": "classroom scene with grownup, friend",
+      "characters": [
+        "grownup",
+        "friend"
+      ],
+      "action": "grownup:point,talk friend:sad",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:point,talk",
+          "friend:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ശാരദ ടീച്ചർ തന്ന ചോക്ക്, ഇന്നും തീർന്നിട്ടില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "classroom scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "classroom",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "നമ്മളിൽ വിശ്വസിച്ച ഒരു ടീച്ചർ ഉണ്ടാകും, എല്ലാവരുടെയും ജീവിതത്തിൽ 📚❤️\nആ ടീച്ചറെ ഓർക്കുന്നുണ്ടോ?",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "teacher",
+    "school",
+    "chalk",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "teachersday"
+  ]
+}

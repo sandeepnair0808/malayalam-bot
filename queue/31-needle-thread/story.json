@@ -1,0 +1,211 @@
+{
+  "title_ml": "സൂചിയിൽ നൂൽ",
+  "title_en": "Threading the Needle",
+  "theme": "A boy threads his grandmother's needle every evening; decades later his daughter threads his",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും വൈകുന്നേരം അമ്മൂമ്മ തുന്നാൻ ഇരിക്കും. പക്ഷേ സൂചിയിൽ നൂൽ കോർക്കാൻ കണ്ണ് കാണില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:hold=letter,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=letter,sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ എന്നെ വിളിക്കും.",
+      "dialogue_ml": "ഉണ്ണീ, ഈ നൂലൊന്ന് കോർത്ത് താ.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:talk kid:happy",
+      "speaker": "ammachi",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:talk",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു സെക്കൻഡ് കൊണ്ട് ഞാൻ കോർത്ത് കൊടുക്കും.",
+      "dialogue_ml": "ഇത്രേ ഉള്ളൂ അമ്മൂമ്മേ!",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:happy kid:hold=letter,talk,happy",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "kid:hold=letter,talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ എന്നും ചിരിച്ചു കൊണ്ട് പറയും, നിനക്കും ഒരു ദിവസം വയസ്സാകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:happy kid:jump,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "kid:jump,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്നലെ ഒരു ഷർട്ടിന്റെ ബട്ടൺ തുന്നാൻ ഞാൻ സൂചി എടുത്തു. കോർക്കാൻ പറ്റുന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:hold=letter,sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=letter,sad"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വിളിച്ചു.",
+      "dialogue_ml": "മോളേ, ഈ നൂലൊന്ന് കോർത്ത് താ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:talk girl:happy",
+      "speaker": "grownup",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk",
+          "girl:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു സെക്കൻഡ് കൊണ്ട് അവൾ കോർത്തു. ഇത്രേ ഉള്ളൂ അച്ഛാ, എന്ന് പറഞ്ഞു. അന്ന് ഞാൻ അമ്മൂമ്മയെ ഓർത്ത് ചിരിച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "ഒരു ദിവസം നമ്മളും സൂചിയിൽ നൂൽ കോർക്കാൻ ബുദ്ധിമുട്ടും... അന്ന് ഓർക്കും 🪡❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "needle",
+    "grandmother",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

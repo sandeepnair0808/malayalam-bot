@@ -1,0 +1,225 @@
+{
+  "title_ml": "അമ്മൂമ്മയുടെ താരാട്ട്",
+  "title_en": "Ammachi's Lullaby",
+  "theme": "A grandmother's lullaby comforts a frightened boy; decades later he sings it back to her",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "കുട്ടിക്കാലത്ത് എനിക്ക് ഇരുട്ടിനെ വലിയ പേടിയായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:surprised,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:surprised,sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ അമ്മൂമ്മ അടുത്ത് വന്നിരുന്ന് പാടും.",
+      "dialogue_ml": "ഓമനത്തിങ്കൾ കിടാവോ, നല്ല കോമളത്താമരപ്പൂവോ...",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:talk,happy kid:sleep",
+      "speaker": "ammachi",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "ammachi:talk,happy",
+          "kid:sleep"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ആ പാട്ട് കേട്ടാൽ എല്ലാ പേടിയും പോകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:happy kid:sleep,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "kid:sleep,happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. അമ്മൂമ്മയ്ക്ക് വയസ്സായി. ഓർമ്മ കുറഞ്ഞുതുടങ്ങി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, ammachi",
+      "characters": [
+        "grownup",
+        "ammachi"
+      ],
+      "action": "grownup:hold=bag ammachi:wave",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=bag",
+          "ammachi:wave"
+        ],
+        "props": [
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു രാത്രി അമ്മൂമ്മ പേടിച്ച് ഉണർന്നു.",
+      "dialogue_ml": "ഇരുട്ടാ... എനിക്ക് പേടിയാവുന്നു.",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, grownup",
+      "characters": [
+        "ammachi",
+        "grownup"
+      ],
+      "action": "ammachi:sad,talk grownup:surprised",
+      "speaker": "ammachi",
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:sad,talk",
+          "grownup:surprised"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ അടുത്ത് ഇരുന്ന് പതുക്കെ പാടി.",
+      "dialogue_ml": "ഓമനത്തിങ്കൾ കിടാവോ, നല്ല കോമളത്താമരപ്പൂവോ...",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup, ammachi",
+      "characters": [
+        "grownup",
+        "ammachi"
+      ],
+      "action": "grownup:talk ammachi:sleep",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk",
+          "ammachi:sleep"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ ചിരിച്ചു കൊണ്ട് ഉറങ്ങി. ആ പാട്ട് അമ്മൂമ്മ മറന്നിരുന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:sleep,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "ammachi:sleep,happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "ഒരിക്കൽ നമ്മളെ ഉറക്കിയ പാട്ട്, ഇന്ന് നമ്മൾ അവർക്ക് പാടിക്കൊടുക്കണം 🌙❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "lullaby",
+    "tharattu",
+    "grandmother",
+    "kerala",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "title_ml": "കറന്റ് പോയ രാത്രികൾ",
+  "title_en": "The Power Cut Nights",
+  "theme": "A father tells stories by lamplight during power cuts; years later his son tells the same stories to his daughter",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "മഴക്കാലത്ത് എന്നും രാത്രി കറന്റ് പോകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:surprised"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അപ്പോൾ അച്ഛൻ മണ്ണെണ്ണ വിളക്ക് കത്തിച്ച് കഥ പറയും.",
+      "dialogue_ml": "പണ്ട് പണ്ട്, ഒരു കാട്ടിൽ ഒരു ആന ഉണ്ടായിരുന്നു...",
+      "subtitle_ml": "",
+      "visual": "night_room scene with achan, kid, girl",
+      "characters": [
+        "achan",
+        "kid",
+        "girl"
+      ],
+      "action": "achan:talk,happy kid:happy girl:happy",
+      "speaker": "achan",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "kid:happy",
+          "girl:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "കറന്റ് വന്നാൽ ഞങ്ങൾക്ക് സങ്കടമായിരുന്നു.",
+      "dialogue_ml": "അയ്യോ, കറന്റ് വന്നു!",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:sad,talk achan:happy",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:sad,talk",
+          "achan:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് എന്റെ വീട്ടിൽ ആരും കഥ പറയാറില്ല. എല്ലാവരും ഫോണിൽ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:phone girl:phone",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:phone",
+          "girl:phone"
+        ],
+        "props": [
+          "tv"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു രാത്രി കറന്റ് പോയി.",
+      "dialogue_ml": "അച്ഛാ, പേടിയാവുന്നു!",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:surprised girl:surprised,talk",
+      "speaker": "girl",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:surprised",
+          "girl:surprised,talk"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ഒരു വിളക്ക് കത്തിച്ചു.",
+      "dialogue_ml": "പണ്ട് പണ്ട്, ഒരു കാട്ടിൽ ഒരു ആന ഉണ്ടായിരുന്നു...",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:talk,happy girl:happy",
+      "speaker": "grownup",
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:talk,happy",
+          "girl:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "കറന്റ് വന്നപ്പോൾ എന്റെ മോൾ പറഞ്ഞു, ലൈറ്റ് ഓഫ് ചെയ്യൂ അച്ഛാ, കഥ തീർന്നില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "കറന്റ് പോകുമ്പോൾ ആയിരുന്നു ഞങ്ങളുടെ വീട്ടിൽ ഏറ്റവും വെളിച്ചം 🪔❤️\nനിങ്ങൾക്കും ഉണ്ടോ ഇങ്ങനെ ഓർമ്മകൾ?",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "powercut",
+    "achan",
+    "stories",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

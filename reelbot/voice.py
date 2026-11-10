@@ -43,6 +43,7 @@ PRESETS = {
     "old_woman": VoicePreset(FEMALE, -10, -2),
     "boy": VoicePreset(FEMALE, 28, 10),
     "girl": VoicePreset(FEMALE, 40, 12),
+    "teen_girl": VoicePreset(FEMALE, 16, 8),
 }
 
 GAP = 0.18  # silence between narration and dialogue in one scene

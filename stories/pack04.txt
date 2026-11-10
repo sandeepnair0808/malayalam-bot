@@ -1,0 +1,139 @@
+### 31-needle-thread
+title: സൂചിയിൽ നൂൽ | Threading the Needle
+theme: A boy threads his grandmother's needle every evening; decades later his daughter threads his
+narrator: man
+caption: ഒരു ദിവസം നമ്മളും സൂചിയിൽ നൂൽ കോർക്കാൻ ബുദ്ധിമുട്ടും... അന്ന് ഓർക്കും 🪡❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory ammachi needle grandmother kerala nostalgia mallureels malayalamreels
+- veranda | zoom_in | wind | ammachi:hold=letter,sad || എന്നും വൈകുന്നേരം അമ്മൂമ്മ തുന്നാൻ ഇരിക്കും. പക്ഷേ സൂചിയിൽ നൂൽ കോർക്കാൻ കണ്ണ് കാണില്ല. ||
+- veranda | still | wind | ammachi:talk kid:happy || അപ്പോൾ എന്നെ വിളിക്കും. || ammachi: ഉണ്ണീ, ഈ നൂലൊന്ന് കോർത്ത് താ.
+- veranda | zoom_in | wind | ammachi:happy kid:hold=letter,talk,happy || ഒരു സെക്കൻഡ് കൊണ്ട് ഞാൻ കോർത്ത് കൊടുക്കും. || kid: ഇത്രേ ഉള്ളൂ അമ്മൂമ്മേ!
+- veranda | still | wind | ammachi:happy kid:jump,happy || അമ്മൂമ്മ എന്നും ചിരിച്ചു കൊണ്ട് പറയും, നിനക്കും ഒരു ദിവസം വയസ്സാകും. ||
+- interior | pan_right | indoor | grownup:hold=letter,sad | clock || ഇന്നലെ ഒരു ഷർട്ടിന്റെ ബട്ടൺ തുന്നാൻ ഞാൻ സൂചി എടുത്തു. കോർക്കാൻ പറ്റുന്നില്ല. ||
+- interior | still | indoor | grownup:talk girl:happy || ഞാൻ വിളിച്ചു. || grownup: മോളേ, ഈ നൂലൊന്ന് കോർത്ത് താ.
+- interior+close | zoom_out | indoor | grownup:happy || ഒരു സെക്കൻഡ് കൊണ്ട് അവൾ കോർത്തു. ഇത്രേ ഉള്ളൂ അച്ഛാ, എന്ന് പറഞ്ഞു. അന്ന് ഞാൻ അമ്മൂമ്മയെ ഓർത്ത് ചിരിച്ചു. ||
+
+### 32-evening-lamp
+title: സന്ധ്യയ്ക്ക് കത്തിക്കുന്ന വിളക്ക് | The Evening Lamp
+theme: A grandmother lights the lamp each evening and prays for every family member by name; her granddaughter continues it
+narrator: woman
+caption: സന്ധ്യയ്ക്ക് വിളക്ക് കത്തിക്കുമ്പോൾ നമ്മുടെ പേര് പറഞ്ഞ് പ്രാർത്ഥിച്ച ഒരാൾ ഉണ്ടായിരുന്നു 🪔❤️
+tags: malayalam malayalamstory ammachi nilavilakku sandhya grandmother kerala mallureels malayalamreels
+- veranda+sunset | zoom_in | wind | ammachi:pray | nilavilakku || എന്നും സന്ധ്യയ്ക്ക് അമ്മൂമ്മ ഉമ്മറത്ത് നിലവിളക്ക് കത്തിക്കും. ||
+- veranda+sunset | still | wind | ammachi:pray,talk girl:pray | nilavilakku || പിന്നെ ഓരോരുത്തരുടെയും പേര് പറഞ്ഞ് പ്രാർത്ഥിക്കും. || ammachi: എന്റെ മക്കളെയും പേരക്കുട്ടികളെയും കാത്തോളണേ...
+- veranda+sunset | zoom_in | wind | ammachi:happy girl:talk | nilavilakku || ഞാൻ ചോദിക്കും. || girl: അമ്മൂമ്മ അമ്മൂമ്മയ്ക്ക് വേണ്ടി പ്രാർത്ഥിക്കില്ലേ?
+- veranda+sunset+close | still | wind | ammachi:talk,happy | nilavilakku || അമ്മൂമ്മ ചിരിച്ചു. || ammachi: നിങ്ങളൊക്കെ നന്നായിരുന്നാൽ അതാ എനിക്കുള്ള പ്രാർത്ഥന.
+- interior | pan_right | indoor | amma:sad | photo:ammachi+garland || ഇന്ന് അമ്മൂമ്മ ഇല്ല. ||
+- veranda+sunset | zoom_in | wind | amma:pray | nilavilakku || പക്ഷേ എല്ലാ സന്ധ്യയ്ക്കും ആ വിളക്ക് ഇന്നും കത്തുന്നു. ഇന്ന് ഞാനാണ് കത്തിക്കുന്നത്. ||
+- veranda+sunset+close | zoom_out | wind | amma:pray,happy | nilavilakku || എല്ലാവരുടെയും പേര് പറഞ്ഞ ശേഷം, ഞാൻ ഒരു പേര് കൂടി പറയും. അമ്മൂമ്മയുടെ. ||
+
+### 33-amma-sleep
+title: അമ്മ ഉറങ്ങാറുണ്ടോ? | Does Amma Ever Sleep?
+theme: A boy wonders whether his mother ever sleeps, until he wakes at 3am
+narrator: man
+caption: വീട്ടിൽ എല്ലാവരും ഉറങ്ങിയ ശേഷം ഉണർന്നിരിക്കുന്ന ഒരാളുണ്ട്... അമ്മ 🌙❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma sleep mother kerala mallureels malayalamreels motherslove
+- night_room | zoom_in | night | kid:sleep amma:idle | kerosene_lamp || ഞാൻ ഉറങ്ങുമ്പോൾ അമ്മ ഉണർന്നിരിക്കും. ||
+- kitchen | still | indoor | amma:cook kid:surprised | stove || ഞാൻ ഉണരുമ്പോഴും അമ്മ ഉണർന്നിരിക്കും. അടുക്കളയിൽ. ||
+- kitchen | zoom_in | indoor | kid:talk amma:happy | stove || ഒരു ദിവസം ഞാൻ ചോദിച്ചു. || kid: അമ്മ ഉറങ്ങാറില്ലേ?
+- kitchen+close | still | indoor | amma:talk,happy | stove || അമ്മ ചിരിച്ചു. || amma: അമ്മമാർക്ക് ഉറക്കം കുറവാ മോനേ.
+- night_room | pan_right | night | amma:hold=letter kid:surprised | kerosene_lamp clock || ഒരു രാത്രി, മൂന്നു മണിക്ക് ഞാൻ ഉണർന്നു. വിളക്കിന്റെ വെളിച്ചത്തിൽ അമ്മ ഇരിക്കുന്നു. ||
+- night_room | zoom_in | night | amma:hold=letter,sad | kerosene_lamp || പിറ്റേന്ന് പരീക്ഷയ്ക്ക് ഇടാനുള്ള എന്റെ കീറിയ യൂണിഫോം തുന്നുകയായിരുന്നു. ||
+- night_room+close | zoom_out | night | amma:happy | kerosene_lamp || അമ്മമാർക്ക് ഉറക്കം കുറവല്ല. നമ്മളെക്കുറിച്ചുള്ള ആധി കൂടുതലാണ്. ||
+
+### 34-achan-torch
+title: അച്ഛന്റെ ടോർച്ച് | Achan's Torch
+theme: A father waits with a torch every night after tuition; when the boy tells him to stop, he keeps waiting in secret
+narrator: man
+caption: ഇരുട്ടുള്ള വഴിയിൽ നമുക്ക് മുന്നിൽ ഒരു വെളിച്ചം ഉണ്ടായിരുന്നു... അച്ഛൻ 🔦❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan torch tuition father kerala mallureels malayalamreels fatherslove
+- bus_stop+night | zoom_in | night | achan:hold=lamp kid:hold=bag | bus || ട്യൂഷൻ കഴിഞ്ഞ് രാത്രി ഒൻപതിന് ബസ് ഇറങ്ങുമ്പോൾ, അച്ഛൻ ടോർച്ചുമായി കാത്തുനിൽക്കും. ||
+- lane+night | still | night | achan:walk,hold=lamp kid:walk || ഇരുട്ടുള്ള ഇടവഴിയിലൂടെ ഞങ്ങൾ ഒരുമിച്ച് നടക്കും. ||
+- lane+night | zoom_in | night | kid:talk,sad achan:idle || പതിനഞ്ച് വയസ്സായപ്പോൾ ഞാൻ പറഞ്ഞു. || kid: ഇനി വരണ്ട അച്ഛാ. കൂട്ടുകാർ കളിയാക്കുന്നു. ഞാൻ വലുതായി.
+- bus_stop+night | pan_left | night | kid:surprised,hold=bag | bus || പിറ്റേന്ന് ബസ് സ്റ്റോപ്പിൽ ആരും ഉണ്ടായിരുന്നില്ല. ||
+- lane+night | still | night | kid:walk,sad || ഇരുട്ട്. പട്ടികളുടെ കുര. എനിക്ക് പേടിയായി. ||
+- lane+night | zoom_in | night | achan:hold=lamp,happy kid:surprised || അപ്പോൾ ഇടവഴിയുടെ നടുവിൽ, ഒരു മരത്തിന്റെ പിന്നിൽ നിന്ന് ഒരു ടോർച്ച് വെളിച്ചം എന്റെ വഴിയിലേക്ക് വീണു. ||
+- lane+night+close | zoom_out | night | achan:hold=lamp,happy || അച്ഛൻ വന്നിരുന്നു. ഞാൻ കാണാതെ. എന്റെ വഴിക്ക് വെളിച്ചം കാണിക്കാൻ മാത്രം. ||
+
+### 35-pen-friend
+title: മൂന്ന് കത്തുകൾ | Three Letters
+theme: Two best friends separated as children promise to write; one keeps the letters for 25 years
+narrator: man
+caption: ആദ്യത്തെ ബെസ്റ്റ് ഫ്രണ്ട് ഇപ്പോൾ എവിടെയാണ്? ഒന്ന് വിളിച്ചു നോക്കൂ ✉️❤️\nബെസ്റ്റ് ഫ്രണ്ടിനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory friendship letter bestfriend kerala nostalgia mallureels malayalamreels
+- paddy | zoom_in | wind | kid:jump,happy friend:jump,happy || ഞാനും ബിജുവും ഒരു ദിവസം പോലും പിരിഞ്ഞിരുന്നിട്ടില്ല. ||
+- bus_stop | still | wind | friend:sad,talk,hold=bag kid:sad,cry | bus || പിന്നെ അവന്റെ അച്ഛന് ട്രാൻസ്ഫർ ആയി. || friend: ഞാൻ എല്ലാ ആഴ്ചയും കത്ത് എഴുതും!
+- veranda | zoom_in | wind | kid:read,happy || ആദ്യം ഒരു കത്ത് വന്നു. പിന്നെ രണ്ടാമത്തേത്. മൂന്നാമത്തേത്. ||
+- veranda | still | wind | kid:sad | clock || പിന്നെ കത്തുകൾ വന്നില്ല. ഞാനും എഴുതാതായി. ജീവിതം ഓടിപ്പോയി. ||
+- night_room | pan_right | night | grownup:phone,surprised | kerosene_lamp || ഇരുപത്തഞ്ച് വർഷത്തിന് ശേഷം, ഫോണിൽ ഒരു മെസേജ്. ഒരു ഫോട്ടോ. ||
+- night_room | zoom_in | night | grownup:phone,happy,cry | kerosene_lamp || ഞാൻ അവന് അയച്ച മൂന്ന് കത്തുകൾ. മഞ്ഞച്ച കടലാസ്. അതിന് താഴെ ഒരു വരി. ||
+- bus_stop+close | zoom_out | wind | friend:happy || ഇതൊന്നും ഞാൻ കളഞ്ഞിട്ടില്ല ഡാ. അടുത്ത ആഴ്ച ഞാൻ നാട്ടിൽ വരുന്നുണ്ട്. ||
+
+### 36-achan-cooks
+title: അച്ഛൻ ദോശ ചുട്ട ദിവസം | The Day Achan Made Dosa
+theme: When mother falls sick, father attempts breakfast for the first time, with funny results
+narrator: man
+caption: ലോകത്തിലെ ഏറ്റവും മോശം ദോശ, ഏറ്റവും സ്നേഹമുള്ള ദോശ 😂❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan dosa funny family kerala mallureels malayalamreels fatherslove
+- night_room | zoom_in | indoor | amma:sleep,sad || ഒരു ദിവസം അമ്മയ്ക്ക് നല്ല പനി. എഴുന്നേൽക്കാൻ പോലും പറ്റുന്നില്ല. ||
+- kitchen | still | indoor | achan:cook,talk kid:surprised girl:surprised | stove || അന്ന് ആദ്യമായി അച്ഛൻ അടുക്കളയിൽ കയറി. || achan: ദോശ ചുടാൻ എന്താ ഇത്ര പാട്, ഞാൻ ചുട്ടു തരാം!
+- kitchen | zoom_in | indoor | achan:cook,surprised | stove || ആദ്യത്തെ ദോശ കരിഞ്ഞു. രണ്ടാമത്തേത് ഒട്ടിപ്പിടിച്ചു. മൂന്നാമത്തേത് ഇന്ത്യയുടെ ഭൂപടം പോലെ. ||
+- kitchen | still | indoor | kid:jump,happy girl:jump,happy achan:sad | table:burnt || ഞങ്ങൾ ചിരിച്ച് ചിരിച്ച് താഴെ വീണു. ||
+- night_room | zoom_in | indoor | amma:talk,happy achan:hold=plate kid:happy || അച്ഛൻ ഒരു പാത്രം അമ്മയ്ക്ക് കൊണ്ടുകൊടുത്തു. || amma: ഇത്ര നല്ല ദോശ ഞാൻ ജീവിതത്തിൽ കഴിച്ചിട്ടില്ല.
+- night_room | still | indoor | achan:happy amma:happy,eat || അമ്മ മുഴുവൻ കഴിച്ചു. ചിരിച്ചു കൊണ്ട്. ||
+- kitchen+close | zoom_out | indoor | grownup:cook,happy | stove || ഇന്ന് എന്റെ ഭാര്യയ്ക്ക് പനിയാണ്. ഞാൻ ദോശ ചുടുന്നു. ആദ്യത്തേത് കരിഞ്ഞു. ചില കാര്യങ്ങൾ പാരമ്പര്യമാണ്. ||
+
+### 37-slow-walk
+title: അപ്പൂപ്പന്റെ പതുക്കെ നടത്തം | Walking Slowly with Appooppan
+theme: A grandfather once walked slowly for his little grandson; now the grandson walks slowly for him
+narrator: man
+caption: ഒരിക്കൽ അവർ നമുക്ക് വേണ്ടി പതുക്കെ നടന്നു. ഇന്ന് നമ്മൾ അവർക്ക് വേണ്ടി 🚶‍♂️❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory appooppan walk grandfather kerala mallureels malayalamreels
+- lane | zoom_in | wind | appooppan:walk kid:walk,happy || കുട്ടിക്കാലത്ത് എന്നും രാവിലെ അപ്പൂപ്പനോടൊപ്പം അമ്പലത്തിലേക്ക് നടക്കും. ||
+- lane | still | wind | appooppan:happy kid:talk || അപ്പൂപ്പൻ വളരെ പതുക്കെയാണ് നടക്കുക. || kid: അപ്പൂപ്പൻ എന്താ ഇത്ര പതുക്കെ നടക്കുന്നേ?
+- lane | zoom_in | wind | appooppan:talk,happy kid:idle || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: നിന്റെ കുഞ്ഞിക്കാല് എനിക്കൊപ്പം എത്തണ്ടേ.
+- temple | pan_right | wind | appooppan:pray kid:pray | nilavilakku || അങ്ങനെ എല്ലാ ദിവസവും. ഞാൻ ഓടിയില്ല, അപ്പൂപ്പൻ വേഗം കൂട്ടിയില്ല. ||
+- lane | still | wind | grownup:walk appooppan:walk || ഇന്ന് അപ്പൂപ്പന് തൊണ്ണൂറ് വയസ്സ്. ഞാൻ കൂടെ നടക്കുന്നു. ||
+- lane | zoom_in | wind | appooppan:talk,surprised grownup:happy || അപ്പൂപ്പൻ ചോദിച്ചു. || appooppan: നീ എന്താ ഇത്ര പതുക്കെ നടക്കുന്നേ?
+- lane+close | zoom_out | wind | grownup:happy || ഞാൻ ചിരിച്ചു. ഇത്തവണ എന്റെ ഊഴം ആണ് അപ്പൂപ്പാ. ||
+
+### 38-tiffin-notes
+title: ടിഫിനിലെ കുറിപ്പുകൾ | Notes in the Tiffin Box
+theme: A mother hides little notes in her son's tiffin; years later he finds she kept every reply he wrote
+narrator: man
+caption: അമ്മമാർ ഒന്നും കളയില്ല... പ്രത്യേകിച്ച് നമ്മുടെ ഓർമ്മകൾ 📝❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma tiffin notes mother kerala mallureels malayalamreels motherslove
+- classroom | zoom_in | indoor | kid:hold=tiffin,surprised friend:happy || ഉച്ചയ്ക്ക് ടിഫിൻ തുറക്കുമ്പോൾ, എന്നും അതിൽ ഒരു കുഞ്ഞ് കുറിപ്പ് ഉണ്ടാകും. ||
+- classroom | still | indoor | kid:read,happy || അമ്മയുടെ കയ്യക്ഷരം. എല്ലാം കഴിക്കണം. പരീക്ഷ നന്നായി എഴുതണം. നീ മിടുക്കനാ. ||
+- classroom | zoom_in | indoor | kid:hold=letter,happy || ഞാൻ അതിന്റെ പിന്നിൽ എഴുതി തിരിച്ചു വെക്കും. നന്നായിരുന്നു അമ്മേ. ||
+- interior | pan_right | indoor | grownup:hold=bag amma:wave | clock || പിന്നെ ഞാൻ വളർന്നു. ടിഫിൻ ഇല്ലാതായി. കുറിപ്പുകളും. ||
+- interior | still | indoor | grownup:hold=tiffin,surprised || ഒരു ദിവസം വീട് വൃത്തിയാക്കുമ്പോൾ അലമാരയിൽ ഒരു പഴയ പെട്ടി കണ്ടു. ||
+- interior | zoom_in | indoor | grownup:read,cry,sad || അതിൽ നൂറുകണക്കിന് കുഞ്ഞ് കടലാസുകൾ. എന്റെ കയ്യക്ഷരം. നന്നായിരുന്നു അമ്മേ, നന്നായിരുന്നു അമ്മേ. ||
+- interior+close | zoom_out | indoor | amma:happy || ഞാൻ എഴുതിയ എല്ലാ മറുപടികളും അമ്മ സൂക്ഷിച്ചു വെച്ചിരുന്നു. പതിനഞ്ച് വർഷം. ||
+
+### 39-ammachi-stories
+title: ഫോൺ താഴെ വെച്ച രാത്രി | The Night I Put My Phone Down
+theme: A granddaughter glued to her phone finally listens to her grandmother's stories, and records them
+narrator: woman
+caption: അമ്മൂമ്മയുടെ കഥകൾ ഒരിക്കലും ഇന്റർനെറ്റിൽ കിട്ടില്ല. ഇന്ന് തന്നെ ഒന്ന് ചോദിക്കൂ 📱❤️
+tags: malayalam malayalamstory ammachi stories phone grandmother kerala mallureels malayalamreels
+- veranda+sunset | zoom_in | wind | ammachi:idle girl:phone | chair || എല്ലാ വൈകുന്നേരവും അമ്മൂമ്മ ഉമ്മറത്ത് തനിയെ ഇരിക്കും. ഞാൻ ഫോണിലും. ||
+- veranda+sunset | still | wind | ammachi:talk girl:phone || അമ്മൂമ്മ ചിലപ്പോൾ എന്തെങ്കിലും പറയാൻ തുടങ്ങും. || ammachi: പണ്ട് ഈ മുറ്റത്ത് ഒരു വലിയ പ്ലാവ് ഉണ്ടായിരുന്നു...
+- veranda+sunset | zoom_in | wind | ammachi:sad girl:phone,talk || ഞാൻ കേൾക്കാതെ മൂളും. || girl: ഉം... ഉം...
+- veranda+sunset+close | still | wind | ammachi:sad || അമ്മൂമ്മ പറച്ചിൽ നിർത്തി. ആകാശത്തേക്ക് നോക്കി ഇരുന്നു. ||
+- veranda+night | pan_right | night | girl:surprised ammachi:sad || അന്ന് രാത്രി ഞാൻ ഫോൺ താഴെ വെച്ചു. അമ്മൂമ്മയുടെ അടുത്ത് ഇരുന്നു. || girl: ആ പ്ലാവിന്റെ കഥ പറ അമ്മൂമ്മേ.
+- veranda+night | zoom_in | night | ammachi:talk,happy girl:phone,happy || അമ്മൂമ്മയുടെ മുഖം തെളിഞ്ഞു. അന്ന് രാത്രി പന്ത്രണ്ട് മണി വരെ കഥകൾ. ഞാൻ എല്ലാം ഫോണിൽ റെക്കോർഡ് ചെയ്തു. ||
+- veranda+night+close | zoom_out | night | ammachi:happy || ഇന്ന് എന്റെ ഫോണിൽ ഏറ്റവും വിലയുള്ളത് ആ റെക്കോർഡിംഗുകളാണ്. ||
+
+### 40-prasadam-laddu
+title: അമ്പലത്തിലെ ലഡ്ഡു | The Temple Laddu
+theme: A grandfather always gives his temple laddu to his grandson, claiming sugar is bad for him
+narrator: man
+caption: മധുരം ഇഷ്ടമല്ല എന്ന് പറഞ്ഞവർ, നമ്മുടെ ജീവിതം മധുരമാക്കിയവരാണ് 🍬❤️\nഅപ്പൂപ്പനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory appooppan laddu temple grandfather kerala mallureels malayalamreels
+- temple | zoom_in | wind | appooppan:pray kid:pray | nilavilakku || എല്ലാ ഞായറാഴ്ചയും അപ്പൂപ്പനും ഞാനും അമ്പലത്തിൽ പോകും. ||
+- temple | still | wind | appooppan:hold=laddu,happy kid:hold=laddu,happy || പ്രസാദമായി രണ്ടുപേർക്കും ഓരോ ലഡ്ഡു കിട്ടും. ||
+- temple | zoom_in | wind | appooppan:talk,hold=laddu kid:surprised || അപ്പൂപ്പൻ അതും എനിക്ക് തരും. || appooppan: അപ്പൂപ്പന് ഷുഗറാ മോനേ, മധുരം പാടില്ല.
+- lane | pan_right | wind | appooppan:walk kid:walk,hold=laddu,happy || ഞാൻ രണ്ട് ലഡ്ഡുവും കഴിച്ച് സന്തോഷത്തോടെ വീട്ടിലേക്ക് നടക്കും. ||
+- interior+festive | still | indoor | appooppan:eat,happy grownup:surprised | table:sweets || വർഷങ്ങൾക്ക് ശേഷം, എന്റെ കല്യാണത്തിന് അപ്പൂപ്പൻ മൂന്ന് ലഡ്ഡു കഴിക്കുന്നത് ഞാൻ കണ്ടു. ||
+- interior | zoom_in | indoor | grownup:talk appooppan:happy || ഞാൻ ചോദിച്ചു. || grownup: അപ്പൂപ്പന് ഷുഗർ അല്ലേ?
+- interior+close | zoom_out | indoor | appooppan:talk,happy || അപ്പൂപ്പൻ കണ്ണിറുക്കി ചിരിച്ചു. || appooppan: എനിക്ക് ഒരിക്കലും ഷുഗർ ഉണ്ടായിരുന്നില്ല മോനേ.

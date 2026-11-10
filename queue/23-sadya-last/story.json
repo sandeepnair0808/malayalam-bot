@@ -1,0 +1,230 @@
+{
+  "title_ml": "അവസാനം ഉണ്ണുന്ന അമ്മ",
+  "title_en": "The One Who Eats Last",
+  "theme": "Every Onam a mother serves the whole family and eats last from what is left; one year her son changes that",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഓണത്തിന് ഞങ്ങളുടെ വീട്ടിൽ നല്ല സദ്യയാണ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:hold=plate,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=plate,happy"
+        ],
+        "props": [
+          "table:sadya"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എല്ലാവരും ഇലയിട്ട് ഇരിക്കും. അമ്മ ഓടി നടന്ന് വിളമ്പും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, ammachi, kid",
+      "characters": [
+        "achan",
+        "ammachi",
+        "kid"
+      ],
+      "action": "achan:eat ammachi:eat kid:eat",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:eat",
+          "ammachi:eat",
+          "kid:eat"
+        ],
+        "props": [
+          "table:sadya"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വിളിക്കും.",
+      "dialogue_ml": "അമ്മേ, വാ, ഒരുമിച്ച് കഴിക്കാം!",
+      "subtitle_ml": "",
+      "visual": "interior scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:talk amma:hold=plate",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:talk",
+          "amma:hold=plate"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിക്കും.",
+      "dialogue_ml": "നിങ്ങൾ കഴിക്ക്, ഞാൻ പിന്നെ കഴിച്ചോളാം.",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:talk,happy",
+      "speaker": "amma",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എല്ലാവരും കഴിഞ്ഞ്, അടുക്കളയിൽ ഒറ്റയ്ക്ക്, ബാക്കി വന്നത് കഴിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:eat",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:eat"
+        ],
+        "props": [
+          "table:rice"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഈ ഓണത്തിന് ഞാൻ അമ്മയെ കസേരയിൽ പിടിച്ചിരുത്തി. ആദ്യത്തെ ഇല അമ്മയ്ക്ക്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, amma",
+      "characters": [
+        "grownup",
+        "amma"
+      ],
+      "action": "grownup:hold=plate,happy amma:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=plate,happy",
+          "amma:surprised"
+        ],
+        "props": [
+          "table:sadya"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ വിളമ്പി, അമ്മ കഴിച്ചു. അമ്മയുടെ ജീവിതത്തിലെ ആദ്യത്തെ ചൂടുള്ള ഓണസദ്യ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy,eat",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "close",
+        "cast": [
+          "amma:happy,eat"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "സദ്യ വിളമ്പുന്ന അമ്മ എപ്പോഴും അവസാനമാണ് ഉണ്ണുന്നത്. ഈ ഓണത്തിന് അമ്മയ്ക്ക് ആദ്യം വിളമ്പൂ 🍃❤️",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "onam",
+    "sadya",
+    "amma",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "onam2026",
+    "motherslove"
+  ]
+}

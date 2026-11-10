@@ -1,0 +1,226 @@
+{
+  "title_ml": "കളഞ്ഞുപോയ കളിപ്പാട്ടം",
+  "title_en": "The Lost Toy Car",
+  "theme": "A father searches the whole festival ground for his son's lost toy car and brings it back",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഉത്സവത്തിന് അച്ഛൻ എനിക്ക് ഒരു നീല കളിപ്പാട്ട കാർ വാങ്ങിത്തന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:hold=toy,jump,happy achan:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "night",
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:hold=toy,jump,happy",
+          "achan:happy"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ആൾക്കൂട്ടത്തിനിടയിൽ അത് എവിടെയോ നഷ്ടപ്പെട്ടു. ഞാൻ ഉറക്കെ കരഞ്ഞു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with kid, achan",
+      "characters": [
+        "kid",
+        "achan"
+      ],
+      "action": "kid:sad,cry achan:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:sad,cry",
+          "achan:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ പറഞ്ഞു.",
+      "dialogue_ml": "നീ ഇവിടെ നിൽക്ക്. അച്ഛൻ ഇപ്പോ കണ്ടുപിടിക്കാം.",
+      "subtitle_ml": "",
+      "visual": "temple scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:talk kid:sad",
+      "speaker": "achan",
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:talk",
+          "kid:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു മണിക്കൂർ കഴിഞ്ഞു. ഉത്സവപ്പറമ്പ് മുഴുവൻ അച്ഛൻ തിരഞ്ഞു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "night",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "night"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:sad"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ചിരിച്ചു കൊണ്ട് വന്നു. കയ്യിൽ എന്റെ നീല കാർ!",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "temple scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:hold=toy,happy kid:jump,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "temple",
+        "fx": [
+          "night",
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=toy,happy",
+          "kid:jump,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "വർഷങ്ങൾക്ക് ശേഷം, അമ്മ ചിരിച്ചു കൊണ്ട് പറഞ്ഞു.",
+      "dialogue_ml": "അത് കിട്ടിയതല്ല മോനേ. അതേ കട തിരഞ്ഞു പിടിച്ച് വേറൊന്ന് വാങ്ങിയതാ. അവസാനത്തെ പൈസ കൊടുത്ത്.",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup, amma",
+      "characters": [
+        "grownup",
+        "amma"
+      ],
+      "action": "grownup:hold=toy,surprised amma:talk",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=toy,surprised",
+          "amma:talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ആ നീല കാർ ഇന്നും എന്റെ മേശപ്പുറത്തുണ്ട്. നഷ്ടപ്പെട്ടതിനേക്കാൾ വിലയുള്ള ഒന്ന്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:hold=toy,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:hold=toy,happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "അച്ഛൻ കണ്ടുപിടിച്ചു തന്നത് കളിപ്പാട്ടം ആയിരുന്നില്ല, എന്റെ ചിരിയായിരുന്നു 🚗❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "toy",
+    "festival",
+    "father",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "fatherslove"
+  ]
+}

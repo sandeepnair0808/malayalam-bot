@@ -1,0 +1,212 @@
+{
+  "title_ml": "അമ്മ ഉറങ്ങാറുണ്ടോ?",
+  "title_en": "Does Amma Ever Sleep?",
+  "theme": "A boy wonders whether his mother ever sleeps, until he wakes at 3am",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "ഞാൻ ഉറങ്ങുമ്പോൾ അമ്മ ഉണർന്നിരിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:sleep amma:idle",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:sleep",
+          "amma:idle"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ഉണരുമ്പോഴും അമ്മ ഉണർന്നിരിക്കും. അടുക്കളയിൽ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:cook kid:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:cook",
+          "kid:surprised"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അമ്മ ഉറങ്ങാറില്ലേ?",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:talk amma:happy",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:talk",
+          "amma:happy"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "അമ്മമാർക്ക് ഉറക്കം കുറവാ മോനേ.",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:talk,happy",
+      "speaker": "amma",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:talk,happy"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു രാത്രി, മൂന്നു മണിക്ക് ഞാൻ ഉണർന്നു. വിളക്കിന്റെ വെളിച്ചത്തിൽ അമ്മ ഇരിക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:hold=letter kid:surprised",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=letter",
+          "kid:surprised"
+        ],
+        "props": [
+          "kerosene_lamp",
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിറ്റേന്ന് പരീക്ഷയ്ക്ക് ഇടാനുള്ള എന്റെ കീറിയ യൂണിഫോം തുന്നുകയായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:hold=letter,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=letter,sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മമാർക്ക് ഉറക്കം കുറവല്ല. നമ്മളെക്കുറിച്ചുള്ള ആധി കൂടുതലാണ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "വീട്ടിൽ എല്ലാവരും ഉറങ്ങിയ ശേഷം ഉണർന്നിരിക്കുന്ന ഒരാളുണ്ട്... അമ്മ 🌙❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "sleep",
+    "mother",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

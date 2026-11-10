@@ -1,0 +1,139 @@
+### 41-lost-toy
+title: കളഞ്ഞുപോയ കളിപ്പാട്ടം | The Lost Toy Car
+theme: A father searches the whole festival ground for his son's lost toy car and brings it back
+narrator: man
+caption: അച്ഛൻ കണ്ടുപിടിച്ചു തന്നത് കളിപ്പാട്ടം ആയിരുന്നില്ല, എന്റെ ചിരിയായിരുന്നു 🚗❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan toy festival father kerala mallureels malayalamreels fatherslove
+- temple+night+festive | zoom_in | night | kid:hold=toy,jump,happy achan:happy | nilavilakku || ഉത്സവത്തിന് അച്ഛൻ എനിക്ക് ഒരു നീല കളിപ്പാട്ട കാർ വാങ്ങിത്തന്നു. ||
+- temple+night | still | night | kid:sad,cry achan:surprised || ആൾക്കൂട്ടത്തിനിടയിൽ അത് എവിടെയോ നഷ്ടപ്പെട്ടു. ഞാൻ ഉറക്കെ കരഞ്ഞു. ||
+- temple+night | zoom_in | night | achan:talk kid:sad || അച്ഛൻ പറഞ്ഞു. || achan: നീ ഇവിടെ നിൽക്ക്. അച്ഛൻ ഇപ്പോ കണ്ടുപിടിക്കാം.
+- temple+night | pan_right | night | kid:sad || ഒരു മണിക്കൂർ കഴിഞ്ഞു. ഉത്സവപ്പറമ്പ് മുഴുവൻ അച്ഛൻ തിരഞ്ഞു. ||
+- temple+night+festive | still | night | achan:hold=toy,happy kid:jump,happy || പിന്നെ ചിരിച്ചു കൊണ്ട് വന്നു. കയ്യിൽ എന്റെ നീല കാർ! ||
+- interior | zoom_in | indoor | grownup:hold=toy,surprised amma:talk || വർഷങ്ങൾക്ക് ശേഷം, അമ്മ ചിരിച്ചു കൊണ്ട് പറഞ്ഞു. || amma: അത് കിട്ടിയതല്ല മോനേ. അതേ കട തിരഞ്ഞു പിടിച്ച് വേറൊന്ന് വാങ്ങിയതാ. അവസാനത്തെ പൈസ കൊടുത്ത്.
+- interior+close | zoom_out | indoor | grownup:hold=toy,happy || ആ നീല കാർ ഇന്നും എന്റെ മേശപ്പുറത്തുണ്ട്. നഷ്ടപ്പെട്ടതിനേക്കാൾ വിലയുള്ള ഒന്ന്. ||
+
+### 42-paper-boat
+title: കടലാസ് തോണി | The Paper Boat
+theme: A grandfather teaches a boy to float paper boats in the monsoon; the man teaches his daughter in the city rain
+narrator: man
+caption: മഴ പെയ്യുമ്പോൾ ഇന്നും ഒരു കടലാസ് തോണി ഉണ്ടാക്കാൻ തോന്നാറില്ലേ? ⛵🌧️❤️
+tags: malayalam malayalamstory rain paperboat monsoon appooppan kerala nostalgia mallureels malayalamreels
+- veranda+rain | zoom_in | rain | appooppan:hold=letter kid:surprised || മഴക്കാലത്ത് അപ്പൂപ്പൻ പഴയ പത്രം കൊണ്ട് കടലാസ് തോണി ഉണ്ടാക്കും. ||
+- yard+rain | still | rain | appooppan:point,talk kid:jump,happy || മുറ്റത്തെ വെള്ളത്തിൽ ഞങ്ങൾ അത് ഒഴുക്കി വിടും. || appooppan: നോക്ക്, അത് കടലിലേക്ക് പോവുകയാ!
+- yard+rain | zoom_in | rain | kid:jump,happy,wet appooppan:happy || എന്റെ തോണി എപ്പോഴും മുങ്ങും. അപ്പൂപ്പന്റേത് ഒരിക്കലും മുങ്ങില്ല. ||
+- veranda+rain | still | rain | appooppan:talk,happy kid:talk || ഞാൻ ചോദിച്ചു. || kid: അപ്പൂപ്പന്റെ തോണി എന്താ മുങ്ങാത്തേ?
+- veranda+rain+close | zoom_in | rain | appooppan:talk,happy || അപ്പൂപ്പൻ ചിരിച്ചു. || appooppan: ക്ഷമയോടെ മടക്കിയാൽ ഒന്നും മുങ്ങില്ല മോനേ. തോണിയും ജീവിതവും.
+- lane+rain | pan_right | rain | grownup:hold=letter girl:jump,happy || ഇന്ന് പട്ടണത്തിൽ മഴ പെയ്യുന്നു. എന്റെ മോൾ ആദ്യമായി കടലാസ് തോണി ഒഴുക്കുന്നു. ||
+- lane+rain+close | zoom_out | rain | grownup:happy || അവളുടെ തോണി മുങ്ങിയില്ല. ക്ഷമയോടെ മടക്കിയതുകൊണ്ട്. ||
+
+### 43-chechi-room
+title: ചേച്ചിയുടെ മുറി | Chechi's Room
+theme: After his sister's wedding, a boy finds a note she left under her pillow
+narrator: man
+caption: ചേച്ചി പോയപ്പോൾ വീട് മുഴുവൻ ശൂന്യമായി... പക്ഷേ ഒരു കുറിപ്പ് ബാക്കി വെച്ചു 💌❤️\nചേച്ചിയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory chechi sister wedding kerala mallureels malayalamreels sisterlove
+- interior | zoom_in | indoor | chechi:happy kid:talk || എന്റെ ചേച്ചിയുമായി ഞാൻ എന്നും വഴക്കായിരുന്നു. || kid: ഈ മുറി എനിക്ക് വേണം! ചേച്ചി പോ!
+- interior | still | indoor | chechi:talk,happy kid:sad || ചേച്ചി എന്നും പറയും. || chechi: ഞാൻ പോകുമ്പോൾ നീ തന്നെ എടുത്തോ.
+- temple+festive | pan_right | wind | chechi:hug amma:sad,cry kid:sad | nilavilakku || ചേച്ചിയുടെ കല്യാണം കഴിഞ്ഞു. ചേച്ചി ദൂരെ ഒരു വീട്ടിലേക്ക് പോയി. ||
+- night_room | zoom_in | night | kid:sad | kerosene_lamp || അന്ന് രാത്രി ഞാൻ ചേച്ചിയുടെ മുറിയിൽ കിടന്നു. ഞാൻ ആഗ്രഹിച്ച മുറി. പക്ഷേ ഉറക്കം വന്നില്ല. ||
+- night_room | still | night | kid:read,surprised | kerosene_lamp || തലയിണയുടെ അടിയിൽ ഒരു കുറിപ്പ്. ||
+- night_room+close | zoom_in | night | chechi:talk,happy || ചേച്ചിയുടെ കയ്യക്ഷരം. || chechi: മുറി നിന്റേതാ. ഇനി അമ്മയെയും അച്ഛനെയും നോക്കേണ്ടതും നീയാ. ഞാൻ ഇല്ലാത്തപ്പോൾ എന്റെ ജോലിയും നിനക്കാ.
+- night_room+close | zoom_out | night | kid:sad,cry | kerosene_lamp || അന്ന് രാത്രി ആദ്യമായി ഞാൻ ചേച്ചിയെ മിസ്സ് ചെയ്തു. ആ മുറിയേക്കാൾ വലിയ ഒന്ന് ചേച്ചി എനിക്ക് തന്നിട്ട് പോയിരുന്നു. ||
+
+### 44-fast-watch
+title: അഞ്ച് മിനിറ്റ് മുന്നിലുള്ള വാച്ച് | The Watch Five Minutes Fast
+theme: A father's old watch always runs five minutes fast, and he explains why when he gives it to his son
+narrator: man
+caption: അച്ഛൻ തന്ന വാച്ച് സമയം മാത്രമല്ല കാണിക്കുന്നത് ⌚❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan watch father kerala mallureels malayalamreels fatherslove
+- interior | zoom_in | indoor | achan:happy | clock || അച്ഛന് ഒരു പഴയ വാച്ച് ഉണ്ടായിരുന്നു. മുപ്പത് വർഷം പഴക്കം. ||
+- interior | still | indoor | achan:happy kid:point,talk | clock || അതിന് ഒരു കുഴപ്പം ഉണ്ടായിരുന്നു. || kid: അച്ഛാ, ഈ വാച്ച് അഞ്ച് മിനിറ്റ് മുന്നിലാ!
+- interior | zoom_in | indoor | achan:talk,happy kid:idle | clock || അച്ഛൻ ചിരിച്ചു. || achan: അറിയാം. അത് ഞാൻ മനഃപൂർവ്വം വെച്ചതാ.
+- bus_stop | pan_right | wind | grownup:hold=bag achan:hold=gift | bus || എനിക്ക് ആദ്യ ജോലി കിട്ടി പോകുന്ന ദിവസം, അച്ഛൻ ആ വാച്ച് എന്റെ കയ്യിൽ കെട്ടിത്തന്നു. ||
+- bus_stop | still | wind | achan:talk,happy grownup:surprised | bus || അപ്പോഴാണ് അച്ഛൻ അതിന്റെ രഹസ്യം പറഞ്ഞത്. || achan: അഞ്ച് മിനിറ്റ് മുന്നിലായാൽ, ജീവിതത്തിൽ പ്രധാനപ്പെട്ട ഒന്നിനും നീ വൈകില്ല.
+- interior | zoom_in | indoor | grownup:phone,happy | clock || പതിനഞ്ച് വർഷമായി. ഞാൻ ഒരിക്കലും വൈകിയിട്ടില്ല. ഒരു മീറ്റിംഗിനും, ഒരു വാക്കിനും. ||
+- interior+close | zoom_out | indoor | grownup:happy | clock || ഇന്നും ആ വാച്ച് അഞ്ച് മിനിറ്റ് മുന്നിലാണ്. ഞാൻ ഒരിക്കലും അത് ശരിയാക്കില്ല. ||
+
+### 45-postman-tea
+title: പോസ്റ്റ്മാന്റെ ചായ | Tea for the Postman
+theme: A grandmother makes tea for the postman every day while waiting for her son's letters; the habit outlives the letters
+narrator: man
+caption: കത്തുകൾ വരാതായപ്പോഴും ആ ചായക്കപ്പ് കാത്തിരുന്നു ☕❤️\nഇങ്ങനെ ഒരു അമ്മൂമ്മ നിങ്ങൾക്കും ഉണ്ടോ?
+tags: malayalam malayalamstory ammachi postman tea grandmother kerala nostalgia mallureels malayalamreels
+- veranda | zoom_in | wind | ammachi:hold=plate,happy || എന്നും രാവിലെ പതിനൊന്ന് മണിക്ക് അമ്മൂമ്മ ഒരു കപ്പ് ചായ ഉണ്ടാക്കി ഉമ്മറത്ത് വെക്കും. ||
+- veranda | still | wind | ammachi:happy uncle:hold=letter,talk || അത് പോസ്റ്റ്മാൻ രാഘവേട്ടന് വേണ്ടിയാണ്. ഗൾഫിലുള്ള മാമന്റെ കത്തുമായി വരുന്ന ആൾ. || uncle: അമ്മേ, മോന്റെ കത്തുണ്ട്!
+- veranda | zoom_in | wind | ammachi:read,happy kid:happy || കത്തില്ലാത്ത ദിവസവും അദ്ദേഹം വരും. ചായ കുടിക്കും. വിശേഷം ചോദിക്കും. ||
+- bus_stop | pan_right | wind | uncle:wave,hold=bag | bus || പിന്നെ മാമൻ നാട്ടിൽ തിരിച്ചെത്തി. ഫോൺ വന്നു. കത്തുകൾ നിന്നു. ||
+- veranda | still | wind | ammachi:hold=plate kid:surprised,talk || പക്ഷേ ഇന്നും പതിനൊന്ന് മണിക്ക് ആ ചായ ഉമ്മറത്തുണ്ട്. || kid: ഇനി ആര്ക്കാ അമ്മൂമ്മേ ഈ ചായ?
+- veranda+close | zoom_in | wind | ammachi:talk,happy || അമ്മൂമ്മ ഗേറ്റിലേക്ക് നോക്കി ചിരിച്ചു. || ammachi: കത്ത് ഇല്ലെങ്കിലെന്താ, രാഘവൻ വരുമല്ലോ.
+- veranda+close | zoom_out | wind | uncle:happy || ഗേറ്റ് തുറന്ന് രാഘവേട്ടൻ വന്നു. കത്തുകളില്ലാതെ. ഇരുപത് വർഷമായി, ഒരു ദിവസം പോലും മുടങ്ങാതെ. ||
+
+### 46-lottery
+title: അച്ഛന്റെ ലോട്ടറി | Achan's Lottery Ticket
+theme: A father buys a lottery ticket every week and never wins, but says he already won the biggest prize
+narrator: man
+caption: ചില ഭാഗ്യങ്ങൾ ടിക്കറ്റിൽ അല്ല, വീട്ടിലാണ് 🎟️❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory achan lottery father family kerala mallureels malayalamreels funny
+- lane | zoom_in | wind | achan:hold=letter,happy || എല്ലാ ആഴ്ചയും അച്ഛൻ ഒരു ലോട്ടറി ടിക്കറ്റ് എടുക്കും. ||
+- veranda | still | wind | achan:read kid:surprised || പത്രത്തിൽ ഫലം നോക്കും. ഒരിക്കലും അടിക്കില്ല. ||
+- veranda | zoom_in | wind | kid:talk achan:happy || ഒരു ദിവസം ഞാൻ ചോദിച്ചു. || kid: അച്ഛാ, ഒരിക്കലും അടിക്കില്ലല്ലോ. പിന്നെ എന്തിനാ എടുക്കുന്നേ?
+- veranda | still | wind | achan:talk,happy kid:idle || അച്ഛൻ ചിരിച്ചു. || achan: ഒരു ദിവസം അടിച്ചാൽ ആദ്യം നിനക്ക് ഒരു സൈക്കിൾ. അമ്മയ്ക്ക് ഒരു മാല.
+- interior+festive | pan_right | indoor | achan:happy amma:happy kid:jump,happy girl:jump,happy || വർഷങ്ങൾ കഴിഞ്ഞു. ലോട്ടറി ഒരിക്കലും അടിച്ചില്ല. പക്ഷേ എനിക്ക് സൈക്കിളും അമ്മയ്ക്ക് മാലയും കിട്ടി. അച്ഛന്റെ ഓവർടൈം കൊണ്ട്. ||
+- interior | zoom_in | indoor | grownup:talk achan:happy || ഒരിക്കൽ ഞാൻ കളിയാക്കി ചോദിച്ചു. || grownup: അച്ഛാ, ഇതുവരെ ഒരു ലോട്ടറിയും അടിച്ചില്ലല്ലോ?
+- interior+close | zoom_out | indoor | achan:talk,happy || അച്ഛൻ ഞങ്ങളെ എല്ലാവരെയും നോക്കി പറഞ്ഞു. || achan: ബമ്പർ എന്നോ അടിച്ചു മോനേ. ദാ, എന്റെ മുന്നിൽ ഇരിക്കുന്നു.
+
+### 47-amma-birthday
+title: അമ്മയുടെ പിറന്നാൾ | Amma's Birthday
+theme: A mother remembers everyone's birthday, but no one knows hers, until her son finds it
+narrator: man
+caption: എല്ലാവരുടെയും പിറന്നാൾ ഓർക്കുന്ന അമ്മയുടെ പിറന്നാൾ നിങ്ങൾക്ക് അറിയാമോ? 🎂❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory amma birthday mother kerala mallureels malayalamreels motherslove
+- interior+festive | zoom_in | indoor | amma:hold=plate,happy kid:jump,happy | table:sweets || എന്റെ പിറന്നാളിന് അമ്മ പായസം വെക്കും. അച്ഛന്റെ പിറന്നാളിന് സദ്യ. ചേച്ചിയുടെ പിറന്നാളിന് പുതിയ ഉടുപ്പ്. ||
+- interior | still | indoor | kid:talk amma:happy || ഒരു ദിവസം ഞാൻ ചോദിച്ചു. || kid: അമ്മയുടെ പിറന്നാൾ എന്നാ?
+- interior+close | zoom_in | indoor | amma:talk,happy || അമ്മ ചിരിച്ചു. || amma: അമ്മമാർക്ക് പിറന്നാൾ ഒന്നും ഇല്ല മോനേ.
+- interior | pan_right | indoor | kid:read,surprised | books || പക്ഷേ ഞാൻ വിട്ടില്ല. പഴയ റേഷൻ കാർഡ് തപ്പിയെടുത്തു. അതിൽ ഉണ്ടായിരുന്നു. മാർച്ച് പതിനാല്. ||
+- kitchen | still | indoor | chechi:cook kid:hold=gift,happy | stove || മാർച്ച് പതിനാലിന് രാവിലെ, ഞാനും ചേച്ചിയും നേരത്തെ എഴുന്നേറ്റ് അടുക്കളയിൽ കയറി. ||
+- interior+festive | zoom_in | indoor | amma:surprised chechi:happy kid:hold=gift,talk | table:sweets || അമ്മ ഉണർന്ന് വന്നപ്പോൾ മേശ നിറയെ മധുരം. || kid: ഹാപ്പി ബർത്ത്ഡേ അമ്മേ!
+- interior+festive+close | zoom_out | indoor | amma:happy,cry || അമ്പത് വർഷത്തിൽ ആദ്യമായി, അമ്മ സ്വന്തം പിറന്നാളിന് കരഞ്ഞു. സന്തോഷം കൊണ്ട്. ||
+
+### 48-jasmine
+title: എല്ലാ വൈകുന്നേരവും മുല്ലപ്പൂ | Jasmine Every Evening
+theme: A grandfather brings jasmine for his wife every evening for fifty years; his grandson keeps the promise
+narrator: man
+caption: അമ്പത് വർഷം, ഒരു ദിവസം പോലും മുടങ്ങാത്ത സ്നേഹം 🌼❤️\nഅപ്പൂപ്പനെയും അമ്മൂമ്മയെയും ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory appooppan ammachi love jasmine mullappoo kerala mallureels malayalamreels truelove
+- lane+sunset | zoom_in | wind | appooppan:walk,hold=flower || എല്ലാ വൈകുന്നേരവും ജോലി കഴിഞ്ഞ് വരുമ്പോൾ, അപ്പൂപ്പന്റെ കയ്യിൽ ഒരു മുഴം മുല്ലപ്പൂ ഉണ്ടാകും. ||
+- veranda+sunset | still | wind | appooppan:hold=flower,happy ammachi:happy || അത് അമ്മൂമ്മയ്ക്കുള്ളതാണ്. അമ്പത് വർഷമായി. ||
+- veranda+sunset | zoom_in | wind | kid:talk appooppan:happy || ഞാൻ ചോദിച്ചു. || kid: എന്തിനാ അപ്പൂപ്പാ എന്നും പൂ?
+- veranda+sunset+close | still | wind | appooppan:talk,happy || അപ്പൂപ്പൻ നാണിച്ചു ചിരിച്ചു. || appooppan: ആദ്യമായി കണ്ട ദിവസം അവളുടെ മുടിയിൽ മുല്ലപ്പൂ ഉണ്ടായിരുന്നു. അന്ന് തൊട്ട് എനിക്ക് ആ മണം അവളാ.
+- interior | pan_right | indoor | ammachi:sad | photo:appooppan+garland || കഴിഞ്ഞ വർഷം അപ്പൂപ്പൻ പോയി. ആ വൈകുന്നേരങ്ങൾ ശൂന്യമായി. ||
+- veranda+sunset | zoom_in | wind | grownup:hold=flower ammachi:surprised || ഇന്ന് വൈകുന്നേരം ഞാൻ ഒരു മുഴം മുല്ലപ്പൂ വാങ്ങി അമ്മൂമ്മയുടെ കയ്യിൽ കൊടുത്തു. ||
+- veranda+sunset+close | zoom_out | wind | ammachi:happy,cry || അമ്മൂമ്മ അത് മുടിയിൽ ചൂടി. അമ്പത്തൊന്നാം വർഷവും ആ സ്നേഹം മുടങ്ങിയില്ല. ||
+
+### 49-rain-umbrella-friend
+title: ഒരു കുടയിൽ രണ്ടുപേർ | Two Under One Umbrella
+theme: A boy with a new umbrella shares it with a friend who has none; both arrive half wet and best friends
+narrator: man
+caption: ഒരു കുടയിൽ രണ്ടുപേർ നനഞ്ഞാലും, സൗഹൃദം നനയില്ല ☔❤️\nബെസ്റ്റ് ഫ്രണ്ടിനെ ടാഗ് ചെയ്യൂ
+tags: malayalam malayalamstory friendship rain umbrella school kerala nostalgia mallureels malayalamreels
+- veranda+rain | zoom_in | rain | kid:jump,happy amma:happy | hanging_umbrella || ഈ വർഷം സ്കൂൾ തുറക്കുമ്പോൾ എനിക്ക് ഒരു പുതിയ കുട കിട്ടി. ||
+- lane+rain | still | rain | kid:walk friend:walk,sad,wet || വഴിയിൽ വെച്ച് ഞാൻ ഒരു കുട്ടിയെ കണ്ടു. കുടയില്ലാതെ, മഴയത്ത് നനഞ്ഞ് നടക്കുന്നു. ||
+- lane+rain | zoom_in | rain | kid:talk,umbrella friend:surprised,wet || ഞാൻ വിളിച്ചു. || kid: വാ, ഈ കുടയിൽ കയറിക്കോ!
+- lane+rain | pan_right | rain | kid:walk,umbrella,happy friend:walk,happy || ഒരു കുട. രണ്ടുപേർ. രണ്ടുപേരുടെയും ഒരു തോൾ നനഞ്ഞു. ||
+- classroom | still | indoor | teacher:talk kid:happy friend:happy || സ്കൂളിൽ എത്തിയപ്പോൾ ടീച്ചർ ചിരിച്ചു. || teacher: രണ്ടുപേരും പാതി നനഞ്ഞല്ലോ!
+- lane+rain | zoom_in | rain | grownup:walk,umbrella friend:walk || മുപ്പത് വർഷം കഴിഞ്ഞു. ഇന്നും മഴ പെയ്യുമ്പോൾ ഞങ്ങൾ ഒരുമിച്ചാണ് നടക്കുന്നത്. ||
+- lane+rain+close | zoom_out | rain | friend:happy || ഇന്ന് അവന്റെ കയ്യിൽ വലിയ ഒരു കുടയുണ്ട്. പക്ഷേ അവൻ ഇന്നും പറയും, ആ പഴയ കുടയായിരുന്നു ഏറ്റവും വലുത്. ||
+
+### 50-old-bench
+title: പഴയ ബെഞ്ചിലെ പേര് | The Name on the Old Bench
+theme: A grown man visits his old school and finds the name he carved on a bench; his old teacher still remembers him
+narrator: man
+caption: നമ്മൾ മറന്നാലും, നമ്മളെ മറക്കാത്ത ഒരു ക്ലാസ് മുറിയുണ്ട് 🏫❤️\nനിങ്ങളുടെ സ്കൂൾ ഏതാണ്? കമന്റ് ചെയ്യൂ
+tags: malayalam malayalamstory school teacher nostalgia bench kerala mallureels malayalamreels schooldays
+- school | zoom_in | wind | grownup:walk || ഇരുപത്തഞ്ച് വർഷത്തിന് ശേഷം ഞാൻ എന്റെ പഴയ സ്കൂളിൽ പോയി. ||
+- classroom | still | indoor | grownup:surprised || ക്ലാസ് മുറി ചെറുതായി തോന്നി. ബെഞ്ചുകൾ, ബോർഡ്, ജനലിലൂടെ വരുന്ന കാറ്റ്. എല്ലാം അതുപോലെ. ||
+- classroom | zoom_in | indoor | grownup:read,surprised || അവസാനത്തെ ബെഞ്ചിൽ, ഞാൻ കോമ്പസ് കൊണ്ട് കൊത്തിയ എന്റെ പേര് ഇന്നും ഉണ്ട്. ||
+- classroom | pan_right | indoor | kid:happy friend:happy teacher:talk || ഒരു നിമിഷം എല്ലാം തിരിച്ചു വന്നു. കൂട്ടുകാർ, ബെല്ലടി, ടീച്ചറുടെ ശബ്ദം. || teacher: എല്ലാവരും ഇരിക്ക്!
+- classroom | still | indoor | teacher:surprised grownup:surprised || പിന്നിൽ നിന്ന് ഒരു ശബ്ദം. വെളുത്ത മുടിയുള്ള ഒരു ടീച്ചർ. ||
+- classroom | zoom_in | indoor | teacher:talk,happy grownup:happy,cry || ടീച്ചർ എന്നെ നോക്കി എന്റെ പേര് വിളിച്ചു. || teacher: ഉണ്ണീ, നീ ഇപ്പോഴും അവസാനത്തെ ബെഞ്ചിൽ തന്നെയാണോ?
+- classroom+close | zoom_out | indoor | grownup:happy,cry || ഇരുപത്തഞ്ച് വർഷം. ആയിരക്കണക്കിന് കുട്ടികൾ. എന്നിട്ടും ടീച്ചർ എന്നെ മറന്നില്ല. ||

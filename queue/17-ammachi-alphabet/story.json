@@ -1,0 +1,207 @@
+{
+  "title_ml": "അമ്മൂമ്മ എഴുതിയ ആദ്യത്തെ വാക്ക്",
+  "title_en": "Ammachi's First Word",
+  "theme": "A grandson teaches his grandmother to write; the first word she writes is his name",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും രാവിലെ അമ്മൂമ്മ പത്രം കയ്യിൽ പിടിച്ചിരിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:read",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:read"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ശ്രദ്ധിച്ചു, പത്രം തല തിരിഞ്ഞാണ് പിടിച്ചിരിക്കുന്നത്.",
+      "dialogue_ml": "അമ്മൂമ്മേ, പത്രം തല കീഴായിട്ടാ!",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:read kid:surprised,talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:read",
+          "kid:surprised,talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ ഒന്ന് ചിരിച്ചു, പിന്നെ പതുക്കെ പറഞ്ഞു.",
+      "dialogue_ml": "എനിക്ക് വായിക്കാൻ അറിയില്ല മോനേ. ചെറുപ്പത്തിൽ സ്കൂളിൽ പോയിട്ടില്ല.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:sad,talk kid:idle",
+      "speaker": "ammachi",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:sad,talk",
+          "kid:idle"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അന്ന് രാത്രി മുതൽ ഞാൻ അമ്മൂമ്മയുടെ ടീച്ചറായി.",
+      "dialogue_ml": "ഇതാണ് അ. ഇതാണ് ആ.",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:hold=book kid:point,talk",
+      "speaker": "kid",
+      "camera": "pan_right",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=book",
+          "kid:point,talk"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ പതുക്കെ പതുക്കെ അക്ഷരങ്ങൾ പഠിച്ചു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:read,happy kid:happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:read,happy",
+          "kid:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു മാസം കഴിഞ്ഞ്, അമ്മൂമ്മ ആദ്യമായി ഒരു വാക്ക് സ്വന്തമായി എഴുതി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi, kid",
+      "characters": [
+        "ammachi",
+        "kid"
+      ],
+      "action": "ammachi:hold=letter,happy kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:hold=letter,happy",
+          "kid:surprised"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അത് എന്റെ പേരായിരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "ammachi:happy"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "അക്ഷരം പഠിക്കാൻ പ്രായം ഒരു പ്രശ്നമല്ല, സ്നേഹം ഉണ്ടെങ്കിൽ ✍️❤️\nഅമ്മൂമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "grandmother",
+    "alphabet",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

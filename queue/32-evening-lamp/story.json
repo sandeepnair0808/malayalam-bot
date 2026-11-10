@@ -1,0 +1,225 @@
+{
+  "title_ml": "സന്ധ്യയ്ക്ക് കത്തിക്കുന്ന വിളക്ക്",
+  "title_en": "The Evening Lamp",
+  "theme": "A grandmother lights the lamp each evening and prays for every family member by name; her granddaughter continues it",
+  "setting": "Kerala village home",
+  "narrator_voice": "woman",
+  "characters": [
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    },
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്നും സന്ധ്യയ്ക്ക് അമ്മൂമ്മ ഉമ്മറത്ത് നിലവിളക്ക് കത്തിക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:pray",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "ammachi:pray"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പിന്നെ ഓരോരുത്തരുടെയും പേര് പറഞ്ഞ് പ്രാർത്ഥിക്കും.",
+      "dialogue_ml": "എന്റെ മക്കളെയും പേരക്കുട്ടികളെയും കാത്തോളണേ...",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, girl",
+      "characters": [
+        "ammachi",
+        "girl"
+      ],
+      "action": "ammachi:pray,talk girl:pray",
+      "speaker": "ammachi",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "ammachi:pray,talk",
+          "girl:pray"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചോദിക്കും.",
+      "dialogue_ml": "അമ്മൂമ്മ അമ്മൂമ്മയ്ക്ക് വേണ്ടി പ്രാർത്ഥിക്കില്ലേ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi, girl",
+      "characters": [
+        "ammachi",
+        "girl"
+      ],
+      "action": "ammachi:happy girl:talk",
+      "speaker": "girl",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "ammachi:happy",
+          "girl:talk"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "നിങ്ങളൊക്കെ നന്നായിരുന്നാൽ അതാ എനിക്കുള്ള പ്രാർത്ഥന.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:talk,happy",
+      "speaker": "ammachi",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "close",
+        "cast": [
+          "ammachi:talk,happy"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് അമ്മൂമ്മ ഇല്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "amma:sad"
+        ],
+        "props": [
+          "photo:ammachi+garland"
+        ]
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ എല്ലാ സന്ധ്യയ്ക്കും ആ വിളക്ക് ഇന്നും കത്തുന്നു. ഇന്ന് ഞാനാണ് കത്തിക്കുന്നത്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:pray",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:pray"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    },
+    {
+      "narration_ml": "എല്ലാവരുടെയും പേര് പറഞ്ഞ ശേഷം, ഞാൻ ഒരു പേര് കൂടി പറയും. അമ്മൂമ്മയുടെ.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:pray,happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "close",
+        "cast": [
+          "amma:pray,happy"
+        ],
+        "props": [
+          "nilavilakku"
+        ]
+      }
+    }
+  ],
+  "caption_ml": "സന്ധ്യയ്ക്ക് വിളക്ക് കത്തിക്കുമ്പോൾ നമ്മുടെ പേര് പറഞ്ഞ് പ്രാർത്ഥിച്ച ഒരാൾ ഉണ്ടായിരുന്നു 🪔❤️",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "ammachi",
+    "nilavilakku",
+    "sandhya",
+    "grandmother",
+    "kerala",
+    "mallureels",
+    "malayalamreels"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "title_ml": "അമ്മയുടെ പിറന്നാൾ",
+  "title_en": "Amma's Birthday",
+  "theme": "A mother remembers everyone's birthday, but no one knows hers, until her son finds it",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "amma",
+      "name_ml": "അമ്മ",
+      "look": "mother, black hair bun, red bindi, gold earrings, maroon nightie with white dots",
+      "voice": "woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "chechi",
+      "name_ml": "ചേച്ചി",
+      "look": "teenage elder sister, long braid, green churidar",
+      "voice": "teen_girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എന്റെ പിറന്നാളിന് അമ്മ പായസം വെക്കും. അച്ഛന്റെ പിറന്നാളിന് സദ്യ. ചേച്ചിയുടെ പിറന്നാളിന് പുതിയ ഉടുപ്പ്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, kid",
+      "characters": [
+        "amma",
+        "kid"
+      ],
+      "action": "amma:hold=plate,happy kid:jump,happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:hold=plate,happy",
+          "kid:jump,happy"
+        ],
+        "props": [
+          "table:sweets"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഒരു ദിവസം ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അമ്മയുടെ പിറന്നാൾ എന്നാ?",
+      "subtitle_ml": "",
+      "visual": "interior scene with kid, amma",
+      "characters": [
+        "kid",
+        "amma"
+      ],
+      "action": "kid:talk amma:happy",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:talk",
+          "amma:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ചിരിച്ചു.",
+      "dialogue_ml": "അമ്മമാർക്ക് പിറന്നാൾ ഒന്നും ഇല്ല മോനേ.",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:talk,happy",
+      "speaker": "amma",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "amma:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "പക്ഷേ ഞാൻ വിട്ടില്ല. പഴയ റേഷൻ കാർഡ് തപ്പിയെടുത്തു. അതിൽ ഉണ്ടായിരുന്നു. മാർച്ച് പതിനാല്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:read,surprised",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "kid:read,surprised"
+        ],
+        "props": [
+          "books"
+        ]
+      }
+    },
+    {
+      "narration_ml": "മാർച്ച് പതിനാലിന് രാവിലെ, ഞാനും ചേച്ചിയും നേരത്തെ എഴുന്നേറ്റ് അടുക്കളയിൽ കയറി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "kitchen scene with chechi, kid",
+      "characters": [
+        "chechi",
+        "kid"
+      ],
+      "action": "chechi:cook kid:hold=gift,happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "kitchen",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "chechi:cook",
+          "kid:hold=gift,happy"
+        ],
+        "props": [
+          "stove"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്മ ഉണർന്ന് വന്നപ്പോൾ മേശ നിറയെ മധുരം.",
+      "dialogue_ml": "ഹാപ്പി ബർത്ത്ഡേ അമ്മേ!",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma, chechi, kid",
+      "characters": [
+        "amma",
+        "chechi",
+        "kid"
+      ],
+      "action": "amma:surprised chechi:happy kid:hold=gift,talk",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "wide",
+        "cast": [
+          "amma:surprised",
+          "chechi:happy",
+          "kid:hold=gift,talk"
+        ],
+        "props": [
+          "table:sweets"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അമ്പത് വർഷത്തിൽ ആദ്യമായി, അമ്മ സ്വന്തം പിറന്നാളിന് കരഞ്ഞു. സന്തോഷം കൊണ്ട്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with amma",
+      "characters": [
+        "amma"
+      ],
+      "action": "amma:happy,cry",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [
+          "festive"
+        ],
+        "shot": "close",
+        "cast": [
+          "amma:happy,cry"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "എല്ലാവരുടെയും പിറന്നാൾ ഓർക്കുന്ന അമ്മയുടെ പിറന്നാൾ നിങ്ങൾക്ക് അറിയാമോ? 🎂❤️\nഅമ്മയെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "amma",
+    "birthday",
+    "mother",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "motherslove"
+  ]
+}

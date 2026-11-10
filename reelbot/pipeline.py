@@ -45,6 +45,48 @@ def _scene_svg(image: Path) -> str | None:
     return svg.read_text(encoding="utf-8") if svg.exists() else None
 
 
+def spoken_subtitles(scene, v: SceneVoice, duration: float) -> list:
+    """Subtitles that follow the narration and dialogue as they are spoken."""
+    from .subtitles import timed_chunks
+    from .video import LEAD_IN
+    from .voice import GAP
+
+    narr, dlg = scene.narration_ml.strip(), scene.dialogue_ml.strip()
+    if not v.audio:  # no voice: spread the text over the scene
+        text = " ".join(x for x in (narr, f'"{dlg}"' if dlg else "") if x)
+        return timed_chunks(text, 0.1, duration - 0.1)
+    out = []
+    if narr and dlg:
+        narr_end = LEAD_IN + max(v.talk_offset - GAP, 0.5)
+        out += timed_chunks(narr, LEAD_IN, narr_end)
+        out += timed_chunks(dlg, LEAD_IN + v.talk_offset, LEAD_IN + v.duration, quote=True)
+    elif dlg:
+        out += timed_chunks(dlg, LEAD_IN, LEAD_IN + v.duration, quote=True)
+    elif narr:
+        out += timed_chunks(narr, LEAD_IN, LEAD_IN + v.duration)
+    return out
+
+
+def compile_art(story: Story, scenes_dir: Path) -> list[Path]:
+    """Draw every scene that has a scene-kit `art` description (SVG + PNG)."""
+    from .scenekit import compile_scene
+
+    scenes_dir.mkdir(parents=True, exist_ok=True)
+    pngs = []
+    for i, scene in enumerate(story.scenes):
+        svg_path = scenes_dir / f"scene_{i + 1:02d}.svg"
+        if scene.art is not None and not svg_path.exists():
+            svg_path.write_text(compile_scene(scene.art, seed=i * 7 + 1), encoding="utf-8")
+        png = svg_path.with_suffix(".png")
+        if svg_path.exists() and not png.exists():
+            from .config import Settings
+
+            st = Settings()
+            render_png(svg_path.read_text(encoding="utf-8"), png, st.width, st.height)
+        pngs.append(png)
+    return pngs
+
+
 def scene_durations(story: Story, voices: list[SceneVoice]) -> list[float]:
     return [scene_duration(v.duration, reading_time(s.subtitle_ml)) for s, v in zip(story.scenes, voices)]
 
@@ -65,7 +107,7 @@ def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path],
             audio=v.audio,
             duration=dur,
             camera=scene.camera,
-            subtitle=scene.subtitle_ml,
+            subtitle=scene.subtitle_ml or spoken_subtitles(scene, v, dur),
             svg=_scene_svg(img),
             talk_audio=v.talk_audio,
             talk_offset=v.talk_offset,
@@ -96,6 +138,8 @@ def make(settings: Settings, theme: str | None = None, story: Story | None = Non
         voices = narrate_story(settings, story, reel_dir / "work")
         pairs = Studio(settings).produce(story, reel_dir, scene_durations(story, voices))
         render(settings, story, reel_dir, [img for img, _ in pairs], voices)
+    elif all(sc.art is not None for sc in story.scenes):
+        render(settings, story, reel_dir, compile_art(story, reel_dir / "scenes"))
     else:
         images = illustrate(settings, story, reel_dir / "scenes")
         render(settings, story, reel_dir, images)
@@ -116,6 +160,8 @@ def rebuild(settings: Settings, reel_dir: Path, retry_ai: bool = False) -> Path:
     scenes whose Veo clip failed earlier.
     """
     story = load_story(reel_dir)
+    if any(sc.art is not None for sc in story.scenes):
+        compile_art(story, reel_dir / "scenes")
     for svg in sorted((reel_dir / "scenes").glob("scene_*.svg")):  # e.g. examples/ ship only the SVGs
         png = svg.with_suffix(".png")
         if not png.exists():
@@ -133,6 +179,16 @@ def rebuild(settings: Settings, reel_dir: Path, retry_ai: bool = False) -> Path:
     if len(images) != len(story.scenes):
         raise SystemExit(f"expected {len(story.scenes)} scene images in {reel_dir / 'scenes'}, found {len(images)}")
     return render(settings, story, reel_dir, images)
+
+
+def next_in_queue(settings: Settings, queue: Path) -> Path | None:
+    """First story folder in the queue that has not been published yet (alphabetical order)."""
+    if not queue.is_dir():
+        return None
+    for d in sorted(p for p in queue.iterdir() if (p / "story.json").exists()):
+        if not (d / "published.json").exists():
+            return d
+    return None
 
 
 def publish(settings: Settings, reel_dir: Path, video_url: str | None = None) -> PublishResult:

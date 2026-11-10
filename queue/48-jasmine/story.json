@@ -1,0 +1,223 @@
+{
+  "title_ml": "എല്ലാ വൈകുന്നേരവും മുല്ലപ്പൂ",
+  "title_en": "Jasmine Every Evening",
+  "theme": "A grandfather brings jasmine for his wife every evening for fifty years; his grandson keeps the promise",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "appooppan",
+      "name_ml": "അപ്പൂപ്പൻ",
+      "look": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
+      "voice": "old_man"
+    },
+    {
+      "id": "ammachi",
+      "name_ml": "അമ്മൂമ്മ",
+      "look": "elderly woman, white hair bun, round glasses, cream Kerala saree with gold border",
+      "voice": "old_woman"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എല്ലാ വൈകുന്നേരവും ജോലി കഴിഞ്ഞ് വരുമ്പോൾ, അപ്പൂപ്പന്റെ കയ്യിൽ ഒരു മുഴം മുല്ലപ്പൂ ഉണ്ടാകും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with appooppan",
+      "characters": [
+        "appooppan"
+      ],
+      "action": "appooppan:walk,hold=flower",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:walk,hold=flower"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അത് അമ്മൂമ്മയ്ക്കുള്ളതാണ്. അമ്പത് വർഷമായി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with appooppan, ammachi",
+      "characters": [
+        "appooppan",
+        "ammachi"
+      ],
+      "action": "appooppan:hold=flower,happy ammachi:happy",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:hold=flower,happy",
+          "ammachi:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "എന്തിനാ അപ്പൂപ്പാ എന്നും പൂ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with kid, appooppan",
+      "characters": [
+        "kid",
+        "appooppan"
+      ],
+      "action": "kid:talk appooppan:happy",
+      "speaker": "kid",
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:talk",
+          "appooppan:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ നാണിച്ചു ചിരിച്ചു.",
+      "dialogue_ml": "ആദ്യമായി കണ്ട ദിവസം അവളുടെ മുടിയിൽ മുല്ലപ്പൂ ഉണ്ടായിരുന്നു. അന്ന് തൊട്ട് എനിക്ക് ആ മണം അവളാ.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with appooppan",
+      "characters": [
+        "appooppan"
+      ],
+      "action": "appooppan:talk,happy",
+      "speaker": "appooppan",
+      "camera": "still",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "close",
+        "cast": [
+          "appooppan:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "കഴിഞ്ഞ വർഷം അപ്പൂപ്പൻ പോയി. ആ വൈകുന്നേരങ്ങൾ ശൂന്യമായി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "ammachi:sad"
+        ],
+        "props": [
+          "photo:appooppan+garland"
+        ]
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് വൈകുന്നേരം ഞാൻ ഒരു മുഴം മുല്ലപ്പൂ വാങ്ങി അമ്മൂമ്മയുടെ കയ്യിൽ കൊടുത്തു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with grownup, ammachi",
+      "characters": [
+        "grownup",
+        "ammachi"
+      ],
+      "action": "grownup:hold=flower ammachi:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=flower",
+          "ammachi:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അമ്മൂമ്മ അത് മുടിയിൽ ചൂടി. അമ്പത്തൊന്നാം വർഷവും ആ സ്നേഹം മുടങ്ങിയില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with ammachi",
+      "characters": [
+        "ammachi"
+      ],
+      "action": "ammachi:happy,cry",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "wind",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "sunset"
+        ],
+        "shot": "close",
+        "cast": [
+          "ammachi:happy,cry"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "അമ്പത് വർഷം, ഒരു ദിവസം പോലും മുടങ്ങാത്ത സ്നേഹം 🌼❤️\nഅപ്പൂപ്പനെയും അമ്മൂമ്മയെയും ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "appooppan",
+    "ammachi",
+    "love",
+    "jasmine",
+    "mullappoo",
+    "kerala",
+    "mallureels",
+    "malayalamreels",
+    "truelove"
+  ]
+}

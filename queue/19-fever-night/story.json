@@ -1,0 +1,231 @@
+{
+  "title_ml": "പനിയുള്ള രാത്രി",
+  "title_en": "The Fever Night",
+  "theme": "A father stays awake all night beside his feverish son; years later the son does the same",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "achan",
+      "name_ml": "അച്ഛൻ",
+      "look": "father in his thirties, black hair and moustache, off-white shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "എനിക്ക് എട്ട് വയസ്സുള്ളപ്പോൾ, ഒരു രാത്രി നല്ല പനി വന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with kid",
+      "characters": [
+        "kid"
+      ],
+      "action": "kid:sleep,sad",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:sleep,sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ നനഞ്ഞ തുണി എന്റെ നെറ്റിയിൽ വെച്ചു കൊണ്ടിരുന്നു.",
+      "dialogue_ml": "ഒന്നും ഇല്ല മോനേ, ഇപ്പോ മാറും.",
+      "subtitle_ml": "",
+      "visual": "night_room scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:hold=plate,talk kid:sleep,sad",
+      "speaker": "achan",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:hold=plate,talk",
+          "kid:sleep,sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "രാത്രി മുഴുവൻ. ഒരു മിനിറ്റ് പോലും കണ്ണടച്ചില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:idle kid:sleep",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "achan:idle",
+          "kid:sleep"
+        ],
+        "props": [
+          "kerosene_lamp",
+          "clock"
+        ]
+      }
+    },
+    {
+      "narration_ml": "രാവിലെ ഞാൻ ഉണർന്നപ്പോൾ പനി മാറിയിരുന്നു. അച്ഛൻ കസേരയിൽ ഇരുന്ന് ഉറങ്ങുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:sleep kid:surprised",
+      "speaker": null,
+      "camera": "still",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:sleep",
+          "kid:surprised"
+        ],
+        "props": [
+          "chair"
+        ]
+      }
+    },
+    {
+      "narration_ml": "അച്ഛൻ ഉണർന്നപ്പോൾ ആദ്യം ചോദിച്ചത്.",
+      "dialogue_ml": "പനി കുറഞ്ഞോ മോനേ?",
+      "subtitle_ml": "",
+      "visual": "interior scene with achan, kid",
+      "characters": [
+        "achan",
+        "kid"
+      ],
+      "action": "achan:talk,happy kid:happy",
+      "speaker": "achan",
+      "camera": "zoom_in",
+      "ambience": "indoor",
+      "art": {
+        "bg": "interior",
+        "fx": [],
+        "shot": "wide",
+        "cast": [
+          "achan:talk,happy",
+          "kid:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്നലെ രാത്രി എന്റെ മോൾക്ക് പനിയായിരുന്നു. ഞാൻ അവളുടെ അടുത്ത് ഇരുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:hold=plate girl:sleep,sad",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "rain",
+      "art": {
+        "bg": "night_room",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=plate",
+          "girl:sleep,sad"
+        ],
+        "props": [
+          "kerosene_lamp"
+        ]
+      }
+    },
+    {
+      "narration_ml": "രാവിലെ അവൾ ഉണർന്നപ്പോൾ ഞാൻ കസേരയിൽ ഉറങ്ങുകയായിരുന്നു. അച്ഛാ, ഇപ്പോ എനിക്ക് മനസ്സിലായി.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "night_room scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:sleep",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "night",
+      "art": {
+        "bg": "night_room",
+        "fx": [],
+        "shot": "close",
+        "cast": [
+          "grownup:sleep"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "നമ്മൾ ഉറങ്ങിയ രാത്രികളിൽ ഉറങ്ങാതിരുന്ന ആരോ ഉണ്ടായിരുന്നു 🌙❤️\nഅച്ഛനെ ടാഗ് ചെയ്യൂ",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "achan",
+    "fever",
+    "father",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels",
+    "fatherslove"
+  ]
+}

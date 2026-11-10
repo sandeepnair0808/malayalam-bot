@@ -295,3 +295,44 @@ def test_veo_duration_and_fit():
     assert "setpts" not in fit_clip_filter(6.0, 5.0, 1080, 1920)
     f = fit_clip_filter(8.0, 12.0, 1080, 1920)
     assert "setpts=1.3500*PTS" in f and "tpad=stop_mode=clone:stop_duration=1.200" in f
+
+
+# ---------------------------------------------------------------- scene kit + story packs
+def test_every_story_pack_parses_and_draws():
+    from xml.etree import ElementTree
+
+    from reelbot.scenekit import compile_scene
+    from reelbot.storypack import parse
+
+    packs = sorted((HERE.parent / "stories").glob("*.txt"))
+    assert packs
+    slugs = []
+    for pack in packs:
+        for slug, story in parse(pack.read_text(encoding="utf-8")):
+            slugs.append(slug)
+            assert 5 <= len(story.scenes) <= 9, slug
+            for i, scene in enumerate(story.scenes):
+                assert scene.narration_ml or scene.dialogue_ml, (slug, i)
+                ElementTree.fromstring(compile_scene(scene.art, seed=i))
+    assert len(slugs) == len(set(slugs))
+
+
+def test_storypack_scene_line():
+    from reelbot.storypack import parse
+
+    text = """### t
+title: ടെസ്റ്റ് | Test
+- kitchen+rain | zoom_in | rain | amma:cook kid:point | stove || ഒരു വരി. || kid: അമ്മേ!
+"""
+    (slug, story), = parse(text)
+    sc = story.scenes[0]
+    assert slug == "t" and sc.speaker == "kid" and sc.dialogue_ml == "അമ്മേ!"
+    assert sc.art["fx"] == ["rain"] and "kid:point,talk" in sc.art["cast"]
+    assert {c.id: c.voice for c in story.characters} == {"amma": "woman", "kid": "boy"}
+
+
+def test_subtitle_chunks_follow_speech():
+    from reelbot.subtitles import timed_chunks
+
+    chunks = timed_chunks("ഒന്ന് രണ്ട് മൂന്ന് നാല് അഞ്ച് ആറ് ഏഴ് എട്ട് ഒൻപത് പത്ത് പതിനൊന്ന് പന്ത്രണ്ട്", 1.0, 5.0)
+    assert len(chunks) >= 2 and chunks[0][1] == 1.0 and abs(chunks[-1][2] - 5.0) < 1e-6

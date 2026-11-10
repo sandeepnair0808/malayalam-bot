@@ -1,0 +1,226 @@
+{
+  "title_ml": "കടലാസ് തോണി",
+  "title_en": "The Paper Boat",
+  "theme": "A grandfather teaches a boy to float paper boats in the monsoon; the man teaches his daughter in the city rain",
+  "setting": "Kerala village home",
+  "narrator_voice": "man",
+  "characters": [
+    {
+      "id": "appooppan",
+      "name_ml": "അപ്പൂപ്പൻ",
+      "look": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
+      "voice": "old_man"
+    },
+    {
+      "id": "kid",
+      "name_ml": "ഞാൻ (കുട്ടി)",
+      "look": "8 year old boy, short black hair, yellow shirt, blue shorts",
+      "voice": "boy"
+    },
+    {
+      "id": "grownup",
+      "name_ml": "ഞാൻ (ഇന്ന്)",
+      "look": "the narrator grown up, black hair and moustache, sky-blue shirt, grey trousers",
+      "voice": "man"
+    },
+    {
+      "id": "girl",
+      "name_ml": "അനിയത്തി",
+      "look": "6 year old girl, two pigtails with red ribbons, pink frock",
+      "voice": "girl"
+    }
+  ],
+  "scenes": [
+    {
+      "narration_ml": "മഴക്കാലത്ത് അപ്പൂപ്പൻ പഴയ പത്രം കൊണ്ട് കടലാസ് തോണി ഉണ്ടാക്കും.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "veranda scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:hold=letter kid:surprised",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:hold=letter",
+          "kid:surprised"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "മുറ്റത്തെ വെള്ളത്തിൽ ഞങ്ങൾ അത് ഒഴുക്കി വിടും.",
+      "dialogue_ml": "നോക്ക്, അത് കടലിലേക്ക് പോവുകയാ!",
+      "subtitle_ml": "",
+      "visual": "yard scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:point,talk kid:jump,happy",
+      "speaker": "appooppan",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "yard",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:point,talk",
+          "kid:jump,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "എന്റെ തോണി എപ്പോഴും മുങ്ങും. അപ്പൂപ്പന്റേത് ഒരിക്കലും മുങ്ങില്ല.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "yard scene with kid, appooppan",
+      "characters": [
+        "kid",
+        "appooppan"
+      ],
+      "action": "kid:jump,happy,wet appooppan:happy",
+      "speaker": null,
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "yard",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "kid:jump,happy,wet",
+          "appooppan:happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഞാൻ ചോദിച്ചു.",
+      "dialogue_ml": "അപ്പൂപ്പന്റെ തോണി എന്താ മുങ്ങാത്തേ?",
+      "subtitle_ml": "",
+      "visual": "veranda scene with appooppan, kid",
+      "characters": [
+        "appooppan",
+        "kid"
+      ],
+      "action": "appooppan:talk,happy kid:talk",
+      "speaker": "kid",
+      "camera": "still",
+      "ambience": "rain",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "appooppan:talk,happy",
+          "kid:talk"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അപ്പൂപ്പൻ ചിരിച്ചു.",
+      "dialogue_ml": "ക്ഷമയോടെ മടക്കിയാൽ ഒന്നും മുങ്ങില്ല മോനേ. തോണിയും ജീവിതവും.",
+      "subtitle_ml": "",
+      "visual": "veranda scene with appooppan",
+      "characters": [
+        "appooppan"
+      ],
+      "action": "appooppan:talk,happy",
+      "speaker": "appooppan",
+      "camera": "zoom_in",
+      "ambience": "rain",
+      "art": {
+        "bg": "veranda",
+        "fx": [
+          "rain"
+        ],
+        "shot": "close",
+        "cast": [
+          "appooppan:talk,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "ഇന്ന് പട്ടണത്തിൽ മഴ പെയ്യുന്നു. എന്റെ മോൾ ആദ്യമായി കടലാസ് തോണി ഒഴുക്കുന്നു.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with grownup, girl",
+      "characters": [
+        "grownup",
+        "girl"
+      ],
+      "action": "grownup:hold=letter girl:jump,happy",
+      "speaker": null,
+      "camera": "pan_right",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "wide",
+        "cast": [
+          "grownup:hold=letter",
+          "girl:jump,happy"
+        ],
+        "props": []
+      }
+    },
+    {
+      "narration_ml": "അവളുടെ തോണി മുങ്ങിയില്ല. ക്ഷമയോടെ മടക്കിയതുകൊണ്ട്.",
+      "dialogue_ml": "",
+      "subtitle_ml": "",
+      "visual": "lane scene with grownup",
+      "characters": [
+        "grownup"
+      ],
+      "action": "grownup:happy",
+      "speaker": null,
+      "camera": "zoom_out",
+      "ambience": "rain",
+      "art": {
+        "bg": "lane",
+        "fx": [
+          "rain"
+        ],
+        "shot": "close",
+        "cast": [
+          "grownup:happy"
+        ],
+        "props": []
+      }
+    }
+  ],
+  "caption_ml": "മഴ പെയ്യുമ്പോൾ ഇന്നും ഒരു കടലാസ് തോണി ഉണ്ടാക്കാൻ തോന്നാറില്ലേ? ⛵🌧️❤️",
+  "hashtags": [
+    "malayalam",
+    "malayalamstory",
+    "rain",
+    "paperboat",
+    "monsoon",
+    "appooppan",
+    "kerala",
+    "nostalgia",
+    "mallureels",
+    "malayalamreels"
+  ]
+}
