@@ -25,6 +25,11 @@ THEMES = [
     "a broken slate pencil and a best friend at the village school",
     "old couple's quiet love: grandfather combing grandmother's hair",
     "the family's first television and the Sunday afternoon movie",
+    "mother always says she likes the burnt dosa at the bottom of the pile",
+    "father's old bicycle that he never replaced, and the new one the child got",
+    "the extra plate grandmother always set at lunch, and who it was for",
+    "the letter from abroad that the child read aloud to an illiterate grandmother",
+    "the night bus father took every week so he could be home on Sunday",
 ]
 
 SYSTEM = """\
@@ -32,6 +37,19 @@ You write short, emotional Malayalam stories for Instagram Reels in the style of
 Kerala "kutti kaalam" (childhood) animations: warm, gentle, often bittersweet family moments,
 told by a narrator remembering their childhood. Language is natural, spoken Malayalam
 (not overly literary), easy to follow when read as subtitles.
+
+What makes a story worth sharing (the craft):
+- Build it around ONE small, concrete object or habit (an umbrella always tilted one way,
+  a tiffin box with one extra dosa, a radio only switched on at 7) that is planted early and
+  pays off at the end. No abstract statements about love or sacrifice.
+- Plant a small mystery or "complaint" in the first two scenes that the viewer only
+  understands at the end. The child narrator misreads it; the grown-up narrator understands.
+- The turn comes in the last 2-3 scenes, often by a time jump ("years later...") where the
+  narrator repeats the same act for someone else and finally understands.
+- Show, don't tell: the final line names the realisation in a few plain words, and never
+  explains the moral.
+- One short line of dialogue in the middle (in quotes) makes the characters feel real.
+- Avoid clichés: death-bed scenes, hospital beds, crying faces, villains, sermons.
 
 Rules:
 - 6 to 9 scenes. The whole reel should run 30-60 seconds when narrated.

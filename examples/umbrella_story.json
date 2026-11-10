@@ -1,0 +1,24 @@
+{
+  "title_ml": "അപ്പൂപ്പന്റെ പൊട്ടിയ കുട",
+  "title_en": "Grandpa's Broken Umbrella",
+  "theme": "A grandfather always comes home with one wet shoulder; years later the grandson understands why",
+  "setting": "Kerala village in the monsoon: sage green walls, brown wooden rafters, red-oxide floor, muddy lane lined with coconut trees, grey-green rainy sky",
+  "characters": [
+    {"id": "appooppan", "name_ml": "അപ്പൂപ്പൻ", "look": "elderly man, warm brown skin, white hair on the sides, white moustache, round glasses, cream half-sleeve shirt, white mundu"},
+    {"id": "kid", "name_ml": "ഞാൻ (കുട്ടി)", "look": "8 year old boy, brown skin, short black hair, yellow shirt, blue shorts, red school bag"},
+    {"id": "father", "name_ml": "ഞാൻ (ഇന്ന്)", "look": "the same boy grown up, 38, black hair, black moustache, sky-blue shirt, dark grey trousers"},
+    {"id": "daughter", "name_ml": "മോൾ", "look": "6 year old girl, two pigtails with red ribbons, pink frock, small purple school bag"}
+  ],
+  "scenes": [
+    {"narration_ml": "എന്റെ അപ്പൂപ്പന്റെ കുട എന്നും പൊട്ടിയതായിരുന്നു.", "subtitle_ml": "അപ്പൂപ്പന്റെ കുട\nഎന്നും പൊട്ടിയതായിരുന്നു", "visual": "An old black umbrella hanging on a wooden pillar of the veranda, rain falling outside", "characters": [], "camera": "zoom_in"},
+    {"narration_ml": "മഴക്കാലത്ത് എന്നെ സ്കൂളിൽ കൊണ്ടുവിടുന്നത് അപ്പൂപ്പനായിരുന്നു.", "subtitle_ml": "മഴയത്ത് സ്കൂളിലേക്ക്\nഅപ്പൂപ്പന്റെ കൂടെ", "visual": "Grandfather and the boy walking down a rainy village lane under one umbrella", "characters": ["appooppan", "kid"], "camera": "pan_right"},
+    {"narration_ml": "പക്ഷേ തിരിച്ചെത്തുമ്പോൾ, അപ്പൂപ്പന്റെ ഒരു വശം മുഴുവൻ നനഞ്ഞിരിക്കും.", "subtitle_ml": "തിരിച്ചെത്തുമ്പോൾ\nഅപ്പൂപ്പൻ പാതി നനഞ്ഞിരിക്കും", "visual": "Grandfather at home, one shoulder soaked and dripping, the boy completely dry", "characters": ["appooppan", "kid"], "camera": "zoom_in"},
+    {"narration_ml": "ഈ കുട ശരിയല്ല അപ്പൂപ്പാ, പുതിയതൊന്ന് വാങ്ങ്, എന്ന് ഞാൻ പറയും.", "subtitle_ml": "\"പുതിയ കുട വാങ്ങ്\nഅപ്പൂപ്പാ!\"", "visual": "The boy pointing at the umbrella, complaining", "characters": ["appooppan", "kid"], "camera": "still"},
+    {"narration_ml": "അപ്പൂപ്പൻ ചിരിക്കും. ഇത് മതി മോനേ.", "subtitle_ml": "\"ഇത് മതി മോനേ\"", "visual": "Grandfather smiling warmly with eyes closed", "characters": ["appooppan"], "camera": "zoom_in"},
+    {"narration_ml": "വർഷങ്ങൾ കഴിഞ്ഞു. ഇന്ന് മഴയത്ത് ഞാൻ എന്റെ മോളെ സ്കൂളിൽ കൊണ്ടുവിട്ടു.", "subtitle_ml": "ഇന്ന് ഞാൻ എന്റെ മോളെ\nസ്കൂളിൽ കൊണ്ടുവിട്ടു", "visual": "The grown-up man walking his daughter down the same rainy lane under the same old umbrella", "characters": ["father", "daughter"], "camera": "pan_right"},
+    {"narration_ml": "വീട്ടിലെത്തിയപ്പോൾ, എന്റെ ഒരു വശം മുഴുവൻ നനഞ്ഞിരുന്നു.", "subtitle_ml": "എന്റെ ഒരു വശം\nമുഴുവൻ നനഞ്ഞിരുന്നു", "visual": "The man at home looking at his own soaked shoulder, the daughter dry", "characters": ["father", "daughter"], "camera": "zoom_in"},
+    {"narration_ml": "അന്ന് മനസ്സിലായി. ആ കുടയ്ക്ക് ഒരു കുഴപ്പവുമില്ലായിരുന്നു.", "subtitle_ml": "ആ കുടയ്ക്ക്\nഒരു കുഴപ്പവുമില്ലായിരുന്നു", "visual": "The umbrella hanging on the pillar next to a garlanded photo of grandfather", "characters": [], "camera": "zoom_out"}
+  ],
+  "caption_ml": "കുടയ്ക്ക് ഒരു കുഴപ്പവുമില്ലായിരുന്നു... കുട ചരിച്ചു പിടിച്ചത് സ്നേഹം കൊണ്ടായിരുന്നു ☔❤️\nനിങ്ങളെ നനയാതെ കൊണ്ടുനടന്ന ആളെ ടാഗ് ചെയ്യൂ",
+  "hashtags": ["malayalam", "malayalamstory", "kerala", "nostalgia", "appooppan", "grandfather", "mazha", "monsoon", "keralamonsoon", "mallureels", "malayalamreels", "familylove", "childhoodmemories"]
+}

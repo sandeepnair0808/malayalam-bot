@@ -38,7 +38,7 @@ random and mixed under the voice. Only use tracks you have the rights to.
 ```bash
 reelbot make                                  # pick an unused theme, produce output/<date>-<slug>/
 reelbot make --theme "grandfather teaching me to swim in the temple pond"
-reelbot make --story tests/sample_story.json  # skip story writing, draw + render this story
+reelbot make --story examples/umbrella_story.json  # skip story writing, draw + render this story
 reelbot rebuild output/<dir>                  # re-render voice/video only (no Claude calls)
 reelbot publish output/<dir>                  # upload reel.mp4 with caption.txt
 reelbot run                                   # make + publish
