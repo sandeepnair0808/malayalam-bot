@@ -29,8 +29,8 @@ def escape(text: str) -> str:
 def build_ass(cues: list[Cue], font: str, width: int = 1080, height: int = 1920) -> str:
     # Bottom-centre, sitting above the area Instagram covers with the caption/buttons.
     style = (
-        f"Style: Story,{font},68,&H00FFFFFF,&H00FFFFFF,&H00202020,&H64000000,"
-        "-1,0,0,0,100,100,0,0,1,5,2,2,90,170,560,1"
+        f"Style: Story,{font},82,&H00FFFFFF,&H00FFFFFF,&H00202020,&H64000000,"
+        "-1,0,0,0,100,100,0,0,1,6,2,2,80,80,460,1"
     )
     header = f"""[Script Info]
 ScriptType: v4.00+
