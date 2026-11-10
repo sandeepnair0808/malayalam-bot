@@ -15,7 +15,7 @@ from .instagram import InstagramClient, PublishResult
 from .models import Story
 from .story import pick_theme, write_story
 from .video import SceneClip, assemble, scene_duration
-from .voice import narrate, reading_time
+from .voice import narrate_story, reading_time
 
 log = logging.getLogger(__name__)
 
@@ -48,17 +48,20 @@ def _scene_svg(image: Path) -> str | None:
 def render(settings: Settings, story: Story, reel_dir: Path, images: list[Path]) -> Path:
     """Voice-over + video assembly from already-drawn scene images."""
     work = reel_dir / "work"
-    voices = narrate(settings, [s.narration_ml for s in story.scenes], work)
+    voices = narrate_story(settings, story, work)
     clips = [
         SceneClip(
             image=img,
-            audio=audio,
-            duration=scene_duration(spoken, reading_time(scene.subtitle_ml)),
+            audio=v.audio,
+            duration=scene_duration(v.duration, reading_time(scene.subtitle_ml)),
             camera=scene.camera,
             subtitle=scene.subtitle_ml,
             svg=_scene_svg(img),
+            talk_audio=v.talk_audio,
+            talk_offset=v.talk_offset,
+            ambience=scene.ambience,
         )
-        for scene, img, (audio, spoken) in zip(story.scenes, images, voices)
+        for scene, img, v in zip(story.scenes, images, voices)
     ]
     out = assemble(settings, clips, work, reel_dir / "reel.mp4")
     log.info("reel ready: %s (%.1fs)", out, sum(c.duration for c in clips))

@@ -7,6 +7,8 @@ from typing import List, Literal, Optional
 from pydantic import BaseModel, Field
 
 CameraMove = Literal["zoom_in", "zoom_out", "pan_left", "pan_right", "still"]
+VoiceType = Literal["man", "woman", "old_man", "old_woman", "boy", "girl"]
+Ambience = Literal["none", "rain", "night", "wind", "indoor"]
 
 
 class Character(BaseModel):
@@ -18,10 +20,18 @@ class Character(BaseModel):
             "clothes with exact colours, accessories (e.g. round glasses, gold bangle)"
         )
     )
+    voice: VoiceType = Field(default="man", description="voice type used when this character speaks")
 
 
 class Scene(BaseModel):
-    narration_ml: str = Field(description="voice-over line in natural spoken Malayalam (1-2 short sentences)")
+    narration_ml: str = Field(
+        description="narrator's voice-over in natural spoken Malayalam (1-2 short sentences); may be empty "
+        "if the scene is only dialogue"
+    )
+    dialogue_ml: str = Field(
+        default="",
+        description="words spoken aloud by `speaker` in their own voice, without quote marks; empty if none",
+    )
     subtitle_ml: str = Field(description="on-screen Malayalam subtitle, max ~32 characters per line, max 2 lines")
     visual: str = Field(description="English description of what the illustration shows: who, pose, expression, setting")
     characters: List[str] = Field(description="ids of characters visible in the scene")
@@ -36,6 +46,7 @@ class Scene(BaseModel):
         "moves with the voice); null when it is the off-screen narrator",
     )
     camera: CameraMove
+    ambience: Ambience = Field(default="none", description="background sound: rain, night (crickets), wind, indoor, none")
 
 
 class Story(BaseModel):
@@ -43,6 +54,9 @@ class Story(BaseModel):
     title_en: str
     theme: str = Field(description="one-line English summary of the story's theme")
     setting: str = Field(description="English description of the recurring background/location and palette")
+    narrator_voice: VoiceType = Field(
+        default="man", description="voice of the narrator (usually the grown-up child telling the memory)"
+    )
     characters: List[Character]
     scenes: List[Scene]
     caption_ml: str = Field(description="Instagram caption in Malayalam, 1-3 lines, emotional hook")

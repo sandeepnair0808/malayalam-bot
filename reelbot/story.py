@@ -53,8 +53,8 @@ What makes a story worth sharing (the craft):
 
 Rules:
 - 6 to 9 scenes. The whole reel should run 30-60 seconds when narrated.
-- Each narration_ml is 1-2 short sentences. subtitle_ml is a tight version of it that fits
-  on a phone screen (at most 2 lines of ~32 characters).
+- Each narration_ml is 1-2 short sentences. subtitle_ml is a tight version of what is spoken
+  (narration and/or dialogue) that fits on a phone screen (at most 2 lines of ~32 characters).
 - The first scene must hook in the first 2 seconds; the last scene lands the emotion
   (a twist, a realisation, or a quiet line that makes people tag their family).
 - Keep a small, fixed cast (1-4 characters) with very specific, consistent visual designs,
@@ -64,8 +64,13 @@ Rules:
   trees, red-oxide floor, paddy fields, etc.).
 - Every scene has visible motion in `action` (walking, waving, hugging, pointing, jumping,
   rain falling, fan turning...). Static "standing and looking" shots get "idle" motion.
-- When a character's own words are spoken (dialogue in quotes), set `speaker` to that
-  character's id so their mouth moves; otherwise leave it null (narrator).
+- Voices: the narrator is usually the grown-up child (`narrator_voice`); give every character a
+  `voice` type (old_man, old_woman, man, woman, boy, girl). Put the narrator's words in
+  `narration_ml` and any line a character says out loud in `dialogue_ml` with `speaker` set to
+  that character (their mouth moves and they speak in their own voice). Use 2-3 short dialogue
+  lines in the story; they make it feel alive.
+- Write for the ear: short sentences, commas and "..." where a storyteller would pause.
+- Set `ambience` for each scene (rain for monsoon scenes, night for evening scenes, etc.).
 - Original story. Do not reuse lines, characters or names from existing films or creators.
 - Hashtags: no '#' prefix, no spaces.
 """

@@ -27,6 +27,9 @@ class SceneClip:
     camera: str
     subtitle: str
     svg: str | None = None  # when set, the scene is animated frame by frame
+    talk_audio: Path | None = None  # speech that drives the on-screen speaker's mouth
+    talk_offset: float = 0.0  # seconds into the scene's speech where talk_audio starts
+    ambience: str = "none"
 
 
 def scene_duration(spoken: float, reading: float) -> float:
@@ -68,7 +71,7 @@ def _fades(clip: SceneClip, first: bool, last: bool) -> list[str]:
 
 def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, last: bool) -> Path:
     if clip.svg and settings.animate:
-        env = voice_envelope(clip.audio, clip.duration, settings.fps, LEAD_IN)
+        env = voice_envelope(clip.talk_audio, clip.duration, settings.fps, LEAD_IN + clip.talk_offset)
         return render_animated(clip.svg, clip.duration, clip.camera, out, fps=settings.fps, width=settings.width,
                                height=settings.height, envelope=env, vf_extra=_fades(clip, first, last))
     frames = max(int(round(clip.duration * settings.fps)), 1)
@@ -81,6 +84,46 @@ def render_scene(settings: Settings, clip: SceneClip, out: Path, first: bool, la
         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-an", str(out),
     ])
     return out
+
+
+# Synthesised background beds (lavfi sources), mixed quietly under the voice.
+AMBIENCE = {
+    # pink noise band-passed like rain on leaves + low brown-noise rumble
+    "rain": ("anoisesrc=color=pink:r=44100:a=0.5,highpass=f=400,lowpass=f=6500,"
+             "volume=0.35[ra];anoisesrc=color=brown:r=44100:a=0.5,lowpass=f=300,volume=0.25[rb];"
+             "[ra][rb]amix=inputs=2:normalize=0"),
+    # crickets: high tone chopped into chirps, plus faint night air
+    "night": ("sine=f=4700:r=44100,tremolo=f=38:d=1,tremolo=f=1.6:d=0.9,volume=0.05[ca];"
+              "anoisesrc=color=brown:r=44100:a=0.3,lowpass=f=500,volume=0.12[cb];[ca][cb]amix=inputs=2:normalize=0"),
+    "wind": "anoisesrc=color=brown:r=44100:a=0.6,lowpass=f=900,tremolo=f=0.15:d=0.7,volume=0.35",
+    "indoor": "anoisesrc=color=brown:r=44100:a=0.3,lowpass=f=250,volume=0.15",
+}
+AMBIENCE_GAIN = 0.55
+
+
+def _ambience_chain(kind: str, dur: float, label: str, n: int) -> str | None:
+    src = AMBIENCE.get(kind)
+    if not src:
+        return None
+    # rename internal labels so several beds can coexist in one graph
+    for tag in ("ra", "rb", "ca", "cb"):
+        src = src.replace(f"[{tag}]", f"[{tag}{n}]")
+    fade = min(0.4, dur / 4)
+    return (f"{src},aformat=channel_layouts=stereo,atrim=0:{dur:.3f},asetpts=N/SR/TB,"
+            f"afade=t=in:d={fade:.2f},afade=t=out:st={dur - fade:.3f}:d={fade:.2f},volume={AMBIENCE_GAIN}[{label}]")
+
+
+def ambience_runs(clips: list[SceneClip]) -> list[tuple[str, float, float]]:
+    """(kind, start, duration) for each run of consecutive scenes with the same ambience."""
+    runs: list[list] = []
+    t = 0.0
+    for c in clips:
+        if runs and runs[-1][0] == c.ambience:
+            runs[-1][2] += c.duration
+        else:
+            runs.append([c.ambience, t, c.duration])
+        t += c.duration
+    return [(k, s, d) for k, s, d in runs if k in AMBIENCE]
 
 
 def build_audio(settings: Settings, clips: list[SceneClip], out: Path) -> Path:
@@ -102,7 +145,20 @@ def build_audio(settings: Settings, clips: list[SceneClip], out: Path) -> Path:
                 f"anullsrc=r=44100:cl=stereo,atrim=0:{clip.duration:.3f}[s{i}]"
             )
         labels.append(f"[s{i}]")
-    parts.append(f"{''.join(labels)}concat=n={len(clips)}:v=0:a=1[voice]")
+    parts.append(f"{''.join(labels)}concat=n={len(clips)}:v=0:a=1[speech]")
+
+    # one continuous bed per run of consecutive scenes sharing an ambience
+    beds, t = [], 0.0
+    for kind, start, dur in ambience_runs(clips):
+        chain = _ambience_chain(kind, dur, f"bed{len(beds)}", len(beds))
+        if chain:
+            ms = int(start * 1000)
+            parts.append(chain.replace(f"[bed{len(beds)}]", f",adelay={ms}|{ms}[bed{len(beds)}]"))
+            beds.append(f"[bed{len(beds)}]")
+    if beds:
+        parts.append(f"[speech]{''.join(beds)}amix=inputs={len(beds) + 1}:duration=first:normalize=0[voice]")
+    else:
+        parts.append("[speech]anull[voice]")
 
     music = pick_music(settings.music_dir)
     total = sum(c.duration for c in clips)

@@ -27,7 +27,7 @@ cp .env.example .env    # fill in keys
 |---|---|
 | `ANTHROPIC_API_KEY` | Claude API key (story + illustrations). |
 | `REELBOT_TTS` | `edge` (default, natural `ml-IN` neural voices), `gtts`, or `none` (subtitles + music only). |
-| `REELBOT_VOICE` | `ml-IN-SobhanaNeural` (female) or `ml-IN-MidhunNeural` (male). |
+| `REELBOT_VOICE` | Fallback voice for anything uncast: `ml-IN-MidhunNeural` (male) or `ml-IN-SobhanaNeural` (female). |
 | `REELBOT_FONT` | Malayalam font family for subtitles (default `Manjari`). Drop a `.ttf` in `assets/fonts/` to use a custom one. |
 | `IG_USER_ID`, `IG_ACCESS_TOKEN` | Instagram professional account id and a long-lived token. |
 | `IG_GRAPH_HOST` | `graph.facebook.com` (Facebook Login token) or `graph.instagram.com` (Instagram Login token). |
@@ -48,6 +48,19 @@ reelbot run                                   # make + publish
 
 Each reel directory holds `story.json`, `caption.txt`, `scenes/scene_NN.{svg,png}`, and
 `reel.mp4`. You can edit `story.json` or the SVGs, then `rebuild` before publishing.
+
+## Voices and sound
+
+- **Casting:** the story gives the narrator and every character a voice type (`man`, `woman`,
+  `old_man`, `old_woman`, `boy`, `girl`). These are built from the two Malayalam neural voices
+  by adjusting pitch and speed (older = deeper and slower, children = higher), in `reelbot/voice.py` `PRESETS`.
+- **Dialogue:** `narration_ml` is read by the narrator, and `dialogue_ml` by the scene's `speaker` in
+  their own voice. Lip-sync follows only the dialogue.
+- **Polish:** every line is EQ'd, gently compressed and given a small room tail. The final scene is
+  read a little slower, and the mix is normalised to -14 LUFS.
+- **Ambience:** `rain`, `night` (crickets), `wind` or `indoor` beds are synthesised and play
+  continuously across consecutive scenes, about 16 dB under the voice. Music from `assets/music/` is
+  mixed on top if present.
 
 ## Character animation
 
