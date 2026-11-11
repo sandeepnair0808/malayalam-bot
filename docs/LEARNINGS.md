@@ -88,3 +88,12 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
   The old-style hourly uploads before the gap got 0-15 views.
 - Early read: the new style and story structure beat the old style. Posting gaps may still matter, so keep
   comparing 1 h views per Short (stats/).
+
+## Correction: it is the posting gap, not the style (2026-11-11 16:17 IST)
+The full Shorts grid after uploads restarted at ~13:00 IST, one per hour:
+27-school-day (old style, first after an 8 h gap) 790 views; 93-ammachi-train (old) 580;
+97-amma-signs-name (new) 434; 19-fever-night (new) 0 at 15 min.
+The hourly uploads before the gap got 3-8 views each.
+- Each Short posted 1 h after the last gets less. The first one after a long rest does best, whatever its style.
+- RULE: post at most 3 a day, at least 4-5 h apart (7:00, 13:00, 20:00 IST). Never hourly.
+- The earlier "new style beats old style" note was wrong. Judge the style only between Shorts with the same gap.
