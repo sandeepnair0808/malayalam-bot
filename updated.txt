@@ -24,5 +24,10 @@
 48-jasmine.mp4
 new/59-sewing-machine.mp4
 new/60-well-bucket.mp4
+new/67-vishukkani.mp4
+new/73-oil-bath.mp4
+new/78-smoky-uniform.mp4
+new/82-pickle-swap.mp4
 new/86-ammachi-album.mp4
 new/88-grinding-stone.mp4
+new/89-wooden-bridge.mp4
