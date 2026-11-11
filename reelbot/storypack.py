@@ -116,8 +116,17 @@ def parse(text: str) -> list[tuple[str, Story]]:
         if hook and scenes:
             # 2-3 second opening question over the first picture: viewers decide in 1-2 s (see docs/LEARNINGS.md)
             first = scenes[0]
-            # a close-up of the main character makes the question feel personal
-            art = {**first.art, "shot": "close"} if first.art else first.art
+            # flash-forward: open on the story's last (most emotional) picture, close up, with the question on it.
+            # Viewers decide in the first second; the twist scene is the strongest image in the story.
+            # Use the latest scene led by a story character (not the grown-up narrator), eyes open toward the viewer.
+            led = [sc.art for sc in scenes if sc.art and sc.art.get("cast")
+                   and not sc.art["cast"][0].startswith(("grownup", "father"))]
+            peak = led[-1] if led else first.art
+            art = first.art
+            if peak:
+                who, _, toks = peak["cast"][0].partition(":")
+                keep = [t for t in toks.split(",") if t and t not in ("happy", "sleep", "pray", "talk", "sad", "eat")]
+                art = {**peak, "shot": "close", "cast": [":".join([who, ",".join(keep)]) if keep else who]}
             scenes.insert(0, first.model_copy(update={"narration_ml": hook, "dialogue_ml": "", "speaker": None,
                                                       "camera": "zoom_in", "emphasis": True, "art": art}))
         ids = []

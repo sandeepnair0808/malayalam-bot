@@ -97,3 +97,9 @@ The hourly uploads before the gap got 3-8 views each.
 - Each Short posted 1 h after the last gets less. The first one after a long rest does best, whatever its style.
 - RULE: post at most 3 a day, at least 4-5 h apart (7:00, 13:00, 20:00 IST). Never hourly.
 - The earlier "new style beats old style" note was wrong. Judge the style only between Shorts with the same gap.
+
+## Retention (2026-11-11)
+- "Tiffin chapati" (03): 51.1% stayed to watch; its engaged views stopped growing after ~4 h. About 50% means
+  YouTube tests a Short, then stops. Aim for 65%+.
+- Almost all swiping happens in the first 1-2 s. The hook scene is now a flash-forward: a close-up of the main
+  character from the story's last character-led scene, eyes open to the viewer, with the hook question.
