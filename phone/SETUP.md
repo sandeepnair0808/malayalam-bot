@@ -94,3 +94,9 @@ Fill in the **YouTube API Services audit form**: https://support.google.com/yout
 | Upload one now | `python phone_uploader.py` |
 | See the log | `cat uploader.log` |
 | Get newly made videos | `cd ~/malayalam-bot && git pull` and download the zip again |
+
+## Upload spacing (built in)
+The uploader waits at least 4 hours after the last upload and only posts between 7:00 and 21:59
+(see docs/LEARNINGS.md: a Short posted 1 h after the previous one gets ~0 views). It is safe to keep cron hourly.
+- Post right now anyway: `python phone_uploader.py --now`
+- Change the gap or hours: `MIN_GAP_HOURS=5 UPLOAD_HOURS=8-21 python phone_uploader.py`

@@ -23,6 +23,7 @@ import argparse
 import fcntl
 import json
 import sys
+import os
 import time
 from datetime import datetime
 from pathlib import Path
@@ -129,6 +130,11 @@ def main() -> int:
     ap.add_argument("--auth", action="store_true", help="sign in to Google (once)")
     ap.add_argument("--count", type=int, default=1, help="videos to upload this run")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--min-gap", type=float, default=float(os.environ.get("MIN_GAP_HOURS", "4")),
+                    help="hours to wait after the last upload (YouTube pushes a Short less if posted too soon)")
+    ap.add_argument("--now", action="store_true", help="upload now even if the last one was recent")
+    ap.add_argument("--hours", default=os.environ.get("UPLOAD_HOURS", "7-21"),
+                    help="only upload between these local hours (start-end, inclusive)")
     ap.add_argument("--comments-only", action="store_true", help="only post missing comments, upload nothing")
     ap.add_argument("--retry", metavar="FILE", help="allow one interrupted file to be uploaded again")
     ap.add_argument("--videos", default=str(HERE / "videos"), help="folder with the mp4 files")
@@ -192,6 +198,17 @@ def main() -> int:
     if args.comments_only:
         log(f"comments done ({len(backlog)} were missing)")
         return 0
+    # spacing rule (docs/LEARNINGS.md): a Short posted 1 h after the previous one gets ~0 views
+    last = max((v.get("at", "") for v in done.values() if isinstance(v, dict) and v.get("id")), default="")
+    start, _, end = args.hours.partition("-")
+    if not args.now and not int(start) <= datetime.now().hour <= int(end or start):
+        log(f"quiet hours: uploads only between {args.hours} h")
+        return 0
+    if last and not args.now:
+        gap = (datetime.now() - datetime.fromisoformat(last)).total_seconds() / 3600
+        if gap < args.min_gap:
+            log(f"waiting: last upload {gap:.1f} h ago, next after {args.min_gap:g} h")
+            return 0
     videos_dir = Path(args.videos)
     uploaded_now = 0
     for item in left:
