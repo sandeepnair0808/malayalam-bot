@@ -79,3 +79,12 @@ Short captions with 1-2 hashtags (#keralam, #fatherlove #malayalamstatus) did be
   the hook scene is a close-up of the main character.
 - Competitor (youthful_mediatech) look to match and beat: one warm lamp lighting a dark room, glossy
   big eyes, close-up reaction shots, floating dust, natural (non-pitch-shifted) voices.
+
+## First new-style Short (2026-11-11)
+- 97-amma-signs-name, the first upload with lamplight art, natural voice settings, close-up hook and gold twist
+  reveal: 29 views in 6 min, 251 views in 17 min. That is the fastest start on the channel, even though it
+  went out about 1 h after the previous Short.
+- The previous Short (93-ammachi-train, old flat art, posted after an 8 h gap) got 333 views in 42 min.
+  The old-style hourly uploads before the gap got 0-15 views.
+- Early read: the new style and story structure beat the old style. Posting gaps may still matter, so keep
+  comparing 1 h views per Short (stats/).
