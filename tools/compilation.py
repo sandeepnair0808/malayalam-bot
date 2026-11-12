@@ -5,7 +5,7 @@ Usage:
 
 Each DIR holds reel.mp4 (rendered without the end card: REELBOT_END_CARD="") plus story.json
 and scenes/. The video gets an intro card, a chapter card before each story ("കഥ N" + title),
-and an outro card. Each vertical reel sits in the centre over a blurred copy of itself.
+and an outro card. Reels rendered with REELBOT_LANDSCAPE=1 fill the 16:9 frame; vertical reels are padded with a blurred copy.
 Writes OUT.mp4 and OUT.chapters.txt (YouTube chapter timestamps for the description).
 """
 
@@ -49,8 +49,8 @@ def ass(lines: list[tuple[str, int, str]], dur: float, path: Path) -> Path:
 
 def card(bg_png: Path, lines, dur: float, out: Path, tmp: Path, music_at: float) -> Path:
     sub = ass(lines, dur, tmp / (out.stem + ".ass"))
-    vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=25:4,"
-          f"eq=brightness=-0.32,fade=t=in:st=0:d=0.4,fade=t=out:st={dur - 0.4:.2f}:d=0.4,ass='{sub}'")
+    vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+          f"eq=brightness=-0.38:saturation=0.85,fade=t=in:st=0:d=0.4,fade=t=out:st={dur - 0.4:.2f}:d=0.4,ass='{sub}'")
     run(["ffmpeg", "-y", "-v", "error", "-loop", "1", "-t", f"{dur}", "-i", str(bg_png),
          "-ss", f"{music_at}", "-t", f"{dur}", "-i", str(MUSIC),
          "-vf", vf, "-af", f"volume=0.35,afade=t=in:d=0.4,afade=t=out:st={dur - 0.5:.2f}:d=0.5",
@@ -59,6 +59,12 @@ def card(bg_png: Path, lines, dur: float, out: Path, tmp: Path, music_at: float)
 
 
 def widen(reel: Path, out: Path) -> Path:
+    w, h = (int(x) for x in subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height", "-of", "csv=p=0",
+         str(reel)], capture_output=True, text=True, check=True).stdout.split(",")[:2])
+    if w > h:  # already rendered widescreen (REELBOT_LANDSCAPE=1): full frame, no padding
+        run(["ffmpeg", "-y", "-v", "error", "-i", str(reel), "-vf", f"scale={W}:{H},setsar=1", *ENC, str(out)])
+        return out
     fc = (f"[0:v]split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
           f"boxblur=30:5,eq=brightness=-0.18[bg];[b]scale=-2:{H}[fg];[bg][fg]overlay=(W-w)/2:0,setsar=1[v]")
     run(["ffmpeg", "-y", "-v", "error", "-i", str(reel), "-filter_complex", fc, "-map", "[v]", "-map", "0:a",

@@ -64,24 +64,29 @@ def _wrap(text: str, line_chars: int = 22) -> str:
 
 
 def build_ass(cues: list[Cue], font: str, width: int = 1080, height: int = 1920) -> str:
-    # Bottom-centre, sitting above the area Instagram covers with the caption/buttons.
+    # (size, margin_v) per style: 9:16 Shorts keep text above Instagram's caption area; 16:9 sits low like film subtitles
+    wide = width > height
+    sz = {"Story": (62, 60), "Hook": (78, 50), "End": (50, 40), "Reveal": (80, 110)} if wide else \
+         {"Story": (82, 460), "Hook": (92, 230), "End": (64, 250), "Reveal": (100, 380)}
+    side = 160 if wide else 80
+    # Bottom-centre story text.
     style = (
-        f"Style: Story,{font},82,&H00FFFFFF,&H00FFFFFF,&H00202020,&H64000000,"
-        "-1,0,0,0,100,100,0,0,1,6,2,2,80,80,460,1"
+        f"Style: Story,{font},{sz['Story'][0]},&H00FFFFFF,&H00FFFFFF,&H00202020,&H64000000,"
+        f"-1,0,0,0,100,100,0,0,1,6,2,2,{side},{side},{sz['Story'][1]},1"
     )
     # Hook: big yellow question at the top for the first seconds. End: small subscribe line at the top.
     hook = (
-        f"Style: Hook,{font},92,&H0000E6FF,&H0000E6FF,&H00101010,&H96000000,"
-        "-1,0,0,0,100,100,0,0,1,7,3,8,70,70,230,1"
+        f"Style: Hook,{font},{sz['Hook'][0]},&H0000E6FF,&H0000E6FF,&H00101010,&H96000000,"
+        f"-1,0,0,0,100,100,0,0,1,7,3,8,{side},{side},{sz['Hook'][1]},1"
     )
     end = (
-        f"Style: End,{font},64,&H00FFFFFF,&H00FFFFFF,&H00202020,&H96000000,"
-        "-1,0,0,0,100,100,0,0,3,5,0,8,90,90,250,1"
+        f"Style: End,{font},{sz['End'][0]},&H00FFFFFF,&H00FFFFFF,&H00202020,&H96000000,"
+        f"-1,0,0,0,100,100,0,0,3,5,0,8,90,90,{sz['End'][1]},1"
     )
-    # Reveal: the twist line, large warm gold in the middle of the frame.
+    # Reveal: the twist line, large warm gold, low in the frame.
     reveal = (
-        f"Style: Reveal,{font},100,&H008AE0FF,&H008AE0FF,&H00101010,&H96000000,"
-        "-1,0,0,0,100,100,0,0,1,7,4,2,70,70,380,1"
+        f"Style: Reveal,{font},{sz['Reveal'][0]},&H008AE0FF,&H008AE0FF,&H00101010,&H96000000,"
+        f"-1,0,0,0,100,100,0,0,1,7,4,2,{side},{side},{sz['Reveal'][1]},1"
     )
     header = f"""[Script Info]
 ScriptType: v4.00+
@@ -101,7 +106,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = [
-        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},{c.style},,0,0,0,,{{\\fad(150,150)}}{escape(_wrap(c.text) if c.style in ('Hook', 'Reveal') else c.text)}"
+        f"Dialogue: 0,{_ts(c.start)},{_ts(c.end)},{c.style},,0,0,0,,{{\\fad(150,150)}}{escape(_wrap(c.text, 36 if wide else 22) if c.style in ('Hook', 'Reveal') else c.text)}"
         for c in cues
     ]
     return header + "\n".join(events) + "\n"

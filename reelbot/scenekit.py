@@ -26,6 +26,7 @@ reelbot.animate can move it (blink, talk, breathe, walk, wave, rain, wheels, fla
 from __future__ import annotations
 
 import math
+import os
 import random
 import re
 
@@ -827,11 +828,23 @@ def prop(spec: str) -> tuple[str, str]:
 
 
 # --------------------------------------------------------------------------- night atmosphere
-def moon(seed=0):
-    x = 780 if seed % 2 else 300
-    return (f'<circle cx="{x}" cy="330" r="330" fill="url(#moonglow)"/>'
-            f'<circle cx="{x}" cy="330" r="78" fill="#fbf3d0"/><circle cx="{x + 22}" cy="312" r="16" fill="#e9dfb5" opacity="0.6"/>'
-            f'<circle cx="{x - 26}" cy="352" r="11" fill="#e9dfb5" opacity="0.5"/>')
+def moon(seed=0, y=330, x=None):
+    x = x if x is not None else (780 if seed % 2 else 300)
+    return (f'<circle cx="{x}" cy="{y}" r="330" fill="url(#moonglow)"/>'
+            f'<circle cx="{x}" cy="{y}" r="78" fill="#fbf3d0"/><circle cx="{x + 22}" cy="{y - 18}" r="16" fill="#e9dfb5" opacity="0.6"/>'
+            f'<circle cx="{x - 26}" cy="{y + 22}" r="11" fill="#e9dfb5" opacity="0.5"/>')
+
+
+# Widescreen (REELBOT_LANDSCAPE=1): the same 1080-wide stage, seen through a wider window. The world
+# x -660..1740, y 450..1800 is scaled 0.8 into 1920x1080; the background is extended past the stage
+# with mirrored copies of itself so rooms, verandas and lanes continue without seams.
+LANDSCAPE = os.environ.get("REELBOT_LANDSCAPE") == "1"
+LW, LH, LX0, LY0, LS = 1920, 1080, -660, 400, 0.8
+
+
+def _full(extra=""):
+    """Attributes for a rect that covers the whole visible world."""
+    return f'x="-1080" width="{3 * W}" height="{H}"{extra}' if LANDSCAPE else f'width="{W}" height="{H}"{extra}'
 
 
 def dust(seed, cx, cy, n=22):
@@ -856,9 +869,14 @@ def compile_scene(art: dict, seed: int = 0) -> str:
     bg_name = art.get("bg", "interior")
     if bg_name not in BACKGROUNDS:
         raise ValueError(f"unknown background {bg_name!r}")
-    body = BACKGROUNDS[bg_name](fx)
+    bg = BACKGROUNDS[bg_name](fx)
     if "rain" in fx and bg_name in ("lane", "school", "paddy", "bus_stop", "yard", "temple"):
-        body += rain_layer(seed + 2)
+        bg += rain_layer(seed + 2)
+    if "night" in fx and bg_name in OUTDOOR:
+        bg = bg.replace('fill="url(#clear)"', 'fill="#2a2f4a"') + stars(seed)
+    if LANDSCAPE:  # extend the set sideways with mirror images so it reads as one wide place
+        bg = f'<g transform="scale(-1,1)">{bg}</g><g transform="translate({2 * W},0) scale(-1,1)">{bg}</g>' + bg
+    body = bg
     back, front = "", ""
     for spec in art.get("props", []):
         svg, layer = prop(spec)
@@ -898,8 +916,6 @@ def compile_scene(art: dict, seed: int = 0) -> str:
         if walkers:
             people = g("move", people, dx=140, dy=0)
     body += back + people + front
-    if "night" in fx and bg_name in OUTDOOR:
-        body = body.replace('fill="url(#clear)"', 'fill="#2a2f4a"', 1) + stars(seed)
     props = [sp.split(":")[0] for sp in art.get("props", [])]
     lamps = [(880, 1200)] * ("nilavilakku" in props) + [(960, 1230)] * ("kerosene_lamp" in props)
     if lamps and bg_name not in OUTDOOR:
@@ -910,20 +926,24 @@ def compile_scene(art: dict, seed: int = 0) -> str:
             body += (f'<defs><radialGradient id="dark{seed}" gradientUnits="userSpaceOnUse" cx="{lx}" cy="{ly}" r="1150">'
                      '<stop offset="0" stop-color="#05060f" stop-opacity="0"/><stop offset="0.35" stop-color="#05060f" stop-opacity="0.25"/>'
                      '<stop offset="1" stop-color="#05060f" stop-opacity="0.88"/></radialGradient></defs>'
-                     f'<rect width="{W}" height="{H}" fill="url(#dark{seed})"/>' + dust(seed, lx, ly))
+                     f'<rect {_full()} fill="url(#dark{seed})"/>' + dust(seed, lx, ly))
         else:
-            body += f'<rect width="{W}" height="{H}" fill="#0d1230" opacity="{0.5 if bg_name not in OUTDOOR else 0.36}"/>'
+            body += f'<rect {_full()} fill="#0d1230" opacity="{0.5 if bg_name not in OUTDOOR else 0.36}"/>'
         if bg_name in OUTDOOR:
-            body += moon(seed) + fireflies(seed)
+            body += (moon(seed, 650, 1420) if LANDSCAPE else moon(seed)) + fireflies(seed)
     for lx, ly in lamps:
         r = 900 if "night" in fx else 650
         body += g("flicker", f'<circle cx="{lx}" cy="{ly}" r="{r}" fill="url(#lamplight)"/>', amp=0.12, period=0.37)
     if not lamps and bg_name not in OUTDOOR and "night" not in fx:
-        body += f'<rect width="{W}" height="{H}" fill="#ffb060" opacity="0.07"/>'
+        body += f'<rect {_full()} fill="#ffb060" opacity="0.07"/>'
     if "sunset" in fx and bg_name != "beach":
-        body += f'<rect width="{W}" height="{H}" fill="#f4a261" opacity="0.18"/>'
+        body += f'<rect {_full()} fill="#f4a261" opacity="0.18"/>'
     if "festive" in fx:
         r = random.Random(seed)
         body += g("rain", "".join(f'<rect x="{r.uniform(0, W):.0f}" y="{r.uniform(0, H):.0f}" width="12" height="12" fill="{r.choice(["#f2a516", "#d23c3c", "#f2c84b", "#8a5ab8"])}" transform="rotate(30)"/>' for _ in range(50)), speed=160)
+    if LANDSCAPE:
+        vignette = f'<rect width="{LW}" height="{LH}" fill="url(#vignette)" data-fixed="1"/>'
+        world = f'<g transform="scale({LS}) translate({-LX0},{-LY0})">{body}</g>'
+        return f'<svg xmlns="http://www.w3.org/2000/svg" width="{LW}" height="{LH}" viewBox="0 0 {LW} {LH}">{DEFS}{world}{vignette}</svg>'
     vignette = f'<rect width="{W}" height="{H}" fill="url(#vignette)" data-fixed="1"/>'
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}{body}{vignette}</svg>'
