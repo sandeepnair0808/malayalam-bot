@@ -103,3 +103,9 @@ The hourly uploads before the gap got 3-8 views each.
   YouTube tests a Short, then stops. Aim for 65%+.
 - Almost all swiping happens in the first 1-2 s. The hook scene is now a flash-forward: a close-up of the main
   character from the story's last character-led scene, eyes open to the viewer, with the hook question.
+
+## Long-form compilations (2026-11-12)
+- Watch hours for monetisation (3,000 for the first tier, 4,000 for ads) come only from long videos, not Shorts.
+- Build with `REELBOT_LANDSCAPE=1 REELBOT_END_CARD=""` + `tools/compilation.py`: full-frame 16:9 (the owner rejected blurred side bars), chapter cards and chapter timestamps in the description.
+- Upload from the phone with `phone/upload_long.py` (entries in `phone/long_videos.json`). New Shorts' auto-comment links the newest compilation.
+- First one: https://youtu.be/Ijvx2TpWBzk. Track its watch time weekly and aim for one compilation a week.

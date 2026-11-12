@@ -51,7 +51,15 @@ def comment_for(item: dict) -> str:
     if item.get("comment"):
         return item["comment"]
     pool = FAMILY_COMMENTS if item["file"].startswith("kids/") else NOSTALGIA_COMMENTS
-    return pool[sum(map(ord, item["file"])) % len(pool)]
+    text = pool[sum(map(ord, item["file"])) % len(pool)]
+    # point Shorts viewers to the newest long compilation (watch hours count only on long videos)
+    try:
+        longs = json.loads((HERE / "long_uploaded.json").read_text())
+        vid = list(longs.values())[-1]["id"]
+        text += f"\n\n🎬 ഇതുപോലുള്ള 10 കഥകൾ ഒരുമിച്ച്: https://youtu.be/{vid}"
+    except (OSError, ValueError, KeyError, IndexError):
+        pass
+    return text
 
 
 def post_comment(youtube, video_id: str, text: str) -> None:
