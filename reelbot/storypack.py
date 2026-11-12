@@ -26,10 +26,12 @@ from .scenekit import ALIASES, CHARACTERS
 VOICES = {
     "appooppan": "old_man", "ammachi": "old_woman", "achan": "man", "grownup": "man", "uncle": "man",
     "amma": "woman", "teacher": "woman", "chechi": "teen_girl", "kid": "boy", "friend": "boy", "girl": "girl",
+    "pappa": "old_man", "pappa_home": "old_man", "police": "man", "watchman": "man",
 }
 NAMES_ML = {
     "appooppan": "അപ്പൂപ്പൻ", "ammachi": "അമ്മൂമ്മ", "achan": "അച്ഛൻ", "grownup": "ഞാൻ (ഇന്ന്)", "uncle": "മാമൻ",
     "amma": "അമ്മ", "teacher": "ടീച്ചർ", "chechi": "ചേച്ചി", "kid": "ഞാൻ (കുട്ടി)", "friend": "കൂട്ടുകാരൻ", "girl": "അനിയത്തി",
+    "pappa": "പപ്പ", "pappa_home": "പപ്പ", "police": "പോലീസുകാരൻ", "watchman": "വാച്ച്മാൻ",
 }
 LOOKS = {
     "appooppan": "elderly man, white side hair, white moustache, round glasses, cream shirt, white mundu",
@@ -43,9 +45,13 @@ LOOKS = {
     "kid": "8 year old boy, short black hair, yellow shirt, blue shorts",
     "friend": "8 year old boy, green shirt, brown shorts",
     "girl": "6 year old girl, two pigtails with red ribbons, pink frock",
+    "pappa": "father around sixty, salt-and-pepper hair and moustache, light blue office shirt, grey trousers",
+    "pappa_home": "the same father at home, white vest, blue lungi",
+    "police": "Mumbai policeman in khaki with cap and mask",
+    "watchman": "estate watchman in a navy uniform and cap, with a torch",
 }
 CAMERAS = {"zoom_in", "zoom_out", "pan_left", "pan_right", "still"}
-FX = {"rain", "night", "sunset", "festive"}
+FX = {"rain", "night", "sunset", "festive", "near"}
 
 
 class PackError(ValueError):

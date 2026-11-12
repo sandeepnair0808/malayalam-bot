@@ -73,12 +73,25 @@ def widen(reel: Path, out: Path) -> Path:
 
 
 def main() -> None:
+    """Env options: COMP_LABEL (chapter word, default കഥ), COMP_SUBTITLE (intro line 2),
+    COMP_PROLOGUE=1 (first dir plays before the title card, without a chapter card),
+    COMP_OUTRO1 / COMP_OUTRO2 (closing card lines)."""
+    import os
     out, title, dirs = Path(sys.argv[1]), sys.argv[2], [Path(d) for d in sys.argv[3:]]
+    label = os.environ.get("COMP_LABEL", "കഥ")
+    prologue = dirs.pop(0) if os.environ.get("COMP_PROLOGUE") == "1" else None
+    subtitle = os.environ.get("COMP_SUBTITLE", f"{len(dirs)} ഓർമ്മക്കഥകൾ")
     tmp = Path(tempfile.mkdtemp(prefix="comp_"))
     parts, chapters, t = [], [], 0.0
+    if prologue:
+        p = widen(prologue / "reel.mp4", tmp / "00_prologue.mp4")
+        parts.append(p)
+        chapters.append("0:00 " + (json.loads((prologue / "story.json").read_text(encoding="utf-8")).get("title_ml") or "Intro"))
+        t += duration(p)
     first_bg = sorted((dirs[0] / "scenes").glob("scene_*.png"))[-1]
-    intro = card(first_bg, [(title, 140, "&H8AE0FF&"), (f"{len(dirs)} ഓർമ്മക്കഥകൾ", 90, "&HFFFFFF&")],
-                 4.0, tmp / "00_intro.mp4", tmp, 0)
+    intro = card(first_bg, [(title, 140, "&H8AE0FF&"), (subtitle, 90, "&HFFFFFF&")], 4.0, tmp / "00_intro.mp4", tmp, 0)
+    if not prologue:
+        chapters.append("0:00 Intro")
     parts.append(intro)
     t += duration(intro)
     for i, d in enumerate(dirs, 1):
@@ -86,19 +99,20 @@ def main() -> None:
         name = story.get("title_ml") or d.name
         bg = sorted((d / "scenes").glob("scene_*.png"))[1]
         chapters.append(f"{int(t // 60)}:{int(t % 60):02d} {i}. {name} | {story.get('title_en', '')}".rstrip(" |"))
-        c = card(bg, [(f"കഥ {i}", 90, "&HFFFFFF&"), (name, 130, "&H8AE0FF&")], 2.6, tmp / f"{i:02d}a.mp4", tmp, 4 + i * 3)
+        c = card(bg, [(f"{label} {i}", 90, "&HFFFFFF&"), (name, 130, "&H8AE0FF&")], 2.6, tmp / f"{i:02d}a.mp4", tmp, 4 + i * 3)
         s = widen(d / "reel.mp4", tmp / f"{i:02d}b.mp4")
         parts += [c, s]
         t += duration(c) + duration(s)
     outro = card(sorted((dirs[-1] / "scenes").glob("scene_*.png"))[-1],
-                 [("ഈ കഥകൾ ഇഷ്ടമായെങ്കിൽ", 100, "&HFFFFFF&"), ("സബ്സ്ക്രൈബ് ചെയ്യൂ", 130, "&H8AE0FF&")],
-                 4.5, tmp / "99_outro.mp4", tmp, 40)
+                 [(os.environ.get("COMP_OUTRO1", "ഈ കഥകൾ ഇഷ്ടമായെങ്കിൽ"), 100, "&HFFFFFF&"),
+                  (os.environ.get("COMP_OUTRO2", "സബ്സ്ക്രൈബ് ചെയ്യൂ"), 130, "&H8AE0FF&")],
+                 5.0, tmp / "99_outro.mp4", tmp, 40)
     parts.append(outro)
     lst = tmp / "list.txt"
     lst.write_text("".join(f"file '{p}'\n" for p in parts))
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy",
          "-movflags", "+faststart", str(out)])
-    out.with_suffix(".chapters.txt").write_text("0:00 Intro\n" + "\n".join(chapters) + "\n", encoding="utf-8")
+    out.with_suffix(".chapters.txt").write_text("\n".join(chapters) + "\n", encoding="utf-8")
     print(out, f"{duration(out):.1f}s")
 
 

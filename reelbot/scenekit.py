@@ -316,6 +316,16 @@ def hand_prop(name: str) -> str:
         return '<g transform="rotate(-10)"><rect x="-50" y="-30" width="100" height="50" rx="4" fill="#9ccc9a"/><circle cx="0" cy="-5" r="14" fill="#7aa978"/></g>'
     if name == "toy":
         return '<g><rect x="-45" y="-40" width="90" height="40" rx="10" fill="#2d7dd2"/><circle cx="-25" cy="5" r="14" fill="#2b2b2b"/><circle cx="25" cy="5" r="14" fill="#2b2b2b"/></g>'
+    if name == "torch":
+        return ('<g transform="rotate(-20)"><path d="M10 -20 L260 -120 L260 80 Z" fill="#fff6c8" opacity="0.28"/>'
+                '<rect x="-40" y="-14" width="56" height="28" rx="6" fill="#2b2b2b"/><rect x="14" y="-20" width="16" height="40" rx="4" fill="#555"/></g>')
+    if name == "spray":
+        return ('<g><rect x="-16" y="-60" width="32" height="70" rx="8" fill="#e8f4fa"/><rect x="-16" y="-30" width="32" height="22" fill="#2e8bc0"/>'
+                '<rect x="-8" y="-78" width="16" height="20" fill="#d23c3c"/></g>')
+    if name == "packet":
+        return '<g><path d="M-40 -60 L40 -60 L46 20 L-46 20Z" fill="#c9a06a"/><path d="M-20 -60 Q0 -95 20 -60" stroke="#8a6a3a" stroke-width="6" fill="none"/></g>'
+    if name == "keys":
+        return '<g><circle cx="0" cy="-10" r="14" fill="none" stroke="#c9c9c9" stroke-width="5"/><rect x="-4" y="2" width="8" height="34" fill="#d9a83a"/></g>'
     if name == "lamp":
         return '<g><rect x="-26" y="-20" width="52" height="30" rx="8" fill="#c9952b"/>' + g("float", '<path d="M0 -70 q18 26 0 50 q-18 -24 0 -50z" fill="#f6a623"/>', amp=4, period=0.5) + '</g>'
     if name == "kite":
@@ -340,9 +350,15 @@ CHARACTERS = {
     "kid": dict(build="boy", top="#f2c84b", bottom="#3f6fa8"),
     "friend": dict(build="boy", top="#5cb85c", bottom="#7a5a3a"),
     "girl": dict(build="girl", top="#f2a7c3"),
+    # Lockdown Diary cast
+    "pappa": dict(build="man", top="#d6e4f0", bottom="trousers", hair="man", hair_col="#5d5a57", must="#4a4643"),
+    "pappa_home": dict(build="man", top="#f2efe6", bottom="mundu", lungi="#5b7d99", hair="man", hair_col="#5d5a57", must="#4a4643"),
+    "police": dict(build="man", top="#c2a86e", bottom="trousers", pants="#9a8556", hair="man", cap="#8a7442"),
+    "watchman": dict(build="man", top="#4f5f7f", bottom="trousers", pants="#2f3a52", hair="man", cap="#2c3550"),
 }
 ALIASES = {"father": "grownup", "daughter": "girl", "son": "kid", "boy": "kid", "mother": "amma",
-           "grandfather": "appooppan", "grandmother": "ammachi", "sister": "chechi", "dad": "achan"}
+           "grandfather": "appooppan", "grandmother": "ammachi", "sister": "chechi", "dad": "achan",
+           "mummy": "amma", "neighbour": "uncle", "shopkeeper": "uncle"}
 
 
 def eyes_svg(cx, cy, r, mode):
@@ -431,11 +447,11 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
     lsw = 14 if walk else 0
     if build == "man":
         if c["bottom"] == "mundu":
-            legs = (shaded(shaded('<path d="M-120 -320 L120 -320 L130 -10 L-130 -10Z" fill="#f4f1e8"/>'), "fold")
+            legs = (shaded(shaded(f'<path d="M-120 -320 L120 -320 L130 -10 L-130 -10Z" fill="{c.get('lungi', '#f4f1e8')}"/>'), "fold")
                     + g("swing", '<ellipse cx="-60" cy="0" rx="60" ry="20" fill="#3a2a1a"/>', pivot="-60,-60", amp=12 if walk else 0, period=1.0)
                     + g("swing", '<ellipse cx="60" cy="0" rx="60" ry="20" fill="#3a2a1a"/>', pivot="60,-60", amp=12 if walk else 0, period=1.0, phase=0.5))
         else:
-            legs = "".join(g("swing", f'<rect x="{lx - 50}" y="-330" width="100" height="320" rx="20" fill="#4a4f57"/><ellipse cx="{lx}" cy="0" rx="60" ry="20" fill="#3a2a1a"/>',
+            legs = "".join(g("swing", f'<rect x="{lx - 50}" y="-330" width="100" height="320" rx="20" fill="{c.get('pants', '#4a4f57')}"/><ellipse cx="{lx}" cy="0" rx="60" ry="20" fill="#3a2a1a"/>',
                              pivot=f"{lx},-320", amp=lsw, period=1.0, phase=ph) for lx, ph in ((-60, 0), (60, 0.5)))
         torso = (f'<path d="M-135 -640 Q0 -680 135 -640 L125 -300 L-125 -300Z" fill="{top}"/>'
                  '<path d="M-40 -660 L0 -610 L40 -660" fill="none" stroke="#000000" stroke-opacity="0.13" stroke-width="10"/>')
@@ -536,7 +552,7 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
         head += ('<path d="M-125 -800 Q-130 -880 -80 -900 Q-110 -850 -105 -780Z" fill="#efefea"/>'
                  '<path d="M125 -800 Q130 -880 80 -900 Q110 -850 105 -780Z" fill="#efefea"/>')
     elif hair == "man":
-        head += '<path d="M-128 -790 Q-130 -930 0 -925 Q130 -930 128 -790 Q100 -880 0 -880 Q-100 -880 -128 -790Z" fill="#1f1712"/>'
+        head += f'<path d="M-128 -790 Q-130 -930 0 -925 Q130 -930 128 -790 Q100 -880 0 -880 Q-100 -880 -128 -790Z" fill="{c.get('hair_col', '#1f1712')}"/>'
     elif hair in ("woman", "old_woman", "braid"):
         head += (f'<circle cx="0" cy="-925" r="{0 if hair == "braid" else 62}" fill="{hair_col}"/>'
                  f'<path d="M-130 -760 Q-140 -935 0 -930 Q140 -935 130 -760 Q118 -860 0 -870 Q-118 -860 -130 -760Z" fill="{hair_col}"/>'
@@ -577,8 +593,19 @@ def person(actor: Actor, x: float, y: float, s: float, toward: int, seed: int = 
         head += g("rain", f'<circle cx="{-hr * 0.38}" cy="{ey + 30}" r="7" fill="#bfe0f2"/>', speed=60)
     my = ey + hr * 0.5
     head += mouth_svg(0, my, mouth)
+    if "mask" in actor.tokens:  # Covid mask over mouth and nose, straps to the ears
+        head += (f'<path d="M{-hr * 0.62:.0f} {ey + hr * 0.18:.0f} Q0 {ey + hr * 0.05:.0f} {hr * 0.62:.0f} {ey + hr * 0.18:.0f} '
+                 f'L{hr * 0.5:.0f} {ey + hr * 0.72:.0f} Q0 {ey + hr * 0.9:.0f} {-hr * 0.5:.0f} {ey + hr * 0.72:.0f}Z" fill="#cfe6f2"/>'
+                 f'<path d="M{-hr * 0.5:.0f} {ey + hr * 0.38:.0f} H{hr * 0.5:.0f} M{-hr * 0.48:.0f} {ey + hr * 0.52:.0f} H{hr * 0.48:.0f}" stroke="#a9c8d8" stroke-width="5"/>'
+                 f'<path d="M{-hr * 0.62:.0f} {ey + hr * 0.22:.0f} L{-hr:.0f} {ey + 4:.0f} M{hr * 0.62:.0f} {ey + hr * 0.22:.0f} L{hr:.0f} {ey + 4:.0f}" stroke="#e8f2f7" stroke-width="6"/>')
+    if c.get("cap"):
+        cy0 = head_cy - hr * 0.55
+        head += (f'<path d="M{-hr * 1.02:.0f} {cy0:.0f} Q{-hr:.0f} {head_cy - hr * 1.25:.0f} 0 {head_cy - hr * 1.22:.0f} '
+                 f'Q{hr:.0f} {head_cy - hr * 1.25:.0f} {hr * 1.02:.0f} {cy0:.0f}Z" fill="{c["cap"]}"/>'
+                 f'<path d="M{-hr * 1.05:.0f} {cy0:.0f} Q0 {cy0 + hr * 0.18:.0f} {hr * 1.3:.0f} {cy0 + 6:.0f}" stroke="#2a2a2a" stroke-width="16" fill="none" stroke-linecap="round"/>'
+                 f'<circle cx="0" cy="{head_cy - hr * 0.9:.0f}" r="{hr * 0.13:.0f}" fill="#e0b13a"/>')
     if build == "man":
-        col = "#efefea" if old else "#2b1d14"
+        col = "#efefea" if old else c.get("must", "#2b1d14")
         head += f'<path d="M-50 {my - 4} Q0 {my - 34} 50 {my - 4} Q0 {my - 14} -50 {my - 4}Z" fill="{col}"/>'
     neck_svg = f'<rect x="-28" y="{neck - 25}" width="56" height="60" fill="{skin}"/>'
     head_amp = 1.2 if "sleep" in p else 2.5
@@ -780,6 +807,8 @@ def photo(who: str, x=820, y=640, garland=False):
 def prop(spec: str) -> tuple[str, str]:
     """Returns (svg, layer) where layer is 'back' (behind people) or 'front'."""
     name, _, arg = spec.partition(":")
+    if name in EXTRA_PROPS:
+        return EXTRA_PROPS[name](arg)
     if name == "table":
         return table(arg or None), "front"
     if name == "stove":
@@ -874,7 +903,9 @@ def compile_scene(art: dict, seed: int = 0) -> str:
         bg += rain_layer(seed + 2)
     if "night" in fx and bg_name in OUTDOOR:
         bg = bg.replace('fill="url(#clear)"', 'fill="#2a2f4a"') + stars(seed)
-    if LANDSCAPE:  # extend the set sideways with mirror images so it reads as one wide place
+    if LANDSCAPE and bg_name == "radar":  # a phone close-up: dark surround, not mirrored copies
+        bg = f'<rect x="-1080" width="{3 * W}" height="{H}" fill="#101320"/>' + bg
+    elif LANDSCAPE:  # extend the set sideways with mirror images so it reads as one wide place
         bg = f'<g transform="scale(-1,1)">{bg}</g><g transform="translate({2 * W},0) scale(-1,1)">{bg}</g>' + bg
     body = bg
     back, front = "", ""
@@ -947,3 +978,177 @@ def compile_scene(art: dict, seed: int = 0) -> str:
         return f'<svg xmlns="http://www.w3.org/2000/svg" width="{LW}" height="{LH}" viewBox="0 0 {LW} {LH}">{DEFS}{world}{vignette}</svg>'
     vignette = f'<rect width="{W}" height="{H}" fill="url(#vignette)" data-fixed="1"/>'
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">{DEFS}{body}{vignette}</svg>'
+
+
+
+# --------------------------------------------------------------------------- Lockdown Diary sets and props
+def _mumbai_blocks(night=False):
+    """Distant Mumbai apartment blocks with small windows."""
+    r = random.Random(7)
+    out = ""
+    for x, w, h in ((0, 220, 520), (230, 180, 380), (420, 260, 600), (690, 200, 440), (900, 180, 560)):
+        out += f'<rect x="{x}" y="{1150 - h}" width="{w}" height="{h}" fill="{"#3b4157" if night else "#c9c3b6"}"/>'
+        for wy in range(1150 - h + 30, 1130, 60):
+            for wx in range(x + 20, x + w - 30, 50):
+                lit = r.random() < (0.35 if night else 0.0)
+                out += f'<rect x="{wx}" y="{wy}" width="24" height="30" fill="{"#f6d77a" if lit else ("#2a2f42" if night else "#9fa6ad")}"/>'
+    return out
+
+
+def bg_station(fx):
+    night = "night" in fx
+    sky = "#2a2f4a" if night else "url(#clear)"
+    roof = ('<rect x="0" y="560" width="1080" height="60" fill="#6d7378"/><rect x="0" y="616" width="1080" height="14" fill="#4b5055"/>'
+            + "".join(f'<rect x="{x}" y="620" width="34" height="760" fill="#5c6166"/>' for x in (60, 980)))
+    sign = '<rect x="380" y="640" width="320" height="70" rx="6" fill="#f2c84b"/><rect x="400" y="660" width="280" height="12" fill="#3a3a3a" opacity="0.6"/><rect x="400" y="682" width="200" height="10" fill="#3a3a3a" opacity="0.5"/>'
+    return (f'<rect width="{W}" height="{H}" fill="{sky}"/>{_mumbai_blocks(night)}'
+            '<rect y="1150" width="1080" height="200" fill="#55595e"/><g stroke="#2e2e2e" stroke-width="10"><path d="M0 1290 H1080 M0 1330 H1080"/></g>'
+            f'<rect y="1350" width="{W}" height="570" fill="#a9a59c"/><rect y="1350" width="{W}" height="22" fill="#e8c93a"/>{roof}{sign}')
+
+
+def bg_road(fx):
+    night = "night" in fx
+    sky = "#2a2f4a" if night else "url(#clear)"
+    lamps = "".join(f'<rect x="{x}" y="900" width="14" height="420" fill="#5c6166"/><path d="M{x + 7} 905 q40 -30 80 0" stroke="#5c6166" stroke-width="10" fill="none"/>'
+                    + (f'<circle cx="{x + 87}" cy="915" r="70" fill="url(#glow)"/>' if night else "") for x in (120, 760))
+    marks = "".join(f'<rect x="{x}" y="1585" width="110" height="16" fill="#f2f2e6"/>' for x in range(20, 1080, 220))
+    return (f'<rect width="{W}" height="{H}" fill="{sky}"/>{_mumbai_blocks(night)}<rect y="1150" width="{W}" height="200" fill="#8a8f88"/>'
+            f'{lamps}<rect y="1350" width="{W}" height="570" fill="#4b4f55"/>{marks}<rect y="1340" width="{W}" height="24" fill="#b9b4a6"/>')
+
+
+def bg_estate(fx):
+    """Row of industrial galas with rolling shutters; one lit tube light."""
+    night = "night" in fx
+    sky = "#20243a" if night else "url(#clear)"
+    out = f'<rect width="{W}" height="{H}" fill="{sky}"/><rect x="0" y="760" width="1080" height="640" fill="#b7b0a2"/>'
+    out += '<rect x="0" y="740" width="1080" height="40" fill="#8e877a"/><rect x="0" y="1060" width="1080" height="26" fill="#8e877a"/>'
+    for i, x in enumerate((40, 390, 740)):
+        out += f'<rect x="{x}" y="800" width="300" height="240" fill="#9a958c"/>'  # upper windows band
+        out += f'<rect x="{x + 40}" y="840" width="220" height="150" fill="{"#2c3247" if night else "#7f97a6"}"/>'
+        out += f'<rect x="{x}" y="1100" width="300" height="300" fill="#8d9298"/>'
+        out += "".join(f'<rect x="{x}" y="{y}" width="300" height="6" fill="#6f7479"/>' for y in range(1110, 1400, 22))
+        out += f'<rect x="{x + 20}" y="1076" width="260" height="20" fill="#3f6fa8" opacity="0.8"/>'
+    out += '<rect x="480" y="1048" width="120" height="10" fill="#f5f5e8"/><circle cx="540" cy="1060" r="160" fill="url(#glow)" opacity="0.7"/>'
+    return out + f'<rect y="1400" width="{W}" height="520" fill="#7c7a74"/><rect y="1400" width="{W}" height="16" fill="#5f5d58"/>'
+
+
+def bg_gala(fx):
+    """Inside Papa's gala: reception, assembly bench and machine below; stairs to a glass cabin above."""
+    out = f'<rect width="{W}" height="{H}" fill="#d6d0c2"/>'
+    out += '<rect x="0" y="880" width="1080" height="30" fill="#7d766a"/>'  # mezzanine slab
+    out += '<rect x="560" y="560" width="440" height="320" fill="#8fb3c4" opacity="0.55"/><rect x="560" y="560" width="440" height="320" fill="none" stroke="#5b5b5b" stroke-width="10"/>'
+    out += '<path d="M780 560 V880" stroke="#5b5b5b" stroke-width="8"/><rect x="620" y="760" width="140" height="70" fill="#6b4529"/><rect x="640" y="690" width="70" height="60" rx="4" fill="#333"/>'
+    out += '<rect x="400" y="470" width="160" height="14" fill="#f5f5e8"/><circle cx="480" cy="480" r="200" fill="url(#glow)" opacity="0.45"/>'
+    out += "".join(f'<rect x="{80 + i * 70}" y="{910 + i * 60}" width="160" height="16" fill="#6e6a62"/>' for i in range(8))  # stairs
+    out += '<path d="M80 900 L640 1390" stroke="#4e4a44" stroke-width="10"/>'
+    out += '<rect x="760" y="1260" width="300" height="110" rx="8" fill="#7b4a2c"/><rect x="760" y="1250" width="300" height="20" fill="#5f3e26"/>'  # bench
+    out += '<rect x="860" y="1060" width="110" height="200" fill="#5e6b78"/><rect x="900" y="1000" width="40" height="70" fill="#4a5560"/><rect x="845" y="1150" width="140" height="18" fill="#3e4750"/>'  # machine
+    out += '<g fill="#b89366"><rect x="40" y="1200" width="120" height="100"/><rect x="60" y="1110" width="90" height="90"/><rect x="170" y="1230" width="90" height="70"/></g>'  # boxes
+    out += '<rect x="300" y="1270" width="230" height="100" fill="#8a5a3a"/><rect x="290" y="1260" width="250" height="16" fill="#6b4529"/><rect x="420" y="1215" width="60" height="45" fill="#2b2b2b"/>'  # reception
+    return out + f'<rect y="1370" width="{W}" height="550" fill="#9c978d"/><rect y="1370" width="{W}" height="14" fill="#7d786f"/>'
+
+
+def bg_cabin(fx):
+    """Papa's small glass cabin upstairs: desk, files, window to the dark estate."""
+    out = f'<rect width="{W}" height="{H}" fill="#cfd4cf"/>'
+    out += '<rect x="80" y="760" width="340" height="300" fill="#20243a"/><rect x="80" y="760" width="340" height="300" fill="none" stroke="#6b6b6b" stroke-width="14"/>'
+    out += "".join(f'<rect x="{x}" y="{y}" width="14" height="14" fill="#f6d77a" opacity="0.7"/>' for x, y in ((140, 900), (300, 860), (360, 960)))
+    out += '<rect x="640" y="760" width="300" height="420" fill="#7b5a3c"/>' + "".join(f'<rect x="660" y="{y}" width="260" height="8" fill="#5f4430"/>' for y in (860, 960, 1060))
+    out += "".join(f'<rect x="{x}" y="{y}" width="40" height="90" fill="{c}"/>' for x, y, c in ((670, 770, "#c0392b"), (715, 770, "#2e6da4"), (760, 770, "#e0b13a"), (670, 870, "#2e8b57"), (720, 870, "#8e44ad")))
+    out += '<rect x="420" y="560" width="200" height="14" fill="#f5f5e8"/>'
+    return out + f'<rect y="1500" width="{W}" height="420" fill="#8a8579"/><rect y="1500" width="{W}" height="14" fill="#6f6a60"/>'
+
+
+def bg_radar(fx):
+    """Close-up of a phone showing the Covid radar: rings, a sweep, and red dots (more when 'near')."""
+    near = "near" in fx
+    r = random.Random(42)
+    dots = []
+    for _ in range(26 if near else 14):
+        a, d = r.uniform(0, 6.283), r.uniform(0.25, 1.0) * 300
+        dots.append((540 + d * math.cos(a), 1120 + d * math.sin(a)))
+    if near:
+        dots += [(560, 1100), (520, 1150), (585, 1135)]
+    dot_svg = "".join(g("flicker", f'<circle cx="{x:.0f}" cy="{y:.0f}" r="16" fill="#ff3b30"/><circle cx="{x:.0f}" cy="{y:.0f}" r="34" fill="#ff3b30" opacity="0.25"/>',
+                        amp=0.5, period=f"{0.8 + (i % 5) * 0.23:.2f}") for i, (x, y) in enumerate(dots))
+    rings = "".join(f'<circle cx="540" cy="1120" r="{rr}" fill="none" stroke="#2ee59d" stroke-opacity="0.35" stroke-width="4"/>' for rr in (100, 200, 300))
+    sweep = g("spin", '<path d="M540 1120 L540 820 A300 300 0 0 1 800 970 Z" fill="#2ee59d" opacity="0.18"/>', pivot="540,1120", period=3.0)
+    you = '<circle cx="540" cy="1120" r="18" fill="#3aa0ff"/><circle cx="540" cy="1120" r="40" fill="#3aa0ff" opacity="0.25"/>'
+    phone = ('<rect x="300" y="640" width="480" height="960" rx="60" fill="#1b1b1d"/>'
+             '<rect x="325" y="700" width="430" height="840" rx="30" fill="#0b1a14"/>'
+             f'<clipPath id="scr"><rect x="325" y="700" width="430" height="840" rx="30"/></clipPath>'
+             f'<g clip-path="url(#scr)">{rings}{sweep}{dot_svg}{you}</g>'
+             '<rect x="345" y="720" width="390" height="60" rx="12" fill="#13261d"/><rect x="365" y="742" width="200" height="16" rx="8" fill="#2ee59d" opacity="0.6"/>')
+    hands = (f'<path d="M250 1500 Q240 1300 330 1200 L330 1640 Q270 1640 250 1500Z" fill="url(#skin)"/>'
+             f'<path d="M830 1500 Q840 1300 750 1200 L750 1640 Q810 1640 830 1500Z" fill="url(#skin)"/>')
+    return f'<rect width="{W}" height="{H}" fill="#101320"/><circle cx="540" cy="1120" r="700" fill="#1d2440"/>{phone}{hands}'
+
+
+def p_local_train(arg):
+    """Mumbai local train (cream and maroon) along the platform; 'leave' slides it away."""
+    cars = ""
+    for x0 in (-1100, -260, 580, 1420):
+        cars += (f'<rect x="{x0}" y="900" width="820" height="400" rx="26" fill="#e9e1cc"/>'
+                 f'<rect x="{x0}" y="1180" width="820" height="120" fill="#8c2f39"/><rect x="{x0}" y="900" width="820" height="40" rx="20" fill="#8c2f39"/>'
+                 + "".join(f'<rect x="{x0 + 50 + i * 150}" y="980" width="100" height="110" rx="10" fill="#33414f"/>' for i in range(5))
+                 + f'<rect x="{x0 + 360}" y="960" width="110" height="300" fill="#3a2e2a"/>'
+                 + f'<rect x="{x0}" y="900" width="820" height="400" rx="26" fill="url(#shade)"/>')
+    train = cars + '<rect x="-1100" y="1296" width="3400" height="14" fill="#2a2a2a"/>'
+    if arg == "leave":
+        train = g("move", train, dx=-1400, dy=0)
+    return train, "back"
+
+
+def p_alto(arg):
+    """Small hatchback seen from the side, two heads inside (son driving, Papa beside). arg: drive"""
+    drive = arg == "drive"
+    body = ('<path d="M-300 -60 L-300 -170 Q-290 -200 -240 -205 L-160 -210 L-90 -320 Q-80 -335 -50 -335 L170 -335 Q200 -335 215 -315 '
+            'L290 -210 Q320 -205 320 -170 L320 -60 Z" fill="#c8cdd3"/>'
+            '<path d="M-80 -315 L-150 -215 L40 -215 L40 -315 Z" fill="#37475a"/><path d="M60 -315 L60 -215 L270 -215 L200 -315 Z" fill="#37475a"/>'
+            '<circle cx="-30" cy="-262" r="32" fill="url(#skin)"/><path d="M-62 -270 Q-60 -300 -30 -300 Q0 -300 2 -272 Q-20 -290 -62 -270Z" fill="#1f1712"/>'
+            '<circle cx="140" cy="-262" r="32" fill="url(#skin)"/><path d="M108 -270 Q110 -300 140 -300 Q170 -300 172 -272 Q150 -290 108 -270Z" fill="#5d5a57"/>'
+            '<rect x="-300" y="-110" width="620" height="16" fill="#9aa1a8"/><rect x="290" y="-150" width="30" height="24" rx="6" fill="#f6d77a"/>'
+            '<rect x="-300" y="-150" width="20" height="22" rx="4" fill="#d23c3c"/>'
+            '<path d="M-300 -60 L-300 -170 Q-290 -200 -240 -205 L-160 -210 L-90 -320 Q-80 -335 -50 -335 L170 -335 Q200 -335 215 -315 '
+            'L290 -210 Q320 -205 320 -170 L320 -60 Z" fill="url(#shade)"/>')
+    wheels = wheel(-170, -50, 58, 0.5 if drive else 0) + wheel(200, -50, 58, 0.5 if drive else 0)
+    car = f'<g transform="translate(560,{GROUND})"><ellipse cx="10" cy="8" rx="340" ry="26" fill="url(#contact)"/>{body}{wheels}</g>'
+    if drive:
+        car = g("bob", car, amp=3, period=0.35)
+    return car, "front"
+
+
+def p_barricade(arg):
+    stripes = "".join(f'<path d="M{x} 1460 l40 0 l-40 70 l-40 0z" fill="#d23c3c"/>' for x in range(160, 520, 80))
+    return (f'<g><rect x="120" y="1460" width="420" height="70" fill="#f2f2f2"/>{stripes}'
+            '<rect x="140" y="1530" width="20" height="160" fill="#555"/><rect x="500" y="1530" width="20" height="160" fill="#555"/></g>'), "back"
+
+
+def p_gate_green(arg):
+    """The house gate covered with green garden cloth (folds), on brick posts."""
+    folds = "".join(f'<path d="M{x} 1250 Q{x + 15} 1450 {x} 1650" stroke="#2f6b3a" stroke-width="6" fill="none" opacity="0.6"/>' for x in range(640, 1010, 45))
+    return ('<g><rect x="590" y="1180" width="50" height="510" fill="#a0522d"/><rect x="1010" y="1180" width="50" height="510" fill="#a0522d"/>'
+            '<rect x="640" y="1240" width="370" height="420" fill="#3f8f4e"/>' + folds +
+            '<rect x="640" y="1240" width="370" height="420" fill="url(#shade)"/><rect x="580" y="1160" width="70" height="30" fill="#8b4513"/><rect x="1000" y="1160" width="70" height="30" fill="#8b4513"/></g>'), "back"
+
+
+def p_tv_news(arg):
+    """TV with a red news banner (Latin text renders reliably)."""
+    word = {"lockdown": "LOCKDOWN", "area": "CONTAINMENT ZONE"}.get(arg, "BREAKING NEWS")
+    size = 34 if len(word) < 12 else 22
+    x = 1300 if LANDSCAPE else 760  # widescreen: beside the family, not behind them
+    return (f'<g transform="translate({x},1330)"><rect x="-200" y="-300" width="400" height="280" rx="18" fill="#222"/>'
+            '<rect x="-180" y="-282" width="360" height="230" fill="#2c3e57"/><rect x="-180" y="-150" width="360" height="60" fill="#c0392b"/>'
+            f'<text x="0" y="-108" font-family="DejaVu Sans" font-weight="bold" font-size="{size}" fill="#fff" text-anchor="middle">{word}</text>'
+            '<rect x="-160" y="-260" width="120" height="90" fill="#7f97a6"/><rect x="-220" y="-20" width="440" height="30" fill="#6b4529"/></g>'), "back"
+
+
+def p_mat(arg):
+    return '<g><rect x="250" y="1600" width="560" height="90" rx="10" fill="#c9a86a"/><rect x="250" y="1600" width="560" height="90" rx="10" fill="url(#fold)"/></g>', "back"
+
+
+EXTRA_PROPS = {"local_train": p_local_train, "alto": p_alto, "barricade": p_barricade, "gate_green": p_gate_green,
+               "tv_news": p_tv_news, "mat": p_mat}
+BACKGROUNDS.update({"station": bg_station, "road": bg_road, "estate": bg_estate, "gala": bg_gala, "cabin": bg_cabin,
+                    "radar": bg_radar})
+OUTDOOR |= {"station", "road", "estate"}

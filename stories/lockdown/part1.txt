@@ -1,0 +1,69 @@
+### ld0-opening
+title: ആമുഖം | Prologue
+narrator: man
+- cabin+night | zoom_in | night | pappa:sit grownup:sit | kerosene_lamp || രാത്രി രണ്ട് മണി. ആളൊഴിഞ്ഞ ഒരു ഇൻഡസ്ട്രിയൽ എസ്റ്റേറ്റിലെ ചെറിയൊരു ഗാല. ഷട്ടറിനുള്ളിൽ ഞാനും പപ്പയും മാത്രം. ||
+- radar | zoom_in | night | | || ഫോണിലെ ആപ്പിൽ ഒരു റഡാർ. ചുറ്റും ചുവന്ന കുത്തുകൾ. ഓരോ മിനിറ്റിലും ഒന്ന് കൂടി. ||
+- cabin+night+close | still | night | pappa:sad | kerosene_lamp || പപ്പ ഫോൺ താഴെ വെച്ചു. ജീവിതത്തിൽ ആദ്യമായി ആ മുഖത്ത് ഞാൻ പേടി കണ്ടു. ||
+- station | zoom_out | wind | pappa:walk,hold=bag | local_train:leave || പക്ഷേ ഈ കഥ തുടങ്ങുന്നത് ഇവിടെയല്ല. ഏഴരയുടെ ഒരു ലോക്കൽ ട്രെയിനിൽ നിന്നാണ്. ||
+
+### ld1-local
+title: ഏഴരയുടെ ലോക്കൽ | The 7:30 Local
+narrator: man
+- yard | zoom_in | wind | kid:happy | || മുംബൈയിലെ ഞങ്ങളുടെ വീട്. എന്റെ കുട്ടിക്കാലത്തെ ഓരോ പ്രഭാതവും ഒരുപോലെയായിരുന്നു. ||
+- interior | still | indoor | pappa:happy amma:hold=tiffin | clock || ഏഴ് മണിക്ക് പപ്പ ഷർട്ട് ഇൻ ചെയ്യും. മമ്മി ടിഫിൻ ബോക്സ് ബാഗിൽ വെക്കും. ||
+- yard | pan_right | wind | pappa:walk,hold=bag | || ഏഴേകാലിന് പപ്പ ഗേറ്റ് കടക്കും. ഏഴരയുടെ ലോക്കൽ. ഒരു ദിവസം പോലും തെറ്റിയില്ല. ||
+- interior | zoom_in | indoor | kid:wave,happy | || ഞാൻ ജനലിലൂടെ നോക്കി നിൽക്കും. പപ്പ തിരിഞ്ഞു നോക്കി ഒന്ന് കൈ വീശും. അത്രയേ ഉള്ളൂ. ||
+- night_room+night | still | night | kid:sleep pappa:happy | kerosene_lamp || രാത്രി പപ്പ വരുമ്പോൾ ഞാൻ ഉറങ്ങിയിട്ടുണ്ടാകും. ചിലപ്പോൾ ഉറക്കത്തിൽ നെറ്റിയിൽ ഒരു തലോടൽ അറിയും. ||
+- station | zoom_in | wind | pappa:walk,hold=bag | local_train || എന്റെ ഓർമ്മയിലെ പപ്പ ഒരു വാതിലായിരുന്നു. രാവിലെ അടയുന്ന, രാത്രി തുറക്കുന്ന ഒരു വാതിൽ. ||
+- station | pan_left | wind | grownup:walk,hold=bag pappa:walk,hold=bag | local_train || ഞാൻ വളർന്നു, ജോലിക്ക് പോയിത്തുടങ്ങി. പപ്പ അപ്പോഴും ഏഴരയുടെ ട്രെയിനിൽ തന്നെ. ||
+- interior | zoom_in | indoor | pappa:surprised amma:surprised grownup:surprised | tv_news:lockdown || അങ്ങനെയിരിക്കെ, രണ്ടായിരത്തി ഇരുപത് മാർച്ച്. ടിവിയിൽ ഒരേ ഒരു വാക്ക്. ലോക്ക്ഡൗൺ. ||
+- station | still | wind | | || മുംബൈയിലെ ലോക്കൽ ട്രെയിനുകൾ നിന്നു. ഞാൻ ജനിച്ചതിന് ശേഷം ആദ്യമായി. ||
+- night_room | zoom_in | indoor | grownup:surprised | clock || പിറ്റേന്ന് തിങ്കളാഴ്ച. ഏഴരയ്ക്ക് ഞാൻ ഉണർന്നപ്പോൾ അടുക്കളയിൽ നിന്ന് ഒരു ശബ്ദം. ||
+- kitchen+close | zoom_out | indoor | pappa_home:talk,happy,hold=plate | stove || ലുങ്കിയിൽ, കയ്യിൽ ചായ ഗ്ലാസുമായി, ചിരിച്ചുകൊണ്ട് പപ്പ. || pappa_home: ഇന്ന് ട്രെയിൻ ഇല്ലെടാ.
+
+### ld2-best-days
+title: ഏറ്റവും നല്ല ദിവസങ്ങൾ | The Best Days
+narrator: man
+- interior | still | indoor | pappa_home:sit grownup:sit | || ആദ്യത്തെ കുറച്ച് ദിവസം അറിയില്ലായിരുന്നു, വീട്ടിലിരിക്കുന്ന പപ്പയോട് എന്ത് സംസാരിക്കണമെന്ന്. ||
+- veranda | zoom_in | wind | pappa_home:happy,hold=plate amma:happy grownup:happy,hold=plate | || പിന്നെ പതുക്കെ ഒരു പുതിയ ദിനചര്യ. രാവിലെ വരാന്തയിൽ ഞങ്ങൾ മൂന്നുപേരും ഒരുമിച്ച് ചായ. ||
+- kitchen | still | indoor | pappa_home:cook,surprised amma:talk,happy | stove || പപ്പ അടുക്കളയിൽ മമ്മിയെ സഹായിക്കാൻ നോക്കി. ആദ്യത്തെ ദോശ കരിഞ്ഞു. || amma: മുപ്പത് വർഷം ഞാൻ ചെയ്തതാ, ഒരു ദിവസം കൊണ്ട് പഠിക്കില്ല!
+- yard+sunset | pan_right | wind | pappa_home:walk,talk grownup:walk,happy | || വൈകുന്നേരം വീട്ടുമുറ്റത്ത് ഒരു നടത്തം. പപ്പ ആദ്യമായി നാട്ടിൽ നിന്ന് മുംബൈയിൽ വന്ന കഥ പറഞ്ഞു. ഞാൻ ഒരിക്കലും കേട്ടിട്ടില്ലാത്ത കഥ. ||
+- interior+night | zoom_in | night | pappa_home:happy grownup:sit | radio || രാത്രി പഴയ മലയാളം പാട്ടുകൾ. ഒരു പാട്ട് കേട്ട് പപ്പ കണ്ണടച്ചിരുന്നു. ആ പാട്ടിന് പിന്നിൽ ഒരു ഓർമ്മയുണ്ടെന്ന് എനിക്ക് മനസ്സിലായി. ||
+- yard+night | zoom_out | night | pappa_home:sit,happy grownup:sit,happy | || ടെറസിൽ ഇരുന്ന് ആകാശം നോക്കി. മുംബൈയിൽ ഇത്രയും നക്ഷത്രങ്ങൾ ഉണ്ടെന്ന് അന്നാണ് ഞാൻ അറിഞ്ഞത്. ||
+- interior | still | indoor | amma:sad pappa_home:sad | tv_news || പുറത്ത് ലോകം മുഴുവൻ പേടിച്ചിരിക്കുകയായിരുന്നു. ടിവിയിൽ ഓരോ ദിവസവും കൂടുന്ന കണക്കുകൾ. ||
+- veranda | zoom_in | wind | pappa_home:happy amma:happy grownup:happy | || പക്ഷേ ആ വീടിനകത്ത്, അതായിരുന്നു എന്റെ ജീവിതത്തിലെ ഏറ്റവും നല്ല ദിവസങ്ങൾ. ||
+- veranda+close | still | wind | pappa_home:happy | || മുപ്പത് വർഷം കിട്ടാത്ത സമയം, മുപ്പത് ദിവസം കൊണ്ട് എനിക്ക് കിട്ടി. ||
+- interior+night | zoom_in | night | amma:surprised pappa_home:surprised | tv_news:area || ഒരു രാത്രി ടിവിയിലെ വാർത്തയിൽ ഞങ്ങളുടെ ഏരിയയുടെ പേര് കേട്ടു. മമ്മിയുടെ കയ്യിലെ ഗ്ലാസ് താഴെ വീണു. ||
+
+### ld3-green-gate
+title: പച്ചത്തുണിയുള്ള ഗേറ്റ് | The Gate with the Green Cloth
+narrator: man
+- interior | still | indoor | pappa_home:talk amma:sad grownup:sad | || പിറ്റേന്ന് മുതൽ ഞങ്ങളുടെ വീടിന് പുതിയ നിയമങ്ങൾ വന്നു. ||
+- yard | zoom_in | wind | uncle:walk,hold=packet,mask | gate_green || സാധനങ്ങൾ ഓർഡർ ചെയ്യും. കടക്കാരൻ ഗേറ്റിൽ വെച്ചിട്ട് പോകും. ആരും ആരെയും തൊടില്ല. ||
+- kitchen | still | indoor | amma:hold=spray,mask | table:rice || മമ്മി ഓരോ പാക്കറ്റും സാനിറ്റൈസ് ചെയ്ത് തുടയ്ക്കും. പച്ചക്കറി ഉപ്പുവെള്ളത്തിൽ മുക്കി വെക്കും. ||
+- yard | zoom_in | wind | grownup:point,mask | gate_green || ഒരു ദിവസം ഞാൻ ഒരു പച്ച ഗാർഡൻ തുണി എടുത്ത് ഗേറ്റ് മുഴുവൻ മൂടി. ഇനി ആരും ഗേറ്റിൽ തൊടരുത്. ||
+- yard | still | wind | pappa_home:talk,happy grownup:happy | gate_green || പപ്പ ചിരിച്ചു. || pappa_home: ഇപ്പോ നമ്മുടെ വീട് ഒരു കോട്ടയായല്ലോ.
+- lane | pan_right | wind | uncle:wave,talk,mask grownup:wave,mask | || അയൽക്കാരോട് സംസാരം റോഡിന് അപ്പുറത്ത് നിന്ന്, മാസ്കിനുള്ളിൽ നിന്ന് ഉറക്കെ വിളിച്ച്. || uncle: എല്ലാവർക്കും സുഖമല്ലേ? എന്തെങ്കിലും വേണേൽ പറയണേ!
+- yard+sunset | zoom_out | wind | pappa_home:happy amma:happy grownup:happy | gate_green || ആ പച്ചത്തുണിക്ക് അപ്പുറം ലോകം. ഇപ്പുറം ഞങ്ങൾ മൂന്നുപേർ. ||
+- interior | zoom_in | indoor | pappa_home:phone,talk | clock || പക്ഷേ ഒരു കാര്യം ആ തുണിക്ക് തടയാൻ പറ്റിയില്ല. പപ്പയുടെ സ്വന്തം ഓഫീസ്. ആഴ്ചകളായി അടച്ചിട്ടിരിക്കുന്നു. ||
+- gala | still | indoor | | || ഉള്ളിൽ മെഷീനുകൾ, സാധനങ്ങൾ, ഫയലുകൾ. നോക്കാൻ ആരുമില്ല. ട്രെയിനില്ല, ബസ്സില്ല. ||
+- interior+close | zoom_in | indoor | grownup:talk,hold=keys | || പപ്പ എന്റെ നേരെ നോക്കി. ഞാൻ മേശപ്പുറത്തുള്ള ആൾട്ടോയുടെ താക്കോൽ എടുത്തു. || grownup: ഞാൻ കൊണ്ടുപോകാം പപ്പാ.
+
+### ld4-radar
+title: രാത്രിയിലെ റഡാർ | The Radar at Night
+narrator: man
+- road | pan_right | wind | | alto:drive || ആളൊഴിഞ്ഞ മുംബൈ. റോഡിൽ ഞങ്ങളുടെ ചെറിയ ആൾട്ടോ മാത്രം. ||
+- road | zoom_in | wind | | alto:drive || കുട്ടിക്കാലം മുഴുവൻ പപ്പ ട്രെയിനിൽ ഒറ്റയ്ക്ക് പോയ വഴി. ഇന്ന് ഞാനും കൂടെ. ||
+- road | still | wind | police:talk,mask pappa:talk,mask | barricade || വഴിയിൽ പോലീസ് ബാരിക്കേഡുകൾ. പപ്പ കാരണം പറഞ്ഞു, പേപ്പറുകൾ കാണിച്ചു. പോലീസുകാരൻ കൈ കാണിച്ചു, പൊയ്ക്കോളൂ. ||
+- estate | zoom_in | wind | pappa:walk grownup:walk | || എസ്റ്റേറ്റ് മുഴുവൻ നിശബ്ദം. എല്ലാ ഗാലകളും ഷട്ടർ ഇട്ടിരിക്കുന്നു. പപ്പ ഞങ്ങളുടെ ഷട്ടർ ഉയർത്തി. ||
+- gala | pan_right | indoor | pappa:point,talk grownup:surprised | || താഴെ റിസപ്ഷനും അസംബ്ലിയും. മുകളിൽ പപ്പയുടെ ചെറിയ ക്യാബിൻ. പപ്പയുടെ ലോകം. ഞാൻ ആദ്യമായി അത് ശരിക്കും കണ്ടു. ||
+- gala | zoom_in | indoor | pappa:point,happy | || പപ്പ ഓരോ മെഷീനും തൊട്ടുനോക്കി, പൊടി തുടച്ചു. സ്വന്തം കുഞ്ഞിനെ നോക്കുന്നത് പോലെ. ||
+- cabin+night | still | night | pappa:sit,talk grownup:eat,hold=plate | mat kerosene_lamp || ജോലി തീർന്നപ്പോൾ രാത്രിയായി. അന്ന് ഗാലയിൽ തന്നെ താമസിച്ചു. മമ്മി കൊടുത്തുവിട്ട ചപ്പാത്തി. || pappa: ഇതാദ്യമായിട്ടാ നീ ഇവിടെ രാത്രി നിൽക്കുന്നത്, അല്ലേ?
+- radar | zoom_in | night | | || അന്ന് രാത്രി ഫോണിലെ ആ ആപ്പ് ഞാൻ തുറന്നു. ചുറ്റും ചുവന്ന കുത്തുകൾ. ഒന്ന്, രണ്ട്, പത്ത്. ||
+- estate+night | zoom_in | night | watchman:hold=torch | || ഷട്ടറിന് അപ്പുറത്ത് നിന്ന് ഒരു ചുമ. ഞങ്ങൾ ശ്വാസം പിടിച്ചിരുന്നു. ഒരു ടോർച്ച് വെളിച്ചം. എസ്റ്റേറ്റിലെ വാച്ച്മാൻ ചേട്ടൻ. ||
+- cabin+night | still | night | pappa:happy grownup:happy | kerosene_lamp || ഞങ്ങൾ ചിരിച്ചു. പക്ഷേ ആ രാത്രി ഉറക്കം വന്നില്ല. ||
+- road+sunset | pan_left | wind | | alto:drive || പിന്നെ അതൊരു പതിവായി. ഒരു ദിവസം ഗാലയിൽ, പിറ്റേന്ന് വീട്ടിലേക്ക്. ഞാനും പപ്പയും, ആൾട്ടോയിൽ. ||
+- radar | zoom_in | night | | || ഓരോ തവണയും റഡാറിലെ ചുവപ്പ് ഞങ്ങളുടെ വീടിന്റെ ദിശയിലേക്ക് അടുത്തുകൊണ്ടിരുന്നു. ||
+- radar+near | zoom_in | night | | || ഒരു രാത്രി ഞാൻ ഫോൺ നോക്കി. ഒരു ചുവന്ന കുത്ത്. ഞങ്ങളുടെ സ്വന്തം വഴിയിൽ. ||
+- night_room+night+close | still | night | pappa_home:talk,sad | kerosene_lamp || പപ്പ ഫോൺ താഴെ വെച്ചു. കുറേ നേരം ഒന്നും മിണ്ടിയില്ല. പിന്നെ പതുക്കെ പറഞ്ഞു. || pappa_home: നമുക്ക് നാട്ടിൽ പോകാം.
+- road+night | zoom_out | night | | alto || ട്രെയിനില്ല. ബസ്സില്ല. വിമാനമില്ല. ഉള്ളത് ഒരു പഴയ ആൾട്ടോ മാത്രം. പിന്നെ ആയിരത്തി അഞ്ഞൂറ് കിലോമീറ്റർ. ||
