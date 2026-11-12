@@ -15,3 +15,5 @@ ig_cron.log
 .ig.lock
 analytics_token.json
 stats/
+long/
+long_uploaded.json
