@@ -3,6 +3,8 @@
     cd ~/malayalam-bot && git pull && cd phone
     python sarvam_voice.py --test                                 # 1 short sample per voice, listen and choose
     python sarvam_voice.py ../stories/lockdown/part1_lines.json   # full story -> Download/sarvam/<chapter>.wav
+    python sarvam_voice.py --next                                 # the next Short in the upload queue
+    python sarvam_voice.py --next 3                               # the next 3 Shorts
 
 The API key is asked once and kept only on this phone (phone/sarvam_key.txt, never uploaded).
 Each chapter becomes one WAV with a 1.5 s gap between lines, so the video can be synced exactly.
@@ -39,6 +41,14 @@ CANDIDATES = {
     "mummy": [("bulbul:v3", "kavitha", 0.95), ("bulbul:v3", "ritu", 0.95), ("bulbul:v3", "priya", 0.95),
               ("bulbul:v2", "vidya", 0.95)],
     "neighbour": [("bulbul:v3", "rohan", 1.0), ("bulbul:v3", "dev", 1.0), ("bulbul:v2", "hitesh", 1.0)],
+    # roles used by the Shorts (stories/shorts_lines.json)
+    "man": [("bulbul:v3", "rohan", 1.0), ("bulbul:v3", "dev", 1.0), ("bulbul:v2", "hitesh", 1.0)],
+    "narrator_f": [("bulbul:v3", "priya", 0.95), ("bulbul:v3", "ritu", 0.95), ("bulbul:v3", "simran", 0.95),
+                   ("bulbul:v2", "anushka", 0.95)],
+    "old_woman": [("bulbul:v3", "ritu", 0.85), ("bulbul:v3", "neha", 0.85), ("bulbul:v2", "manisha", 0.85)],
+    "child": [("bulbul:v3", "ishita", 1.05), ("bulbul:v3", "shreya", 1.05), ("bulbul:v3", "roopa", 1.05),
+              ("bulbul:v2", "arya", 1.05)],
+    "teen": [("bulbul:v3", "shreya", 1.0), ("bulbul:v3", "ishita", 1.0), ("bulbul:v2", "arya", 1.0)],
 }
 CHOSEN_FILE = HERE / "sarvam_voices.json"
 
@@ -105,6 +115,18 @@ def write_wav(path: Path, pcm: bytes, fmt: tuple) -> None:
         w.writeframes(pcm)
 
 
+def next_shorts(n: int) -> list:
+    """The next n queued Shorts that are not uploaded yet, as chapters named after the story."""
+    lines = json.loads((HERE.parent / "stories" / "shorts_lines.json").read_text(encoding="utf-8"))
+    queue = json.loads((HERE / "uploads.json").read_text(encoding="utf-8"))
+    done_file = HERE / "uploaded.json"
+    done = json.loads(done_file.read_text(encoding="utf-8")) if done_file.exists() else {}
+    picked = [Path(it["file"]).stem for it in queue if it["file"] not in done][:n]
+    for slug in picked:
+        print("next:", slug)
+    return [{"chapter": slug, "lines": lines[slug]["lines"]} for slug in picked]
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     if sys.argv[1:] == ["--test"]:
@@ -114,7 +136,10 @@ def main() -> int:
             write_wav(OUT / f"test_{role}_{spk}.wav", *frames(call(sample, model, spk, pace)))
         print(f"Samples saved in {OUT}. Listen; if you like them, run the full story.")
         return 0
-    story = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+    if sys.argv[1:2] == ["--next"]:
+        story = next_shorts(int(sys.argv[2]) if len(sys.argv) > 2 else 1)
+    else:
+        story = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     for ch in story:
         dest = OUT / f"{ch['chapter']}.wav"
         if dest.exists():
@@ -133,7 +158,8 @@ def main() -> int:
             print(f"  {ch['chapter']} {i}/{len(ch['lines'])}")
         write_wav(dest, pcm, fmt)
         print(f"OK {dest}")
-    print(f"\nDone. Attach the files in Download/sarvam (not the test_ ones) in the chat.")
+    names = ", ".join(f"{ch['chapter']}.wav" for ch in story)
+    print(f"\nDone. Attach these from Download/sarvam in the chat: {names}")
     return 0
 
 
