@@ -109,3 +109,8 @@ The hourly uploads before the gap got 3-8 views each.
 - Build with `REELBOT_LANDSCAPE=1 REELBOT_END_CARD=""` + `tools/compilation.py`: full-frame 16:9 (the owner rejected blurred side bars), chapter cards and chapter timestamps in the description.
 - Upload from the phone with `phone/upload_long.py` (entries in `phone/long_videos.json`). New Shorts' auto-comment links the newest compilation.
 - First one: https://youtu.be/Ijvx2TpWBzk. Track its watch time weekly and aim for one compilation a week.
+
+## Do not stack uploads (2026-11-13)
+44-fast-watch was posted with `--now` and the long video followed ~20 min later: 14 views in 4 h,
+against 600-1,000 in the first hours for Shorts with a clean 4 h gap. Keep long videos and Shorts at least
+a few hours apart, and use `--now` only when the last upload really was 4+ h ago.
