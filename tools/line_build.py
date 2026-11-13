@@ -40,7 +40,8 @@ def cut(src: Path, a: float, b: float, dst: Path) -> Path:
 
 def main() -> None:
     reel, wav, lines_json, name = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3]), sys.argv[4]
-    lines = next(c["lines"] for c in json.loads(lines_json.read_text(encoding="utf-8")) if c["chapter"] == name)
+    data = json.loads(lines_json.read_text(encoding="utf-8"))
+    lines = data[name]["lines"] if isinstance(data, dict) else next(c["lines"] for c in data if c["chapter"] == name)
     spans = split_points(wav, len(lines))
     st = Settings(); story = load_story(reel); compile_art(story, reel / "scenes")
     images = sorted((reel / "scenes").glob("scene_*.png"))
