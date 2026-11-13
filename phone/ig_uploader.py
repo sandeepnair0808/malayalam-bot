@@ -9,7 +9,9 @@ No extra packages needed (standard library only).
 
 Files next to this script:
     ig_token.json      saved token + your Instagram user id (created by --token)
-    ig_queue.json      the queue: [{"file", "video_url", "caption"}]
+    ig_queue.json      optional queue: [{"file", "video_url", "caption"}]. Without it, the script follows
+                       YouTube: every Short phone_uploader.py posts after the token was saved is posted
+                       here too (same video from the reels branch, Instagram caption from insta_latest.py).
     ig_posted.json     created automatically: what is already posted (never posted twice)
 
 Instagram downloads each video from its public link (video_url), so no upload from the phone is needed.
@@ -106,6 +108,23 @@ def post_reel(st: dict, item: dict) -> str:
     return p["id"]
 
 
+RAW = "https://raw.githubusercontent.com/sandeepnair0808/malayalam-bot/reels/"
+
+
+def follow_youtube() -> list:
+    """Shorts already on YouTube (posted after the Instagram token was saved), oldest first."""
+    from insta_latest import caption
+
+    since = load("ig_token.json", {}).get("saved", "9999")
+    done = load("uploaded.json", {})
+    items = {it["file"]: it for it in load("uploads.json", [])}
+    out = []
+    for f, v in sorted(done.items(), key=lambda kv: kv[1].get("at", "")):
+        if v.get("status") == "uploaded" and v.get("at", "") >= since and f in items:
+            out.append({"file": f, "video_url": RAW + f, "caption": caption(items[f])})
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--token", help="save the access token from the Meta dashboard")
@@ -122,7 +141,7 @@ def main() -> int:
         print(f"Saved. Connected to Instagram account @{me['username']}")
         return 0
 
-    queue = load("ig_queue.json", [])
+    queue = load("ig_queue.json", []) or follow_youtube()
     posted = load("ig_posted.json", {})
     if args.skip:
         for f in args.skip:
