@@ -69,6 +69,11 @@ def main() -> int:
                 DONE.write_text(json.dumps(done, ensure_ascii=False, indent=1))
                 print(f"deleted the old version https://youtu.be/{old['id']}")
             except HttpError as err:
+                if err.resp.status == 404:  # already deleted by hand
+                    old["deleted"] = True
+                    DONE.write_text(json.dumps(done, ensure_ascii=False, indent=1))
+                    print(f"old version https://youtu.be/{old['id']} is already gone")
+                    continue
                 print(f"could not delete https://youtu.be/{old['id']} - delete it in YouTube Studio:", str(err)[:160])
     return 0
 
