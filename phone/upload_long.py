@@ -5,6 +5,8 @@
 For each entry not yet in long_uploaded.json it downloads the video and thumbnail from the reels
 branch (if they are not on the phone yet), uploads the video as a normal (non-Shorts) public video,
 sets the custom thumbnail, and records the video id so it is never uploaded again.
+An entry with "replaces": "<old file>" deletes that older upload from YouTube, but only after
+the new video has uploaded successfully.
 """
 
 from __future__ import annotations
@@ -59,6 +61,15 @@ def main() -> int:
             except HttpError as err:
                 print("thumbnail not set (verify the channel by SMS in YouTube Studio, then add it by hand):",
                       str(err)[:160])
+        old = done.get(it.get("replaces", ""))
+        if old and not old.get("deleted"):
+            try:
+                youtube.videos().delete(id=old["id"]).execute()
+                old["deleted"] = True
+                DONE.write_text(json.dumps(done, ensure_ascii=False, indent=1))
+                print(f"deleted the old version https://youtu.be/{old['id']}")
+            except HttpError as err:
+                print(f"could not delete https://youtu.be/{old['id']} - delete it in YouTube Studio:", str(err)[:160])
     return 0
 
 

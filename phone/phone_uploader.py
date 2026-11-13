@@ -55,8 +55,8 @@ def comment_for(item: dict) -> str:
     # point Shorts viewers to the newest long compilation (watch hours count only on long videos)
     try:
         longs = json.loads((HERE / "long_uploaded.json").read_text())
-        vid = list(longs.values())[-1]["id"]
-        text += f"\n\n🎬 ഇതുപോലുള്ള 10 കഥകൾ ഒരുമിച്ച്: https://youtu.be/{vid}"
+        vid = [v for v in longs.values() if not v.get("deleted")][-1]["id"]
+        text += f"\n\n🎬 ഞങ്ങളുടെ പുതിയ നീണ്ട കഥ കാണൂ: https://youtu.be/{vid}"
     except (OSError, ValueError, KeyError, IndexError):
         pass
     return text
