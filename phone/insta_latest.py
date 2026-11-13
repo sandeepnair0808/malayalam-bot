@@ -2,6 +2,7 @@
 
     cd ~/malayalam-bot/phone && python insta_latest.py        # the latest YouTube upload
     python insta_latest.py 2                                  # the one before that, etc.
+    python insta_latest.py 45-postman-tea                     # any story by name (even before YouTube)
 
 Copies the video to Download/insta/ (pick it in the Instagram app) and puts an Instagram caption
 on the clipboard (Termux:API) and on screen. Long-press the caption box in Instagram -> Paste.
@@ -32,15 +33,23 @@ def caption(item: dict) -> str:
 
 
 def main() -> int:
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    done = json.loads((HERE / "uploaded.json").read_text(encoding="utf-8"))
-    posted = sorted((v.get("at", ""), f) for f, v in done.items() if v.get("status") == "uploaded")
-    if len(posted) < n:
-        print("no uploaded Shorts found")
-        return 1
-    file = posted[-n][1]
-    item = next((i for i in json.loads((HERE / "uploads.json").read_text(encoding="utf-8")) if i["file"] == file),
-                {"title": done[file]["title"]})
+    arg = sys.argv[1] if len(sys.argv) > 1 else "1"
+    queue = json.loads((HERE / "uploads.json").read_text(encoding="utf-8"))
+    if arg.isdigit():
+        done_file = HERE / "uploaded.json"
+        done = json.loads(done_file.read_text(encoding="utf-8")) if done_file.exists() else {}
+        posted = sorted((v.get("at", ""), f) for f, v in done.items() if v.get("status") == "uploaded")
+        if len(posted) < int(arg):
+            print("no uploaded Shorts found")
+            return 1
+        file = posted[-int(arg)][1]
+        item = next((i for i in queue if i["file"] == file), {"title": done[file]["title"]})
+    else:
+        item = next((i for i in queue if Path(i["file"]).stem == arg), None)
+        if not item:
+            print(f"no story called {arg} in uploads.json")
+            return 1
+        file = item["file"]
     src = HERE / "videos" / file
     if not src.exists():
         print(f"video not on the phone: {src}  (run: bash ~/get_updates.sh)")
