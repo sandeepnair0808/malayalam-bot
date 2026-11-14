@@ -1,0 +1,44 @@
+### 34b-achan-torch-2
+hook: ഇരുപത് വർഷം കഴിഞ്ഞ് ആ ടോർച്ച് വീണ്ടും തുറന്നപ്പോൾ...
+title: അച്ഛന്റെ ടോർച്ച് ഭാഗം 2 😢 | Achan's Torch Part 2
+theme: Twenty years later the son comes home at night; the old torch still works because his father changed its batteries every month
+narrator: man
+caption: ചില വെളിച്ചങ്ങൾ ഒരിക്കലും അണയില്ല... 🔦❤️\nഭാഗം 1 കണ്ടില്ലെങ്കിൽ പ്രൊഫൈലിൽ ഉണ്ട്
+tags: malayalam malayalamstory achan torch father part2 kerala mallureels malayalamreels fatherslove
+- bus_stop+night | zoom_in | night | grownup:hold=bag | bus || ഇരുപത് വർഷം കഴിഞ്ഞ്, ഒരു രാത്രി ഞാൻ ആ പഴയ ബസ് സ്റ്റോപ്പിൽ വീണ്ടും ഇറങ്ങി. ||
+- lane+night | still | night | grownup:walk,sad || ഇത്തവണ ആരും കാത്തുനിന്നില്ല. അച്ഛന് ഇപ്പോൾ രാത്രി കണ്ണ് കാണില്ല. ||
+- veranda+night | zoom_in | night | pappa_home:happy grownup:talk | kerosene_lamp || വീട്ടിൽ എത്തിയപ്പോൾ അച്ഛൻ ഉമ്മറത്ത് ഇരിക്കുന്നു. || grownup: അച്ഛാ, ആ പഴയ ടോർച്ച് ഇപ്പോഴും ഉണ്ടോ?
+- veranda+night | still | night | pappa_home:talk,happy | kerosene_lamp || അച്ഛൻ ചിരിച്ചു. || pappa_home: അലമാരയിൽ നോക്ക് മോനേ.
+- night_room | zoom_in | night | grownup:hold=lamp,surprised | kerosene_lamp || അലമാരയിൽ ആ ടോർച്ച്. ഞെക്കിയപ്പോൾ നല്ല വെളിച്ചം. അതിനടുത്ത് ഒരു കെട്ട് ബാറ്ററി കവറുകൾ. ||
+- night_room | zoom_in | night | grownup:read,cry | kerosene_lamp || ഓരോ കവറിലും അച്ഛന്റെ കയ്യക്ഷരത്തിൽ ഒരു തീയതി. എല്ലാ മാസവും. ഇരുപത് വർഷം. ||
+- veranda+night+close | zoom_out | night | pappa_home:happy | kerosene_lamp || ഞാൻ എന്നെങ്കിലും രാത്രി വൈകി വന്നാലോ എന്ന് കരുതി, അച്ഛൻ ആ ടോർച്ച് ഒരിക്കലും കെടാൻ വിട്ടില്ല. ||
+
+### 39b-ammachi-recording-2
+hook: ആ രാത്രിയിലെ ഒരു റെക്കോർഡിംഗ് ഞാൻ കേട്ടിരുന്നില്ല...
+title: ഫോൺ താഴെ വെച്ച രാത്രി ഭാഗം 2 🥹 | The Night I Put My Phone Down Part 2
+theme: Years later, far from home, the granddaughter finds one recording she never opened: a message her grandmother recorded while she slept
+narrator: woman
+caption: ഇന്ന് തന്നെ അമ്മൂമ്മയെ ഒന്ന് വിളിക്കൂ 📱❤️\nഭാഗം 1 കണ്ടില്ലെങ്കിൽ പ്രൊഫൈലിൽ ഉണ്ട്
+tags: malayalam malayalamstory ammachi grandmother phone recording part2 kerala mallureels malayalamreels
+- night_room | zoom_in | night | chechi:phone,sad || ഇപ്പോൾ ഞാൻ ബാംഗ്ലൂരിൽ ജോലി ചെയ്യുന്നു. ചില രാത്രികളിൽ വീടിനെ ഓർത്ത് ഉറക്കം വരില്ല. ||
+- night_room | still | night | chechi:phone,happy || അപ്പോൾ ഞാൻ അമ്മൂമ്മയുടെ ആ പഴയ റെക്കോർഡിംഗുകൾ കേൾക്കും. പ്ലാവിന്റെ കഥ. പുഴയുടെ കഥ. ||
+- night_room | zoom_in | night | chechi:phone,surprised || ഒരു രാത്രി ലിസ്റ്റിന്റെ ഏറ്റവും താഴെ ഒരു ഫയൽ കണ്ടു. ഞാൻ ഒരിക്കലും തുറക്കാത്ത ഒന്ന്. ||
+- veranda+night | pan_right | night | ammachi:talk,happy girl:sleep || ഞാൻ ഉറങ്ങിയ ശേഷം, അമ്മൂമ്മ എന്റെ ഫോൺ എടുത്ത് റെക്കോർഡ് ചെയ്തതാണ്. || ammachi: മോളേ, ഇന്ന് നീ എന്നെ കേട്ടു. അതുമതി എനിക്ക്.
+- veranda+night+close | still | night | ammachi:talk,happy || പിന്നെ അമ്മൂമ്മ പതുക്കെ പറഞ്ഞു. || ammachi: ഈ കഥകൾ നിന്റെ മക്കൾക്കും പറഞ്ഞു കൊടുക്കണം.
+- night_room | zoom_in | night | chechi:phone,cry || ഞാൻ അപ്പോൾ തന്നെ നാട്ടിലേക്ക് വിളിച്ചു. രാത്രി പതിനൊന്ന് മണി. ||
+- veranda+night+close | zoom_out | night | ammachi:phone,happy || ഉറക്കച്ചടവോടെ അമ്മൂമ്മ ഫോൺ എടുത്തു. എന്നിട്ട് ചോദിച്ചു, ഇന്ന് ഏത് കഥ വേണം മോളേ? ||
+
+### 27b-school-day-2
+hook: ഇരുപത് വർഷം കഴിഞ്ഞ് അതേ സ്റ്റേജിൽ ഒരു രഹസ്യം...
+title: സ്കൂൾ വാർഷികത്തിലെ അച്ഛൻ ഭാഗം 2 😢 | Achan at the School Day Part 2
+theme: Twenty years later the son is chief guest at his old school; the headmistress reveals his father built the very wall he once stood behind
+narrator: man
+caption: അച്ഛന്റെ വിയർപ്പിലാണ് നമ്മൾ നിൽക്കുന്ന പല മതിലുകളും 🧱❤️\nഭാഗം 1 കണ്ടില്ലെങ്കിൽ പ്രൊഫൈലിൽ ഉണ്ട്
+tags: malayalam malayalamstory achan school father part2 kerala mallureels malayalamreels fatherslove
+- school+festive | zoom_in | wind | grownup:walk,happy || ഇരുപത് വർഷം കഴിഞ്ഞ്, അതേ സ്കൂളിന്റെ വാർഷികത്തിന് എന്നെ മുഖ്യാതിഥിയായി വിളിച്ചു. ||
+- school+festive | still | wind | pappa_home:happy grownup:happy || ഇത്തവണ അച്ഛൻ ഏറ്റവും മുന്നിലെ കസേരയിൽ. ആ പഴയ ഷർട്ടിൽ തന്നെ. ||
+- school+festive | zoom_in | wind | grownup:talk,happy teacher:happy || ഞാൻ സ്റ്റേജിൽ ആ മതിലിന്റെ കഥ പറഞ്ഞു. || grownup: അന്ന് ആ മതിലിനപ്പുറം നിന്ന് ഏറ്റവും ഉച്ചത്തിൽ കൈയടിച്ചത് എന്റെ അച്ഛനാണ്.
+- school+festive | still | wind | teacher:talk,surprised grownup:surprised || അപ്പോൾ ഹെഡ്മിസ്ട്രസ് എഴുന്നേറ്റ് മൈക്ക് വാങ്ങി. || teacher: ആ മതിലും ഈ സ്റ്റേജും കെട്ടിയത് ആരാണെന്ന് അറിയാമോ?
+- school | pan_right | wind | pappa_home:sad || അച്ഛൻ തല താഴ്ത്തി ഇരുന്നു. ||
+- school+festive | zoom_in | wind | teacher:talk,happy grownup:cry || ഹാൾ മുഴുവൻ നിശ്ശബ്ദമായി. || teacher: നിന്റെ അച്ഛൻ. കൂലി വാങ്ങാതെ. മകൻ പഠിക്കുന്ന സ്കൂളാണെന്ന് മാത്രം പറഞ്ഞു.
+- school+festive+close | zoom_out | wind | pappa_home:happy || അന്ന് ആ മതിലിനപ്പുറം നിൽക്കേണ്ടി വന്നത്, ആ മതിൽ കെട്ടിയ ആൾക്കായിരുന്നു. ||

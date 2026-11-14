@@ -106,12 +106,67 @@ def save(done: dict) -> None:
     tmp.replace(HERE / "uploaded.json")  # atomic: a crash never leaves a half-written file
 
 
+SERIES = "ഓർമ്മക്കഥ"  # numbered series name in Short titles (viewers follow a series, not single stories)
+PLAYLISTS = [  # (playlist title, words in the tags/title that put a Short in it); first match wins
+    ("അച്ഛൻ കഥകൾ | Achan Stories", ("achan", "father", "അച്ഛ")),
+    ("അമ്മൂമ്മ & അപ്പൂപ്പൻ കഥകൾ | Grandparents Stories", ("ammachi", "appooppan", "grandmother", "grandfather",
+                                                             "അമ്മൂമ്മ", "അപ്പൂപ്പ")),
+    ("അമ്മ കഥകൾ | Amma Stories", ("amma", "mother", "അമ്മ")),
+    ("ഓർമ്മക്കഥകൾ | Malayalam Memory Stories", ("",)),
+]
+
+
+def series_title(item: dict, n: int) -> str:
+    """'ഓർമ്മക്കഥ #12 · <title> #shorts' for nostalgia Shorts; kids Shorts keep their own title."""
+    if item.get("made_for_kids") or item["file"].startswith("kids/"):
+        return item["title"]
+    base = item["title"].replace(" #shorts", "")
+    for tail in (" | Malayalam Family Story", " | Malayalam Story"):
+        base = base.replace(tail, "")
+    title = f"{SERIES} #{n} · {base} #shorts"
+    if len(title) > 100:  # keep '#shorts' inside YouTube's 100-character limit: drop the English half
+        title = f"{SERIES} #{n} · {base.split(' | ')[0]} #shorts"
+    return title
+
+
+def playlist_for(youtube, item: dict) -> str | None:
+    text = (" ".join(item.get("tags", [])) + " " + item["title"]).lower()
+    name = next(title for title, words in PLAYLISTS if any(w in text for w in words))
+    known = load("playlists.json", {})
+    if name not in known:
+        pl = youtube.playlists().insert(part="snippet,status", body={
+            "snippet": {"title": name, "description": "Malayalam nostalgia stories 🥹❤️ #malayalam #kerala"},
+            "status": {"privacyStatus": "public"}}).execute()
+        known[name] = pl["id"]
+        (HERE / "playlists.json").write_text(json.dumps(known, ensure_ascii=False, indent=1), encoding="utf-8")
+    return known[name]
+
+
+def add_to_playlist(youtube, vid: str, item: dict) -> None:
+    youtube.playlistItems().insert(part="snippet", body={"snippet": {
+        "playlistId": playlist_for(youtube, item), "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+
+
+def link_parts(youtube, part1_id: str, part2_id: str) -> None:
+    """Rename Part 1 to say 'ഭാഗം 1' and comment on it with the Part 2 link."""
+    snip = youtube.videos().list(part="snippet", id=part1_id).execute()["items"][0]["snippet"]
+    if "ഭാഗം 1" not in snip["title"]:
+        title = snip["title"].replace(" #shorts", "").replace(" | Malayalam Story", "")
+        snip["title"] = f"{title} | ഭാഗം 1 #shorts"[:100]
+        body = {"id": part1_id, "snippet": {k: snip[k] for k in ("title", "description", "categoryId", "tags",
+                                                                 "defaultLanguage", "defaultAudioLanguage")
+                                            if k in snip}}
+        youtube.videos().update(part="snippet", body=body).execute()
+    post_comment(youtube, part1_id, f"ഭാഗം 2 വന്നു! 👉 https://youtube.com/shorts/{part2_id}\n"
+                                    "ബാക്കി കഥ അറിയാൻ കാണൂ ❤️")
+
+
 def upload_one(youtube, item: dict, videos_dir: Path) -> str:
     from googleapiclient.http import MediaFileUpload
 
     body = {
         "snippet": {
-            "title": item["title"][:100],
+            "title": item.get("upload_title", item["title"])[:100],
             "description": item["description"][:4900],
             "tags": item.get("tags", [])[:15],
             "categoryId": CATEGORIES.get(item.get("category", "FILM_ANIMATION"), "1"),
@@ -144,6 +199,7 @@ def main() -> int:
     ap.add_argument("--hours", default=os.environ.get("UPLOAD_HOURS", "7-21"),
                     help="only upload between these local hours (start-end, inclusive)")
     ap.add_argument("--comments-only", action="store_true", help="only post missing comments, upload nothing")
+    ap.add_argument("--playlists", action="store_true", help="add all uploaded Shorts to the theme playlists")
     ap.add_argument("--retry", metavar="FILE", help="allow one interrupted file to be uploaded again")
     ap.add_argument("--videos", default=str(HERE / "videos"), help="folder with the mp4 files")
     args = ap.parse_args()
@@ -206,6 +262,19 @@ def main() -> int:
     if args.comments_only:
         log(f"comments done ({len(backlog)} were missing)")
         return 0
+    if args.playlists:  # one-time backfill: every uploaded Short into its theme playlist
+        for f, v in done.items():
+            if isinstance(v, dict) and v.get("id") and not v.get("playlist") and f in queue_by_file:
+                try:
+                    add_to_playlist(youtube, v["id"], queue_by_file[f])
+                    v["playlist"] = True
+                    save(done)
+                    log(f"PLAYLIST {f}")
+                except HttpError as err:
+                    log(f"playlist failed {f}: {str(err)[:150]}")
+                    if "quota" in str(err).lower():
+                        break
+        return 0
     # spacing rule (docs/LEARNINGS.md): a Short posted 1 h after the previous one gets ~0 views
     last = max((v.get("at", "") for v in done.values() if isinstance(v, dict) and v.get("id")), default="")
     start, _, end = args.hours.partition("-")
@@ -228,6 +297,11 @@ def main() -> int:
             log(f"MISSING {item['file']} (skipped for now)")
             continue
         done_titles.add(item["title"])
+        ep = 1 + sum(1 for v in done.values() if isinstance(v, dict) and v.get("ep"))
+        item = {**item, "upload_title": series_title(item, ep)}
+        part1 = done.get(item.get("part1", ""), {}).get("id")
+        if part1:  # Part 2 descriptions start with the Part 1 link
+            item["description"] = f"ഭാഗം 1: https://youtube.com/shorts/{part1}\n\n" + item["description"]
         # mark as started BEFORE uploading: if the phone dies mid-way it is never retried automatically
         done[item["file"]] = {"id": None, "status": "started", "title": item["title"],
                               "at": datetime.now().isoformat(timespec="minutes")}
@@ -237,8 +311,19 @@ def main() -> int:
                 vid = upload_one(youtube, item, videos_dir)
                 done[item["file"]] = {"id": vid, "status": "uploaded", "title": item["title"],
                                       "at": datetime.now().isoformat(timespec="minutes")}
+                if item["upload_title"] != item["title"]:
+                    done[item["file"]]["ep"] = ep
                 save(done)
-                log(f"OK {item['file']} -> https://youtube.com/shorts/{vid}")
+                log(f"OK {item['file']} -> https://youtube.com/shorts/{vid}  ({item['upload_title'][:60]})")
+                try:  # extras: never let them stop the upload loop
+                    add_to_playlist(youtube, vid, item)
+                    done[item["file"]]["playlist"] = True
+                    if part1 and can_comment:
+                        link_parts(youtube, part1, vid)
+                        log(f"linked Part 1 {item['part1']} -> Part 2")
+                except (HttpError, KeyError, IndexError) as err:
+                    log(f"playlist/part link failed {item['file']}: {str(err)[:150]}")
+                save(done)
                 uploaded_now += 1
                 if can_comment:
                     try:

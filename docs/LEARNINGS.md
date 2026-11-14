@@ -114,3 +114,13 @@ The hourly uploads before the gap got 3-8 views each.
 44-fast-watch was posted with `--now` and the long video followed ~20 min later: 14 views in 4 h,
 against 600-1,000 in the first hours for Shorts with a clean 4 h gap. Keep long videos and Shorts at least
 a few hours apart, and use `--now` only when the last upload really was 4+ h ago.
+
+## Series and sequels (2026-11-14)
+Studio: 99.7% of viewers are new, <0.1% regular; ~1 subscriber per 660 views. Viewers like single stories
+but have no reason to return. Changes:
+- Every nostalgia Short is now titled "ഓർമ്മക്കഥ #N · ..." (the uploader numbers them in posting order).
+- Every Short goes into a theme playlist (Achan / Grandparents / Amma / all), created by the uploader.
+- Part 2 sequels of the top Shorts (stories/pack11.txt: torch, phone night, school day). A queue entry with
+  "part1": "<file>" links both ways: Part 2's description starts with the Part 1 link; Part 1 is renamed
+  "... | ഭാഗം 1" and gets a "ഭാഗം 2 വന്നു" comment.
+Judge after a week: subscribers per 1,000 views, and returning viewers in Audience.
